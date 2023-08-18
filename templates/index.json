@@ -18,7 +18,7 @@
         "template--18730720428336__f96b8e1b-0fd4-4c65-856c-cdd01fe228cc-1681420271694828b0-2": {
           "type": "buttons",
           "settings": {
-            "button_color": "btn",
+            "button_color": "btn btn--secondary",
             "button_label": "Button label",
             "button_url": "\/collections\/all",
             "secondary_button_color": "btn btn--plain",
