@@ -33,6 +33,7 @@
         "template--18730720428336__f96b8e1b-0fd4-4c65-856c-cdd01fe228cc-1681420271694828b0-2"
       ],
       "settings": {
+        "image_background_desktop": "shopify:\/\/shop_images\/krullen.webp",
         "show_entire_image": false,
         "enable_lazy_loading": false,
         "show_video_background_mobile": true,
