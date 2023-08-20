@@ -6,23 +6,23 @@
         "template--18730720428336__f96b8e1b-0fd4-4c65-856c-cdd01fe228cc-1681420271694828b0-0": {
           "type": "heading",
           "settings": {
-            "content": "Heading"
+            "content": "Start with your healthy hair care journey"
           }
         },
         "template--18730720428336__f96b8e1b-0fd4-4c65-856c-cdd01fe228cc-1681420271694828b0-1": {
           "type": "content",
           "settings": {
-            "content": "<p>Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "content": "<p>Love your curls, take care of your curls. Your curls will love you back.<\/p>"
           }
         },
         "template--18730720428336__f96b8e1b-0fd4-4c65-856c-cdd01fe228cc-1681420271694828b0-2": {
           "type": "buttons",
           "settings": {
             "button_color": "btn btn--secondary",
-            "button_label": "Button label",
+            "button_label": "SHOP NOW",
             "button_url": "\/collections\/all",
-            "secondary_button_color": "btn btn--neutral",
-            "secondary_button_label": "Button label",
+            "secondary_button_color": "btn btn--tertiary",
+            "secondary_button_label": "SHOP KIDS",
             "secondary_button_url": "\/collections\/all"
           }
         }
@@ -33,14 +33,15 @@
         "template--18730720428336__f96b8e1b-0fd4-4c65-856c-cdd01fe228cc-1681420271694828b0-2"
       ],
       "settings": {
+        "image_background_desktop": "shopify:\/\/shop_images\/krullen.webp",
         "show_entire_image": false,
         "enable_lazy_loading": false,
         "show_video_background_mobile": true,
         "color_scheme": "color__bg-overlay-1 color__text",
-        "color_text": "",
+        "color_text": "color__light",
         "color_border": "color__border-divider-1",
         "enable_gradient": false,
-        "style_border": "border--b-width",
+        "style_border": "",
         "layout_y_spacing": "min-h-[450px] md:min-h-[550px]",
         "layout_y_alignment": "items-end",
         "layout_x_alignment": "justify-start",
@@ -50,49 +51,25 @@
     "ca2883b6-efd0-48c1-8f9e-520a6b9a64bc": {
       "type": "content-grid",
       "blocks": {
-        "template--18730720428336__ca2883b6-efd0-48c1-8f9e-520a6b9a64bc-1681420297b465165a-0": {
-          "type": "content",
-          "settings": {
-            "heading": "Block heading",
-            "content": "<p>Describe a product, make announcements, or welcome customers to your store.<\/p>",
-            "button_label": "Button",
-            "button_url": "\/",
-            "full_block_link": false,
-            "enable_autoplay": true,
-            "enable_mute_toggle": true,
-            "enable_loop": true,
-            "spacing_top": 80,
-            "spacing_bottom": 0,
-            "enable_padding": true,
-            "color_scheme": "color__bg-body color__text",
-            "color_border": "color__border-divider-1",
-            "color_text": "color__text",
-            "color_button": "btn",
-            "enable_gradient": false,
-            "layout_y_alignment": "items-end",
-            "layout_x_alignment": "",
-            "layout_row_span": "row-span-2",
-            "layout_col_span": "col-span-1 md: md:col-span-1"
-          }
-        },
         "template--18730720428336__ca2883b6-efd0-48c1-8f9e-520a6b9a64bc-1681420297b465165a-1": {
           "type": "content",
           "settings": {
-            "heading": "Block heading",
-            "content": "<p>Describe a product, make announcements, or welcome customers to your store.<\/p>",
-            "button_label": "Button",
+            "heading": "Cleanse",
+            "content": "<p>With sulphates to remove all build-up<\/p>",
+            "button_label": "shop shampoo",
             "button_url": "\/",
-            "full_block_link": false,
+            "full_block_link": true,
+            "image_featured": "shopify:\/\/shop_images\/lifestyle_foto.jpg",
             "enable_autoplay": true,
             "enable_mute_toggle": true,
             "enable_loop": true,
-            "spacing_top": 80,
-            "spacing_bottom": 0,
+            "spacing_top": 0,
+            "spacing_bottom": 20,
             "enable_padding": true,
-            "color_scheme": "color__bg-neutral color__text",
+            "color_scheme": "color__bg-overlay-1 color__text",
             "color_border": "color__border-divider-1",
             "color_text": "color__text",
-            "color_button": "btn",
+            "color_button": "btn btn--tertiary",
             "enable_gradient": false,
             "layout_y_alignment": "items-end",
             "layout_x_alignment": "",
@@ -100,24 +77,25 @@
             "layout_col_span": "col-span-1 md: md:col-span-1"
           }
         },
-        "template--18730720428336__ca2883b6-efd0-48c1-8f9e-520a6b9a64bc-1681420297b465165a-2": {
+        "e33e90ee-bfe8-46fe-ba76-e0d96da28d4b": {
           "type": "content",
           "settings": {
-            "heading": "Block heading",
-            "content": "<p>Describe a product, make announcements, or welcome customers to your store.<\/p>",
-            "button_label": "Button",
+            "heading": "Cleanse",
+            "content": "<p>With sulphates to remove all build-up<\/p>",
+            "button_label": "shop shampoo",
             "button_url": "\/",
-            "full_block_link": false,
+            "full_block_link": true,
+            "image_featured": "shopify:\/\/shop_images\/lifestyle_foto.jpg",
             "enable_autoplay": true,
             "enable_mute_toggle": true,
             "enable_loop": true,
-            "spacing_top": 80,
-            "spacing_bottom": 0,
+            "spacing_top": 0,
+            "spacing_bottom": 20,
             "enable_padding": true,
             "color_scheme": "color__bg-overlay-1 color__text",
             "color_border": "color__border-divider-1",
             "color_text": "color__text",
-            "color_button": "btn btn--secondary",
+            "color_button": "btn btn--tertiary",
             "enable_gradient": false,
             "layout_y_alignment": "items-end",
             "layout_x_alignment": "",
@@ -125,24 +103,25 @@
             "layout_col_span": "col-span-1 md: md:col-span-1"
           }
         },
-        "template--18730720428336__ca2883b6-efd0-48c1-8f9e-520a6b9a64bc-1681420297b465165a-3": {
+        "89cfba7f-845a-4500-a933-99ff0a15076f": {
           "type": "content",
           "settings": {
-            "heading": "Block heading",
-            "content": "<p>Describe a product, make announcements, or inform customers about a promotion.<\/p>",
-            "button_label": "Button",
-            "button_url": "shopify:\/\/collections\/all",
-            "full_block_link": false,
+            "heading": "Cleanse",
+            "content": "<p>With sulphates to remove all build-up<\/p>",
+            "button_label": "shop shampoo",
+            "button_url": "\/",
+            "full_block_link": true,
+            "image_featured": "shopify:\/\/shop_images\/lifestyle_foto.jpg",
             "enable_autoplay": true,
             "enable_mute_toggle": true,
             "enable_loop": true,
-            "spacing_top": 80,
-            "spacing_bottom": 0,
+            "spacing_top": 0,
+            "spacing_bottom": 20,
             "enable_padding": true,
             "color_scheme": "color__bg-overlay-1 color__text",
             "color_border": "color__border-divider-1",
             "color_text": "color__text",
-            "color_button": "btn btn--neutral",
+            "color_button": "btn btn--tertiary",
             "enable_gradient": false,
             "layout_y_alignment": "items-end",
             "layout_x_alignment": "",
@@ -150,24 +129,25 @@
             "layout_col_span": "col-span-1 md: md:col-span-1"
           }
         },
-        "template--18730720428336__ca2883b6-efd0-48c1-8f9e-520a6b9a64bc-1681420297b465165a-4": {
+        "b3051f08-8924-4f1c-b229-704a8d9449af": {
           "type": "content",
           "settings": {
-            "heading": "Block heading",
-            "content": "<p>Describe a product, make announcements, or inform customers about a promotion.<\/p>",
-            "button_label": "Button",
-            "button_url": "shopify:\/\/collections\/all",
-            "full_block_link": false,
+            "heading": "Cleanse",
+            "content": "<p>With sulphates to remove all build-up<\/p>",
+            "button_label": "shop shampoo",
+            "button_url": "\/",
+            "full_block_link": true,
+            "image_featured": "shopify:\/\/shop_images\/lifestyle_foto.jpg",
             "enable_autoplay": true,
             "enable_mute_toggle": true,
             "enable_loop": true,
-            "spacing_top": 80,
-            "spacing_bottom": 0,
+            "spacing_top": 0,
+            "spacing_bottom": 20,
             "enable_padding": true,
-            "color_scheme": "color__bg-secondary color__secondary",
+            "color_scheme": "color__bg-overlay-1 color__text",
             "color_border": "color__border-divider-1",
             "color_text": "color__text",
-            "color_button": "btn btn--plain",
+            "color_button": "btn btn--tertiary",
             "enable_gradient": false,
             "layout_y_alignment": "items-end",
             "layout_x_alignment": "",
@@ -175,24 +155,25 @@
             "layout_col_span": "col-span-1 md: md:col-span-1"
           }
         },
-        "template--18730720428336__ca2883b6-efd0-48c1-8f9e-520a6b9a64bc-1681420297b465165a-5": {
+        "e4ad9d06-cbc8-467d-9f4f-d98f838264eb": {
           "type": "content",
           "settings": {
-            "heading": "Block heading",
-            "content": "<p>Describe a product, make announcements, or inform customers about a promotion.<\/p>",
-            "button_label": "Button",
-            "button_url": "shopify:\/\/collections\/all",
-            "full_block_link": false,
+            "heading": "BUNDLE SETS",
+            "content": "<p>Shop our bundle sets in 1 click<\/p>",
+            "button_label": "shop shampoo",
+            "button_url": "\/",
+            "full_block_link": true,
+            "image_background": "shopify:\/\/shop_images\/lifestyle_foto_2.jpg",
             "enable_autoplay": true,
             "enable_mute_toggle": true,
             "enable_loop": true,
-            "spacing_top": 80,
-            "spacing_bottom": 0,
+            "spacing_top": 0,
+            "spacing_bottom": 20,
             "enable_padding": true,
             "color_scheme": "color__bg-overlay-1 color__text",
             "color_border": "color__border-divider-1",
             "color_text": "color__text",
-            "color_button": "btn",
+            "color_button": "btn btn--tertiary",
             "enable_gradient": false,
             "layout_y_alignment": "items-end",
             "layout_x_alignment": "",
@@ -202,15 +183,14 @@
         }
       },
       "block_order": [
-        "template--18730720428336__ca2883b6-efd0-48c1-8f9e-520a6b9a64bc-1681420297b465165a-0",
         "template--18730720428336__ca2883b6-efd0-48c1-8f9e-520a6b9a64bc-1681420297b465165a-1",
-        "template--18730720428336__ca2883b6-efd0-48c1-8f9e-520a6b9a64bc-1681420297b465165a-2",
-        "template--18730720428336__ca2883b6-efd0-48c1-8f9e-520a6b9a64bc-1681420297b465165a-3",
-        "template--18730720428336__ca2883b6-efd0-48c1-8f9e-520a6b9a64bc-1681420297b465165a-4",
-        "template--18730720428336__ca2883b6-efd0-48c1-8f9e-520a6b9a64bc-1681420297b465165a-5"
+        "e33e90ee-bfe8-46fe-ba76-e0d96da28d4b",
+        "89cfba7f-845a-4500-a933-99ff0a15076f",
+        "b3051f08-8924-4f1c-b229-704a8d9449af",
+        "e4ad9d06-cbc8-467d-9f4f-d98f838264eb"
       ],
       "settings": {
-        "heading": "Heading",
+        "heading": "Shop by Category",
         "content": "<p>This is a description of your content block<\/p>",
         "button_label": "Button label",
         "button_url": "\/",
@@ -220,7 +200,7 @@
         "color_border": "color__border-divider-1",
         "color_button": "btn btn--secondary",
         "style_border": "border--b-width",
-        "row_size_desktop": "md:grid-cols-4",
+        "row_size_desktop": "md:grid-cols-3",
         "row_size_mobile": "grid-cols-1",
         "layout_x_alignment": "justify-between",
         "visibility": ""
@@ -253,7 +233,7 @@
         "spacing_bottom": 100,
         "color_scheme": "color__bg-body color__text",
         "color_border": "color__border-divider-1",
-        "color_button": "btn btn--secondary",
+        "color_button": "btn btn--plain",
         "style_border": "border--b-width",
         "row_size_desktop": "md:grid-cols-4",
         "row_size_mobile": "grid grid-cols-2",
