@@ -6,23 +6,23 @@
         "template--18730720428336__f96b8e1b-0fd4-4c65-856c-cdd01fe228cc-1681420271694828b0-0": {
           "type": "heading",
           "settings": {
-            "content": "Heading"
+            "content": "Start with your healthy hair care journey"
           }
         },
         "template--18730720428336__f96b8e1b-0fd4-4c65-856c-cdd01fe228cc-1681420271694828b0-1": {
           "type": "content",
           "settings": {
-            "content": "<p>Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "content": "<p>Love your curls, take care of your curls. Your curls will love you back.<\/p>"
           }
         },
         "template--18730720428336__f96b8e1b-0fd4-4c65-856c-cdd01fe228cc-1681420271694828b0-2": {
           "type": "buttons",
           "settings": {
             "button_color": "btn btn--secondary",
-            "button_label": "Button label",
+            "button_label": "SHOP NOW",
             "button_url": "\/collections\/all",
             "secondary_button_color": "btn btn--tertiary",
-            "secondary_button_label": "Button label",
+            "secondary_button_label": "SHOP KIDS",
             "secondary_button_url": "\/collections\/all"
           }
         }
