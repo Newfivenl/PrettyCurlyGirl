@@ -239,6 +239,39 @@
         "visibility": ""
       }
     },
+    "81ade9ad-d8df-41e4-8a5d-bda5d0e43d9a": {
+      "type": "product-slider",
+      "blocks": {
+        "500f39ed-e0e7-4898-acc0-1f9107b0bf0f": {
+          "type": "card",
+          "settings": {
+            "heading": "Block heading",
+            "content": "<p>Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "button_label": "Button",
+            "button_url": "\/"
+          }
+        }
+      },
+      "block_order": [
+        "500f39ed-e0e7-4898-acc0-1f9107b0bf0f"
+      ],
+      "settings": {
+        "collection": "frontpage",
+        "products_count": 7,
+        "heading": "TRY ME SIZES",
+        "content": "",
+        "button_label": "Button",
+        "button_url": "\/collections\/all",
+        "spacing_top": 40,
+        "spacing_bottom": 40,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "color_button": "btn btn--plain",
+        "style_border": "",
+        "layout_x_alignment": "justify-between",
+        "visibility": ""
+      }
+    },
     "f3fd7d15-8af4-4a33-810d-e1dbd27ed532": {
       "type": "content-slider",
       "blocks": {
@@ -407,6 +440,7 @@
     "f96b8e1b-0fd4-4c65-856c-cdd01fe228cc",
     "ca2883b6-efd0-48c1-8f9e-520a6b9a64bc",
     "fa45b532-e64f-489b-9403-7046250c0e16",
+    "81ade9ad-d8df-41e4-8a5d-bda5d0e43d9a",
     "f3fd7d15-8af4-4a33-810d-e1dbd27ed532",
     "2cf37121-3db2-489b-9610-3dcaac7dca12",
     "53c4f92c-e30b-4dbc-a2e1-931a795928d6"
