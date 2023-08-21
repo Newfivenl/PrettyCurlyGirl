@@ -146,7 +146,7 @@
         "spacing_bottom": 0,
         "media_gallery_style": "slider",
         "image_border": "color__border-divider-1",
-        "enable_zoom": true,
+        "enable_zoom": false,
         "enable_alt": false,
         "enable_variant_images": false,
         "media_color_scheme": "color__bg-overlay-1 color__text",
