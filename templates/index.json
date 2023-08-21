@@ -514,8 +514,8 @@
           "type": "icon",
           "settings": {
             "icon_height": "h-8",
-            "heading": "Block heading",
-            "content": "<p>Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "heading": "Hassle free returns",
+            "content": "<p>We have a no-hassle return policy for all orders<\/p>",
             "enable_padding": true,
             "color_scheme": "color__bg-body color__text",
             "color_border": "color__border-divider-1",
@@ -529,8 +529,8 @@
           "type": "icon",
           "settings": {
             "icon_height": "h-8",
-            "heading": "Block heading",
-            "content": "<p>Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "heading": "Big discounts",
+            "content": "<p>Buy two or more items and get 10% off your order<\/p>",
             "enable_padding": true,
             "color_scheme": "color__bg-body color__text",
             "color_border": "color__border-divider-1",
