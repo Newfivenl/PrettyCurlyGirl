@@ -383,8 +383,8 @@
         "f84e6f6b-09b3-42d3-b909-8d3a28dbaf06"
       ],
       "settings": {
-        "heading": "Block heading",
-        "content": "<p>Describe a product, make announcements, or welcome customers to your store.<\/p>",
+        "heading": "See what our customers say about the product",
+        "content": "",
         "button_label": "Button label",
         "button_url": "",
         "spacing_top": 100,
