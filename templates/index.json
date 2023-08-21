@@ -658,6 +658,37 @@
         "layout_x_alignment": "justify-between",
         "visibility": ""
       }
+    },
+    "cf475604-fd24-4d65-8a42-9ed8e5ab6541": {
+      "type": "newsletter",
+      "blocks": {
+        "template--19487943393610__cf475604-fd24-4d65-8a42-9ed8e5ab6541-newsletter-1": {
+          "type": "newsletter",
+          "settings": {
+            "heading": "Email sign-up",
+            "content": "<p>Tell customers why they should subscribe to your newsletter.<\/p>",
+            "button_label": "Subscribe",
+            "disclaimer": "",
+            "success": "<p>Success! You’ve been subscribed.<\/p>",
+            "layout_desktop_width": 6,
+            "layout_mobile_width": 12,
+            "layout_x_alignment": "text-center justify-center flex-col items-center"
+          }
+        }
+      },
+      "block_order": [
+        "template--19487943393610__cf475604-fd24-4d65-8a42-9ed8e5ab6541-newsletter-1"
+      ],
+      "settings": {
+        "spacing_top": 100,
+        "spacing_bottom": 100,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "color_button": "btn btn--secondary",
+        "style_border": "",
+        "layout_alignment": "items-center",
+        "visibility": ""
+      }
     }
   },
   "order": [
@@ -669,6 +700,7 @@
     "92000899-ed1c-4fa2-9aa5-bf0a79e6952e",
     "f3fd7d15-8af4-4a33-810d-e1dbd27ed532",
     "bc9f2035-8b89-40bd-994b-549b8089bc3f",
-    "d7a4adc5-757d-44b6-9dd3-e5cce4fb9ce2"
+    "d7a4adc5-757d-44b6-9dd3-e5cce4fb9ce2",
+    "cf475604-fd24-4d65-8a42-9ed8e5ab6541"
   ]
 }
