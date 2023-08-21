@@ -396,73 +396,6 @@
         "layout_x_alignment": "justify-between",
         "visibility": ""
       }
-    },
-    "2cf37121-3db2-489b-9610-3dcaac7dca12": {
-      "type": "video",
-      "settings": {
-        "auto_play": true,
-        "heading": "Video",
-        "content": "<p>Give customers a summary of the video you want to share.<\/p>",
-        "button_label": "Button",
-        "button_url": "\/",
-        "spacing_top": 100,
-        "spacing_bottom": 100,
-        "color_scheme": "color__bg-body color__text",
-        "color_border": "color__border-divider-1",
-        "color_button": "btn btn--secondary",
-        "style_border": "border--b-width",
-        "layout_x_alignment": "justify-between",
-        "aspect_ratio": "aspect-[1\/1]",
-        "visibility": ""
-      }
-    },
-    "53c4f92c-e30b-4dbc-a2e1-931a795928d6": {
-      "type": "accordions",
-      "blocks": {
-        "template--18730720428336__53c4f92c-e30b-4dbc-a2e1-931a795928d6-168142034345dd2334-0": {
-          "type": "content",
-          "settings": {
-            "title": "A question your customers are asking",
-            "content": "<p>Answer to help your customers feel more comfortable completing their purchase.<\/p>",
-            "icon": ""
-          }
-        },
-        "template--18730720428336__53c4f92c-e30b-4dbc-a2e1-931a795928d6-168142034345dd2334-1": {
-          "type": "content",
-          "settings": {
-            "title": "A question your customers are asking",
-            "content": "<p>Answer to help your customers feel more comfortable completing their purchase.<\/p>",
-            "icon": ""
-          }
-        },
-        "template--18730720428336__53c4f92c-e30b-4dbc-a2e1-931a795928d6-168142034345dd2334-2": {
-          "type": "content",
-          "settings": {
-            "title": "A question your customers are asking",
-            "content": "<p>Answer to help your customers feel more comfortable completing their purchase.<\/p>",
-            "icon": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--18730720428336__53c4f92c-e30b-4dbc-a2e1-931a795928d6-168142034345dd2334-0",
-        "template--18730720428336__53c4f92c-e30b-4dbc-a2e1-931a795928d6-168142034345dd2334-1",
-        "template--18730720428336__53c4f92c-e30b-4dbc-a2e1-931a795928d6-168142034345dd2334-2"
-      ],
-      "settings": {
-        "heading": "Collapsible content",
-        "content": "",
-        "button_label": "Button",
-        "button_url": "\/",
-        "spacing_top": 100,
-        "spacing_bottom": 100,
-        "color_scheme": "color__bg-body color__text",
-        "color_border": "color__border-divider-1",
-        "color_button": "btn btn--secondary",
-        "style_border": "",
-        "layout_x_alignment": "justify-between",
-        "visibility": ""
-      }
     }
   },
   "order": [
@@ -470,8 +403,6 @@
     "ca2883b6-efd0-48c1-8f9e-520a6b9a64bc",
     "fa45b532-e64f-489b-9403-7046250c0e16",
     "81ade9ad-d8df-41e4-8a5d-bda5d0e43d9a",
-    "f3fd7d15-8af4-4a33-810d-e1dbd27ed532",
-    "2cf37121-3db2-489b-9610-3dcaac7dca12",
-    "53c4f92c-e30b-4dbc-a2e1-931a795928d6"
+    "f3fd7d15-8af4-4a33-810d-e1dbd27ed532"
   ]
 }
