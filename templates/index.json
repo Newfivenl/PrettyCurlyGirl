@@ -519,7 +519,7 @@
             "enable_padding": true,
             "color_scheme": "color__bg-primary color__primary",
             "color_border": "!color__border-transparent",
-            "layout_alignment": "flex-col",
+            "layout_alignment": "flex-row",
             "layout_x_alignment": "text-left",
             "layout_row_span": "row-span-1",
             "layout_col_span": "col-span-1 md:col-span-1"
@@ -534,7 +534,7 @@
             "enable_padding": true,
             "color_scheme": "color__bg-primary color__primary",
             "color_border": "!color__border-transparent",
-            "layout_alignment": "flex-col",
+            "layout_alignment": "flex-row",
             "layout_x_alignment": "text-left",
             "layout_row_span": "row-span-1",
             "layout_col_span": "col-span-1 md:col-span-1"
