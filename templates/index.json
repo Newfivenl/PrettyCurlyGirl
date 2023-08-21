@@ -206,41 +206,6 @@
         "visibility": ""
       }
     },
-    "7f4e03e9-515b-46ff-a57d-80f6b4ab1956": {
-      "type": "product-grid",
-      "blocks": {
-        "template--18730720428336__7f4e03e9-515b-46ff-a57d-80f6b4ab1956-16814203183f4a2e11-0": {
-          "type": "card",
-          "settings": {
-            "heading": "Block heading",
-            "content": "<p>Describe a product, make announcements, or inform customers about a promotion.<\/p>",
-            "button_label": "Button",
-            "button_url": "\/"
-          }
-        }
-      },
-      "block_order": [
-        "template--18730720428336__7f4e03e9-515b-46ff-a57d-80f6b4ab1956-16814203183f4a2e11-0"
-      ],
-      "settings": {
-        "collection": "frontpage",
-        "products_count": 7,
-        "heading": "Product grid",
-        "content": "<p>Describe a product, make announcements, or welcome customers to your store.<\/p>",
-        "button_label": "Button",
-        "button_url": "\/collections\/all",
-        "spacing_top": 100,
-        "spacing_bottom": 100,
-        "color_scheme": "color__bg-body color__text",
-        "color_border": "color__border-divider-1",
-        "color_button": "btn btn--plain",
-        "style_border": "border--b-width",
-        "row_size_desktop": "md:grid-cols-4",
-        "row_size_mobile": "grid grid-cols-2",
-        "layout_x_alignment": "justify-between",
-        "visibility": ""
-      }
-    },
     "fa45b532-e64f-489b-9403-7046250c0e16": {
       "type": "product-slider",
       "blocks": {
@@ -260,16 +225,16 @@
       "settings": {
         "collection": "frontpage",
         "products_count": 7,
-        "heading": "Product slider",
-        "content": "<p>Describe a product, make announcements, or welcome customers to your store.<\/p>",
+        "heading": "ALL PRODUCTS",
+        "content": "",
         "button_label": "Button",
         "button_url": "\/collections\/all",
-        "spacing_top": 100,
-        "spacing_bottom": 100,
+        "spacing_top": 40,
+        "spacing_bottom": 40,
         "color_scheme": "color__bg-body color__text",
         "color_border": "color__border-divider-1",
-        "color_button": "btn btn--secondary",
-        "style_border": "border--b-width",
+        "color_button": "btn btn--plain",
+        "style_border": "",
         "layout_x_alignment": "justify-between",
         "visibility": ""
       }
@@ -441,7 +406,6 @@
   "order": [
     "f96b8e1b-0fd4-4c65-856c-cdd01fe228cc",
     "ca2883b6-efd0-48c1-8f9e-520a6b9a64bc",
-    "7f4e03e9-515b-46ff-a57d-80f6b4ab1956",
     "fa45b532-e64f-489b-9403-7046250c0e16",
     "f3fd7d15-8af4-4a33-810d-e1dbd27ed532",
     "2cf37121-3db2-489b-9610-3dcaac7dca12",
