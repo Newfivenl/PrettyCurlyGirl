@@ -1,5 +1,60 @@
 {
   "sections": {
+    "7c450e25-a49b-4dbd-aa01-9b08189f1f76": {
+      "type": "navigation-slider",
+      "blocks": {
+        "template--19487943393610__7c450e25-a49b-4dbd-aa01-9b08189f1f76-slide-1": {
+          "type": "slide",
+          "settings": {
+            "heading": "Heading",
+            "url": ""
+          }
+        },
+        "template--19487943393610__7c450e25-a49b-4dbd-aa01-9b08189f1f76-slide-2": {
+          "type": "slide",
+          "settings": {
+            "heading": "Heading",
+            "url": ""
+          }
+        },
+        "template--19487943393610__7c450e25-a49b-4dbd-aa01-9b08189f1f76-slide-3": {
+          "type": "slide",
+          "settings": {
+            "heading": "Heading",
+            "url": ""
+          }
+        },
+        "template--19487943393610__7c450e25-a49b-4dbd-aa01-9b08189f1f76-slide-4": {
+          "type": "slide",
+          "settings": {
+            "heading": "Heading",
+            "url": ""
+          }
+        },
+        "template--19487943393610__7c450e25-a49b-4dbd-aa01-9b08189f1f76-slide-5": {
+          "type": "slide",
+          "settings": {
+            "heading": "Heading",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19487943393610__7c450e25-a49b-4dbd-aa01-9b08189f1f76-slide-1",
+        "template--19487943393610__7c450e25-a49b-4dbd-aa01-9b08189f1f76-slide-2",
+        "template--19487943393610__7c450e25-a49b-4dbd-aa01-9b08189f1f76-slide-3",
+        "template--19487943393610__7c450e25-a49b-4dbd-aa01-9b08189f1f76-slide-4",
+        "template--19487943393610__7c450e25-a49b-4dbd-aa01-9b08189f1f76-slide-5"
+      ],
+      "settings": {
+        "spacing_top": 0,
+        "spacing_bottom": 0,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "style_border": "border--b-width",
+        "visibility": ""
+      }
+    },
     "f96b8e1b-0fd4-4c65-856c-cdd01fe228cc": {
       "type": "banner",
       "blocks": {
@@ -396,13 +451,127 @@
         "layout_x_alignment": "justify-between",
         "visibility": ""
       }
+    },
+    "bc9f2035-8b89-40bd-994b-549b8089bc3f": {
+      "type": "store-locator",
+      "blocks": {
+        "template--19487943393610__bc9f2035-8b89-40bd-994b-549b8089bc3f-store-1": {
+          "type": "store",
+          "settings": {
+            "store_name": "Store name",
+            "store_details": "<p>Share store hours, address and direction details<\/p>",
+            "latitude": "43.651070",
+            "longitude": "-79.347015"
+          }
+        },
+        "template--19487943393610__bc9f2035-8b89-40bd-994b-549b8089bc3f-store-2": {
+          "type": "store",
+          "settings": {
+            "store_name": "Store name",
+            "store_details": "<p>Share store hours, address and direction details<\/p>",
+            "latitude": "44.651070",
+            "longitude": "-79.347015"
+          }
+        }
+      },
+      "block_order": [
+        "template--19487943393610__bc9f2035-8b89-40bd-994b-549b8089bc3f-store-1",
+        "template--19487943393610__bc9f2035-8b89-40bd-994b-549b8089bc3f-store-2"
+      ],
+      "settings": {
+        "enable_dynamic_map": true,
+        "heading": "Store locator",
+        "content": "<p>Showcase your retail location so customers can find you in-person<\/p>",
+        "spacing_top": 100,
+        "spacing_bottom": 100,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "style_border": "border--b-width",
+        "map_style": "silver",
+        "layout_x_alignment": "justify-between",
+        "visibility": ""
+      }
+    },
+    "92000899-ed1c-4fa2-9aa5-bf0a79e6952e": {
+      "type": "icon-grid",
+      "blocks": {
+        "template--19487943393610__92000899-ed1c-4fa2-9aa5-bf0a79e6952e-icon-1": {
+          "type": "icon",
+          "settings": {
+            "icon_height": "h-8",
+            "heading": "Free shipping",
+            "content": "<p>Free delivery on all orders over €96,50<\/p>",
+            "enable_padding": true,
+            "color_scheme": "color__bg-primary color__primary",
+            "color_border": "!color__border-transparent",
+            "layout_alignment": "flex-row",
+            "layout_x_alignment": "text-left",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md:col-span-1"
+          }
+        },
+        "template--19487943393610__92000899-ed1c-4fa2-9aa5-bf0a79e6952e-icon-2": {
+          "type": "icon",
+          "settings": {
+            "icon_height": "h-8",
+            "heading": "Block heading",
+            "content": "<p>Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "color__border-divider-1",
+            "layout_alignment": "flex-col",
+            "layout_x_alignment": "text-left",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md:col-span-1"
+          }
+        },
+        "template--19487943393610__92000899-ed1c-4fa2-9aa5-bf0a79e6952e-icon-3": {
+          "type": "icon",
+          "settings": {
+            "icon_height": "h-8",
+            "heading": "Block heading",
+            "content": "<p>Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "color__border-divider-1",
+            "layout_alignment": "flex-col",
+            "layout_x_alignment": "text-left",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md:col-span-1"
+          }
+        }
+      },
+      "block_order": [
+        "template--19487943393610__92000899-ed1c-4fa2-9aa5-bf0a79e6952e-icon-1",
+        "template--19487943393610__92000899-ed1c-4fa2-9aa5-bf0a79e6952e-icon-2",
+        "template--19487943393610__92000899-ed1c-4fa2-9aa5-bf0a79e6952e-icon-3"
+      ],
+      "settings": {
+        "heading": "",
+        "content": "",
+        "button_label": "",
+        "button_url": "",
+        "spacing_top": 100,
+        "spacing_bottom": 100,
+        "color_scheme": "color__bg-primary color__primary",
+        "color_border": "color__border-divider-1",
+        "color_button": "btn btn--secondary",
+        "style_border": "border--b-width",
+        "row_size_desktop": "md:grid-cols-3",
+        "row_size_mobile": "grid-cols-1",
+        "layout_x_alignment": "text-center justify-center flex-col items-center",
+        "visibility": ""
+      }
     }
   },
   "order": [
+    "7c450e25-a49b-4dbd-aa01-9b08189f1f76",
     "f96b8e1b-0fd4-4c65-856c-cdd01fe228cc",
     "ca2883b6-efd0-48c1-8f9e-520a6b9a64bc",
     "fa45b532-e64f-489b-9403-7046250c0e16",
     "81ade9ad-d8df-41e4-8a5d-bda5d0e43d9a",
-    "f3fd7d15-8af4-4a33-810d-e1dbd27ed532"
+    "f3fd7d15-8af4-4a33-810d-e1dbd27ed532",
+    "bc9f2035-8b89-40bd-994b-549b8089bc3f",
+    "92000899-ed1c-4fa2-9aa5-bf0a79e6952e"
   ]
 }
