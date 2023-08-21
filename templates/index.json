@@ -280,12 +280,13 @@
           "settings": {
             "heading": "Block heading",
             "content": "<p>Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "image_featured": "shopify:\/\/shop_images\/Screenshot_2023-08-15_at_9.16.10_PM.webp",
             "enable_autoplay": true,
             "enable_mute_toggle": true,
             "enable_loop": true,
             "button_label": "Button",
             "button_url": "\/",
-            "spacing_top": 80,
+            "spacing_top": 0,
             "spacing_bottom": 0,
             "enable_padding": true,
             "color_scheme": "color__bg-body color__text",
@@ -295,7 +296,7 @@
             "enable_gradient": false,
             "layout_y_alignment": "items-end",
             "layout_x_alignment": "",
-            "layout_desktop_width": 5,
+            "layout_desktop_width": 3,
             "layout_mobile_width": 8
           }
         },
