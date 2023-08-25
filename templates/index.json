@@ -87,6 +87,9 @@
         "template--18730720428336__f96b8e1b-0fd4-4c65-856c-cdd01fe228cc-1681420271694828b0-1",
         "template--18730720428336__f96b8e1b-0fd4-4c65-856c-cdd01fe228cc-1681420271694828b0-2"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
         "image_background_desktop": "shopify:\/\/shop_images\/krullen.webp",
         "show_entire_image": false,
@@ -179,7 +182,8 @@
       ],
       "custom_css": [
         "p {font-size: 16px; color: #7e695d;}",
-        "section {background: #f0edeb;}"
+        "section {background: #f0edeb;}",
+        ".grid div {background: none !important;}"
       ],
       "settings": {
         "heading": "",
