@@ -103,6 +103,101 @@
         "visibility": ""
       }
     },
+    "b1e83feb-711b-4266-b0bc-088a4d48a207": {
+      "type": "icon-grid",
+      "blocks": {
+        "f663c17a-43cd-4902-bb6a-a9b9713d0453": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/icon-package.svg",
+            "icon_height": "h-8",
+            "heading": "",
+            "content": "<p>Sustainable Packaging<\/p>",
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "!color__border-transparent",
+            "layout_alignment": "flex-col",
+            "layout_x_alignment": "text-center justify-center",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md:col-span-1"
+          }
+        },
+        "87a95d7f-ea9c-4699-87f7-66625a8df5d8": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/icon-feather.svg",
+            "icon_height": "h-8",
+            "heading": "",
+            "content": "<p>98% natural ingredients<\/p>",
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "!color__border-transparent",
+            "layout_alignment": "flex-col",
+            "layout_x_alignment": "text-center justify-center",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md:col-span-1"
+          }
+        },
+        "8ad68ee0-12ec-439b-b740-1ba2c0d72098": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/icon-approve.svg",
+            "icon_height": "h-8",
+            "heading": "",
+            "content": "<p>Curly Girl approved ingredients<\/p>",
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "!color__border-transparent",
+            "layout_alignment": "flex-col",
+            "layout_x_alignment": "text-center justify-center",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md:col-span-1"
+          }
+        },
+        "6727b25f-f1e3-4532-99a4-d636bb9ebf6a": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/icon-heart.svg",
+            "icon_height": "h-8",
+            "heading": "",
+            "content": "<p>Made with love<\/p>",
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "!color__border-transparent",
+            "layout_alignment": "flex-col",
+            "layout_x_alignment": "text-center justify-center",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md:col-span-1"
+          }
+        }
+      },
+      "block_order": [
+        "f663c17a-43cd-4902-bb6a-a9b9713d0453",
+        "87a95d7f-ea9c-4699-87f7-66625a8df5d8",
+        "8ad68ee0-12ec-439b-b740-1ba2c0d72098",
+        "6727b25f-f1e3-4532-99a4-d636bb9ebf6a"
+      ],
+      "custom_css": [
+        "p {font-size: 16px; color: #7e695d;}",
+        "section {background: #f0edeb;}"
+      ],
+      "settings": {
+        "heading": "",
+        "content": "",
+        "button_label": "",
+        "button_url": "",
+        "spacing_top": 20,
+        "spacing_bottom": 20,
+        "color_scheme": "color__bg-tertiary color__tertiary",
+        "color_border": "color__border-divider-1",
+        "color_button": "btn btn--secondary",
+        "style_border": "border--b-width",
+        "row_size_desktop": "md:grid-cols-4",
+        "row_size_mobile": "grid-cols-2",
+        "layout_x_alignment": "text-center justify-center flex-col items-center",
+        "visibility": ""
+      }
+    },
     "ca2883b6-efd0-48c1-8f9e-520a6b9a64bc": {
       "type": "content-grid",
       "blocks": {
@@ -659,77 +754,6 @@
         "visibility": ""
       }
     },
-    "b1e83feb-711b-4266-b0bc-088a4d48a207": {
-      "type": "icon-grid",
-      "blocks": {
-        "f663c17a-43cd-4902-bb6a-a9b9713d0453": {
-          "type": "icon",
-          "settings": {
-            "icon_height": "h-8",
-            "heading": "Free shipping",
-            "content": "<p>Free delivery on all orders over €96,50<\/p>",
-            "enable_padding": true,
-            "color_scheme": "color__bg-body color__text",
-            "color_border": "!color__border-transparent",
-            "layout_alignment": "flex-col",
-            "layout_x_alignment": "text-center justify-center",
-            "layout_row_span": "row-span-1",
-            "layout_col_span": "col-span-1 md:col-span-1"
-          }
-        },
-        "87a95d7f-ea9c-4699-87f7-66625a8df5d8": {
-          "type": "icon",
-          "settings": {
-            "icon_height": "h-8",
-            "heading": "Hassle free returns",
-            "content": "<p>We have a no-hassle return policy for all orders<\/p>",
-            "enable_padding": true,
-            "color_scheme": "color__bg-secondary color__secondary",
-            "color_border": "!color__border-transparent",
-            "layout_alignment": "flex-row",
-            "layout_x_alignment": "text-left",
-            "layout_row_span": "row-span-1",
-            "layout_col_span": "col-span-1 md:col-span-1"
-          }
-        },
-        "8ad68ee0-12ec-439b-b740-1ba2c0d72098": {
-          "type": "icon",
-          "settings": {
-            "icon_height": "h-8",
-            "heading": "Big discounts",
-            "content": "<p>Buy two or more items and get 10% off your order<\/p>",
-            "enable_padding": true,
-            "color_scheme": "color__bg-secondary color__secondary",
-            "color_border": "!color__border-transparent",
-            "layout_alignment": "flex-row",
-            "layout_x_alignment": "text-left",
-            "layout_row_span": "row-span-1",
-            "layout_col_span": "col-span-1 md:col-span-1"
-          }
-        }
-      },
-      "block_order": [
-        "f663c17a-43cd-4902-bb6a-a9b9713d0453",
-        "87a95d7f-ea9c-4699-87f7-66625a8df5d8",
-        "8ad68ee0-12ec-439b-b740-1ba2c0d72098"
-      ],
-      "settings": {
-        "heading": "",
-        "content": "",
-        "button_label": "",
-        "button_url": "",
-        "spacing_top": 100,
-        "spacing_bottom": 100,
-        "color_scheme": "color__bg-tertiary color__tertiary",
-        "color_border": "color__border-divider-1",
-        "color_button": "btn btn--secondary",
-        "style_border": "border--b-width",
-        "row_size_desktop": "md:grid-cols-3",
-        "row_size_mobile": "grid-cols-1",
-        "layout_x_alignment": "text-center justify-center flex-col items-center",
-        "visibility": ""
-      }
-    },
     "cf475604-fd24-4d65-8a42-9ed8e5ab6541": {
       "type": "newsletter",
       "blocks": {
@@ -765,6 +789,7 @@
   "order": [
     "7c450e25-a49b-4dbd-aa01-9b08189f1f76",
     "f96b8e1b-0fd4-4c65-856c-cdd01fe228cc",
+    "b1e83feb-711b-4266-b0bc-088a4d48a207",
     "ca2883b6-efd0-48c1-8f9e-520a6b9a64bc",
     "fa45b532-e64f-489b-9403-7046250c0e16",
     "81ade9ad-d8df-41e4-8a5d-bda5d0e43d9a",
@@ -772,7 +797,6 @@
     "f3fd7d15-8af4-4a33-810d-e1dbd27ed532",
     "bc9f2035-8b89-40bd-994b-549b8089bc3f",
     "d7a4adc5-757d-44b6-9dd3-e5cce4fb9ce2",
-    "b1e83feb-711b-4266-b0bc-088a4d48a207",
     "cf475604-fd24-4d65-8a42-9ed8e5ab6541"
   ]
 }
