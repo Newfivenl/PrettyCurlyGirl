@@ -848,8 +848,6 @@ const collections = {
           this.collection_loading = false;
         }, 100);
         this.pagination_current_page = this.pagination_current_page + 1;
-        let newUrl = window.location.protocol + "//" + window.location.host + fetchUrl;
-        history.pushState({ path: newUrl }, "", newUrl);
       });
     } else {
       this.collection_loading = false;
