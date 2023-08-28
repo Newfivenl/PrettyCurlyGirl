@@ -772,7 +772,7 @@
             "button_label": "Subscribe",
             "disclaimer": "",
             "success": "<p>Success! You’ve been subscribed.<\/p>",
-            "layout_desktop_width": 6,
+            "layout_desktop_width": 7,
             "layout_mobile_width": 12,
             "layout_x_alignment": "text-center justify-center flex-col items-center"
           }

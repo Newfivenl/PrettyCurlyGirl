@@ -5,14 +5,12 @@
     "theme_footer": {
       "type": "theme__footer",
       "blocks": {
-        "78204a1a-1009-4f50-a9c8-4a9f0b2af321": {
-          "type": "newsletter",
+        "112393ba-7951-414b-a738-b9bd6860735d": {
+          "type": "logo",
           "settings": {
-            "heading": "Newsletter",
-            "content": "<p>Tell customers why they should subscribe to your newsletter.<\/p>",
-            "button": "Subscribe",
-            "disclaimer": "<p>Include an additional disclaimer to clarify how you will use a subscribers email.<\/p>",
-            "success": "<p>Success! You’ve been subscribed.<\/p>"
+            "logo_light": "shopify:\/\/shop_images\/logo.svg",
+            "logo_desktop_height": 200,
+            "logo_mobile_height": 150
           }
         },
         "93a10caa-0edc-4bd5-82ac-2f3421fcbc79": {
@@ -38,14 +36,24 @@
           "settings": {
             "menu": "footer"
           }
+        },
+        "60a14b1f-939a-4e8d-98fc-b083a1ddea45": {
+          "type": "content",
+          "settings": {
+            "heading": "Your #1 Hair Care brand",
+            "content": "<p>We're a locally owned and operated company driven to give you the best products for your curly hair.<\/p><p><br\/><\/p><p>PRETTY CURLY GIRL PRODUCTS B.V.<\/p><p>Brandstore in Rotterdam, The Netherlands<\/p><p>CoC: 24468970<\/p><p>VAT: NL001630315B40<\/p>",
+            "button_label": "Button",
+            "button_url": "shopify:\/\/collections\/all"
+          }
         }
       },
       "block_order": [
-        "78204a1a-1009-4f50-a9c8-4a9f0b2af321",
+        "112393ba-7951-414b-a738-b9bd6860735d",
         "93a10caa-0edc-4bd5-82ac-2f3421fcbc79",
         "d87893f7-81bb-4364-8373-de4b79c1ce47",
         "150805eb-9862-49dd-b0c2-0111162d6fce",
-        "6ad6b950-210d-4cf8-b231-62c67db4980e"
+        "6ad6b950-210d-4cf8-b231-62c67db4980e",
+        "60a14b1f-939a-4e8d-98fc-b083a1ddea45"
       ],
       "settings": {
         "main_color_scheme": "color__bg-primary color__primary",
