@@ -13,18 +13,6 @@
             "logo_mobile_height": 150
           }
         },
-        "93a10caa-0edc-4bd5-82ac-2f3421fcbc79": {
-          "type": "menu",
-          "settings": {
-            "menu": ""
-          }
-        },
-        "d87893f7-81bb-4364-8373-de4b79c1ce47": {
-          "type": "menu",
-          "settings": {
-            "menu": ""
-          }
-        },
         "150805eb-9862-49dd-b0c2-0111162d6fce": {
           "type": "menu",
           "settings": {
@@ -34,7 +22,7 @@
         "6ad6b950-210d-4cf8-b231-62c67db4980e": {
           "type": "menu",
           "settings": {
-            "menu": "footer"
+            "menu": "customer-support"
           }
         },
         "60a14b1f-939a-4e8d-98fc-b083a1ddea45": {
@@ -49,8 +37,6 @@
       },
       "block_order": [
         "112393ba-7951-414b-a738-b9bd6860735d",
-        "93a10caa-0edc-4bd5-82ac-2f3421fcbc79",
-        "d87893f7-81bb-4364-8373-de4b79c1ce47",
         "150805eb-9862-49dd-b0c2-0111162d6fce",
         "6ad6b950-210d-4cf8-b231-62c67db4980e",
         "60a14b1f-939a-4e8d-98fc-b083a1ddea45"
@@ -62,7 +48,7 @@
         "sub_color_scheme": "color__bg-overlay-1 color__text",
         "sub_color_border": "color__border-divider-1",
         "sub_color_button": "btn btn--secondary",
-        "sub_links": "footer",
+        "sub_links": "main-menu",
         "sub_enable_payment_icons": true,
         "enable_follow_on_shop": true,
         "visibility": ""
