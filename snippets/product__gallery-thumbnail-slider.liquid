@@ -110,7 +110,7 @@
       {%- comment -%}arrows{%- endcomment -%}
       {% if product.media.size > 1 %}
         <div x-show="show_arrows" class="md:block top-1/2 left-4 absolute z-10 hidden -translate-y-1/2">
-          <button class="btn btn--plain btn--small shadow-sm"
+          <button class="btn btn--plain btn--small shadow-sm !rounded-full"
             title="{{ 'general.media.previous_slide' | t }}"
             {% if settings.enable_animations %}
               x-transition:enter="animation-300"
@@ -126,7 +126,7 @@
           </button>
         </div>
         <div x-show="show_arrows" class="md:block top-1/2 right-4 absolute z-10 hidden -translate-y-1/2">
-          <button class="btn btn--plain btn--small shadow-sm"
+          <button class="btn btn--plain btn--small shadow-sm !rounded-full"
             title="{{ 'general.media.next_slide' | t }}"
             {% if settings.enable_animations %}
               x-transition:enter="animation-300"
