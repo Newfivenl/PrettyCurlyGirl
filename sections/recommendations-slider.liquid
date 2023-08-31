@@ -342,7 +342,7 @@
 
       <div class="md:flex justify-end hidden gap-4 pt-4 {{ settings.layout_horizontal }}">
         <div x-show="show_arrows">
-          <button class="btn btn--plain btn--small"
+          <button class="btn btn--plain btn--small rounded-full"
             title="{{ 'general.media.previous_slide' | t }}"
             {% if settings.enable_animations %}
               x-transition:enter="animation-300"
@@ -358,7 +358,7 @@
           </button>
         </div>
         <div x-show="show_arrows">
-          <button class="btn btn--plain btn--small"
+          <button class="btn btn--plain btn--small rounded-full"
             title="{{ 'general.media.next_slide' | t }}"
             {% if settings.enable_animations %}
               x-transition:enter="animation-300"
