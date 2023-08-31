@@ -382,7 +382,7 @@
         "heading": "ALL PRODUCTS",
         "content": "",
         "button_label": "Button",
-        "button_url": "\/collections\/all",
+        "button_url": "#",
         "spacing_top": 40,
         "spacing_bottom": 40,
         "color_scheme": "color__bg-body color__text",
