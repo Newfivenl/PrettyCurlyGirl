@@ -220,7 +220,7 @@
             "spacing_top": 0,
             "spacing_bottom": 20,
             "enable_padding": true,
-            "color_scheme": "color__bg-body color__text",
+            "color_scheme": "color__bg-tertiary color__tertiary",
             "color_border": "color__border-divider-1",
             "color_text": "color__text",
             "color_button": "btn btn--white",
