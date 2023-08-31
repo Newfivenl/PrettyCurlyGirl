@@ -223,7 +223,7 @@
             "color_scheme": "color__bg-body color__text",
             "color_border": "color__border-divider-1",
             "color_text": "color__text",
-            "color_button": "btn btn--plain",
+            "color_button": "btn btn--white",
             "enable_gradient": false,
             "layout_y_alignment": "items-end",
             "layout_x_alignment": "",
