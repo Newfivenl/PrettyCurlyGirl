@@ -387,7 +387,7 @@
         "spacing_bottom": 40,
         "color_scheme": "color__bg-body color__text",
         "color_border": "color__border-divider-1",
-        "color_button": "btn btn--neutral",
+        "color_button": "btn btn--alternate",
         "style_border": "",
         "layout_x_alignment": "justify-between",
         "visibility": ""
