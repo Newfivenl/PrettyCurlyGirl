@@ -98,7 +98,7 @@
     {%- comment -%}arrows{%- endcomment -%}
     <div class="md:flex justify-end hidden gap-4 pt-4 {{ settings.layout_horizontal }}">
       <div {% unless show_arrows == 'true' %}x-show="show_arrows"{% endunless %}>
-        <button class="btn btn--plain btn--small rounded-full"
+        <button class="btn btn--plain btn--small !rounded-full"
           title="{{ 'general.media.previous_slide' | t }}"
           {% if settings.enable_animations %}
             x-transition:enter="animation-300"
@@ -114,7 +114,7 @@
         </button>
       </div>
       <div {% unless show_arrows == 'true' %}x-show="show_arrows"{% endunless %}>
-        <button class="btn btn--plain btn--small rounded-full"
+        <button class="btn btn--plain btn--small !rounded-full"
           title="{{ 'general.media.next_slide' | t }}"
           {% if settings.enable_animations %}
             x-transition:enter="animation-300"

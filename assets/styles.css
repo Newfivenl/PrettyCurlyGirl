@@ -1970,6 +1970,9 @@ img:after {
 .rounded-full {
   border-radius: 9999px;
 }
+.\!rounded-full {
+  border-radius: 9999px !important;
+}
 .\!border-0 {
   border-width: 0px !important;
 }
