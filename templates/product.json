@@ -79,9 +79,9 @@
             "spacing_top": 0,
             "spacing_bottom": 10,
             "color_scheme": "color__bg-body color__text",
-            "style_border": "",
+            "style_border": "border--b-width",
             "position": "left",
-            "enable_open": true
+            "enable_open": false
           }
         },
         "e330660c-f160-4592-b934-2da2024f8ef8": {
