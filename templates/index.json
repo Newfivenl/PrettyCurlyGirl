@@ -432,6 +432,7 @@
         "template--19487943393610__92000899-ed1c-4fa2-9aa5-bf0a79e6952e-icon-1": {
           "type": "icon",
           "settings": {
+            "icon": "shopify:\/\/shop_images\/free-shipping.svg",
             "icon_height": "h-8",
             "heading": "Free shipping",
             "content": "<p>Free delivery on all orders over €96,50<\/p>",
@@ -447,6 +448,7 @@
         "template--19487943393610__92000899-ed1c-4fa2-9aa5-bf0a79e6952e-icon-2": {
           "type": "icon",
           "settings": {
+            "icon": "shopify:\/\/shop_images\/returns.svg",
             "icon_height": "h-8",
             "heading": "Hassle free returns",
             "content": "<p>We have a no-hassle return policy for all orders<\/p>",
@@ -462,6 +464,7 @@
         "template--19487943393610__92000899-ed1c-4fa2-9aa5-bf0a79e6952e-icon-3": {
           "type": "icon",
           "settings": {
+            "icon": "shopify:\/\/shop_images\/discounts.svg",
             "icon_height": "h-8",
             "heading": "Big discounts",
             "content": "<p>Buy two or more items and get 10% off your order<\/p>",
@@ -485,8 +488,8 @@
         "content": "",
         "button_label": "",
         "button_url": "",
-        "spacing_top": 100,
-        "spacing_bottom": 100,
+        "spacing_top": 40,
+        "spacing_bottom": 40,
         "color_scheme": "color__bg-secondary color__secondary",
         "color_border": "color__border-divider-1",
         "color_button": "btn btn--secondary",
