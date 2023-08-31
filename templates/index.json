@@ -345,9 +345,9 @@
       ],
       "settings": {
         "heading": "Shop by Category",
-        "content": "<p>This is a description of your content block<\/p>",
+        "content": "",
         "button_label": "Button label",
-        "button_url": "\/",
+        "button_url": "",
         "spacing_top": 100,
         "spacing_bottom": 100,
         "color_scheme": "color__bg-body color__text",
