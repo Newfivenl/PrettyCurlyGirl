@@ -63,6 +63,9 @@
     &--plain {
       @apply color__button-plain;
     }
+    &--white {
+      @apply color__button-white;
+    }
 
     /* button animations */
     /* - set style for default loading button */

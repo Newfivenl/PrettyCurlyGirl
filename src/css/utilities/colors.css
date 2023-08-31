@@ -198,5 +198,13 @@
       color: var(--color-plain-button-text-light);
     }
   }
+  .color__button-white {
+    background-color: #fff;
+    border-color: #fff;
+    color: #AB8F80;
+    * {
+      color: #AB8F80;
+    }
+  }
 
 }

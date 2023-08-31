@@ -3035,6 +3035,14 @@ img:after {
 .btn--plain * {
       color: var(--color-plain-button-text-light);
     }
+.btn--white {
+    background-color: #fff;
+    border-color: #fff;
+    color: #AB8F80;
+  }
+.btn--white * {
+      color: #AB8F80;
+    }
 /* button animations */
 /* - set style for default loading button */
 .btn--load {
