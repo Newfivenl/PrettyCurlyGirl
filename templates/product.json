@@ -136,6 +136,30 @@
             "color_scheme": "color__bg-overlay-1 color__text",
             "on_scroll": true
           }
+        },
+        "3772160f-c3bf-4712-a7bf-f1c3b0db9e32": {
+          "type": "accordion",
+          "settings": {
+            "title": "Details",
+            "content": "<p>Include more information about your product details.<\/p>",
+            "icon": "",
+            "color_scheme": "color__bg-body color__text",
+            "style_border": "",
+            "position": "right",
+            "enable_open": false
+          }
+        },
+        "fd18c62c-f5e0-4e28-855f-29aa1676eea3": {
+          "type": "accordion",
+          "settings": {
+            "title": "How to use",
+            "content": "<p>Include more information about your product details.<\/p>",
+            "icon": "",
+            "color_scheme": "color__bg-body color__text",
+            "style_border": "",
+            "position": "right",
+            "enable_open": false
+          }
         }
       },
       "block_order": [
@@ -150,7 +174,9 @@
         "9f1692ea-ccb9-4e4c-9c83-7a6ae53392aa",
         "c18a6be5-7074-4b70-a8e1-d4f845a9e665",
         "76f2c051-662d-4c42-b036-d6658cf9616f",
-        "848f5aea-f7ad-4974-a5fb-020776e3e523"
+        "848f5aea-f7ad-4974-a5fb-020776e3e523",
+        "3772160f-c3bf-4712-a7bf-f1c3b0db9e32",
+        "fd18c62c-f5e0-4e28-855f-29aa1676eea3"
       ],
       "settings": {
         "enable_default_variant": true,
