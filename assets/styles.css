@@ -1964,6 +1964,9 @@ img:after {
 .\!rounded-none {
   border-radius: 0px !important;
 }
+.rounded-\[50px\] {
+  border-radius: 50px;
+}
 .rounded-full {
   border-radius: 9999px;
 }
