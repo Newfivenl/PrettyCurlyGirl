@@ -211,5 +211,13 @@
       color: #AB8F80;
     }
   }
+  .color__button-alternate {
+    background-color: #fff;
+    border-color: #f0edeb;
+    color: #a89082;
+    * {
+      color: #a89082;
+    }
+  }
 
 }
