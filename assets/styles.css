@@ -2329,6 +2329,7 @@ img:after {
 .color__bg-tertiary {
     background-color: var(--color-tertiary-button-background-light);
   }
+/* - tertiary */
 /* - neutral */
 .color__bg-neutral {
     background-color: var(--color-neutral-button-background-light);

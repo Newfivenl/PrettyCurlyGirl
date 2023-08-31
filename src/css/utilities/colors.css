@@ -44,6 +44,10 @@
   .color__bg-tertiary {
     background-color: var(--color-tertiary-button-background-light);
   }
+   /* - tertiary */
+   .color__bg-light-primary{
+    background-color: #f0edeb;
+  }
 
   /* - neutral */
   .color__bg-neutral {
@@ -91,6 +95,7 @@
   .color__tertiary {
     color: var(--color-tertiary-button-text-light);
   }
+  
   
   /* - neutral */
   .color__neutral {
