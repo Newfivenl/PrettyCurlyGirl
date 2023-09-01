@@ -2893,12 +2893,12 @@ img:after {
 .btn {
     border-width: var(--sizes-border-width);
     border-radius: var(--sizes-border-button-radius);
-    font-family: var(--type-font-nav-family);
-    font-style: var(--type-font-nav-style);
-    font-weight: var(--type-font-nav-weight);
-    line-height: 1.5;
-    letter-spacing: 0.025em;
-    text-underline-offset: 1px;
+    font-family: var(--type-font-header-family);
+    font-style: var(--type-font-header-style);
+    font-weight: var(--type-font-header-weight);
+    letter-spacing: 0em;
+    text-underline-offset: 2px;
+    line-height: 1.25;
     transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
     transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
     transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
@@ -2907,23 +2907,23 @@ img:after {
     text-transform: var(--type-button-capiliziation);
   }
 .btn * {
-    font-family: var(--type-font-nav-family);
-    font-style: var(--type-font-nav-style);
-    font-weight: var(--type-font-nav-weight);
-    line-height: 1.5;
-    letter-spacing: 0.025em;
-    text-underline-offset: 1px;
+    font-family: var(--type-font-header-family);
+    font-style: var(--type-font-header-style);
+    font-weight: var(--type-font-header-weight);
+    letter-spacing: 0em;
+    text-underline-offset: 2px;
+    line-height: 1.25;
       text-transform: var(--type-button-capiliziation);
   }
 .btn__content {
   display: flex;
   align-items: center;
-    font-family: var(--type-font-nav-family);
-    font-style: var(--type-font-nav-style);
-    font-weight: var(--type-font-nav-weight);
-    line-height: 1.5;
-    letter-spacing: 0.025em;
-    text-underline-offset: 1px;
+    font-family: var(--type-font-header-family);
+    font-style: var(--type-font-header-style);
+    font-weight: var(--type-font-header-weight);
+    letter-spacing: 0em;
+    text-underline-offset: 2px;
+    line-height: 1.25;
 }
 /* states */
 .btn--hover,

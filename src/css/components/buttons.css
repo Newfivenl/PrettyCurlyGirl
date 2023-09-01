@@ -4,16 +4,16 @@
 @layer components {
   /* standard button */
   .btn {
-    @apply type__nav border__button--radius color__button-primary border__button animation-500 inline-flex items-center justify-center w-auto px-6 py-2 overflow-hidden text-center no-underline cursor-pointer min-h-[44px] min-w-[44px];
+    @apply type__heading border__button--radius color__button-primary border__button animation-500 inline-flex items-center justify-center w-auto px-6 py-2 overflow-hidden text-center no-underline cursor-pointer min-h-[44px] min-w-[44px];
     text-transform: var(--type-button-capiliziation);
 
     * {
-      @apply type__nav;
+      @apply type__heading;
       text-transform: var(--type-button-capiliziation);
     }
 
     &__content {
-      @apply type__nav flex items-center;
+      @apply type__heading flex items-center;
     }
 
     /* states */
