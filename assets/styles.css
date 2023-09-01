@@ -1961,17 +1961,14 @@ img:after {
 .break-all {
   word-break: break-all;
 }
+.\!rounded-full {
+  border-radius: 9999px !important;
+}
 .\!rounded-none {
   border-radius: 0px !important;
 }
-.rounded-\[50px\] {
-  border-radius: 50px;
-}
 .rounded-full {
   border-radius: 9999px;
-}
-.\!rounded-full {
-  border-radius: 9999px !important;
 }
 .\!border-0 {
   border-width: 0px !important;
@@ -3050,6 +3047,14 @@ img:after {
 .btn--white * {
       color: #AB8F80;
     }
+.btn--alternate {
+    background-color: #fff;
+    border-color: #f0edeb;
+    color: #a89082;
+  }
+.btn--alternate * {
+      color: #a89082;
+    }
 /* button animations */
 /* - set style for default loading button */
 .btn--load {
@@ -3519,9 +3524,6 @@ html {
   }
   .hover\:opacity-100:hover {
     opacity: 1;
-  }
-  .hover\:opacity-70:hover {
-    opacity: 0.7;
   }
   .hover\:opacity-75:hover {
     opacity: 0.75;
