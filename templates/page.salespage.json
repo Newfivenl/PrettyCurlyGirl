@@ -33,7 +33,7 @@
         "template--19591530119498__7071ca8c-96ef-403e-9934-1882376c4927-buttons-1": {
           "type": "buttons",
           "settings": {
-            "button_color": "btn btn--plain",
+            "button_color": "btn btn--secondary",
             "button_label": "MAKE THE SWITCH TODAY",
             "button_url": "\/collections\/all",
             "secondary_button_color": "btn btn--neutral",
@@ -51,7 +51,7 @@
       "settings": {
         "image_background_desktop": "shopify:\/\/shop_images\/krullen.webp",
         "enable_lazy_loading": false,
-        "color_scheme": "color__bg-secondary color__secondary",
+        "color_scheme": "color__bg-body color__text",
         "color_text": "",
         "color_border": "color__border-divider-1",
         "style_border": "border--b-width",
