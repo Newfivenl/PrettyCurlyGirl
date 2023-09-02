@@ -33,11 +33,11 @@
         "template--19591530119498__7071ca8c-96ef-403e-9934-1882376c4927-buttons-1": {
           "type": "buttons",
           "settings": {
-            "button_color": "btn",
-            "button_label": "Button label",
+            "button_color": "btn btn--plain",
+            "button_label": "MAKE THE SWITCH TODAY",
             "button_url": "\/collections\/all",
             "secondary_button_color": "btn btn--neutral",
-            "secondary_button_label": "Button label",
+            "secondary_button_label": "",
             "secondary_button_url": "\/collections\/all"
           }
         }
