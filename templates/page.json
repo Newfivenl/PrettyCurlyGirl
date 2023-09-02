@@ -73,10 +73,85 @@
         "layout_x_alignment": "justify-start",
         "visibility": ""
       }
+    },
+    "07329b17-e877-45fa-9b1c-4e7f005cee36": {
+      "type": "icon-grid",
+      "blocks": {
+        "template--19487943131466__07329b17-e877-45fa-9b1c-4e7f005cee36-icon-1": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/logo.svg",
+            "icon_height": "h-32",
+            "heading": "Block heading",
+            "content": "<p>Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "color__border-divider-1",
+            "layout_alignment": "flex-col",
+            "layout_x_alignment": "text-center justify-center",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md:col-span-1"
+          }
+        },
+        "b6a3ad49-6f13-4316-90a2-d6c860bd532a": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/logo.svg",
+            "icon_height": "h-32",
+            "heading": "Block heading",
+            "content": "<p>Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "color__border-divider-1",
+            "layout_alignment": "flex-col",
+            "layout_x_alignment": "text-center justify-center",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md:col-span-1"
+          }
+        },
+        "8ae0b966-4ac6-447b-bec5-a1ba22b8f8e4": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/logo.svg",
+            "icon_height": "h-32",
+            "heading": "Block heading",
+            "content": "<p>Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "color__border-divider-1",
+            "layout_alignment": "flex-col",
+            "layout_x_alignment": "text-center justify-center",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md:col-span-1"
+          }
+        }
+      },
+      "block_order": [
+        "template--19487943131466__07329b17-e877-45fa-9b1c-4e7f005cee36-icon-1",
+        "b6a3ad49-6f13-4316-90a2-d6c860bd532a",
+        "8ae0b966-4ac6-447b-bec5-a1ba22b8f8e4"
+      ],
+      "settings": {
+        "heading": "LOVE YOUR CURLS AND YOUR CURLS WILL LOVE YOU BACK.",
+        "content": "<p>Describe a product, make announcements, or welcome customers to your store.<\/p>",
+        "button_label": "",
+        "button_url": "",
+        "spacing_top": 100,
+        "spacing_bottom": 100,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "color_button": "btn btn--secondary",
+        "style_border": "border--b-width",
+        "row_size_desktop": "md:grid-cols-3",
+        "row_size_mobile": "grid-cols-1",
+        "layout_x_alignment": "text-center justify-center flex-col items-center",
+        "visibility": ""
+      }
     }
   },
   "order": [
     "main",
-    "3da21793-b9c5-452d-9e34-4d467e086fec"
+    "3da21793-b9c5-452d-9e34-4d467e086fec",
+    "07329b17-e877-45fa-9b1c-4e7f005cee36"
   ]
 }
