@@ -365,6 +365,7 @@
       "blocks": {
         "template--18730720428336__fa45b532-e64f-489b-9403-7046250c0e16-1681420382a4ee4d2a-0": {
           "type": "card",
+          "disabled": true,
           "settings": {
             "heading": "Block heading",
             "content": "<p>Describe a product, make announcements, or welcome customers to your store.<\/p>",
@@ -398,6 +399,7 @@
       "blocks": {
         "500f39ed-e0e7-4898-acc0-1f9107b0bf0f": {
           "type": "card",
+          "disabled": true,
           "settings": {
             "heading": "Block heading",
             "content": "<p>Describe a product, make announcements, or welcome customers to your store.<\/p>",
