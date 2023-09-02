@@ -93,7 +93,7 @@
                           {{ block.settings.button_label }}
                         </a>
                       {%- endunless -%}
-                      {%- unless block.settings.secondary_button_url == blank -%}
+                      {%- unless block.settings.secondary_button_label == blank -%}
                         <a
                           href="{{ block.settings.secondary_button_url }}"
                           class="{{ block.settings.secondary_button_color }}"
