@@ -28,7 +28,7 @@
   .type__button {
     font-family: var(--type-font-button-family);
     font-style: var(--type-font-button-style);
-    font-weight: 500;
+    font-weight: var(--type-font-button-weight);
     @apply underline-offset-2 tracking-normal;
   }
   /* ======= */

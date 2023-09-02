@@ -2897,7 +2897,7 @@ img:after {
     border-radius: var(--sizes-border-button-radius);
     font-family: var(--type-font-button-family);
     font-style: var(--type-font-button-style);
-    font-weight: 500;
+    font-weight: var(--type-font-button-weight);
     letter-spacing: 0em;
     text-underline-offset: 2px;
     transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
