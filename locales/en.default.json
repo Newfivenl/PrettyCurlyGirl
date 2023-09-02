@@ -127,7 +127,7 @@
       "store_information": "View store information"
     },
     "accordions": {
-      "description": "Description"
+      "description": "Why this product"
     }
   },
   "cart": {
@@ -144,7 +144,7 @@
       "empty": "Your cart is empty",
       "updated": "Cart updated",
       "view_cart": "View cart",
-      "upsell_title": "Popular add-ons",
+      "upsell_title": "Want to try something new?",
       "upgrade": "Cart upgrade",
       "continue_shopping": "Continue shopping",
       "edit": "Edit",

@@ -43,7 +43,7 @@ Possible enhancements:
         for="{{ product.id }}-quantity">
         {{ 'products.general.quantity' | t }}
       </label>
-      <div class="color__text color__border-divider-2 color__bg-overlay-1 border--width hover:color__border-selected-1 border__input--radius relative flex w-full overflow-hidden" x-data="{ 
+      <div class="color__text color__border-divider-2 color__bg-overlay-1 border--width hover:color__border-selected-1 border__input--radius relative flex w-[150px] overflow-hidden" x-data="{ 
                               button_loading: false
                             }">
         <button
@@ -171,6 +171,10 @@ Possible enhancements:
           {{ product.metafields.custom.button_text }}
           {% if settings.type_seperator == 'dot' and settings.show_product_button_prices %}·{% elsif settings.type_seperator == 'line' and settings.show_product_button_prices %}|{% endif %}
         {% else %}
+        {% render 'component__icon', 
+          icon: 'cart', 
+          size: '20', 
+          class: 'mr-[10px]' %}
           {{ 'products.general.add_to_cart' | t }}
           {% if settings.type_seperator == 'dot' and settings.show_product_button_prices %}·{% elsif settings.type_seperator == 'line' and settings.show_product_button_prices %}|{% endif %}
         {% endif %}

@@ -95,7 +95,7 @@
                 {% render 'component__dropdown',
                   direction: 'down',
                   position: 'left',
-                  button_class: 'btn btn--plain btn--small',
+                  button_class: 'btn btn--tertiary btn--small',
                   button_label: dropdown_label, 
                   content: dropdown_content %}
               </div>
@@ -222,7 +222,7 @@
                     {% render 'component__dropdown', 
                       direction: 'down',
                       position: 'left',
-                      button_class: 'btn btn--plain btn--small',
+                      button_class: 'btn btn--tertiary btn--small',
                       button_label: popup_label, 
                       content: popup_content %}
 
@@ -442,7 +442,7 @@
                       <div class="md:snap-center flex justify-center flex-none mr-2" 
                         x-intersect:enter.full="index = {{ forloop.index0 }};"
                         x-bind:data-slide="{{ forloop.index0 }}">
-                        <a class="btn btn--smaller btn--plain" href="{{ filter.url_to_remove }}"
+                        <a class="btn btn--smaller btn--tertiary" href="{{ filter.url_to_remove }}"
                           @click.prevent="handleFilterDelete('{{ filter.param_name }}');">
                           {%- assign min_value = filter.min_value.value | default: 0 -%}
                           {%- assign max_value = filter.max_value.value | default: filter.range_max -%}
@@ -456,7 +456,7 @@
                       <div class="md:snap-center flex justify-center flex-none mr-2" 
                         x-intersect:enter.full="index = {{ forloop.index0 }};"
                         x-bind:data-slide="{{ forloop.index0 }}">
-                        <a class="btn btn--smaller btn--plain" href="{{ filter_value.url_to_remove }}"
+                        <a class="btn btn--smaller btn--tertiary" href="{{ filter_value.url_to_remove }}"
                           @click.prevent="handleFilterDelete('{{ filter.param_name }}');">
                           {% render 'component__icon', icon: 'x', size: '16', class: 'mr-1' %}
                           {{ filter.label }}: {{ filter_value.label }}

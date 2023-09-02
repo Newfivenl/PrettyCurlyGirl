@@ -97,11 +97,13 @@
               <div class="md:py-4 flex flex-row items-center justify-between flex-grow gap-2 p-2 px-4 text-left">
                 <a class="hover:no-underline no-underline" :href=" item.url">
                   <div class="grow flex flex-col">
-                    <p class="mb-0 type--small
+                    <p class="mb-0 type--small 
                       {{ settings.type_thumbnail_capitilization }}
                       {% if settings.type_thumbnail == 'body' %}type__body{% endif %}
                       {% if settings.type_thumbnail == 'heading' %}type__heading{% endif %}
-                      {% if settings.type_thumbnail == 'navigation' %}type__nav{% endif %}"
+                      {% if settings.type_thumbnail == 'navigation' %}type__nav{% endif %}
+                      
+                      "
                       x-text="item.title"></p>
                     <p class="type--small mb-0" 
                       x-text="Shopify.formatMoney(item.price,currency_symbol, {{ settings.enable_currency }}, '{{ settings.price_format }}', '{{ settings.currency_subunit_value }}')"></p>
@@ -145,7 +147,10 @@
                           class="btn btn--secondary btn--small btn--load"
                           :class="{ 'btn--loading' : cart_loading && button_loading }"
                           :disabled="button_loading">
-                          <div class="btn__content">{{ 'products.general.short_add_label' | t }}</div>
+                          <div class="btn__content">{% render 'component__icon', 
+                            icon: 'cart', 
+                            size: '20', 
+                            class: '' %}</div>
                           <div class="btn__spinner">
                             {% render 'component__icon', icon: 'spinner', size: '24', class: '' %}
                           </div>
@@ -155,7 +160,7 @@
                       <div>
                         <button type="button" 
                           role="button"
-                          class="btn btn--secondary btn--small btn--load" 
+                          class="btn btn--secondary btn--small btn--load active:scale-95 transition duration-200 ease-in-out " 
                           :class="{ 'btn--loading' : button_loading }" 
                           :disabled="button_loading"
                           @click="

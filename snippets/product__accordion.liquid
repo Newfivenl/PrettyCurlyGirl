@@ -19,7 +19,8 @@
 {% render 'component__accordion', 
   open: blocksettings.enable_open,
   container_class: container_class,
-  inner_class: 'mb-4',
+  inner_class: 'mb-4 ',
+  button_class: "!focus:outline-none !focus:shadow-none",
   button_label: blocksettings.title, 
   content: blocksettings.content
   icon: blocksettings.icon %}

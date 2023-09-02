@@ -31,7 +31,7 @@
       {% endcapture %}
       {% render 'component__accordion', 
         button_label: block.settings.title, 
-        button_class: "",
+        button_class: "!focus:outline-none !focus:shadow-none",
         container_class: "border--b-width color__border-divider-1 w-full",
         content: accordion_content,
         inner_class: 'mb-4',

@@ -30,6 +30,8 @@
     font-style: var(--type-font-button-style);
     font-weight: var(--type-font-button-weight);
     @apply underline-offset-2 tracking-normal;
+    letter-spacing: 0.08px;
+    font-size: 16px;
   }
   /* ======= */
   /* header type */

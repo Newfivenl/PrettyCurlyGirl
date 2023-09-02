@@ -18,9 +18,8 @@
     {%- unless settings.type_font_heading.system? -%}
       <link rel="preload" as="font" href="{{ settings.type_font_heading | font_url }}" type="font/woff2" crossorigin>
     {%- endunless -%}
-    {%- unless settings.type_font_heading.system? -%}
-      <link rel="preload" as="font" href="{{ settings.type_font_button | font_url }}" type="font/woff2" crossorigin>
-    {%- endunless -%}
+      <link rel="preload" as="font" href="{{ Oswald-Medium.ttf | asset_url }}" type="font/ttf" crossorigin>
+
     {% render 'theme__structured-data' %}
     {% render 'theme__styles' %}
     {{ 'styles.css' | asset_url | stylesheet_tag | preload: true }}

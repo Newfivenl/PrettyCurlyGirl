@@ -13,7 +13,7 @@
     }
 
     &__content {
-      @apply type__heading flex items-center;
+      @apply type__button flex items-center;
     }
 
     /* states */
@@ -24,6 +24,10 @@
     &--focus,
     &:focus {
       @apply border__button--focus;
+    }
+    &--active
+    &:active {
+      @apply border__button--active;
     }
     &--disabled,
     &:disabled {

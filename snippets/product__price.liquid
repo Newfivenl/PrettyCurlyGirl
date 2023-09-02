@@ -84,7 +84,7 @@
       content: subscription_badge %}
   </div>
 
-  {%- comment -%}taxes badge{%- endcomment -%}
+  {%- comment -%}taxes badge
   {% if cart.taxes_included %}
     {%- capture taxes_included -%}
       {{ 'customer.order.taxes_included' | t }}
@@ -96,5 +96,5 @@
         content: taxes_included %}
     </div>
   {% endif %}
-
+{%- endcomment -%}
 </div>
