@@ -17,9 +17,9 @@
           "type": "breadcrumb",
           "settings": {
             "spacing_top": 10,
-            "spacing_bottom": 10,
+            "spacing_bottom": 0,
             "color_scheme": "color__bg-body color__text",
-            "style_border": "border--b-width",
+            "style_border": "",
             "position": "right"
           }
         },
