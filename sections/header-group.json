@@ -8,16 +8,23 @@
         "f2232503-8685-46db-aaf1-b796c5ea14f9": {
           "type": "text",
           "settings": {
-            "content": "<p>Make announcements or share a promotion.<\/p>"
+            "content": "<p>FREE DELIVERY NETHERLAND FOR ORDERS OVER 50,-<\/p>"
+          }
+        },
+        "fa2fb51e-2a00-4875-8dfd-b402f0de9eac": {
+          "type": "text",
+          "settings": {
+            "content": "<p>WORLDWIDE DELIVERY<\/p>"
           }
         }
       },
       "block_order": [
-        "f2232503-8685-46db-aaf1-b796c5ea14f9"
+        "f2232503-8685-46db-aaf1-b796c5ea14f9",
+        "fa2fb51e-2a00-4875-8dfd-b402f0de9eac"
       ],
       "settings": {
-        "color_scheme": "color__bg-secondary color__secondary",
-        "layout_alignment": "left",
+        "color_scheme": "color__bg-primary color__primary",
+        "layout_alignment": "center",
         "visibility": "",
         "announcement_delay": 10,
         "show_account_link": true,
