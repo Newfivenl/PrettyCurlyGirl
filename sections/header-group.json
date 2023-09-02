@@ -46,9 +46,9 @@
       "settings": {
         "dropdown_links": "main-menu",
         "search_links": "",
-        "logo_light": "shopify:\/\/shop_images\/PRETTY_CURLY_GIRL_-_email_logo.png",
-        "logo_desktop_height": 25,
-        "logo_mobile_height": 20,
+        "logo_light": "shopify:\/\/shop_images\/text-logo.svg",
+        "logo_desktop_height": 50,
+        "logo_mobile_height": 40,
         "bar_color_scheme": "color__bg-body color__text",
         "bar_color_border": "color__border-divider-1",
         "bar_layout_desktop": "left-inline",
