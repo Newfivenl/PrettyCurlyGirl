@@ -21,7 +21,21 @@
         "template--19487943131466__3da21793-b9c5-452d-9e34-4d467e086fec-content-1": {
           "type": "content",
           "settings": {
-            "content": "<p>Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "content": "",
+            "content_text": "Lorem ipsum dolor"
+          }
+        },
+        "56fa93ce-0b45-47a7-9696-e824eed5ecd1": {
+          "type": "content",
+          "settings": {
+            "content": "",
+            "content_text": "Lorem ipsum dolor"
+          }
+        },
+        "68edb522-19a2-4089-9c64-3de0b39f701b": {
+          "type": "content",
+          "settings": {
+            "content": "",
             "content_text": "Lorem ipsum dolor"
           }
         },
@@ -40,6 +54,8 @@
       "block_order": [
         "template--19487943131466__3da21793-b9c5-452d-9e34-4d467e086fec-heading-1",
         "template--19487943131466__3da21793-b9c5-452d-9e34-4d467e086fec-content-1",
+        "56fa93ce-0b45-47a7-9696-e824eed5ecd1",
+        "68edb522-19a2-4089-9c64-3de0b39f701b",
         "template--19487943131466__3da21793-b9c5-452d-9e34-4d467e086fec-buttons-1"
       ],
       "settings": {
@@ -48,9 +64,9 @@
         "color_text": "",
         "color_border": "color__border-divider-1",
         "style_border": "border--b-width",
-        "content_width": 40,
+        "content_width": 50,
         "image_position": "right",
-        "layout_y_spacing": "min-h-[450px] md:min-h-[550px]",
+        "layout_y_spacing": "min-h-[350px] md:min-h-[450px]",
         "layout_y_alignment": "items-center",
         "layout_x_alignment": "justify-start",
         "visibility": ""
