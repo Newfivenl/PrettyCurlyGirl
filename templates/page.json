@@ -300,6 +300,51 @@
         "layout_gallery_size": "w-full md:w-1\/2",
         "visibility": ""
       }
+    },
+    "a142426f-670b-43f7-be30-9ec53f253c37": {
+      "type": "testimonials",
+      "blocks": {
+        "template--19487943131466__a142426f-670b-43f7-be30-9ec53f253c37-testimonial-1": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p>Include a valuable review or testimonial that shows customers how much people enjoy your products.<\/p>",
+            "title": "<p>Reviewer name<\/p>"
+          }
+        },
+        "template--19487943131466__a142426f-670b-43f7-be30-9ec53f253c37-testimonial-2": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p>Include a valuable review or testimonial that shows customers how much people enjoy your products.<\/p>",
+            "title": "<p>Reviewer name<\/p>"
+          }
+        },
+        "template--19487943131466__a142426f-670b-43f7-be30-9ec53f253c37-testimonial-3": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p>Include a valuable review or testimonial that shows customers how much people enjoy your products.<\/p>",
+            "title": "<p>Reviewer name<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19487943131466__a142426f-670b-43f7-be30-9ec53f253c37-testimonial-1",
+        "template--19487943131466__a142426f-670b-43f7-be30-9ec53f253c37-testimonial-2",
+        "template--19487943131466__a142426f-670b-43f7-be30-9ec53f253c37-testimonial-3"
+      ],
+      "settings": {
+        "heading": "Testimonials",
+        "content": "<p>Tell customers more about how loved your products are.<\/p>",
+        "button_label": "Button",
+        "button_url": "\/",
+        "spacing_top": 100,
+        "spacing_bottom": 100,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "color_button": "btn btn--secondary",
+        "style_border": "border--b-width",
+        "layout_x_alignment": "justify-between",
+        "visibility": ""
+      }
     }
   },
   "order": [
@@ -307,6 +352,7 @@
     "3da21793-b9c5-452d-9e34-4d467e086fec",
     "07329b17-e877-45fa-9b1c-4e7f005cee36",
     "b9e27170-9370-4895-b6b4-92aecb34469b",
-    "f0a00fa3-d659-4b29-90ce-3c38b61e76ba"
+    "f0a00fa3-d659-4b29-90ce-3c38b61e76ba",
+    "a142426f-670b-43f7-be30-9ec53f253c37"
   ]
 }
