@@ -23,7 +23,14 @@
     font-family: var(--type-font-body-family);
     @apply underline-offset-1 italic font-bold leading-relaxed tracking-normal;
   }
-
+  /* ======= */
+  /* button type */
+  .type__button {
+    font-family: var(--type-font-button-family);
+    font-style: var(--type-font-button-style);
+    font-weight: 500;
+    @apply underline-offset-2 tracking-normal;
+  }
   /* ======= */
   /* header type */
   .type__heading {

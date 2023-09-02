@@ -18,6 +18,9 @@
     {%- unless settings.type_font_heading.system? -%}
       <link rel="preload" as="font" href="{{ settings.type_font_heading | font_url }}" type="font/woff2" crossorigin>
     {%- endunless -%}
+    {%- unless settings.type_font_heading.system? -%}
+      <link rel="preload" as="font" href="{{ settings.type_font_button | font_url }}" type="font/woff2" crossorigin>
+    {%- endunless -%}
     {% render 'theme__structured-data' %}
     {% render 'theme__styles' %}
     {{ 'styles.css' | asset_url | stylesheet_tag | preload: true }}
