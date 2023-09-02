@@ -85,6 +85,7 @@
                         padding-bottom:{{ block.settings.spacing_bottom }}px;
                       "
                     >
+                      {%- unless block.settings.reviews == blank -%}{{ block.settings.reviews }}{%- endunless -%}
                       {%- unless block.settings.button_url == blank -%}
                         <a
                           href="{{ block.settings.button_url }}"
