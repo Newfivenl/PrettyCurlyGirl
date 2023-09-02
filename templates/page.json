@@ -21,7 +21,8 @@
         "template--19487943131466__3da21793-b9c5-452d-9e34-4d467e086fec-content-1": {
           "type": "content",
           "settings": {
-            "content": "<p>Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "content": "<p>Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "content_text": "Lorem ipsum dolor"
           }
         },
         "template--19487943131466__3da21793-b9c5-452d-9e34-4d467e086fec-buttons-1": {
@@ -31,7 +32,7 @@
             "button_label": "Button label",
             "button_url": "\/collections\/all",
             "secondary_button_color": "btn btn--neutral",
-            "secondary_button_label": "Button label",
+            "secondary_button_label": "",
             "secondary_button_url": "\/collections\/all"
           }
         }
