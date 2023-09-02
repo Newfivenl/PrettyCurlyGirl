@@ -190,6 +190,12 @@
       },
       {
         "type": "font_picker",
+        "id": "type_font_button",
+        "label": "Button Font",
+        "default": "helvetica_n7"
+      },
+      {
+        "type": "font_picker",
         "id": "type_font_nav",
         "label": "t:settings_schema.typography.settings.type_font_nav.label",
         "info": "t:settings_schema.typography.settings.type_font_nav.info",
