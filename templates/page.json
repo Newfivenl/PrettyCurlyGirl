@@ -43,6 +43,7 @@
           "type": "buttons",
           "settings": {
             "button_color": "btn",
+            "reviews": "20.000 klanten gingen je voor",
             "button_label": "Button label",
             "button_url": "\/collections\/all",
             "secondary_button_color": "btn btn--neutral",
