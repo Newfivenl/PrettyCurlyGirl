@@ -51,10 +51,11 @@ Pro tips:
                                             padding-bottom:{{ block.settings.spacing_bottom }}px;">
                     {{ block.settings.content }}
                     {% if block.settings.content_text != blank %}
-                      {% render 'component__icon'
-                       , icon: 'check',
-                       size: '14',
-                       class: '' %}
+                      {% render 'component__icon', 
+      icon: 'minus', 
+      size: '14', 
+      class: '' %}
+
                       {{ block.settings.content_text }}
                     {% endif %}
                   </div>
