@@ -222,12 +222,12 @@
         "template--18730720428336__ca2883b6-efd0-48c1-8f9e-520a6b9a64bc-1681420297b465165a-1": {
           "type": "content",
           "settings": {
-            "heading": "Cleanse",
-            "content": "<p>With sulphates to remove all build-up<\/p>",
-            "button_label": "shop shampoo",
-            "button_url": "\/",
+            "heading": "Step 1: Cleanse",
+            "content": "<p>Choose the cleanse product that your curls need <\/p>",
+            "button_label": "Shop Step 1",
+            "button_url": "shopify:\/\/collections\/step-1-cleanse",
             "full_block_link": true,
-            "image_featured": "shopify:\/\/shop_images\/lifestyle_foto.jpg",
+            "image_featured": "shopify:\/\/shop_images\/step_1_splash_1e8cc7ee-4733-4116-9d03-1a2d5e6b5b26.jpg",
             "enable_autoplay": true,
             "enable_mute_toggle": true,
             "enable_loop": true,
