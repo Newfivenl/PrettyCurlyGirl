@@ -38,8 +38,9 @@
         "template--19487943393610__7c450e25-a49b-4dbd-aa01-9b08189f1f76-slide-5": {
           "type": "slide",
           "settings": {
-            "heading": "Heading",
-            "url": ""
+            "image_featured": "shopify:\/\/shop_images\/100ml_en_250ml.jpg",
+            "heading": "Travel Sizes",
+            "url": "shopify:\/\/collections\/new-products"
           }
         }
       },
