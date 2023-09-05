@@ -502,10 +502,10 @@
         "template--19487943393610__92000899-ed1c-4fa2-9aa5-bf0a79e6952e-icon-1": {
           "type": "icon",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/free-shipping.svg",
+            "icon": "shopify:\/\/shop_images\/icon-heart.svg",
             "icon_height": "h-8",
-            "heading": "Free shipping",
-            "content": "<p>Free delivery on all orders over €96,50<\/p>",
+            "heading": "Woman Owned Company",
+            "content": "<p>Owner & Founder is a curly woman. <\/p>",
             "enable_padding": true,
             "color_scheme": "color__bg-secondary color__secondary",
             "color_border": "!color__border-transparent",
