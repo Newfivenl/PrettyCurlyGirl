@@ -274,12 +274,12 @@
         "89cfba7f-845a-4500-a933-99ff0a15076f": {
           "type": "content",
           "settings": {
-            "heading": "Cleanse",
-            "content": "<p>With sulphates to remove all build-up<\/p>",
-            "button_label": "shop shampoo",
+            "heading": "Step 3: Style",
+            "content": "<p>To create amazing, shiny and bouncy  curls that last for days.<\/p>",
+            "button_label": "shop step 3",
             "button_url": "\/",
             "full_block_link": true,
-            "image_featured": "shopify:\/\/shop_images\/lifestyle_foto.jpg",
+            "image_featured": "shopify:\/\/shop_images\/step_3_splash.jpg",
             "enable_autoplay": true,
             "enable_mute_toggle": true,
             "enable_loop": true,
@@ -300,12 +300,12 @@
         "b3051f08-8924-4f1c-b229-704a8d9449af": {
           "type": "content",
           "settings": {
-            "heading": "Cleanse",
-            "content": "<p>With sulphates to remove all build-up<\/p>",
-            "button_label": "shop shampoo",
+            "heading": "Healthy Curls",
+            "content": "<p>Healthy scalp and curls. Helps with hair growth <\/p>",
+            "button_label": "shop healthy",
             "button_url": "\/",
             "full_block_link": true,
-            "image_featured": "shopify:\/\/shop_images\/lifestyle_foto.jpg",
+            "image_featured": "shopify:\/\/shop_images\/Hair_Body_Oil_3x_233d9156-de06-4052-bd5e-0543118e6216.jpg",
             "enable_autoplay": true,
             "enable_mute_toggle": true,
             "enable_loop": true,
@@ -326,12 +326,12 @@
         "e4ad9d06-cbc8-467d-9f4f-d98f838264eb": {
           "type": "content",
           "settings": {
-            "heading": "BUNDLE SETS",
+            "heading": "Kids line",
             "content": "<p>Shop our bundle sets in 1 click<\/p>",
-            "button_label": "shop shampoo",
-            "button_url": "\/",
+            "button_label": "shop Kids line",
+            "button_url": "shopify:\/\/collections\/coming-soon",
             "full_block_link": true,
-            "image_background": "shopify:\/\/shop_images\/lifestyle_foto_2.jpg",
+            "image_background": "shopify:\/\/shop_images\/curly_star_kids_-_3_products_splash.jpg",
             "enable_autoplay": true,
             "enable_mute_toggle": true,
             "enable_loop": true,
@@ -348,6 +348,32 @@
             "layout_row_span": "row-span-1",
             "layout_col_span": "col-span-1 md: md:col-span-2"
           }
+        },
+        "ec996a86-3f30-4e3f-b9f0-819ef2f4e794": {
+          "type": "content",
+          "settings": {
+            "heading": "Save money Bundle Sets",
+            "content": "<p>Buy our bundles in 1 click and save money.<\/p>",
+            "button_label": "Shop Bundle Set",
+            "button_url": "shopify:\/\/collections\/bundle-sets",
+            "full_block_link": false,
+            "image_featured": "shopify:\/\/shop_images\/bundle_splash.jpg",
+            "enable_autoplay": true,
+            "enable_mute_toggle": true,
+            "enable_loop": true,
+            "spacing_top": 80,
+            "spacing_bottom": 0,
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "color__border-divider-1",
+            "color_text": "color__text",
+            "color_button": "btn btn--secondary",
+            "enable_gradient": false,
+            "layout_y_alignment": "items-end content-end",
+            "layout_x_alignment": "",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md: md:col-span-1"
+          }
         }
       },
       "block_order": [
@@ -355,7 +381,8 @@
         "e33e90ee-bfe8-46fe-ba76-e0d96da28d4b",
         "89cfba7f-845a-4500-a933-99ff0a15076f",
         "b3051f08-8924-4f1c-b229-704a8d9449af",
-        "e4ad9d06-cbc8-467d-9f4f-d98f838264eb"
+        "e4ad9d06-cbc8-467d-9f4f-d98f838264eb",
+        "ec996a86-3f30-4e3f-b9f0-819ef2f4e794"
       ],
       "settings": {
         "heading": "Shop by Category",
