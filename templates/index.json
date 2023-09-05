@@ -641,6 +641,7 @@
         },
         "template--19487943393610__bc9f2035-8b89-40bd-994b-549b8089bc3f-store-2": {
           "type": "store",
+          "disabled": true,
           "settings": {
             "store_name": "Store name",
             "store_details": "<p>Share store hours, address and direction details<\/p>",
@@ -655,7 +656,7 @@
       ],
       "settings": {
         "enable_dynamic_map": true,
-        "heading": "Store locator",
+        "heading": "BRAND STORE",
         "content": "<p>Showcase your retail location so customers can find you in-person<\/p>",
         "spacing_top": 100,
         "spacing_bottom": 100,
