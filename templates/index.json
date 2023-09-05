@@ -536,8 +536,8 @@
           "settings": {
             "icon": "shopify:\/\/shop_images\/discounts.svg",
             "icon_height": "h-8",
-            "heading": "Big discounts",
-            "content": "<p>Buy two or more items and get 10% off your order<\/p>",
+            "heading": "Discounts",
+            "content": "<p>Are you a pretty fan? We love you too. Buy two or more of the same items and get a 10% discount.<\/p>",
             "enable_padding": true,
             "color_scheme": "color__bg-secondary color__secondary",
             "color_border": "!color__border-transparent",
