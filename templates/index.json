@@ -248,12 +248,12 @@
         "e33e90ee-bfe8-46fe-ba76-e0d96da28d4b": {
           "type": "content",
           "settings": {
-            "heading": "Cleanse",
-            "content": "<p>With sulphates to remove all build-up<\/p>",
-            "button_label": "shop shampoo",
-            "button_url": "\/",
+            "heading": "Step 2: Condition",
+            "content": "<p>To detangle, to nourish, to moisturize and\/or ad protein. <\/p>",
+            "button_label": "shop step 2",
+            "button_url": "shopify:\/\/collections\/step-2-condition",
             "full_block_link": true,
-            "image_featured": "shopify:\/\/shop_images\/lifestyle_foto.jpg",
+            "image_featured": "shopify:\/\/shop_images\/step_2_splash.jpg",
             "enable_autoplay": true,
             "enable_mute_toggle": true,
             "enable_loop": true,
