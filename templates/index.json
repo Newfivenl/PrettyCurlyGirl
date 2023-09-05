@@ -447,7 +447,7 @@
       ],
       "settings": {
         "collection": "frontpage",
-        "products_count": 7,
+        "products_count": 10,
         "heading": "ALL PRODUCTS",
         "content": "",
         "button_label": "View all",
@@ -724,8 +724,8 @@
       ],
       "settings": {
         "enable_dynamic_map": true,
-        "heading": "BRAND STORE",
-        "content": "<p>Showcase your retail location so customers can find you in-person<\/p>",
+        "heading": "Store Locator",
+        "content": "<p>We are a Rotterdam Based company but have retailers world wide. <\/p>",
         "spacing_top": 100,
         "spacing_bottom": 100,
         "color_scheme": "color__bg-body color__text",
