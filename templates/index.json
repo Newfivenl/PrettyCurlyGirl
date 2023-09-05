@@ -38,9 +38,17 @@
         "template--19487943393610__7c450e25-a49b-4dbd-aa01-9b08189f1f76-slide-5": {
           "type": "slide",
           "settings": {
-            "image_featured": "shopify:\/\/shop_images\/100ml_en_250ml.jpg",
+            "image_featured": "shopify:\/\/shop_images\/strong_250_en_100.jpg",
             "heading": "Travel Sizes",
             "url": "shopify:\/\/collections\/new-products"
+          }
+        },
+        "e9433735-3896-4cbb-a4d1-19ad3f337d2c": {
+          "type": "slide",
+          "settings": {
+            "image_featured": "shopify:\/\/shop_images\/curly_star_kids_-_3_products_splash.jpg",
+            "heading": "Kids line",
+            "url": "shopify:\/\/collections\/coming-soon"
           }
         }
       },
@@ -49,7 +57,8 @@
         "template--19487943393610__7c450e25-a49b-4dbd-aa01-9b08189f1f76-slide-2",
         "template--19487943393610__7c450e25-a49b-4dbd-aa01-9b08189f1f76-slide-3",
         "template--19487943393610__7c450e25-a49b-4dbd-aa01-9b08189f1f76-slide-4",
-        "template--19487943393610__7c450e25-a49b-4dbd-aa01-9b08189f1f76-slide-5"
+        "template--19487943393610__7c450e25-a49b-4dbd-aa01-9b08189f1f76-slide-5",
+        "e9433735-3896-4cbb-a4d1-19ad3f337d2c"
       ],
       "settings": {
         "spacing_top": 0,
