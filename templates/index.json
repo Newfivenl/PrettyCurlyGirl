@@ -6,28 +6,32 @@
         "template--19487943393610__7c450e25-a49b-4dbd-aa01-9b08189f1f76-slide-1": {
           "type": "slide",
           "settings": {
-            "heading": "Heading",
-            "url": ""
+            "image_featured": "shopify:\/\/shop_images\/step_1_splash.jpg",
+            "heading": "Step 1",
+            "url": "shopify:\/\/collections\/step-1-cleanse"
           }
         },
         "template--19487943393610__7c450e25-a49b-4dbd-aa01-9b08189f1f76-slide-2": {
           "type": "slide",
           "settings": {
-            "heading": "Heading",
-            "url": ""
+            "image_featured": "shopify:\/\/shop_images\/step_2_splash.jpg",
+            "heading": "Step 2",
+            "url": "shopify:\/\/collections\/step-2-condition"
           }
         },
         "template--19487943393610__7c450e25-a49b-4dbd-aa01-9b08189f1f76-slide-3": {
           "type": "slide",
           "settings": {
-            "heading": "Heading",
-            "url": ""
+            "image_featured": "shopify:\/\/shop_images\/step_3_splash.jpg",
+            "heading": "Step 3",
+            "url": "shopify:\/\/collections\/step-3-style"
           }
         },
         "template--19487943393610__7c450e25-a49b-4dbd-aa01-9b08189f1f76-slide-4": {
           "type": "slide",
           "settings": {
-            "heading": "Heading",
+            "image_featured": "shopify:\/\/shop_images\/Hair_Body_Oil_3x_233d9156-de06-4052-bd5e-0543118e6216.jpg",
+            "heading": "Healthy Curls",
             "url": ""
           }
         },
