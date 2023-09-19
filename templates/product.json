@@ -95,11 +95,11 @@
             "enable_open": false
           }
         },
-        "e330660c-f160-4592-b934-2da2024f8ef8": {
+        "fd18c62c-f5e0-4e28-855f-29aa1676eea3": {
           "type": "accordion",
           "settings": {
-            "title": "Ingredients",
-            "content": "<p>Include more information about your product details.<\/p>",
+            "title": "How to use",
+            "content": "{{ product.metafields.custom.how_to_use | metafield_tag }}",
             "icon": "",
             "color_scheme": "color__bg-body color__text",
             "style_border": "border--b-width",
@@ -107,11 +107,11 @@
             "enable_open": false
           }
         },
-        "fd18c62c-f5e0-4e28-855f-29aa1676eea3": {
+        "e330660c-f160-4592-b934-2da2024f8ef8": {
           "type": "accordion",
           "settings": {
-            "title": "How to use",
-            "content": "<p>Include more information about your product details.<\/p>",
+            "title": "Ingredients",
+            "content": "<p>Include more information about your product details.<\/p>{{ product.metafields.custom.ingredients_text | metafield_tag }}",
             "icon": "",
             "color_scheme": "color__bg-body color__text",
             "style_border": "border--b-width",
@@ -183,8 +183,8 @@
         "9f1692ea-ccb9-4e4c-9c83-7a6ae53392aa",
         "b78b560b-e1c2-428d-ad73-fb5f8aac6d53",
         "123fd04c-91f3-4248-a65a-614e2f64fdeb",
-        "e330660c-f160-4592-b934-2da2024f8ef8",
         "fd18c62c-f5e0-4e28-855f-29aa1676eea3",
+        "e330660c-f160-4592-b934-2da2024f8ef8",
         "c18a6be5-7074-4b70-a8e1-d4f845a9e665",
         "76f2c051-662d-4c42-b036-d6658cf9616f",
         "848f5aea-f7ad-4974-a5fb-020776e3e523",
