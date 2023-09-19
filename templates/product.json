@@ -111,7 +111,7 @@
           "type": "accordion",
           "settings": {
             "title": "Ingredients",
-            "content": "<p>Include more information about your product details.<\/p>{{ product.metafields.custom.ingredients_text | metafield_tag }}",
+            "content": "{{ product.metafields.custom.ingredients_text | metafield_tag }}",
             "icon": "",
             "color_scheme": "color__bg-body color__text",
             "style_border": "border--b-width",
