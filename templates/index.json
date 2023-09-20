@@ -50,6 +50,14 @@
             "heading": "Kids line",
             "url": "shopify:\/\/collections\/coming-soon"
           }
+        },
+        "d78ab6ae-ba92-4e8f-9fcf-e69760d1754c": {
+          "type": "slide",
+          "settings": {
+            "image_featured": "shopify:\/\/shop_images\/AF4A6066.jpg",
+            "heading": "All Products",
+            "url": ""
+          }
         }
       },
       "block_order": [
@@ -58,7 +66,8 @@
         "template--19487943393610__7c450e25-a49b-4dbd-aa01-9b08189f1f76-slide-3",
         "template--19487943393610__7c450e25-a49b-4dbd-aa01-9b08189f1f76-slide-4",
         "template--19487943393610__7c450e25-a49b-4dbd-aa01-9b08189f1f76-slide-5",
-        "e9433735-3896-4cbb-a4d1-19ad3f337d2c"
+        "e9433735-3896-4cbb-a4d1-19ad3f337d2c",
+        "d78ab6ae-ba92-4e8f-9fcf-e69760d1754c"
       ],
       "settings": {
         "spacing_top": 0,
@@ -331,7 +340,7 @@
             "button_label": "shop Kids line",
             "button_url": "shopify:\/\/collections\/coming-soon",
             "full_block_link": true,
-            "image_background": "shopify:\/\/shop_images\/curly_star_kids_-_3_products_splash.jpg",
+            "image_background": "shopify:\/\/shop_images\/AF4A6062.jpg",
             "enable_autoplay": true,
             "enable_mute_toggle": true,
             "enable_loop": true,
@@ -357,7 +366,7 @@
             "button_label": "Shop Bundle Set",
             "button_url": "shopify:\/\/collections\/bundle-sets",
             "full_block_link": false,
-            "image_featured": "shopify:\/\/shop_images\/bundle_splash.jpg",
+            "image_featured": "shopify:\/\/shop_images\/AF4A6048.jpg",
             "enable_autoplay": true,
             "enable_mute_toggle": true,
             "enable_loop": true,
@@ -383,7 +392,7 @@
             "button_label": "Shop 100ml Sizes",
             "button_url": "shopify:\/\/collections\/new-products",
             "full_block_link": false,
-            "image_featured": "shopify:\/\/shop_images\/100ml_vierkant.jpg",
+            "image_featured": "shopify:\/\/shop_images\/AF4A6054.jpg",
             "enable_autoplay": true,
             "enable_mute_toggle": true,
             "enable_loop": true,
