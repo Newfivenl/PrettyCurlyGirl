@@ -192,13 +192,13 @@
     "357dcbf9-b9d4-410a-ad14-3f7bffb0d3dc": {
       "type": "text",
       "settings": {
-        "heading": "Rich text",
-        "content": "<p>Describe a product, make announcements, or inform customers about a promotion.<\/p>",
+        "heading": "Ready to shop?",
+        "content": "<p>Et harum quidem rerum facilis est et expedita distinctio<\/p>",
         "button_label": "Button",
         "button_url": "\/",
         "spacing_top": 100,
         "spacing_bottom": 100,
-        "color_scheme": "color__bg-secondary color__secondary",
+        "color_scheme": "color__bg-tertiary color__tertiary",
         "color_border": "color__border-divider-1",
         "color_button": "btn btn--secondary",
         "style_border": "border--b-width",
