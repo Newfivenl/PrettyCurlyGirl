@@ -61,11 +61,61 @@
         "layout_x_alignment": "",
         "visibility": ""
       }
+    },
+    "ea3454e1-e6f8-4141-af62-5e44262601b1": {
+      "type": "banner",
+      "blocks": {
+        "template--19733545910602__ea3454e1-e6f8-4141-af62-5e44262601b1-heading-1": {
+          "type": "heading",
+          "settings": {
+            "content": "Heading"
+          }
+        },
+        "template--19733545910602__ea3454e1-e6f8-4141-af62-5e44262601b1-content-1": {
+          "type": "content",
+          "settings": {
+            "content": "<p>Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--19733545910602__ea3454e1-e6f8-4141-af62-5e44262601b1-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_color": "btn",
+            "button_label": "Button label",
+            "button_url": "\/collections\/all",
+            "secondary_button_color": "btn btn--neutral",
+            "secondary_button_label": "Button label",
+            "secondary_button_url": "\/collections\/all"
+          }
+        }
+      },
+      "block_order": [
+        "template--19733545910602__ea3454e1-e6f8-4141-af62-5e44262601b1-heading-1",
+        "template--19733545910602__ea3454e1-e6f8-4141-af62-5e44262601b1-content-1",
+        "template--19733545910602__ea3454e1-e6f8-4141-af62-5e44262601b1-buttons-1"
+      ],
+      "settings": {
+        "image_background_desktop": "shopify:\/\/shop_images\/krullen.webp",
+        "image_background_mobile": "shopify:\/\/shop_images\/krullen.webp",
+        "show_entire_image": false,
+        "enable_lazy_loading": false,
+        "show_video_background_mobile": true,
+        "color_scheme": "color__bg-overlay-1 color__text",
+        "color_text": "color__light",
+        "color_border": "color__border-divider-1",
+        "enable_gradient": false,
+        "style_border": "",
+        "layout_y_spacing": "min-h-[250px] md:min-h-[350px]",
+        "layout_y_alignment": "items-center",
+        "layout_x_alignment": "justify-start",
+        "visibility": ""
+      }
     }
   },
   "order": [
     "main",
     "3da21793-b9c5-452d-9e34-4d467e086fec",
-    "a8042356-2b88-4308-948b-91cbb4d20c26"
+    "a8042356-2b88-4308-948b-91cbb4d20c26",
+    "ea3454e1-e6f8-4141-af62-5e44262601b1"
   ]
 }
