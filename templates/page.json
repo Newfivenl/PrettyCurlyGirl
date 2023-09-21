@@ -15,50 +15,20 @@
         "template--19487943131466__3da21793-b9c5-452d-9e34-4d467e086fec-heading-1": {
           "type": "heading",
           "settings": {
-            "content": "You will love our products"
+            "content": "Our Story"
           }
         },
         "template--19487943131466__3da21793-b9c5-452d-9e34-4d467e086fec-content-1": {
           "type": "content",
           "settings": {
-            "content": "",
-            "content_text": "Pretty Curly Girl Products are developed by me and used by me."
-          }
-        },
-        "56fa93ce-0b45-47a7-9696-e824eed5ecd1": {
-          "type": "content",
-          "settings": {
-            "content": "",
-            "content_text": "High Quality Ingredients"
-          }
-        },
-        "68edb522-19a2-4089-9c64-3de0b39f701b": {
-          "type": "content",
-          "settings": {
-            "content": "",
-            "content_text": "Customer Service is handled by me"
-          }
-        },
-        "template--19487943131466__3da21793-b9c5-452d-9e34-4d467e086fec-buttons-1": {
-          "type": "buttons",
-          "settings": {
-            "button_color": "btn",
-            "reviews": "",
-            "delivery": "Gratis verzending vanaf €50,-",
-            "button_label": "Shop all our products",
-            "button_url": "\/collections\/all",
-            "secondary_button_color": "btn btn--neutral",
-            "secondary_button_label": "",
-            "secondary_button_url": "\/collections\/all"
+            "content": "<p>The story behind Pretty Curly Girl<\/p>",
+            "content_text": ""
           }
         }
       },
       "block_order": [
         "template--19487943131466__3da21793-b9c5-452d-9e34-4d467e086fec-heading-1",
-        "template--19487943131466__3da21793-b9c5-452d-9e34-4d467e086fec-content-1",
-        "56fa93ce-0b45-47a7-9696-e824eed5ecd1",
-        "68edb522-19a2-4089-9c64-3de0b39f701b",
-        "template--19487943131466__3da21793-b9c5-452d-9e34-4d467e086fec-buttons-1"
+        "template--19487943131466__3da21793-b9c5-452d-9e34-4d467e086fec-content-1"
       ],
       "settings": {
         "image_background_desktop": "shopify:\/\/shop_images\/image0_4.jpg",
