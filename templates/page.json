@@ -24,11 +24,19 @@
             "content": "<p>The story behind Pretty Curly Girl<\/p>",
             "content_text": ""
           }
+        },
+        "f9aa3368-8c08-47fc-a0ae-63a899e0bfdd": {
+          "type": "content",
+          "settings": {
+            "content": "<p>The person behind the company: Hanan - owner and founder -  born and raised in the Netherlands with Moroccan roots.<\/p>",
+            "content_text": ""
+          }
         }
       },
       "block_order": [
         "template--19487943131466__3da21793-b9c5-452d-9e34-4d467e086fec-heading-1",
-        "template--19487943131466__3da21793-b9c5-452d-9e34-4d467e086fec-content-1"
+        "template--19487943131466__3da21793-b9c5-452d-9e34-4d467e086fec-content-1",
+        "f9aa3368-8c08-47fc-a0ae-63a899e0bfdd"
       ],
       "settings": {
         "image_background_desktop": "shopify:\/\/shop_images\/IMG_6133-birthday.jpg",
