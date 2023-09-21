@@ -31,7 +31,7 @@
         "template--19487943131466__3da21793-b9c5-452d-9e34-4d467e086fec-content-1"
       ],
       "settings": {
-        "image_background_desktop": "shopify:\/\/shop_images\/image0_4.jpg",
+        "image_background_desktop": "shopify:\/\/shop_images\/IMG_6133-birthday.jpg",
         "enable_lazy_loading": false,
         "color_scheme": "color__bg-tertiary color__tertiary",
         "color_text": "",
@@ -39,7 +39,7 @@
         "style_border": "border--b-width",
         "content_width": 50,
         "image_position": "right",
-        "layout_y_spacing": "min-h-[350px] md:min-h-[450px]",
+        "layout_y_spacing": "min-h-[250px] md:min-h-[350px]",
         "layout_y_alignment": "items-center",
         "layout_x_alignment": "justify-start",
         "visibility": ""
