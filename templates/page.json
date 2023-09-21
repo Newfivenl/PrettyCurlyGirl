@@ -171,6 +171,9 @@
         "template--19487943131466__80852430-9e0d-4d82-8146-6ad71d5a35a3-heading-1",
         "template--19487943131466__80852430-9e0d-4d82-8146-6ad71d5a35a3-content-1"
       ],
+      "custom_css": [
+        "h1 {font-size: 24px;}"
+      ],
       "settings": {
         "enable_lazy_loading": false,
         "color_scheme": "color__bg-overlay-1 color__text",
@@ -179,7 +182,7 @@
         "style_border": "border--b-width",
         "content_width": 60,
         "image_position": "right",
-        "layout_y_spacing": "min-h-[450px] md:min-h-[550px]",
+        "layout_y_spacing": "min-h-[650px] max-h-[85vh] md:min-h-[80vh]",
         "layout_y_alignment": "items-center",
         "layout_x_alignment": "justify-start",
         "visibility": ""
