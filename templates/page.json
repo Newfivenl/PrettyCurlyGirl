@@ -72,6 +72,46 @@
         "visibility": ""
       }
     },
+    "27f95a90-6348-40fd-9e48-faf58cd400ea": {
+      "type": "banner-alternative",
+      "blocks": {
+        "template--19487943131466__27f95a90-6348-40fd-9e48-faf58cd400ea-heading-1": {
+          "type": "heading",
+          "settings": {
+            "content": "Growing up in the 80's"
+          }
+        },
+        "template--19487943131466__27f95a90-6348-40fd-9e48-faf58cd400ea-content-1": {
+          "type": "content",
+          "settings": {
+            "content": "<p>Having curls has always been challenging to deal with. As a child my mother did not know how to handle my curls. It was a painful experience when she was brushing my hair.<br\/><br\/>I remember that as a child I used to cry if I it was time to do my hair. Detangle products was not something that we had. When I was older it was hard for me to find the right products. Most curly products in the '90 were too heavy for my hair. Having bad hair days became just normal and I dreamed of having straight hair so many times.  <\/p>",
+            "content_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19487943131466__27f95a90-6348-40fd-9e48-faf58cd400ea-heading-1",
+        "template--19487943131466__27f95a90-6348-40fd-9e48-faf58cd400ea-content-1"
+      ],
+      "custom_css": [
+        "h1 {font-size: 24px;}",
+        "section {margin: 80px auto;}"
+      ],
+      "settings": {
+        "image_background_desktop": "shopify:\/\/shop_images\/IMG_6133-birthday.jpg",
+        "enable_lazy_loading": false,
+        "color_scheme": "color__bg-body color__text",
+        "color_text": "",
+        "color_border": "color__border-divider-1",
+        "style_border": "border--b-width",
+        "content_width": 60,
+        "image_position": "right",
+        "layout_y_spacing": "min-h-[450px] md:min-h-[550px]",
+        "layout_y_alignment": "items-center",
+        "layout_x_alignment": "justify-start",
+        "visibility": ""
+      }
+    },
     "5829fd90-182e-49c3-b917-d074ac2d0ecc": {
       "type": "banner",
       "blocks": {
@@ -108,45 +148,6 @@
         "layout_y_spacing": "min-h-[450px] md:min-h-[550px]",
         "layout_y_alignment": "items-center",
         "layout_x_alignment": "justify-center text-center",
-        "visibility": ""
-      }
-    },
-    "27f95a90-6348-40fd-9e48-faf58cd400ea": {
-      "type": "banner-alternative",
-      "blocks": {
-        "template--19487943131466__27f95a90-6348-40fd-9e48-faf58cd400ea-heading-1": {
-          "type": "heading",
-          "settings": {
-            "content": "Growing up in the 80's"
-          }
-        },
-        "template--19487943131466__27f95a90-6348-40fd-9e48-faf58cd400ea-content-1": {
-          "type": "content",
-          "settings": {
-            "content": "<p>Having curls has always been challenging to deal with. As a child my mother did not know how to handle my curls. It was a painful experience when she was brushing my hair.<br\/><br\/>I remember that as a child I used to cry if I it was time to do my hair. Detangle products was not something that we had. When I was older it was hard for me to find the right products. Most curly products in the '90 were too heavy for my hair. Having bad hair days became just normal and I dreamed of having straight hair so many times.  <\/p>",
-            "content_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--19487943131466__27f95a90-6348-40fd-9e48-faf58cd400ea-heading-1",
-        "template--19487943131466__27f95a90-6348-40fd-9e48-faf58cd400ea-content-1"
-      ],
-      "custom_css": [
-        "h1 {font-size: 24px;}"
-      ],
-      "settings": {
-        "image_background_desktop": "shopify:\/\/shop_images\/IMG_6133-birthday.jpg",
-        "enable_lazy_loading": false,
-        "color_scheme": "color__bg-body color__text",
-        "color_text": "",
-        "color_border": "color__border-divider-1",
-        "style_border": "border--b-width",
-        "content_width": 60,
-        "image_position": "right",
-        "layout_y_spacing": "min-h-[450px] md:min-h-[550px]",
-        "layout_y_alignment": "items-center",
-        "layout_x_alignment": "justify-start",
         "visibility": ""
       }
     },
@@ -211,8 +212,8 @@
     "main",
     "3da21793-b9c5-452d-9e34-4d467e086fec",
     "07329b17-e877-45fa-9b1c-4e7f005cee36",
-    "5829fd90-182e-49c3-b917-d074ac2d0ecc",
     "27f95a90-6348-40fd-9e48-faf58cd400ea",
+    "5829fd90-182e-49c3-b917-d074ac2d0ecc",
     "80852430-9e0d-4d82-8146-6ad71d5a35a3",
     "357dcbf9-b9d4-410a-ad14-3f7bffb0d3dc"
   ]
