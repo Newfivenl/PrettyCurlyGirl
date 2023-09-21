@@ -132,6 +132,45 @@
         "template--19487943131466__27f95a90-6348-40fd-9e48-faf58cd400ea-heading-1",
         "template--19487943131466__27f95a90-6348-40fd-9e48-faf58cd400ea-content-1"
       ],
+      "custom_css": [
+        "h1 {font-size: 24px;}"
+      ],
+      "settings": {
+        "image_background_desktop": "shopify:\/\/shop_images\/IMG_6133-birthday.jpg",
+        "enable_lazy_loading": false,
+        "color_scheme": "color__bg-body color__text",
+        "color_text": "",
+        "color_border": "color__border-divider-1",
+        "style_border": "border--b-width",
+        "content_width": 60,
+        "image_position": "right",
+        "layout_y_spacing": "min-h-[450px] md:min-h-[550px]",
+        "layout_y_alignment": "items-center",
+        "layout_x_alignment": "justify-start",
+        "visibility": ""
+      }
+    },
+    "80852430-9e0d-4d82-8146-6ad71d5a35a3": {
+      "type": "banner-alternative",
+      "blocks": {
+        "template--19487943131466__80852430-9e0d-4d82-8146-6ad71d5a35a3-heading-1": {
+          "type": "heading",
+          "settings": {
+            "content": "CG Method"
+          }
+        },
+        "template--19487943131466__80852430-9e0d-4d82-8146-6ad71d5a35a3-content-1": {
+          "type": "content",
+          "settings": {
+            "content": "<p>When I was introduced to the CG Method 3 years ago a curly world full of great hair days finally was there. I loved the curly pages on social media, learning from other curly girls. <br\/><br\/>New experiences like making flaxseed gel and using lubricant as an anti-frizz seemed so crazy but I did it and it worked well for my hair. Reading the ingredients though was challenging. I did not always understand if the product was CG proof or not.  <\/p><p>When I became the mother to a curly daughter I used to whisper: <em>\"always love your curls my little curly girl\", \" I hope you never cry if I do your hair\",<\/em> \"<em>please take good care of your curls<\/em>\"  and all of a sudden it hits me, develop your own brand. Making sure that the \"challenges\" that I had were eliminated:<\/p><ol><li>Create labels that are so clear that immediately it is visible if the product is CG and if it contains protein. So the product is only bought if the ingredients work for your hair.<\/li><li>Create a product with a high concentration of active ingredients (and absolutely not watery products).<\/li><li>Create a Flaxseed gel that can be kept for at least 12 months in the bathroom and create a lubricant inspired serum so that curly girls are not embarrassed to buy it.<\/li><\/ol>",
+            "content_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19487943131466__80852430-9e0d-4d82-8146-6ad71d5a35a3-heading-1",
+        "template--19487943131466__80852430-9e0d-4d82-8146-6ad71d5a35a3-content-1"
+      ],
       "settings": {
         "enable_lazy_loading": false,
         "color_scheme": "color__bg-overlay-1 color__text",
@@ -152,6 +191,7 @@
     "3da21793-b9c5-452d-9e34-4d467e086fec",
     "07329b17-e877-45fa-9b1c-4e7f005cee36",
     "303c4620-1c47-4215-a505-05dbe0a1f7c5",
-    "27f95a90-6348-40fd-9e48-faf58cd400ea"
+    "27f95a90-6348-40fd-9e48-faf58cd400ea",
+    "80852430-9e0d-4d82-8146-6ad71d5a35a3"
   ]
 }
