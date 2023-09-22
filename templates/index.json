@@ -704,47 +704,6 @@
         "visibility": ""
       }
     },
-    "bc9f2035-8b89-40bd-994b-549b8089bc3f": {
-      "type": "store-locator",
-      "blocks": {
-        "template--19487943393610__bc9f2035-8b89-40bd-994b-549b8089bc3f-store-1": {
-          "type": "store",
-          "settings": {
-            "store_name": "Store name",
-            "store_details": "<p>Share store hours, address and direction details<\/p>",
-            "latitude": "43.651070",
-            "longitude": "-79.347015"
-          }
-        },
-        "template--19487943393610__bc9f2035-8b89-40bd-994b-549b8089bc3f-store-2": {
-          "type": "store",
-          "disabled": true,
-          "settings": {
-            "store_name": "Store name",
-            "store_details": "<p>Share store hours, address and direction details<\/p>",
-            "latitude": "44.651070",
-            "longitude": "-79.347015"
-          }
-        }
-      },
-      "block_order": [
-        "template--19487943393610__bc9f2035-8b89-40bd-994b-549b8089bc3f-store-1",
-        "template--19487943393610__bc9f2035-8b89-40bd-994b-549b8089bc3f-store-2"
-      ],
-      "settings": {
-        "enable_dynamic_map": true,
-        "heading": "Store Locator",
-        "content": "<p>We are a Dutch Company with our Headquarters & Brandstore in Rotterdam city. We do have retailers world wide so you can also shop localy. <\/p>",
-        "spacing_top": 100,
-        "spacing_bottom": 100,
-        "color_scheme": "color__bg-body color__text",
-        "color_border": "color__border-divider-1",
-        "style_border": "border--b-width",
-        "map_style": "silver",
-        "layout_x_alignment": "justify-between",
-        "visibility": ""
-      }
-    },
     "d7a4adc5-757d-44b6-9dd3-e5cce4fb9ce2": {
       "type": "content-slider",
       "blocks": {
@@ -859,10 +818,18 @@
             "layout_mobile_width": 12,
             "layout_x_alignment": "text-center justify-center flex-col items-center"
           }
+        },
+        "3264ce42-4343-4187-a6a5-a20cf7e18adc": {
+          "type": "image",
+          "settings": {
+            "layout_desktop_width": 6,
+            "layout_mobile_width": 12
+          }
         }
       },
       "block_order": [
-        "template--19487943393610__cf475604-fd24-4d65-8a42-9ed8e5ab6541-newsletter-1"
+        "template--19487943393610__cf475604-fd24-4d65-8a42-9ed8e5ab6541-newsletter-1",
+        "3264ce42-4343-4187-a6a5-a20cf7e18adc"
       ],
       "settings": {
         "spacing_top": 100,
@@ -885,7 +852,6 @@
     "81ade9ad-d8df-41e4-8a5d-bda5d0e43d9a",
     "92000899-ed1c-4fa2-9aa5-bf0a79e6952e",
     "f3fd7d15-8af4-4a33-810d-e1dbd27ed532",
-    "bc9f2035-8b89-40bd-994b-549b8089bc3f",
     "d7a4adc5-757d-44b6-9dd3-e5cce4fb9ce2",
     "cf475604-fd24-4d65-8a42-9ed8e5ab6541"
   ]
