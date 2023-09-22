@@ -103,7 +103,7 @@
         "color_scheme": "color__bg-body color__text",
         "color_text": "",
         "color_border": "color__border-divider-1",
-        "style_border": "border--b-width",
+        "style_border": "",
         "content_width": 60,
         "image_position": "right",
         "layout_y_spacing": "min-h-[450px] md:min-h-[550px]",
