@@ -1,0 +1,220 @@
+{
+  "sections": {
+    "main": {
+      "type": "page__main",
+      "disabled": true,
+      "settings": {
+        "spacing_top": 60,
+        "spacing_bottom": 60,
+        "color_scheme": "color__bg-body color__text"
+      }
+    },
+    "3da21793-b9c5-452d-9e34-4d467e086fec": {
+      "type": "banner-alternative",
+      "blocks": {
+        "template--19487943131466__3da21793-b9c5-452d-9e34-4d467e086fec-heading-1": {
+          "type": "heading",
+          "settings": {
+            "content": "Our Story"
+          }
+        },
+        "template--19487943131466__3da21793-b9c5-452d-9e34-4d467e086fec-content-1": {
+          "type": "content",
+          "settings": {
+            "content": "<p>The story behind Pretty Curly Girl<\/p>",
+            "content_text": ""
+          }
+        },
+        "f9aa3368-8c08-47fc-a0ae-63a899e0bfdd": {
+          "type": "content",
+          "settings": {
+            "content": "<p>The person behind the company: Hanan - owner and founder -  born and raised in the Netherlands with Moroccan roots.<\/p>",
+            "content_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19487943131466__3da21793-b9c5-452d-9e34-4d467e086fec-heading-1",
+        "template--19487943131466__3da21793-b9c5-452d-9e34-4d467e086fec-content-1",
+        "f9aa3368-8c08-47fc-a0ae-63a899e0bfdd"
+      ],
+      "settings": {
+        "image_background_desktop": "shopify:\/\/shop_images\/IMG_6133-birthday.jpg",
+        "enable_lazy_loading": false,
+        "color_scheme": "color__bg-tertiary color__tertiary",
+        "color_text": "",
+        "color_border": "color__border-divider-1",
+        "style_border": "border--b-width",
+        "content_width": 50,
+        "image_position": "right",
+        "layout_y_spacing": "min-h-[450px] md:min-h-[550px]",
+        "layout_y_alignment": "items-center",
+        "layout_x_alignment": "justify-start",
+        "visibility": ""
+      }
+    },
+    "07329b17-e877-45fa-9b1c-4e7f005cee36": {
+      "type": "icon-grid",
+      "settings": {
+        "heading": "Pretty Curly Girl Products was created with the above in mind and it took a very long time to have it perfect before it was finally launched November 2019:",
+        "content": "<p><strong>High quality ingredients, made in the Netherlands, CG approved, Vegan Friendly, Cruelty Free and so much more.<\/strong> After the launch it was noticed very soon and talked about by so many curly girls <strong>and in a short time it has become a favorite brand in the curly community and it is the fastest growing curly brand available in more than 25 countries in just over a year. <\/strong><\/p>",
+        "button_label": "",
+        "button_url": "",
+        "spacing_top": 100,
+        "spacing_bottom": 100,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "color_button": "btn btn--secondary",
+        "style_border": "border--b-width",
+        "row_size_desktop": "md:grid-cols-3",
+        "row_size_mobile": "grid-cols-1",
+        "layout_x_alignment": "text-center justify-center flex-col items-center",
+        "visibility": ""
+      }
+    },
+    "27f95a90-6348-40fd-9e48-faf58cd400ea": {
+      "type": "banner-alternative",
+      "blocks": {
+        "template--19487943131466__27f95a90-6348-40fd-9e48-faf58cd400ea-heading-1": {
+          "type": "heading",
+          "settings": {
+            "content": "Growing up in the 80's"
+          }
+        },
+        "template--19487943131466__27f95a90-6348-40fd-9e48-faf58cd400ea-content-1": {
+          "type": "content",
+          "settings": {
+            "content": "<p>Having curls has always been challenging to deal with. As a child my mother did not know how to handle my curls. It was a painful experience when she was brushing my hair.<br\/><br\/>I remember that as a child I used to cry if I it was time to do my hair. Detangle products was not something that we had. When I was older it was hard for me to find the right products. Most curly products in the '90 were too heavy for my hair. Having bad hair days became just normal and I dreamed of having straight hair so many times.  <\/p>",
+            "content_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19487943131466__27f95a90-6348-40fd-9e48-faf58cd400ea-heading-1",
+        "template--19487943131466__27f95a90-6348-40fd-9e48-faf58cd400ea-content-1"
+      ],
+      "custom_css": [
+        "h1 {font-size: 24px;}",
+        "section {margin: 80px auto;}"
+      ],
+      "settings": {
+        "image_background_desktop": "shopify:\/\/shop_images\/IMG_6133-birthday.jpg",
+        "enable_lazy_loading": false,
+        "color_scheme": "color__bg-body color__text",
+        "color_text": "",
+        "color_border": "color__border-divider-1",
+        "style_border": "",
+        "content_width": 60,
+        "image_position": "right",
+        "layout_y_spacing": "min-h-[450px] md:min-h-[550px]",
+        "layout_y_alignment": "items-center",
+        "layout_x_alignment": "justify-start",
+        "visibility": ""
+      }
+    },
+    "5829fd90-182e-49c3-b917-d074ac2d0ecc": {
+      "type": "banner",
+      "blocks": {
+        "template--19487943131466__5829fd90-182e-49c3-b917-d074ac2d0ecc-heading-1": {
+          "type": "heading",
+          "settings": {
+            "content": "Background"
+          }
+        },
+        "template--19487943131466__5829fd90-182e-49c3-b917-d074ac2d0ecc-content-1": {
+          "type": "content",
+          "settings": {
+            "content": "<p>I studied law and became a lawyer. After some years as a lawyer I decided it was time for a change and I applied for a HR position. I worked for almost 9 years for an Oil & Gas company as a HR Business Partner with employment law as my expertise. <\/p><p><br\/>I have always had my own company next to my fulltime job, as I loved to be an entrepeneur and to create new things. I Started in 2009 with selling the dermaroller online which was a huge succes. Then in 2012 I developed Pretty Skin Cosmetics. It was also a succes, but I never was able to say goodbye to my fulltime day HR & Legal job. Until after having my daughter in 2018. I decided to developed Pretty Curly Girl Products. <br\/>I followed my passion, quitte my job and now I run my own International Curly Company, with more than 100 retailers worldwide. <strong>Follow your dreams my pretty curly girls. <\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19487943131466__5829fd90-182e-49c3-b917-d074ac2d0ecc-heading-1",
+        "template--19487943131466__5829fd90-182e-49c3-b917-d074ac2d0ecc-content-1"
+      ],
+      "custom_css": [
+        "h1 {font-size: 24px;}"
+      ],
+      "settings": {
+        "image_background_desktop": "shopify:\/\/shop_images\/background-banner.jpg",
+        "show_entire_image": false,
+        "enable_lazy_loading": false,
+        "show_video_background_mobile": true,
+        "color_scheme": "color__bg-overlay-1 color__text",
+        "color_text": "color__light",
+        "color_border": "color__border-divider-1",
+        "enable_gradient": false,
+        "style_border": "border--b-width",
+        "layout_y_spacing": "min-h-[450px] md:min-h-[550px]",
+        "layout_y_alignment": "items-center",
+        "layout_x_alignment": "justify-center text-center",
+        "visibility": ""
+      }
+    },
+    "80852430-9e0d-4d82-8146-6ad71d5a35a3": {
+      "type": "banner-alternative",
+      "blocks": {
+        "template--19487943131466__80852430-9e0d-4d82-8146-6ad71d5a35a3-heading-1": {
+          "type": "heading",
+          "settings": {
+            "content": "CG Method"
+          }
+        },
+        "template--19487943131466__80852430-9e0d-4d82-8146-6ad71d5a35a3-content-1": {
+          "type": "content",
+          "settings": {
+            "content": "<p>When I was introduced to the CG Method 3 years ago a curly world full of great hair days finally was there. I loved the curly pages on social media, learning from other curly girls. <br\/><br\/>New experiences like making flaxseed gel and using lubricant as an anti-frizz seemed so crazy but I did it and it worked well for my hair. Reading the ingredients though was challenging. I did not always understand if the product was CG proof or not.  <\/p><p>When I became the mother to a curly daughter I used to whisper: <em>\"always love your curls my little curly girl\", \" I hope you never cry if I do your hair\",<\/em> \"<em>please take good care of your curls<\/em>\"  and all of a sudden it hits me, develop your own brand. Making sure that the \"challenges\" that I had were eliminated:<br\/><br\/><br\/><\/p><ol><li>Create labels that are so clear that immediately it is visible if the product is CG and if it contains protein. So the product is only bought if the ingredients work for your hair.<\/li><li>Create a product with a high concentration of active ingredients (and absolutely not watery products).<\/li><li>Create a Flaxseed gel that can be kept for at least 12 months in the bathroom and create a lubricant inspired serum so that curly girls are not embarrassed to buy it.<\/li><\/ol>",
+            "content_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19487943131466__80852430-9e0d-4d82-8146-6ad71d5a35a3-heading-1",
+        "template--19487943131466__80852430-9e0d-4d82-8146-6ad71d5a35a3-content-1"
+      ],
+      "custom_css": [
+        "h1 {font-size: 24px;}"
+      ],
+      "settings": {
+        "image_background_desktop": "shopify:\/\/shop_images\/IMG_6133-birthday.jpg",
+        "enable_lazy_loading": false,
+        "color_scheme": "color__bg-body color__text",
+        "color_text": "",
+        "color_border": "color__border-divider-1",
+        "style_border": "border--b-width",
+        "content_width": 60,
+        "image_position": "left",
+        "layout_y_spacing": "min-h-[650px] max-h-[85vh] md:min-h-[80vh]",
+        "layout_y_alignment": "items-center",
+        "layout_x_alignment": "justify-start",
+        "visibility": ""
+      }
+    },
+    "357dcbf9-b9d4-410a-ad14-3f7bffb0d3dc": {
+      "type": "text",
+      "settings": {
+        "heading": "Ready to shop?",
+        "content": "<p>Et harum quidem rerum facilis est et expedita distinctio<\/p>",
+        "button_label": "Button",
+        "button_url": "\/",
+        "spacing_top": 100,
+        "spacing_bottom": 100,
+        "color_scheme": "color__bg-tertiary color__tertiary",
+        "color_border": "color__border-divider-1",
+        "color_button": "btn btn--secondary",
+        "style_border": "border--b-width",
+        "layout_x_alignment": "text-center justify-center",
+        "visibility": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3da21793-b9c5-452d-9e34-4d467e086fec",
+    "07329b17-e877-45fa-9b1c-4e7f005cee36",
+    "27f95a90-6348-40fd-9e48-faf58cd400ea",
+    "5829fd90-182e-49c3-b917-d074ac2d0ecc",
+    "80852430-9e0d-4d82-8146-6ad71d5a35a3",
+    "357dcbf9-b9d4-410a-ad14-3f7bffb0d3dc"
+  ]
+}
