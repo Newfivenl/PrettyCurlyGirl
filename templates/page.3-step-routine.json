@@ -154,7 +154,7 @@
         "88becfaf-da4c-4bdd-b005-129313e31483": {
           "type": "heading",
           "settings": {
-            "content": "Cleanse"
+            "content": "CONDITION"
           }
         },
         "1ce21f25-524d-4a79-bbd6-5720dff12ef5": {
@@ -202,12 +202,12 @@
       "settings": {
         "collection": "step-1-cleanse",
         "products_count": 20,
-        "heading": "Cleanse products",
+        "heading": "CONDITION products",
         "content": "<p>Describe a product, make announcements, or welcome customers to your store.<\/p>",
-        "button_label": "Shop all cleanse",
-        "button_url": "shopify:\/\/collections\/step-1-cleanse",
-        "spacing_top": 100,
-        "spacing_bottom": 0,
+        "button_label": "Shop all CONDITION",
+        "button_url": "shopify:\/\/collections\/step-2-condition",
+        "spacing_top": 60,
+        "spacing_bottom": 60,
         "color_scheme": "color__bg-body color__text",
         "color_border": "color__border-divider-1",
         "color_button": "btn btn--secondary",
@@ -222,7 +222,7 @@
         "2e42889e-baea-4073-8281-81e558ee150a": {
           "type": "heading",
           "settings": {
-            "content": "Cleanse"
+            "content": "STYLE"
           }
         },
         "1d84fa12-b769-4460-a334-d71821b13785": {
@@ -270,10 +270,10 @@
       "settings": {
         "collection": "step-1-cleanse",
         "products_count": 20,
-        "heading": "Cleanse products",
+        "heading": "STYLE products",
         "content": "<p>Describe a product, make announcements, or welcome customers to your store.<\/p>",
-        "button_label": "Shop all cleanse",
-        "button_url": "shopify:\/\/collections\/step-1-cleanse",
+        "button_label": "Shop all STYLE",
+        "button_url": "shopify:\/\/collections\/step-3-style",
         "spacing_top": 100,
         "spacing_bottom": 0,
         "color_scheme": "color__bg-body color__text",
