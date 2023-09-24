@@ -60,7 +60,7 @@
         "row_size_mobile": "grid-cols-2",
         "enable_sort": true,
         "enable_filter": true,
-        "products_per_page": 12
+        "products_per_page": 40
       }
     },
     "recent": {
