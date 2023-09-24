@@ -809,36 +809,28 @@
         "template--19487943393610__cf475604-fd24-4d65-8a42-9ed8e5ab6541-newsletter-1": {
           "type": "newsletter",
           "settings": {
-            "heading": "Email sign-up",
-            "content": "<p>Tell customers why they should subscribe to your newsletter.<\/p>",
-            "button_label": "Subscribe",
+            "heading": "BE PART OF THE CURLY GIRL COMMUNITY",
+            "content": "<p>Enjoy a 10% discount on your first order, while learning the ultimate Curly Girl tips<br\/><\/p>",
+            "button_label": "Join now",
             "disclaimer": "",
             "success": "<p>Success! You’ve been subscribed.<\/p>",
-            "layout_desktop_width": 7,
+            "layout_desktop_width": 5,
             "layout_mobile_width": 12,
             "layout_x_alignment": "text-center justify-center flex-col items-center"
-          }
-        },
-        "3264ce42-4343-4187-a6a5-a20cf7e18adc": {
-          "type": "image",
-          "settings": {
-            "layout_desktop_width": 6,
-            "layout_mobile_width": 12
           }
         }
       },
       "block_order": [
-        "template--19487943393610__cf475604-fd24-4d65-8a42-9ed8e5ab6541-newsletter-1",
-        "3264ce42-4343-4187-a6a5-a20cf7e18adc"
+        "template--19487943393610__cf475604-fd24-4d65-8a42-9ed8e5ab6541-newsletter-1"
       ],
       "settings": {
-        "spacing_top": 100,
-        "spacing_bottom": 100,
+        "spacing_top": 20,
+        "spacing_bottom": 20,
         "color_scheme": "color__bg-body color__text",
         "color_border": "color__border-divider-1",
         "color_button": "btn btn--secondary",
         "style_border": "",
-        "layout_alignment": "items-center",
+        "layout_x_alignment": "justify-center",
         "visibility": ""
       }
     }
