@@ -162,10 +162,10 @@
         "739227ad-feaa-440d-9c8d-11c9fb36c434"
       ],
       "settings": {
-        "heading": "Cleanse products",
+        "heading": "Categories",
         "content": "",
-        "button_label": "Shop all Cleanse",
-        "button_url": "shopify:\/\/collections\/step-1-cleanse",
+        "button_label": "",
+        "button_url": "",
         "spacing_top": 100,
         "spacing_bottom": 100,
         "color_scheme": "color__bg-body color__text",
