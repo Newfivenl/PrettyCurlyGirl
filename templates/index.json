@@ -225,6 +225,40 @@
         "visibility": ""
       }
     },
+    "fa45b532-e64f-489b-9403-7046250c0e16": {
+      "type": "product-slider",
+      "blocks": {
+        "template--18730720428336__fa45b532-e64f-489b-9403-7046250c0e16-1681420382a4ee4d2a-0": {
+          "type": "card",
+          "disabled": true,
+          "settings": {
+            "heading": "Block heading",
+            "content": "<p>Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "button_label": "Button",
+            "button_url": "\/"
+          }
+        }
+      },
+      "block_order": [
+        "template--18730720428336__fa45b532-e64f-489b-9403-7046250c0e16-1681420382a4ee4d2a-0"
+      ],
+      "settings": {
+        "collection": "frontpage",
+        "products_count": 10,
+        "heading": "Bestsellers",
+        "content": "",
+        "button_label": "View all",
+        "button_url": "shopify:\/\/collections\/frontpage",
+        "spacing_top": 40,
+        "spacing_bottom": 0,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "color_button": "btn btn--alternate",
+        "style_border": "",
+        "layout_x_alignment": "justify-between",
+        "visibility": ""
+      }
+    },
     "ca2883b6-efd0-48c1-8f9e-520a6b9a64bc": {
       "type": "content-grid",
       "blocks": {
@@ -433,40 +467,6 @@
         "style_border": "border--b-width",
         "row_size_desktop": "md:grid-cols-3",
         "row_size_mobile": "grid-cols-1",
-        "layout_x_alignment": "justify-between",
-        "visibility": ""
-      }
-    },
-    "fa45b532-e64f-489b-9403-7046250c0e16": {
-      "type": "product-slider",
-      "blocks": {
-        "template--18730720428336__fa45b532-e64f-489b-9403-7046250c0e16-1681420382a4ee4d2a-0": {
-          "type": "card",
-          "disabled": true,
-          "settings": {
-            "heading": "Block heading",
-            "content": "<p>Describe a product, make announcements, or welcome customers to your store.<\/p>",
-            "button_label": "Button",
-            "button_url": "\/"
-          }
-        }
-      },
-      "block_order": [
-        "template--18730720428336__fa45b532-e64f-489b-9403-7046250c0e16-1681420382a4ee4d2a-0"
-      ],
-      "settings": {
-        "collection": "frontpage",
-        "products_count": 10,
-        "heading": "ALL PRODUCTS",
-        "content": "",
-        "button_label": "View all",
-        "button_url": "shopify:\/\/collections\/frontpage",
-        "spacing_top": 40,
-        "spacing_bottom": 40,
-        "color_scheme": "color__bg-body color__text",
-        "color_border": "color__border-divider-1",
-        "color_button": "btn btn--alternate",
-        "style_border": "",
         "layout_x_alignment": "justify-between",
         "visibility": ""
       }
@@ -839,8 +839,8 @@
     "7c450e25-a49b-4dbd-aa01-9b08189f1f76",
     "f96b8e1b-0fd4-4c65-856c-cdd01fe228cc",
     "b1e83feb-711b-4266-b0bc-088a4d48a207",
-    "ca2883b6-efd0-48c1-8f9e-520a6b9a64bc",
     "fa45b532-e64f-489b-9403-7046250c0e16",
+    "ca2883b6-efd0-48c1-8f9e-520a6b9a64bc",
     "81ade9ad-d8df-41e4-8a5d-bda5d0e43d9a",
     "92000899-ed1c-4fa2-9aa5-bf0a79e6952e",
     "f3fd7d15-8af4-4a33-810d-e1dbd27ed532",

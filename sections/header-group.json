@@ -46,8 +46,9 @@
           "settings": {
             "menu": "shop",
             "url": "shopify:\/\/collections\/all",
-            "heading": "Block heading",
-            "content": "<p>Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "heading": "Bestseller",
+            "content": "<p>Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "image": "shopify:\/\/shop_images\/AF4A6026.jpg"
           }
         }
       },
