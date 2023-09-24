@@ -2,14 +2,29 @@
   "sections": {
     "main": {
       "type": "page__main",
+      "disabled": true,
       "settings": {
         "spacing_top": 60,
         "spacing_bottom": 60,
         "color_scheme": "color__bg-body color__text"
       }
+    },
+    "c9cb5d1d-a535-496b-a29e-8e154d4e5451": {
+      "type": "liquid",
+      "settings": {
+        "liquid": "<!-- Start Stockist.co widget -->\n<div data-stockist-widget-tag=\"u10175\">Loading store locator from <a href=\"https:\/\/stockist.co\">Stockist store locator<\/a>...<\/div>\n<script>\n  (function(s,t,o,c,k){c=s.createElement(t);c.src=o;c.async=1;\n  k=s.getElementsByTagName(t)[0];k.parentNode.insertBefore(c,k);\n  })(document,'script','\/\/stockist.co\/embed\/v1\/widget.min.js');\n<\/script> <!-- End Stockist.co widget -->",
+        "spacing_top": 100,
+        "spacing_bottom": 100,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "style_border": "border--b-width",
+        "layout_padding": true,
+        "visibility": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "c9cb5d1d-a535-496b-a29e-8e154d4e5451"
   ]
 }
