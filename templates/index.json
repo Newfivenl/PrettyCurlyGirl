@@ -48,7 +48,7 @@
           "settings": {
             "image_featured": "shopify:\/\/shop_images\/AF4A6062.jpg",
             "heading": "Kids line",
-            "url": "shopify:\/\/collections\/coming-soon"
+            "url": "shopify:\/\/collections\/curly-star"
           }
         },
         "d78ab6ae-ba92-4e8f-9fcf-e69760d1754c": {
@@ -372,7 +372,7 @@
             "heading": "Kids line",
             "content": "<p>Shop our bundle sets in 1 click<\/p>",
             "button_label": "shop Kids line",
-            "button_url": "shopify:\/\/collections\/coming-soon",
+            "button_url": "shopify:\/\/collections\/curly-star",
             "full_block_link": true,
             "image_background": "shopify:\/\/shop_images\/AF4A6062.jpg",
             "enable_autoplay": false,
