@@ -52,7 +52,7 @@
         "0f716542-eff1-4b59-a9c9-c47955447221"
       ],
       "settings": {
-        "spacing_top": 60,
+        "spacing_top": 20,
         "spacing_bottom": 60,
         "color_scheme": "color__bg-body color__text",
         "color_border": "color__border-divider-1",
