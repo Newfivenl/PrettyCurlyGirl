@@ -67,7 +67,7 @@
         "heading": "3-STEP CURLY HAIR ROUTINE",
         "content": "<p>To further assist on your curly hair journey and accentuate the beauty of your natural curls, we have introduced a 3-step curly hair routine packaged sustainably.<\/p>",
         "button_label": "Button label",
-        "button_url": "shopify:\/\/collections\/all",
+        "button_url": "",
         "spacing_top": 100,
         "spacing_bottom": 100,
         "color_scheme": "color__bg-body color__text",
@@ -79,10 +79,110 @@
         "layout_x_alignment": "justify-between",
         "visibility": ""
       }
+    },
+    "538b7925-2920-4942-af36-36c915b7571d": {
+      "type": "banner-alternative",
+      "blocks": {
+        "template--19754442293578__538b7925-2920-4942-af36-36c915b7571d-heading-1": {
+          "type": "heading",
+          "settings": {
+            "content": "Cleanse"
+          }
+        },
+        "template--19754442293578__538b7925-2920-4942-af36-36c915b7571d-content-1": {
+          "type": "content",
+          "settings": {
+            "content": "<p>Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "content_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19754442293578__538b7925-2920-4942-af36-36c915b7571d-heading-1",
+        "template--19754442293578__538b7925-2920-4942-af36-36c915b7571d-content-1"
+      ],
+      "settings": {
+        "enable_lazy_loading": false,
+        "color_scheme": "color__bg-overlay-1 color__text",
+        "color_text": "",
+        "color_border": "color__border-divider-1",
+        "style_border": "border--b-width",
+        "content_width": 70,
+        "image_position": "left",
+        "layout_y_spacing": "min-h-[450px] md:min-h-[550px]",
+        "layout_y_alignment": "items-center",
+        "layout_x_alignment": "justify-start",
+        "visibility": ""
+      }
+    },
+    "3a370d67-a222-474f-8a7f-c3e317a6e79b": {
+      "type": "product-slider",
+      "blocks": {
+        "bdb77063-9f81-4df6-9fa4-f6643f9b2893": {
+          "type": "card",
+          "settings": {
+            "heading": "Block heading",
+            "content": "<p>Describe a product, make announcements, or inform customers about a promotion.<\/p>",
+            "button_label": "Button",
+            "button_url": "shopify:\/\/collections\/all"
+          }
+        }
+      },
+      "block_order": [
+        "bdb77063-9f81-4df6-9fa4-f6643f9b2893"
+      ],
+      "settings": {
+        "collection": "step-1-cleanse",
+        "products_count": 20,
+        "heading": "Cleanse products",
+        "content": "<p>Describe a product, make announcements, or welcome customers to your store.<\/p>",
+        "button_label": "Shop all cleanse",
+        "button_url": "shopify:\/\/collections\/step-1-cleanse",
+        "spacing_top": 100,
+        "spacing_bottom": 0,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "color_button": "btn btn--secondary",
+        "style_border": "",
+        "layout_x_alignment": "justify-between",
+        "visibility": ""
+      }
+    },
+    "8f13072c-b3c3-48d4-bdfc-5c7dfb5d273e": {
+      "type": "collection-slider",
+      "blocks": {
+        "739227ad-feaa-440d-9c8d-11c9fb36c434": {
+          "type": "collection",
+          "settings": {
+            "collection": "step-1-cleanse"
+          }
+        }
+      },
+      "block_order": [
+        "739227ad-feaa-440d-9c8d-11c9fb36c434"
+      ],
+      "settings": {
+        "heading": "Cleanse products",
+        "content": "",
+        "button_label": "Shop all Cleanse",
+        "button_url": "shopify:\/\/collections\/step-1-cleanse",
+        "spacing_top": 100,
+        "spacing_bottom": 100,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "color_button": "btn btn--secondary",
+        "style_border": "border--b-width",
+        "layout_x_alignment": "justify-between",
+        "visibility": "",
+        "enable_collection_size_count": true
+      }
     }
   },
   "order": [
     "main",
-    "2bce6a2c-2327-43be-94f4-afaf9044d517"
+    "2bce6a2c-2327-43be-94f4-afaf9044d517",
+    "538b7925-2920-4942-af36-36c915b7571d",
+    "3a370d67-a222-474f-8a7f-c3e317a6e79b",
+    "8f13072c-b3c3-48d4-bdfc-5c7dfb5d273e"
   ]
 }
