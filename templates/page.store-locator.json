@@ -9,6 +9,23 @@
         "color_scheme": "color__bg-body color__text"
       }
     },
+    "059e28d7-8b2d-44de-a0ad-059a74d053f3": {
+      "type": "text",
+      "settings": {
+        "heading": "You can find us all around the world",
+        "content": "<p>Search below to find your favorite store<\/p>",
+        "button_label": "",
+        "button_url": "",
+        "spacing_top": 100,
+        "spacing_bottom": 0,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "color_button": "btn btn--secondary",
+        "style_border": "",
+        "layout_x_alignment": "",
+        "visibility": ""
+      }
+    },
     "c9cb5d1d-a535-496b-a29e-8e154d4e5451": {
       "type": "liquid",
       "settings": {
@@ -56,6 +73,7 @@
   },
   "order": [
     "main",
+    "059e28d7-8b2d-44de-a0ad-059a74d053f3",
     "c9cb5d1d-a535-496b-a29e-8e154d4e5451",
     "3463c98f-fcdf-4c01-8444-615e9f0ac641"
   ]
