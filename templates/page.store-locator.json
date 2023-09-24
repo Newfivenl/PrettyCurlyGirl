@@ -21,10 +21,42 @@
         "layout_padding": true,
         "visibility": ""
       }
+    },
+    "3463c98f-fcdf-4c01-8444-615e9f0ac641": {
+      "type": "store-locator",
+      "blocks": {
+        "template--19754429415754__3463c98f-fcdf-4c01-8444-615e9f0ac641-store-2": {
+          "type": "store",
+          "settings": {
+            "store_name": "Store name",
+            "store_details": "<p>Share store hours, address and direction details<\/p>",
+            "latitude": "44.651070",
+            "longitude": "-79.347015"
+          }
+        }
+      },
+      "block_order": [
+        "template--19754429415754__3463c98f-fcdf-4c01-8444-615e9f0ac641-store-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IMG_2466.jpg",
+        "enable_dynamic_map": true,
+        "heading": "Brand Store Rotterdam",
+        "content": "<p>Showcase your retail location so customers can find you in-person<\/p>",
+        "spacing_top": 100,
+        "spacing_bottom": 100,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "style_border": "border--b-width",
+        "map_style": "silver",
+        "layout_x_alignment": "justify-between",
+        "visibility": ""
+      }
     }
   },
   "order": [
     "main",
-    "c9cb5d1d-a535-496b-a29e-8e154d4e5451"
+    "c9cb5d1d-a535-496b-a29e-8e154d4e5451",
+    "3463c98f-fcdf-4c01-8444-615e9f0ac641"
   ]
 }
