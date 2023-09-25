@@ -31,7 +31,7 @@
       ],
       "settings": {
         "image_background_desktop": "shopify:\/\/shop_images\/stock-vector-curly-hair-care-process-in-steps-young-girl-washes-styles-with-products-and-dries-curly-hair-2034878633.jpg",
-        "show_entire_image": false,
+        "show_entire_image": true,
         "enable_lazy_loading": false,
         "show_video_background_mobile": true,
         "color_scheme": "color__bg-overlay-1 color__text",
