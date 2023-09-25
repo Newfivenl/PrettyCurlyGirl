@@ -125,7 +125,7 @@
         "template--19754442293578__538b7925-2920-4942-af36-36c915b7571d-heading-1": {
           "type": "heading",
           "settings": {
-            "content": "Cleanse"
+            "content": "STEP 1: CLEANSE"
           }
         },
         "template--19754442293578__538b7925-2920-4942-af36-36c915b7571d-content-1": {
@@ -141,12 +141,13 @@
         "template--19754442293578__538b7925-2920-4942-af36-36c915b7571d-content-1"
       ],
       "settings": {
+        "image_background_desktop": "shopify:\/\/shop_images\/Pretty_Curly_Girl_-_Blauwe_flesje.jpg",
         "enable_lazy_loading": false,
         "color_scheme": "color__bg-overlay-1 color__text",
         "color_text": "",
         "color_border": "color__border-divider-1",
         "style_border": "border--b-width",
-        "content_width": 70,
+        "content_width": 60,
         "image_position": "left",
         "layout_y_spacing": "min-h-[450px] md:min-h-[550px]",
         "layout_y_alignment": "items-center",
@@ -209,12 +210,13 @@
         "1ce21f25-524d-4a79-bbd6-5720dff12ef5"
       ],
       "settings": {
+        "image_background_desktop": "shopify:\/\/shop_images\/Pretty_Curly_Girl_-_Oranje_flesje.jpg",
         "enable_lazy_loading": false,
         "color_scheme": "color__bg-overlay-1 color__text",
         "color_text": "",
         "color_border": "color__border-divider-1",
         "style_border": "border--b-width",
-        "content_width": 70,
+        "content_width": 55,
         "image_position": "right",
         "layout_y_spacing": "min-h-[450px] md:min-h-[550px]",
         "layout_y_alignment": "items-center",
