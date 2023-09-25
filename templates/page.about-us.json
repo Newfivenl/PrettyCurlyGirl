@@ -15,13 +15,13 @@
         "template--19487943131466__3da21793-b9c5-452d-9e34-4d467e086fec-heading-1": {
           "type": "heading",
           "settings": {
-            "content": "OUR STORY"
+            "content": "THE PERSON"
           }
         },
         "template--19487943131466__3da21793-b9c5-452d-9e34-4d467e086fec-content-1": {
           "type": "content",
           "settings": {
-            "content": "<p>Let's start with who's the person behind Pretty Curly Girl Products. <\/p>",
+            "content": "",
             "content_text": ""
           }
         },
@@ -39,7 +39,7 @@
         "f9aa3368-8c08-47fc-a0ae-63a899e0bfdd"
       ],
       "settings": {
-        "image_background_desktop": "shopify:\/\/shop_images\/IMG_6133-birthday.jpg",
+        "image_background_desktop": "shopify:\/\/shop_images\/image0_4.jpg",
         "enable_lazy_loading": false,
         "color_scheme": "color__bg-tertiary color__tertiary",
         "color_text": "",
@@ -47,7 +47,7 @@
         "style_border": "border--b-width",
         "content_width": 50,
         "image_position": "right",
-        "layout_y_spacing": "min-h-[450px] md:min-h-[550px]",
+        "layout_y_spacing": "min-h-[250px] md:min-h-[350px]",
         "layout_y_alignment": "items-center",
         "layout_x_alignment": "justify-start",
         "visibility": ""
