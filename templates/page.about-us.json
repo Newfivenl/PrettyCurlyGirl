@@ -78,7 +78,7 @@
         "template--19487943131466__27f95a90-6348-40fd-9e48-faf58cd400ea-heading-1": {
           "type": "heading",
           "settings": {
-            "content": "Growing up in the 80's"
+            "content": "I grew up in the '80"
           }
         },
         "template--19487943131466__27f95a90-6348-40fd-9e48-faf58cd400ea-content-1": {
@@ -98,7 +98,7 @@
         "section {margin: 80px auto;}"
       ],
       "settings": {
-        "image_background_desktop": "shopify:\/\/shop_images\/IMG_6133-birthday.jpg",
+        "image_background_desktop": "shopify:\/\/shop_images\/Pretty_Curly_Girl_-6055.jpg",
         "enable_lazy_loading": false,
         "color_scheme": "color__bg-body color__text",
         "color_text": "",
@@ -106,7 +106,7 @@
         "style_border": "",
         "content_width": 60,
         "image_position": "right",
-        "layout_y_spacing": "min-h-[450px] md:min-h-[550px]",
+        "layout_y_spacing": "min-h-[250px] md:min-h-[350px]",
         "layout_y_alignment": "items-center",
         "layout_x_alignment": "justify-start",
         "visibility": ""
