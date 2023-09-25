@@ -51,7 +51,7 @@
         "template--19754442293578__2bce6a2c-2327-43be-94f4-afaf9044d517-icon-1": {
           "type": "icon",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/stock-photo-young-woman-washing-hair-in-shower-at-luxury-spa-woman-washing-her-curly-hair-with-shampoo-and-a-1581002035.jpg",
+            "icon": "shopify:\/\/shop_images\/stock-photo-back-view-of-millennial-female-brunette-with-long-thick-wavy-hair-take-shower-wash-head-use-2009960234.jpg",
             "icon_height": "h-32",
             "heading": "Step 1: Cleanse",
             "content": "<p>Choose the cleanse product that your curls need<\/p>",
@@ -67,8 +67,8 @@
         "template--19754442293578__2bce6a2c-2327-43be-94f4-afaf9044d517-icon-2": {
           "type": "icon",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/stock-photo-oil-capsule-for-hair-with-vitamin-e-lie-on-wooden-spoon-on-brown-hair-curls-1130225387.jpg",
-            "icon_height": "h-14",
+            "icon": "shopify:\/\/shop_images\/stock-photo-woman-scrunching-her-hair-to-form-curls-applying-curly-method-for-hair-styling-close-up-on-the-2210816065.jpg",
+            "icon_height": "h-32",
             "heading": "Step 2: Condition",
             "content": "<p>To detangle, to nourish, to moisturize and\/or ad protein.<\/p>",
             "enable_padding": true,
@@ -83,7 +83,8 @@
         "template--19754442293578__2bce6a2c-2327-43be-94f4-afaf9044d517-icon-3": {
           "type": "icon",
           "settings": {
-            "icon_height": "h-14",
+            "icon": "shopify:\/\/shop_images\/stock-photo-young-woman-holding-her-curly-brown-hair-applying-nutritional-cosmetic-oil-2150171729.jpg",
+            "icon_height": "h-32",
             "heading": "Step 3: Style",
             "content": "<p>To create amazing, shiny and bouncy curls that last for days.<\/p>",
             "enable_padding": true,
