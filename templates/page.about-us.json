@@ -21,15 +21,15 @@
         "template--19487943131466__3da21793-b9c5-452d-9e34-4d467e086fec-content-1": {
           "type": "content",
           "settings": {
-            "content": "<p>My name is Hanan el Fizazi and I am the person behind the company. I am not just the founder and owner, I am the user of this curly hairline. If I do not like it I will not launch it\"<\/p>",
+            "content": "<p>My name is Hanan el Fizazi and I am the person behind the company. I am not just the founder and owner, I am the user of this curly hairline. \"If I do not like it I will not launch it\"<\/p>",
             "content_text": ""
           }
         },
         "f9aa3368-8c08-47fc-a0ae-63a899e0bfdd": {
           "type": "content",
           "settings": {
-            "content": "<p>I am  born and raised in the Netherlands with Moroccan roots and grew up in the '80 with no access to curly hair products. <\/p>",
-            "content_text": "With Pretty Curly Girl Products “I want to give you the best curly hairproducts possible for all hair types\""
+            "content": "",
+            "content_text": ""
           }
         }
       },
