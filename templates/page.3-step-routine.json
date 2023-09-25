@@ -321,7 +321,7 @@
         "template--19754442293578__ec4a2d2d-432b-4ba2-9c08-056eda1c36ea-heading-1": {
           "type": "heading",
           "settings": {
-            "content": "Heading"
+            "content": ""
           }
         },
         "template--19754442293578__ec4a2d2d-432b-4ba2-9c08-056eda1c36ea-content-1": {
@@ -329,23 +329,11 @@
           "settings": {
             "content": "<p>Describe a product, make announcements, or welcome customers to your store.<\/p>"
           }
-        },
-        "template--19754442293578__ec4a2d2d-432b-4ba2-9c08-056eda1c36ea-buttons-1": {
-          "type": "buttons",
-          "settings": {
-            "button_color": "btn",
-            "button_label": "Button label",
-            "button_url": "\/collections\/all",
-            "secondary_button_color": "btn btn--neutral",
-            "secondary_button_label": "Button label",
-            "secondary_button_url": "\/collections\/all"
-          }
         }
       },
       "block_order": [
         "template--19754442293578__ec4a2d2d-432b-4ba2-9c08-056eda1c36ea-heading-1",
-        "template--19754442293578__ec4a2d2d-432b-4ba2-9c08-056eda1c36ea-content-1",
-        "template--19754442293578__ec4a2d2d-432b-4ba2-9c08-056eda1c36ea-buttons-1"
+        "template--19754442293578__ec4a2d2d-432b-4ba2-9c08-056eda1c36ea-content-1"
       ],
       "settings": {
         "image_background_desktop": "shopify:\/\/shop_images\/stock-vector-curly-hair-care-process-in-steps-young-girl-washes-styles-with-products-and-dries-curly-hair-2034878633.jpg",
