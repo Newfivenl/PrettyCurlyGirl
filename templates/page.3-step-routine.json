@@ -37,11 +37,11 @@
         "color_scheme": "color__bg-overlay-1 color__text",
         "color_text": "",
         "color_border": "color__border-divider-1",
-        "enable_gradient": false,
+        "enable_gradient": true,
         "style_border": "border--b-width",
-        "layout_y_spacing": "min-h-[450px] md:min-h-[550px]",
+        "layout_y_spacing": "min-h-[250px] md:min-h-[350px]",
         "layout_y_alignment": "items-end",
-        "layout_x_alignment": "justify-start",
+        "layout_x_alignment": "justify-center text-center",
         "visibility": ""
       }
     },
