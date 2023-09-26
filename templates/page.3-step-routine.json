@@ -175,7 +175,7 @@
         "collection": "step-1-cleanse",
         "products_count": 20,
         "heading": "Cleanse products",
-        "content": "<p>Describe a product, make announcements, or welcome customers to your store.<\/p>",
+        "content": "<p>Choose your step 1 product based on your hair needs. <\/p>",
         "button_label": "Shop all cleanse",
         "button_url": "shopify:\/\/collections\/step-1-cleanse",
         "spacing_top": 60,
