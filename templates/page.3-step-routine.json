@@ -279,6 +279,7 @@
         "1d84fa12-b769-4460-a334-d71821b13785"
       ],
       "settings": {
+        "image_background_desktop": "shopify:\/\/shop_images\/Pretty_Curly_Girl_-_Roze_flesje.jpg",
         "enable_lazy_loading": false,
         "color_scheme": "color__bg-overlay-1 color__text",
         "color_text": "",
