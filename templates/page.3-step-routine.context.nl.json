@@ -4,5 +4,20 @@
     "market": "nl"
   },
   "sections": {
+    "538b7925-2920-4942-af36-36c915b7571d": {
+      "settings": {
+        "enable_lazy_loading": true
+      },
+      "blocks": {
+      }
+    },
+    "20a764c3-5ad6-4c86-b1a0-40981ef9c04a": {
+      "settings": {
+        "content_width": 50,
+        "layout_y_spacing": "min-h-[650px] max-h-[75vh] md:min-h-[70vh]"
+      },
+      "blocks": {
+      }
+    }
   }
 }
