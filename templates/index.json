@@ -124,7 +124,7 @@
         "enable_gradient": false,
         "style_border": "",
         "layout_y_spacing": "min-h-[450px] md:min-h-[550px]",
-        "layout_y_alignment": "items-end",
+        "layout_y_alignment": "items-center",
         "layout_x_alignment": "justify-start",
         "visibility": ""
       }
