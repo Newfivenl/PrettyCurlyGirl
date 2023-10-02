@@ -169,6 +169,7 @@
         "blocks": {
           "dc415ec9-53ea-4c8e-aa82-79bb3e7f0b16": {
             "type": "Content",
+            "disabled": true,
             "settings": {
               "heading": "Buy 2 Get 10% Off",
               "content": "<p>Buy any two items and recieve 10% off your order until 10\/10<\/p>"
@@ -178,7 +179,7 @@
             "type": "Content",
             "settings": {
               "heading": "Free shipping",
-              "content": "<p>Spend over $35 and recieve free shipping<\/p>"
+              "content": "<p>Spend over €50 and receive free shipping<\/p>"
             }
           }
         },
@@ -189,12 +190,12 @@
         "settings": {
           "top_color_scheme": "color__bg-body color__text",
           "top_color_border": "color__border-divider-1",
-          "top_color_button": "btn btn--plain",
+          "top_color_button": "btn btn--secondary",
           "main_color_scheme_first": "color__bg-body color__text",
           "main_color_scheme_second": "color__bg-overlay-1 color__text",
           "main_color_border": "color__border-divider-1",
           "main_enable_cart_note": true,
-          "main_enable_cart_share": true,
+          "main_enable_cart_share": false,
           "main_enable_cart_subtotals": true,
           "bottom_color_scheme": "color__bg-body color__text",
           "bottom_color_border": "color__border-divider-1",
@@ -209,7 +210,7 @@
           "progress_bar_enable": true,
           "main_cart_upgrade_product": "",
           "main_cart_upgrade_text": "",
-          "cart_upsell_products": "add-ons",
+          "cart_upsell_products": "new-products",
           "empty_button_label": "Shop all",
           "empty_button_url": "shopify:\/\/collections\/all"
         }
