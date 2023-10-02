@@ -201,7 +201,7 @@
         "style_border": "border--b-width",
         "content_width": 55,
         "image_position": "right",
-        "layout_y_spacing": "min-h-[450px] md:min-h-[550px]",
+        "layout_y_spacing": "min-h-[650px] max-h-[75vh] md:min-h-[70vh]",
         "layout_y_alignment": "items-center",
         "layout_x_alignment": "justify-start",
         "visibility": ""
