@@ -5,12 +5,13 @@
   },
   "sections": {
     "1638995507af787164": {
+      "disabled": false,
       "settings": {
       },
       "blocks": {
         "fd18c62c-f5e0-4e28-855f-29aa1676eea3": {
           "settings": {
-            "title": "Waarom dit product?"
+            "title": "Hoe te gebruiken"
           }
         }
       }
