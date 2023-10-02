@@ -92,7 +92,7 @@
         "button_url": "",
         "spacing_top": 0,
         "spacing_bottom": 100,
-        "color_scheme": "color__bg-overlay-2 color__text",
+        "color_scheme": "color__bg-neutral color__text",
         "color_border": "color__border-divider-1",
         "color_button": "btn btn--secondary",
         "style_border": "border--b-width",
