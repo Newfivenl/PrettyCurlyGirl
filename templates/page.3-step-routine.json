@@ -31,6 +31,7 @@
       ],
       "settings": {
         "image_background_desktop": "shopify:\/\/shop_images\/shutter_iconcg.jpg",
+        "image_background_mobile": "shopify:\/\/shop_images\/shutter_iconcg.jpg",
         "show_entire_image": true,
         "enable_lazy_loading": false,
         "show_video_background_mobile": true,
