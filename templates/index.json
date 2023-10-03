@@ -56,7 +56,7 @@
           "settings": {
             "image_featured": "shopify:\/\/shop_images\/AF4A6066.jpg",
             "heading": "All Products",
-            "url": ""
+            "url": "shopify:\/\/collections\/frontpage"
           }
         }
       },
