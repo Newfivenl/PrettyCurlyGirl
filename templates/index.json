@@ -535,13 +535,13 @@
     "6b718ebe-70f3-4372-a0c7-9df8d9a273c1": {
       "type": "icon-grid",
       "blocks": {
-        "96751afd-3dc5-40aa-b050-114d6ffe0042": {
+        "7945b8fe-51b6-40fc-9c6f-7c5434b4d704": {
           "type": "icon",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/icon-package.svg",
+            "icon": "shopify:\/\/shop_images\/icon-heart.svg",
             "icon_height": "h-8",
-            "heading": "",
-            "content": "<p>Sustainable Packaging<\/p>",
+            "heading": "WOMAN OWNED COMPANY",
+            "content": "<p>Owner & Founder is a curly woman.<\/p>",
             "enable_padding": true,
             "color_scheme": "color__bg-body color__text",
             "color_border": "!color__border-transparent",
@@ -551,13 +551,13 @@
             "layout_col_span": "col-span-1 md:col-span-1"
           }
         },
-        "f4ed5166-330f-4943-8003-4e6bc4bc13be": {
+        "96751afd-3dc5-40aa-b050-114d6ffe0042": {
           "type": "icon",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/icon-feather.svg",
+            "icon": "shopify:\/\/shop_images\/truck.svg",
             "icon_height": "h-8",
-            "heading": "",
-            "content": "<p>98% natural ingredients<\/p>",
+            "heading": "FAST DELIVERY",
+            "content": "<p>Order before 22:00, shipped today<\/p>",
             "enable_padding": true,
             "color_scheme": "color__bg-body color__text",
             "color_border": "!color__border-transparent",
@@ -572,24 +572,8 @@
           "settings": {
             "icon": "shopify:\/\/shop_images\/icon-approve.svg",
             "icon_height": "h-8",
-            "heading": "",
-            "content": "<p>Curly Girl approved ingredients<\/p>",
-            "enable_padding": true,
-            "color_scheme": "color__bg-body color__text",
-            "color_border": "!color__border-transparent",
-            "layout_alignment": "flex-col",
-            "layout_x_alignment": "text-center justify-center",
-            "layout_row_span": "row-span-1",
-            "layout_col_span": "col-span-1 md:col-span-1"
-          }
-        },
-        "7945b8fe-51b6-40fc-9c6f-7c5434b4d704": {
-          "type": "icon",
-          "settings": {
-            "icon": "shopify:\/\/shop_images\/icon-heart.svg",
-            "icon_height": "h-8",
-            "heading": "",
-            "content": "<p>Made with love<\/p>",
+            "heading": "CURLY GIRL APPROVED",
+            "content": "<p>Experience the difference with CGA ingredients<\/p>",
             "enable_padding": true,
             "color_scheme": "color__bg-body color__text",
             "color_border": "!color__border-transparent",
@@ -601,10 +585,9 @@
         }
       },
       "block_order": [
+        "7945b8fe-51b6-40fc-9c6f-7c5434b4d704",
         "96751afd-3dc5-40aa-b050-114d6ffe0042",
-        "f4ed5166-330f-4943-8003-4e6bc4bc13be",
-        "1154ab3b-5404-42cd-9712-398521536d14",
-        "7945b8fe-51b6-40fc-9c6f-7c5434b4d704"
+        "1154ab3b-5404-42cd-9712-398521536d14"
       ],
       "settings": {
         "heading": "",
@@ -617,7 +600,7 @@
         "color_border": "color__border-divider-1",
         "color_button": "btn btn--secondary",
         "style_border": "border--b-width",
-        "row_size_desktop": "md:grid-cols-4",
+        "row_size_desktop": "md:grid-cols-3",
         "row_size_mobile": "grid-cols-2",
         "layout_x_alignment": "text-center justify-center flex-col items-center",
         "visibility": ""
@@ -680,6 +663,7 @@
         "template--19487943393610__92000899-ed1c-4fa2-9aa5-bf0a79e6952e-icon-2",
         "template--19487943393610__92000899-ed1c-4fa2-9aa5-bf0a79e6952e-icon-3"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "content": "",
