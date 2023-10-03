@@ -98,10 +98,10 @@
           "settings": {
             "button_color": "btn btn--secondary",
             "button_label": "SHOP NOW",
-            "button_url": "\/collections\/all",
+            "button_url": "shopify:\/\/collections\/frontpage",
             "secondary_button_color": "btn btn--tertiary",
             "secondary_button_label": "SHOP KIDS",
-            "secondary_button_url": "\/collections\/all"
+            "secondary_button_url": "shopify:\/\/collections\/curly-star"
           }
         }
       },
@@ -124,7 +124,7 @@
         "enable_gradient": false,
         "style_border": "",
         "layout_y_spacing": "min-h-[450px] md:min-h-[550px]",
-        "layout_y_alignment": "items-center",
+        "layout_y_alignment": "items-end",
         "layout_x_alignment": "justify-start",
         "visibility": ""
       }
