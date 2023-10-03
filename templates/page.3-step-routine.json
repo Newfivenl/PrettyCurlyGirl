@@ -322,6 +322,7 @@
       "block_order": [
         "739227ad-feaa-440d-9c8d-11c9fb36c434"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Categories",
         "content": "",
