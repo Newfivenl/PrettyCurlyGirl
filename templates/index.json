@@ -890,6 +890,7 @@
         "template--19487943393610__d7a4adc5-757d-44b6-9dd3-e5cce4fb9ce2-content-2",
         "template--19487943393610__d7a4adc5-757d-44b6-9dd3-e5cce4fb9ce2-content-3"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "content": "",
@@ -935,6 +936,31 @@
         "layout_x_alignment": "justify-center",
         "visibility": ""
       }
+    },
+    "f2025db8-9888-4968-a264-b30575d1ee48": {
+      "type": "article-grid",
+      "settings": {
+        "blog": "cg-aprroved-curly-girl-method",
+        "items_count": 3,
+        "heading": "Curly hair news",
+        "content": "",
+        "button_label": "Read more",
+        "button_url": "shopify:\/\/blogs\/cg-aprroved-curly-girl-method",
+        "enable_author": false,
+        "enable_summary": true,
+        "enable_date": false,
+        "enable_tags": false,
+        "spacing_top": 100,
+        "spacing_bottom": 100,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "color_button": "btn btn--secondary",
+        "style_border": "border--b-width",
+        "row_size_desktop": "md:grid-cols-3",
+        "row_size_mobile": "grid grid-cols-2",
+        "layout_x_alignment": "justify-between",
+        "visibility": ""
+      }
     }
   },
   "order": [
@@ -948,6 +974,7 @@
     "92000899-ed1c-4fa2-9aa5-bf0a79e6952e",
     "f3fd7d15-8af4-4a33-810d-e1dbd27ed532",
     "d7a4adc5-757d-44b6-9dd3-e5cce4fb9ce2",
-    "cf475604-fd24-4d65-8a42-9ed8e5ab6541"
+    "cf475604-fd24-4d65-8a42-9ed8e5ab6541",
+    "f2025db8-9888-4968-a264-b30575d1ee48"
   ]
 }
