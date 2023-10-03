@@ -389,7 +389,7 @@
             "layout_y_alignment": "items-end",
             "layout_x_alignment": "",
             "layout_row_span": "row-span-1",
-            "layout_col_span": "col-span-1 md: md:col-span-2"
+            "layout_col_span": "col-span-1 md: md:col-span-1"
           }
         },
         "ec996a86-3f30-4e3f-b9f0-819ef2f4e794": {
@@ -443,6 +443,31 @@
             "layout_row_span": "row-span-1",
             "layout_col_span": "col-span-1 md: md:col-span-1"
           }
+        },
+        "b9475fa8-659b-4236-97b0-721c3357fdfb": {
+          "type": "content",
+          "settings": {
+            "heading": "Shop all",
+            "content": "<p>Can't make a choice? <\/p>",
+            "button_label": "View all products",
+            "button_url": "shopify:\/\/collections\/all",
+            "full_block_link": true,
+            "enable_autoplay": true,
+            "enable_mute_toggle": true,
+            "enable_loop": true,
+            "spacing_top": 80,
+            "spacing_bottom": 0,
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "color__border-divider-1",
+            "color_text": "color__text",
+            "color_button": "btn btn--secondary",
+            "enable_gradient": false,
+            "layout_y_alignment": "items-end content-end",
+            "layout_x_alignment": "",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md: md:col-span-2"
+          }
         }
       },
       "block_order": [
@@ -452,7 +477,8 @@
         "b3051f08-8924-4f1c-b229-704a8d9449af",
         "e4ad9d06-cbc8-467d-9f4f-d98f838264eb",
         "ec996a86-3f30-4e3f-b9f0-819ef2f4e794",
-        "1a34bfab-a3a9-4886-81fb-fc43fc99fe79"
+        "1a34bfab-a3a9-4886-81fb-fc43fc99fe79",
+        "b9475fa8-659b-4236-97b0-721c3357fdfb"
       ],
       "settings": {
         "heading": "Shop by Category",
