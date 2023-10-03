@@ -46,7 +46,7 @@
           "type": "store",
           "settings": {
             "store_name": "Pretty Curly Girl Products",
-            "store_details": "<p>Brandstore & Headquarters<br\/>Botersloot 42 A<br\/>3011 HH Rotterdam<br\/>info@prettycurlygirl.com<br\/>0031648143082<\/p>",
+            "store_details": "<p>Brandstore & Headquarters<br\/>Botersloot 42 A<br\/>3011 HH Rotterdam<br\/><br\/>info@prettycurlygirl.com<br\/>0031648143082<\/p>",
             "latitude": "44.651070",
             "longitude": "-79.347015"
           }
@@ -59,7 +59,7 @@
         "image": "shopify:\/\/shop_images\/IMG_2466.jpg",
         "enable_dynamic_map": true,
         "heading": "Brand Store Rotterdam",
-        "content": "<p>Showcase your retail location so customers can find you in-person<\/p>",
+        "content": "<p>Our pretty shop is located in the city centre of Rotterdam. You are welcome. <\/p>",
         "spacing_top": 100,
         "spacing_bottom": 100,
         "color_scheme": "color__bg-body color__text",
