@@ -505,6 +505,97 @@
         "visibility": ""
       }
     },
+    "6b718ebe-70f3-4372-a0c7-9df8d9a273c1": {
+      "type": "icon-grid",
+      "blocks": {
+        "96751afd-3dc5-40aa-b050-114d6ffe0042": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/icon-package.svg",
+            "icon_height": "h-8",
+            "heading": "",
+            "content": "<p>Sustainable Packaging<\/p>",
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "!color__border-transparent",
+            "layout_alignment": "flex-col",
+            "layout_x_alignment": "text-center justify-center",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md:col-span-1"
+          }
+        },
+        "f4ed5166-330f-4943-8003-4e6bc4bc13be": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/icon-feather.svg",
+            "icon_height": "h-8",
+            "heading": "",
+            "content": "<p>98% natural ingredients<\/p>",
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "!color__border-transparent",
+            "layout_alignment": "flex-col",
+            "layout_x_alignment": "text-center justify-center",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md:col-span-1"
+          }
+        },
+        "1154ab3b-5404-42cd-9712-398521536d14": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/icon-approve.svg",
+            "icon_height": "h-8",
+            "heading": "",
+            "content": "<p>Curly Girl approved ingredients<\/p>",
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "!color__border-transparent",
+            "layout_alignment": "flex-col",
+            "layout_x_alignment": "text-center justify-center",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md:col-span-1"
+          }
+        },
+        "7945b8fe-51b6-40fc-9c6f-7c5434b4d704": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/icon-heart.svg",
+            "icon_height": "h-8",
+            "heading": "",
+            "content": "<p>Made with love<\/p>",
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "!color__border-transparent",
+            "layout_alignment": "flex-col",
+            "layout_x_alignment": "text-center justify-center",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md:col-span-1"
+          }
+        }
+      },
+      "block_order": [
+        "96751afd-3dc5-40aa-b050-114d6ffe0042",
+        "f4ed5166-330f-4943-8003-4e6bc4bc13be",
+        "1154ab3b-5404-42cd-9712-398521536d14",
+        "7945b8fe-51b6-40fc-9c6f-7c5434b4d704"
+      ],
+      "settings": {
+        "heading": "",
+        "content": "",
+        "button_label": "",
+        "button_url": "",
+        "spacing_top": 20,
+        "spacing_bottom": 20,
+        "color_scheme": "color__bg-tertiary color__tertiary",
+        "color_border": "color__border-divider-1",
+        "color_button": "btn btn--secondary",
+        "style_border": "border--b-width",
+        "row_size_desktop": "md:grid-cols-4",
+        "row_size_mobile": "grid-cols-2",
+        "layout_x_alignment": "text-center justify-center flex-col items-center",
+        "visibility": ""
+      }
+    },
     "92000899-ed1c-4fa2-9aa5-bf0a79e6952e": {
       "type": "icon-grid",
       "blocks": {
@@ -842,6 +933,7 @@
     "fa45b532-e64f-489b-9403-7046250c0e16",
     "ca2883b6-efd0-48c1-8f9e-520a6b9a64bc",
     "81ade9ad-d8df-41e4-8a5d-bda5d0e43d9a",
+    "6b718ebe-70f3-4372-a0c7-9df8d9a273c1",
     "92000899-ed1c-4fa2-9aa5-bf0a79e6952e",
     "f3fd7d15-8af4-4a33-810d-e1dbd27ed532",
     "d7a4adc5-757d-44b6-9dd3-e5cce4fb9ce2",
