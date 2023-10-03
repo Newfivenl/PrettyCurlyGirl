@@ -30,8 +30,8 @@
           "settings": {
             "heading": "Your #1 Hair Care brand",
             "content": "<p>We're a locally owned and operated company driven to give you the best products for your curly hair.<\/p><p><br\/><\/p><p>PRETTY CURLY GIRL PRODUCTS B.V.<\/p><p>Brandstore in Rotterdam, The Netherlands<\/p><p>CoC: 24468970<\/p><p>VAT: NL001630315B40<\/p>",
-            "button_label": "Button",
-            "button_url": "shopify:\/\/collections\/all"
+            "button_label": "",
+            "button_url": ""
           }
         }
       },
