@@ -56,10 +56,108 @@
         "layout_x_alignment": "justify-between",
         "visibility": ""
       }
+    },
+    "1d88139f-1043-4685-ab10-fa4eff085baf": {
+      "type": "accordions",
+      "blocks": {
+        "5ec0306c-74b7-4758-bceb-8d0728c17108": {
+          "type": "content",
+          "settings": {
+            "title": "A question your customers are asking",
+            "content": "<p>Answer to help your customers feel more comfortable completing their purchase.<\/p>",
+            "icon": ""
+          }
+        },
+        "3a066c8e-4cd6-4a78-b4e4-091408a0ce78": {
+          "type": "content",
+          "settings": {
+            "title": "A question your customers are asking",
+            "content": "<p>Answer to help your customers feel more comfortable completing their purchase.<\/p>",
+            "icon": ""
+          }
+        },
+        "3598468b-1b1a-40c0-966f-65af3564b855": {
+          "type": "content",
+          "settings": {
+            "title": "A question your customers are asking",
+            "content": "<p>Answer to help your customers feel more comfortable completing their purchase.<\/p>",
+            "icon": ""
+          }
+        }
+      },
+      "block_order": [
+        "5ec0306c-74b7-4758-bceb-8d0728c17108",
+        "3a066c8e-4cd6-4a78-b4e4-091408a0ce78",
+        "3598468b-1b1a-40c0-966f-65af3564b855"
+      ],
+      "settings": {
+        "heading": "Returns",
+        "content": "",
+        "button_label": "Button",
+        "button_url": "",
+        "spacing_top": 100,
+        "spacing_bottom": 100,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "color_button": "btn btn--secondary",
+        "style_border": "border--b-width",
+        "layout_x_alignment": "justify-between",
+        "visibility": ""
+      }
+    },
+    "db37ba27-2b7c-4b34-93dd-a802a223f18a": {
+      "type": "accordions",
+      "blocks": {
+        "1ef1bd3d-941f-48ac-a56f-ae0f05059808": {
+          "type": "content",
+          "settings": {
+            "title": "A question your customers are asking",
+            "content": "<p>Answer to help your customers feel more comfortable completing their purchase.<\/p>",
+            "icon": ""
+          }
+        },
+        "67bcb707-dea9-45a2-9e04-fb84dd02a986": {
+          "type": "content",
+          "settings": {
+            "title": "A question your customers are asking",
+            "content": "<p>Answer to help your customers feel more comfortable completing their purchase.<\/p>",
+            "icon": ""
+          }
+        },
+        "c0eb2f3e-9c60-4213-8c40-eb1815da288d": {
+          "type": "content",
+          "settings": {
+            "title": "A question your customers are asking",
+            "content": "<p>Answer to help your customers feel more comfortable completing their purchase.<\/p>",
+            "icon": ""
+          }
+        }
+      },
+      "block_order": [
+        "1ef1bd3d-941f-48ac-a56f-ae0f05059808",
+        "67bcb707-dea9-45a2-9e04-fb84dd02a986",
+        "c0eb2f3e-9c60-4213-8c40-eb1815da288d"
+      ],
+      "settings": {
+        "heading": "Others",
+        "content": "",
+        "button_label": "Button",
+        "button_url": "",
+        "spacing_top": 100,
+        "spacing_bottom": 100,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "color_button": "btn btn--secondary",
+        "style_border": "border--b-width",
+        "layout_x_alignment": "justify-between",
+        "visibility": ""
+      }
     }
   },
   "order": [
     "main",
-    "a34cde32-6cc5-47ea-bd7e-51474ea6b015"
+    "a34cde32-6cc5-47ea-bd7e-51474ea6b015",
+    "1d88139f-1043-4685-ab10-fa4eff085baf",
+    "db37ba27-2b7c-4b34-93dd-a802a223f18a"
   ]
 }
