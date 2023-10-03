@@ -44,7 +44,7 @@
     {{ settings.type_header_capitilization }}
     {% if section.settings.bar_layout_desktop == "center-below" %}w-full justify-center{% endif %}
     {% if section.settings.bar_layout_desktop == "left-below" %}w-full{% endif %}
-    {% if section.settings.bar_layout_desktop == "left-inline" %}pl-6 flex-grow{% endif %}">   
+    {% if section.settings.bar_layout_desktop == "left-inline" %}pl-6 flex-grow justify-center{% endif %}">   
 
     {%- for link in section.settings.dropdown_links.links -%}
       <div class="flex-shrink">
