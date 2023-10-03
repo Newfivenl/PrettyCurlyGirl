@@ -2,14 +2,64 @@
   "sections": {
     "main": {
       "type": "page__main",
+      "disabled": true,
       "settings": {
         "spacing_top": 60,
         "spacing_bottom": 60,
         "color_scheme": "color__bg-body color__text"
       }
+    },
+    "a34cde32-6cc5-47ea-bd7e-51474ea6b015": {
+      "type": "accordions",
+      "blocks": {
+        "template--19832239685962__a34cde32-6cc5-47ea-bd7e-51474ea6b015-content-1": {
+          "type": "content",
+          "settings": {
+            "title": "A question your customers are asking",
+            "content": "<p>Answer to help your customers feel more comfortable completing their purchase.<\/p>",
+            "icon": ""
+          }
+        },
+        "template--19832239685962__a34cde32-6cc5-47ea-bd7e-51474ea6b015-content-2": {
+          "type": "content",
+          "settings": {
+            "title": "A question your customers are asking",
+            "content": "<p>Answer to help your customers feel more comfortable completing their purchase.<\/p>",
+            "icon": ""
+          }
+        },
+        "template--19832239685962__a34cde32-6cc5-47ea-bd7e-51474ea6b015-content-3": {
+          "type": "content",
+          "settings": {
+            "title": "A question your customers are asking",
+            "content": "<p>Answer to help your customers feel more comfortable completing their purchase.<\/p>",
+            "icon": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19832239685962__a34cde32-6cc5-47ea-bd7e-51474ea6b015-content-1",
+        "template--19832239685962__a34cde32-6cc5-47ea-bd7e-51474ea6b015-content-2",
+        "template--19832239685962__a34cde32-6cc5-47ea-bd7e-51474ea6b015-content-3"
+      ],
+      "settings": {
+        "heading": "Shipping",
+        "content": "",
+        "button_label": "Button",
+        "button_url": "",
+        "spacing_top": 100,
+        "spacing_bottom": 100,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "color_button": "btn btn--secondary",
+        "style_border": "border--b-width",
+        "layout_x_alignment": "justify-between",
+        "visibility": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "a34cde32-6cc5-47ea-bd7e-51474ea6b015"
   ]
 }
