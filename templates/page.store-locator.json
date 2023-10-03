@@ -45,8 +45,8 @@
         "template--19754429415754__3463c98f-fcdf-4c01-8444-615e9f0ac641-store-2": {
           "type": "store",
           "settings": {
-            "store_name": "Store name",
-            "store_details": "<p>Share store hours, address and direction details<\/p>",
+            "store_name": "Pretty Curly Girl Products",
+            "store_details": "<p>Brandstore & Headquarters<br\/>Botersloot 42 A<br\/>3011 HH Rotterdam<\/p>",
             "latitude": "44.651070",
             "longitude": "-79.347015"
           }
