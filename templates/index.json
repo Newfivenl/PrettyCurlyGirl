@@ -97,10 +97,10 @@
           "type": "buttons",
           "settings": {
             "button_color": "btn btn--secondary",
-            "button_label": "SHOP NOW",
+            "button_label": "Shop Pretty Curly Girl",
             "button_url": "shopify:\/\/collections\/frontpage",
             "secondary_button_color": "btn btn--tertiary",
-            "secondary_button_label": "SHOP KIDS",
+            "secondary_button_label": "SHOP KIDS Line",
             "secondary_button_url": "shopify:\/\/collections\/curly-star"
           }
         }
