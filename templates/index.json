@@ -709,6 +709,56 @@
             "layout_mobile_width": 8
           }
         },
+        "555b86d7-67f4-4791-9628-13268517dd61": {
+          "type": "content",
+          "settings": {
+            "heading": "",
+            "content": "",
+            "video_background": "shopify:\/\/files\/videos\/Snapinsta.mp4",
+            "enable_autoplay": true,
+            "enable_mute_toggle": true,
+            "enable_loop": true,
+            "button_label": "",
+            "button_url": "",
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "enable_padding": false,
+            "color_scheme": "color__bg-neutral color__text",
+            "color_border": "color__border-divider-1",
+            "color_text": "color__text",
+            "color_button": "btn",
+            "enable_gradient": false,
+            "layout_y_alignment": "items-end",
+            "layout_x_alignment": "text-center justify-center",
+            "layout_desktop_width": 3,
+            "layout_mobile_width": 8
+          }
+        },
+        "88f501a3-f7cc-4f65-ace9-f90f8f9ddac3": {
+          "type": "content",
+          "settings": {
+            "heading": "",
+            "content": "",
+            "video_background": "shopify:\/\/files\/videos\/Project zonder titel.mp4",
+            "enable_autoplay": true,
+            "enable_mute_toggle": true,
+            "enable_loop": true,
+            "button_label": "",
+            "button_url": "",
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "enable_padding": false,
+            "color_scheme": "color__bg-neutral color__text",
+            "color_border": "color__border-divider-1",
+            "color_text": "color__text",
+            "color_button": "btn",
+            "enable_gradient": false,
+            "layout_y_alignment": "items-end",
+            "layout_x_alignment": "text-center justify-center",
+            "layout_desktop_width": 3,
+            "layout_mobile_width": 8
+          }
+        },
         "7801ce20-9a45-438a-8cc6-f5a3b4fc2fd2": {
           "type": "content",
           "disabled": true,
@@ -789,6 +839,8 @@
       },
       "block_order": [
         "template--18730720428336__f3fd7d15-8af4-4a33-810d-e1dbd27ed532-1681420304ca579e70-0",
+        "555b86d7-67f4-4791-9628-13268517dd61",
+        "88f501a3-f7cc-4f65-ace9-f90f8f9ddac3",
         "7801ce20-9a45-438a-8cc6-f5a3b4fc2fd2",
         "4d3ab863-e5b9-4d43-9016-ed14b2598f1e",
         "f84e6f6b-09b3-42d3-b909-8d3a28dbaf06"
