@@ -689,7 +689,7 @@
           "settings": {
             "heading": "",
             "content": "<p>100k on TikTok!!! And THANK YOUUUUU for including us to celebrate this together<\/p>",
-            "image_featured": "shopify:\/\/shop_images\/Screenshot_2023-08-15_at_9.16.10_PM.webp",
+            "video_background": "shopify:\/\/files\/videos\/Snapinsta.app_video_10000000_278155371316473_7421143614027377512_n.mp4",
             "enable_autoplay": true,
             "enable_mute_toggle": true,
             "enable_loop": true,
@@ -711,6 +711,7 @@
         },
         "7801ce20-9a45-438a-8cc6-f5a3b4fc2fd2": {
           "type": "content",
+          "disabled": true,
           "settings": {
             "heading": "",
             "content": "<p>100k on TikTok!!! And THANK YOUUUUU for including us to celebrate this together<\/p>",
@@ -736,6 +737,7 @@
         },
         "4d3ab863-e5b9-4d43-9016-ed14b2598f1e": {
           "type": "content",
+          "disabled": true,
           "settings": {
             "heading": "",
             "content": "<p>100k on TikTok!!! And THANK YOUUUUU for including us to celebrate this together<\/p>",
@@ -761,6 +763,7 @@
         },
         "f84e6f6b-09b3-42d3-b909-8d3a28dbaf06": {
           "type": "content",
+          "disabled": true,
           "settings": {
             "heading": "",
             "content": "<p>100k on TikTok!!! And THANK YOUUUUU for including us to celebrate this together<\/p>",
