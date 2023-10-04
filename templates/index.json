@@ -355,7 +355,7 @@
             "heading": "Healthy Curls",
             "content": "<p>Healthy scalp and curls. Helps with hair growth <\/p>",
             "button_label": "shop healthy",
-            "button_url": "\/",
+            "button_url": "shopify:\/\/collections\/healthy-curls",
             "full_block_link": true,
             "image_featured": "shopify:\/\/shop_images\/AF4A6058.jpg",
             "enable_autoplay": true,
