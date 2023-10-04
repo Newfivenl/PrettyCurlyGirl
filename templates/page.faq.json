@@ -35,21 +35,12 @@
             "content": "<p>Yes in Rotterdam city centre, Botersloot 42A. You are welcome for advice. <\/p>",
             "icon": ""
           }
-        },
-        "0db5bac8-be8e-4307-9ca6-3e8c626dd834": {
-          "type": "content",
-          "settings": {
-            "title": "Can I use your products for my ci",
-            "content": "<p>Answer to help your customers feel more comfortable completing their purchase.<\/p>",
-            "icon": ""
-          }
         }
       },
       "block_order": [
         "template--19832239685962__a34cde32-6cc5-47ea-bd7e-51474ea6b015-content-1",
         "template--19832239685962__a34cde32-6cc5-47ea-bd7e-51474ea6b015-content-2",
-        "template--19832239685962__a34cde32-6cc5-47ea-bd7e-51474ea6b015-content-3",
-        "0db5bac8-be8e-4307-9ca6-3e8c626dd834"
+        "template--19832239685962__a34cde32-6cc5-47ea-bd7e-51474ea6b015-content-3"
       ],
       "settings": {
         "heading": "FAQ",
@@ -72,8 +63,8 @@
         "5ec0306c-74b7-4758-bceb-8d0728c17108": {
           "type": "content",
           "settings": {
-            "title": "A question your customers are asking",
-            "content": "<p>Answer to help your customers feel more comfortable completing their purchase.<\/p>",
+            "title": "What is the delivery time?",
+            "content": "<p>Orders before 22:00 will be dispatched the same day. There is next day delivery for the Netherlands, but keep mind that it can be busy for DHL and there can be a delay. <br\/>Europe 2-4 business days<br\/>Rest of the World 3-5 days<\/p>",
             "icon": ""
           }
         },
@@ -100,7 +91,7 @@
         "3598468b-1b1a-40c0-966f-65af3564b855"
       ],
       "settings": {
-        "heading": "Returns",
+        "heading": "Shipping",
         "content": "",
         "button_label": "Button",
         "button_url": "",
