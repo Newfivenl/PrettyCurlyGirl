@@ -15,8 +15,8 @@
         "template--19832239685962__a34cde32-6cc5-47ea-bd7e-51474ea6b015-content-1": {
           "type": "content",
           "settings": {
-            "title": "A question your customers are asking",
-            "content": "<p>Answer to help your customers feel more comfortable completing their purchase.<\/p>",
+            "title": "Are your products curly girl approved and Vegan?",
+            "content": "<p>Yes they whole line is vegan and all the products are cg approved. <\/p>",
             "icon": ""
           }
         },
@@ -43,7 +43,7 @@
         "template--19832239685962__a34cde32-6cc5-47ea-bd7e-51474ea6b015-content-3"
       ],
       "settings": {
-        "heading": "Shipping",
+        "heading": "FAQ",
         "content": "",
         "button_label": "Button",
         "button_url": "",
