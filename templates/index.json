@@ -688,7 +688,7 @@
           "type": "content",
           "settings": {
             "heading": "",
-            "content": "<p>100k on TikTok!!! And THANK YOUUUUU for including us to celebrate this together<\/p>",
+            "content": "",
             "video_background": "shopify:\/\/files\/videos\/Snapinsta.app_video_10000000_278155371316473_7421143614027377512_n.mp4",
             "enable_autoplay": true,
             "enable_mute_toggle": true,
@@ -697,14 +697,14 @@
             "button_url": "",
             "spacing_top": 0,
             "spacing_bottom": 0,
-            "enable_padding": true,
+            "enable_padding": false,
             "color_scheme": "color__bg-neutral color__text",
             "color_border": "color__border-divider-1",
             "color_text": "color__text",
             "color_button": "btn",
             "enable_gradient": false,
             "layout_y_alignment": "items-end",
-            "layout_x_alignment": "",
+            "layout_x_alignment": "text-center justify-center",
             "layout_desktop_width": 3,
             "layout_mobile_width": 8
           }
@@ -794,7 +794,7 @@
         "f84e6f6b-09b3-42d3-b909-8d3a28dbaf06"
       ],
       "settings": {
-        "heading": "See what our customers say about the product",
+        "heading": "BE AMAZED BY THE RESULTS",
         "content": "",
         "button_label": "Button label",
         "button_url": "",
