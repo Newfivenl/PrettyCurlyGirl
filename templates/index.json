@@ -58,6 +58,14 @@
             "heading": "All Products",
             "url": "shopify:\/\/collections\/all"
           }
+        },
+        "7e21a01b-d242-4f4e-a818-342043746b09": {
+          "type": "slide",
+          "settings": {
+            "image_featured": "shopify:\/\/shop_images\/diffusercapopen.jpg",
+            "heading": "Accesoires",
+            "url": "shopify:\/\/collections\/accessories"
+          }
         }
       },
       "block_order": [
@@ -67,7 +75,8 @@
         "template--19487943393610__7c450e25-a49b-4dbd-aa01-9b08189f1f76-slide-4",
         "template--19487943393610__7c450e25-a49b-4dbd-aa01-9b08189f1f76-slide-5",
         "e9433735-3896-4cbb-a4d1-19ad3f337d2c",
-        "d78ab6ae-ba92-4e8f-9fcf-e69760d1754c"
+        "d78ab6ae-ba92-4e8f-9fcf-e69760d1754c",
+        "7e21a01b-d242-4f4e-a818-342043746b09"
       ],
       "settings": {
         "spacing_top": 0,
