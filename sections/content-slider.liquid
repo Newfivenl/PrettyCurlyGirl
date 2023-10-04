@@ -65,7 +65,7 @@
 
             {%- unless block.settings.video_background == blank %}
               <div class="relative w-full overflow-hidden" 
-                style="height:256px;"
+                style="height:400px;"
                 x-data="{
                   video_muted: true,
                   video_playing: {% if block.settings.enable_autoplay %} true {% else %} false {% endif %}
