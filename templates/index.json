@@ -601,7 +601,7 @@
         "color_button": "btn btn--secondary",
         "style_border": "border--b-width",
         "row_size_desktop": "md:grid-cols-3",
-        "row_size_mobile": "grid-cols-2",
+        "row_size_mobile": "grid-cols-1",
         "layout_x_alignment": "text-center justify-center flex-col items-center",
         "visibility": ""
       }
