@@ -257,7 +257,7 @@
         "heading": "Bestsellers",
         "content": "",
         "button_label": "View all",
-        "button_url": "shopify:\/\/collections\/new-products",
+        "button_url": "shopify:\/\/collections\/all",
         "spacing_top": 40,
         "spacing_bottom": 0,
         "color_scheme": "color__bg-body color__text",
