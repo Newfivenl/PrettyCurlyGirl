@@ -514,8 +514,8 @@
           "type": "card",
           "disabled": true,
           "settings": {
-            "heading": "Block heading",
-            "content": "<p>Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "heading": "",
+            "content": "",
             "button_label": "Button",
             "button_url": "\/"
           }
