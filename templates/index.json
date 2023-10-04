@@ -56,7 +56,7 @@
           "settings": {
             "image_featured": "shopify:\/\/shop_images\/AF4A6066.jpg",
             "heading": "All Products",
-            "url": "shopify:\/\/collections\/frontpage"
+            "url": "shopify:\/\/collections\/all"
           }
         }
       },
@@ -98,7 +98,7 @@
           "settings": {
             "button_color": "btn btn--secondary",
             "button_label": "Shop Pretty Curly Girl",
-            "button_url": "shopify:\/\/collections\/frontpage",
+            "button_url": "shopify:\/\/collections\/all",
             "secondary_button_color": "btn btn--tertiary",
             "secondary_button_label": "SHOP KIDS Line",
             "secondary_button_url": "shopify:\/\/collections\/curly-star"
@@ -243,12 +243,12 @@
         "template--18730720428336__fa45b532-e64f-489b-9403-7046250c0e16-1681420382a4ee4d2a-0"
       ],
       "settings": {
-        "collection": "frontpage",
+        "collection": "all",
         "products_count": 10,
         "heading": "Bestsellers",
         "content": "",
         "button_label": "View all",
-        "button_url": "shopify:\/\/collections\/frontpage",
+        "button_url": "shopify:\/\/collections\/all",
         "spacing_top": 40,
         "spacing_bottom": 0,
         "color_scheme": "color__bg-body color__text",
@@ -516,7 +516,7 @@
         "500f39ed-e0e7-4898-acc0-1f9107b0bf0f"
       ],
       "settings": {
-        "collection": "frontpage",
+        "collection": "all",
         "products_count": 7,
         "heading": "TRY ME SIZES",
         "content": "",
