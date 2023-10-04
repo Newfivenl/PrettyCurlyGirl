@@ -891,7 +891,7 @@
       "settings": {
         "blog": "cg-aprroved-curly-girl-method",
         "items_count": 3,
-        "heading": "Curly hair news",
+        "heading": "Pretty NEWS",
         "content": "",
         "button_label": "Read more",
         "button_url": "shopify:\/\/blogs\/cg-aprroved-curly-girl-method",
@@ -899,7 +899,7 @@
         "enable_summary": true,
         "enable_date": false,
         "enable_tags": false,
-        "spacing_top": 100,
+        "spacing_top": 40,
         "spacing_bottom": 100,
         "color_scheme": "color__bg-body color__text",
         "color_border": "color__border-divider-1",
