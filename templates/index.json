@@ -905,7 +905,7 @@
         "button_label": "Read more",
         "button_url": "shopify:\/\/blogs\/cg-aprroved-curly-girl-method",
         "enable_author": false,
-        "enable_summary": false,
+        "enable_summary": true,
         "enable_date": false,
         "enable_tags": false,
         "spacing_top": 140,
