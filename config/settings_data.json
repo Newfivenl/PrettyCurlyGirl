@@ -323,7 +323,7 @@
         "type": "shopify:\/\/apps\/geolocation-orbe\/blocks\/app-embed-modal\/7cb09287-cd2b-4646-837c-f1f9b6ea703e",
         "disabled": false,
         "settings": {
-          "test_mode": true,
+          "test_mode": false,
           "modal_closeButton": true,
           "option_flag_style": "circle",
           "option_currency_type": "none",
@@ -1708,7 +1708,7 @@
     "custom_css": [
       ".md-modal__footerPoweredOrbe {display: none !important;}",
       ".md-modal__footer {padding: 0.5rem 1.6rem 1rem 1.6rem;}",
-      ".md-btn__primary{font-family: var(--type-font-button-family);}"
+      ".md-btn__primary {font-family: var(--type-font-button-family);}"
     ]
   }
 }
