@@ -275,7 +275,7 @@
           "type": "content",
           "settings": {
             "heading": "Step 1: Cleanse",
-            "content": "<p>Choose the cleanse product that your curls need.<\/p>",
+            "content": "<p>Choose the right cleanse product your curls always need.<\/p>",
             "button_label": "Shop Step 1",
             "button_url": "shopify:\/\/collections\/step-1-cleanse",
             "full_block_link": true,
