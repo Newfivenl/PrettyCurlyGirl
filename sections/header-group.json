@@ -47,8 +47,8 @@
           "settings": {
             "menu": "shop",
             "url": "shopify:\/\/collections\/all",
-            "heading": "Bestseller",
-            "content": "<p>Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "heading": "Meet our bestseller",
+            "content": "<p><strong>MAGICAL FLAXSEED GEL 250ML<br\/><\/strong>This is the best Flaxseed Gel available for Curly Hair<br\/><\/p>",
             "image": "shopify:\/\/shop_images\/AF4A6026.jpg"
           }
         }
