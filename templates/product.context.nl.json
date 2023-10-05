@@ -5,11 +5,11 @@
   },
   "sections": {
     "1638995507af787164": {
-      "disabled": false,
       "settings": {
       },
       "blocks": {
-        "fd18c62c-f5e0-4e28-855f-29aa1676eea3": {
+        "6963d72e-056b-4a9f-879f-6bc3c1f25bb5": {
+          "disabled": true,
           "settings": {
           }
         }
