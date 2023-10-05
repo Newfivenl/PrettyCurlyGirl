@@ -288,11 +288,42 @@
 
     ],
     "blocks": {
+      "15351435345818755577": {
+        "type": "shopify:\/\/apps\/pandectes-gdpr-compliance\/blocks\/banner\/58c0baa2-6cc1-480c-9ea6-38d6d559556a",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "855628211100114053": {
+        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "5858961087409699889": {
+        "type": "shopify:\/\/apps\/geolocation-orbe\/blocks\/app-embed-footer-selector\/7cb09287-cd2b-4646-837c-f1f9b6ea703e",
+        "disabled": true,
+        "settings": {
+          "footer_ui_type": "popup",
+          "option_language": true,
+          "style_corners": "square",
+          "block_background": "#fff",
+          "style_colors_background": "#fbfbfb",
+          "style_colors_border": "#000",
+          "style_colors_text": "#000",
+          "option_flags": true,
+          "option_currency_type": "iso",
+          "option_modal_language": true,
+          "title": "Select Your Region",
+          "language_title": "Preferred Language",
+          "block_alignement": "center"
+        }
+      },
       "15912215999290715800": {
         "type": "shopify:\/\/apps\/geolocation-orbe\/blocks\/app-embed-modal\/7cb09287-cd2b-4646-837c-f1f9b6ea703e",
         "disabled": false,
         "settings": {
-          "test_mode": false,
+          "test_mode": true,
           "modal_closeButton": true,
           "option_flag_style": "circle",
           "option_currency_type": "none",
@@ -1672,5 +1703,11 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".md-modal__footerPoweredOrbe {display: none !important;}",
+      ".md-modal__footer {padding:0.5rem 1.6rem 1rem 1.6rem;}"
+    ]
   }
 }
