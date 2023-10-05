@@ -4,5 +4,22 @@
     "market": "us"
   },
   "sections": {
+    "theme_announcement": {
+      "disabled": false,
+      "settings": {
+      },
+      "blocks": {
+        "f2232503-8685-46db-aaf1-b796c5ea14f9": {
+          "settings": {
+            "content": "<p>FREE DELIVERY FOR ORDERS OVER €150,-<\/p>"
+          }
+        },
+        "0aef7f69-5126-412f-b8c7-8453e5ee49b4": {
+          "settings": {
+            "content": "<p>EXPRESS USA DELIVERY IN 3 DAYS FOR $19,95<\/p>"
+          }
+        }
+      }
+    }
   }
 }
