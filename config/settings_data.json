@@ -1707,7 +1707,8 @@
   "platform_customizations": {
     "custom_css": [
       ".md-modal__footerPoweredOrbe {display: none !important;}",
-      ".md-modal__footer {padding:0.5rem 1.6rem 1rem 1.6rem;}"
+      ".md-modal__footer {padding: 0.5rem 1.6rem 1rem 1.6rem;}",
+      ".md-btn__primary{font-family: var(--type-font-button-family);}"
     ]
   }
 }
