@@ -43,6 +43,7 @@
       "blocks": {
         "e561cffb-e23b-4a10-8382-4959a1b99bf2": {
           "type": "Content",
+          "disabled": true,
           "settings": {
             "menu": "shop",
             "url": "shopify:\/\/collections\/all",
