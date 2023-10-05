@@ -284,7 +284,7 @@
             "enable_mute_toggle": false,
             "enable_loop": false,
             "spacing_top": 0,
-            "spacing_bottom": 60,
+            "spacing_bottom": 20,
             "enable_padding": true,
             "color_scheme": "color__bg-tertiary color__tertiary",
             "color_border": "color__border-divider-1",
@@ -517,7 +517,7 @@
             "heading": "",
             "content": "",
             "button_label": "Button",
-            "button_url": "shopify:\/\/collections\/new-products"
+            "button_url": "\/"
           }
         }
       },
