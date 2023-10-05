@@ -5,12 +5,13 @@
   },
   "sections": {
     "theme_announcement": {
+      "disabled": false,
       "settings": {
       },
       "blocks": {
         "f2232503-8685-46db-aaf1-b796c5ea14f9": {
           "settings": {
-            "content": "<p>FREE DELIVERY BELGIUM FOR ORDERS OVER 50,-<\/p>"
+            "content": "<p>FREE DELIVERY IN BELGIUM FOR ORDERS OVER €50<\/p>"
           }
         }
       }
