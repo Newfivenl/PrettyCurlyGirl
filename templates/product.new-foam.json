@@ -84,6 +84,30 @@
             "enable_gift_card_recipient": false
           }
         },
+        "3db25bb5-c745-4ead-a0a8-35abd3655cda": {
+          "type": "usp-product",
+          "settings": {
+            "usp_product_text": "<p>Made with love & VEGAN<\/p>",
+            "usp_product_icon_svg": "",
+            "usp_product_icon_image": "shopify:\/\/shop_images\/icon-heart.svg",
+            "usp_product_text_2": "<p>Free shipping on orders over €50,- in NL<\/p>",
+            "usp_product_icon_svg_2": "",
+            "usp_product_icon_image_2": "shopify:\/\/shop_images\/package_1.svg",
+            "usp_product_text_3": "<p>Order before 22:00, shipped same day<\/p>",
+            "usp_product_icon_svg_3": "",
+            "usp_product_icon_image_3": "shopify:\/\/shop_images\/truck.svg",
+            "usp_product_text_4": "",
+            "usp_product_icon_svg_4": "",
+            "usp_product_text_5": "",
+            "usp_product_icon_svg_5": "",
+            "usp_background_color": "#fafafa",
+            "usp_container_padding": 15,
+            "usp_font_size": 10,
+            "usp_font_color": "#514843",
+            "icon__color": "",
+            "usp_image_width": 20
+          }
+        },
         "123fd04c-91f3-4248-a65a-614e2f64fdeb": {
           "type": "description",
           "settings": {
@@ -92,7 +116,7 @@
             "spacing_bottom": 0,
             "color_scheme": "color__bg-body color__text",
             "style_border": "border--b-width",
-            "position": "left",
+            "position": "right",
             "enable_open": true
           }
         },
@@ -104,7 +128,7 @@
             "icon": "",
             "color_scheme": "color__bg-body color__text",
             "style_border": "border--b-width",
-            "position": "left",
+            "position": "right",
             "enable_open": false
           }
         },
@@ -116,7 +140,7 @@
             "icon": "",
             "color_scheme": "color__bg-body color__text",
             "style_border": "border--b-width",
-            "position": "left",
+            "position": "right",
             "enable_open": false
           }
         },
@@ -149,30 +173,6 @@
             "color_scheme": "color__bg-overlay-1 color__text",
             "on_scroll": true
           }
-        },
-        "3db25bb5-c745-4ead-a0a8-35abd3655cda": {
-          "type": "usp-product",
-          "settings": {
-            "usp_product_text": "<p>Made with love & VEGAN<\/p>",
-            "usp_product_icon_svg": "",
-            "usp_product_icon_image": "shopify:\/\/shop_images\/icon-heart.svg",
-            "usp_product_text_2": "<p>Free shipping on orders over €50,- in NL<\/p>",
-            "usp_product_icon_svg_2": "",
-            "usp_product_icon_image_2": "shopify:\/\/shop_images\/package_1.svg",
-            "usp_product_text_3": "<p>Order before 22:00, shipped same day<\/p>",
-            "usp_product_icon_svg_3": "",
-            "usp_product_icon_image_3": "shopify:\/\/shop_images\/truck.svg",
-            "usp_product_text_4": "",
-            "usp_product_icon_svg_4": "",
-            "usp_product_text_5": "",
-            "usp_product_icon_svg_5": "",
-            "usp_background_color": "#fafafa",
-            "usp_container_padding": 15,
-            "usp_font_size": 10,
-            "usp_font_color": "#514843",
-            "icon__color": "",
-            "usp_image_width": 20
-          }
         }
       },
       "block_order": [
@@ -183,13 +183,13 @@
         "b78b560b-e1c2-428d-ad73-fb5f8aac6d58",
         "9f1692ea-ccb9-4e4c-9c83-7a6ae53392aa",
         "b78b560b-e1c2-428d-ad73-fb5f8aac6d53",
+        "3db25bb5-c745-4ead-a0a8-35abd3655cda",
         "123fd04c-91f3-4248-a65a-614e2f64fdeb",
         "fd18c62c-f5e0-4e28-855f-29aa1676eea3",
         "e330660c-f160-4592-b934-2da2024f8ef8",
         "c18a6be5-7074-4b70-a8e1-d4f845a9e665",
         "76f2c051-662d-4c42-b036-d6658cf9616f",
-        "848f5aea-f7ad-4974-a5fb-020776e3e523",
-        "3db25bb5-c745-4ead-a0a8-35abd3655cda"
+        "848f5aea-f7ad-4974-a5fb-020776e3e523"
       ],
       "settings": {
         "enable_default_variant": true,
