@@ -3,6 +3,14 @@
     "7c450e25-a49b-4dbd-aa01-9b08189f1f76": {
       "type": "navigation-slider",
       "blocks": {
+        "0ce04e77-6e38-4cb0-97f9-c8dea0a71a06": {
+          "type": "slide",
+          "settings": {
+            "image_featured": "shopify:\/\/shop_images\/47DABC65-3006-480C-B2A9-1559E556FCE7.jpg",
+            "heading": "NEW FOAM",
+            "url": "shopify:\/\/products\/flaxseed-styling-foam-150ml"
+          }
+        },
         "template--19487943393610__7c450e25-a49b-4dbd-aa01-9b08189f1f76-slide-1": {
           "type": "slide",
           "settings": {
@@ -69,6 +77,7 @@
         }
       },
       "block_order": [
+        "0ce04e77-6e38-4cb0-97f9-c8dea0a71a06",
         "template--19487943393610__7c450e25-a49b-4dbd-aa01-9b08189f1f76-slide-1",
         "template--19487943393610__7c450e25-a49b-4dbd-aa01-9b08189f1f76-slide-2",
         "template--19487943393610__7c450e25-a49b-4dbd-aa01-9b08189f1f76-slide-3",
