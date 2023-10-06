@@ -153,7 +153,7 @@
       "theme__menu": {
         "type": "theme__menu",
         "settings": {
-          "main_links": "main-menu-new",
+          "main_links": "main-menu",
           "top_color_scheme": "color__bg-body color__text",
           "top_color_border": "color__border-divider-1",
           "top_color_button": "btn btn--plain",
