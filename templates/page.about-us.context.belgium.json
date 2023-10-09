@@ -1,0 +1,17 @@
+{
+  "parent": "page.about-us.json",
+  "context": {
+    "market": "belgium"
+  },
+  "sections": {
+    "3da21793-b9c5-452d-9e34-4d467e086fec": {
+      "blocks": {
+        "template--19487943131466__3da21793-b9c5-452d-9e34-4d467e086fec-heading-1": {
+          "settings": {
+            "content": "DE PERSOON"
+          }
+        }
+      }
+    }
+  }
+}
