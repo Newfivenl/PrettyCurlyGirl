@@ -1059,6 +1059,9 @@ img:after {
 .collapse {
   visibility: collapse;
 }
+.static {
+  position: static;
+}
 .\!fixed {
   position: fixed !important;
 }
@@ -3863,6 +3866,9 @@ html {
   }
   .md\:justify-end {
     justify-content: flex-end;
+  }
+  .md\:justify-center {
+    justify-content: center;
   }
   .md\:gap-4 {
     gap: 1rem;
