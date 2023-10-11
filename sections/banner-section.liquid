@@ -1,9 +1,54 @@
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Banner Section",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "banner_image",
+        "label": "Banner Image"
+      },
+      {
+        "type": "text",
+        "id": "banner_heading",
+        "label": "Heading",
+        "default": "START WITH YOUR HEALY HAIR CARE JOURNEY"
+      },
+      {
+        "type": "richtext",
+        "id": "banner_text",
+        "label": "Sub-text"
+      },
+      {
+        "type": "text",
+        "id": "button_text",
+        "label": "Button Text",
+        "default": "SHOP NOW"
+      },
+      {
+        "type": "url",
+        "id": "button_link",
+        "label": "Button Link"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "list_item",
+        "name": "List Item",
+        "limit": 3,
+        "settings": [
+          {
+            "type": "text",
+            "id": "item_text",
+            "label": "Item Text",
+            "default": "Lorem ipsum dolor sit amet"
+          }
+        ]
+      }
+    ]
   }
 {% endschema %}
+
+
 
 {% stylesheet %}
 {% endstylesheet %}
