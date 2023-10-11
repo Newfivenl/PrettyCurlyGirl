@@ -1,0 +1,90 @@
+<section class="mx-auto flex h-full w-full justify-center banner-section">
+    <div class="flex w-full flex-col">
+      <!-- Banner Image and Text -->
+      <div class="flex flex-col sm:h-[450px] sm:flex-row md:h-[500px] lg:h-[600px]">
+        <!-- Image -->
+        <div class="relative sm:order-1 sm:h-full sm:w-1/2">
+          <img src="{{ section.settings.banner_image | img_url: 'master' }}" alt="hero-img"
+            class="h-[330px] sm:h-full w-full object-cover sm:object-[80%,70%] origin-top-right " />
+        </div>
+        <!-- Text -->
+        <div class="flex flex-col bg-clr-secondry sm:h-full sm:w-1/2 lg:items-center lg:justify-center ">
+          <div class="space-y-2 px-6 xl:w-[470px] text-clr-primary sm:h-full xl:h-fit sm:p-6 md:p-10 lg:p-16 xl:p-0">
+            <h2
+              class="leading-51 mt-2 text-left font-oswald text-[1.68rem] font-medium uppercase tracking-normal text-white opacity-100 lg:text-[42px] lg:leading-tight">
+              {{ section.settings.banner_heading }}</h2>
+            <p class="font-source font-normal tracking-wider">{{ section.settings.banner_text | escape }}</p>
+            <!-- List Items -->
+            <ul class="flex flex-col space-y-4">
+              {% for block in section.blocks %}
+                <li class="flex">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="mr-4 h-6 w-5 font-bold" width="24" height="24"
+                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                    stroke-linejoin="round" class="feather feather-check-circle">
+                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                  </svg>
+                  <span>{{ block.settings.item_text }}</span>
+                </li>
+              {% endfor %}
+            </ul>
+            <!-- ... rest of the markup remains the same -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+
+{% schema %}
+  {
+    "name": "Banner Section",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "banner_image",
+        "label": "Banner Image"
+      },
+      {
+        "type": "text",
+        "id": "banner_heading",
+        "label": "Heading",
+        "default": "START WITH YOUR HEALY HAIR CARE JOURNEY"
+      },
+      {
+        "type": "richtext",
+        "id": "banner_text",
+        "label": "Sub-text",
+        "default": "Love your curls, take care of your curls, Your curls with love you back"
+      },
+      {
+        "type": "text",
+        "id": "button_text",
+        "label": "Button Text",
+        "default": "SHOP NOW"
+      },
+      {
+        "type": "url",
+        "id": "button_link",
+        "label": "Button Link",
+        "default": "#"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "list_item",
+        "name": "List Item",
+        "limit": 3,
+        "settings": [
+          {
+            "type": "text",
+            "id": "item_text",
+            "label": "Item Text",
+            "default": "Lorem ipsum dolor sit amet"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
