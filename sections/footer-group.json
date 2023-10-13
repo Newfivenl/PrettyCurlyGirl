@@ -6,8 +6,8 @@
       "type": "liquid",
       "settings": {
         "liquid": "<div class=\"trustpilot-footer center\">\n  <div\n    class='trustpilot-widget'\n    data-locale='en-US'\n    data-template-id='5613c9cde69ddc09340c6beb'\n    data-businessunit-id='637b98987e43af70d3b7b79b'\n    data-style-height='20px'\n    data-alignment='left'\n    data-style-width='100%'\n    data-theme='light'\n  >\n    <a\n      href='https:\/\/nl.trustpilot.com\/review\/prettycurlygirl.store'\n      target='_blank'\n      rel='noopener'\n      >Trustpilot<\/a\n    >\n  <\/div>\n<\/div>",
-        "spacing_top": 100,
-        "spacing_bottom": 100,
+        "spacing_top": 0,
+        "spacing_bottom": 0,
         "color_scheme": "color__bg-body color__text",
         "color_border": "color__border-divider-1",
         "style_border": "border--b-width",
