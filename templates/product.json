@@ -173,6 +173,17 @@
             "icon__color": "",
             "usp_image_width": 20
           }
+        },
+        "3ba7f3c7-8c36-4bc9-9233-efb1153b1728": {
+          "type": "liquid",
+          "settings": {
+            "custom_liquid": "<script>\n  ['click', 'scroll', 'mousemove', 'touchstart','mousemove'].forEach(function(e) {\n    window.addEventListener(e, firstInteraction, {\n        once: true\n      });\n  });\n  var userInteracted = false;\n  function firstInteraction() {\n      if (!userInteracted) {\n          userInteracted = true;\n          \/\/ load new scripts here\n            var script = document.createElement(\"script\");\n            script.type = \"text\/javascript\";\n            script.src = \"\/\/widget.trustpilot.com\/bootstrap\/v5\/tp.widget.bootstrap.min.js\";\n            script.async = true;\n            document.getElementsByTagName(\"head\")[0].appendChild(script);\n      }\n  }\n<\/script>\n<div class=\"trustpilot-footer\">\n  <div\n    class='trustpilot-widget'\n    data-locale='en-US'\n    data-template-id='5613c9cde69ddc09340c6beb'\n    data-businessunit-id='637b98987e43af70d3b7b79b'\n    data-style-height='20px'\n    data-alignment='left'\n    data-style-width='100%'\n    data-theme='light'\n  >\n    <a\n      href='https:\/\/nl.trustpilot.com\/review\/prettycurlygirl.store'\n      target='_blank'\n      rel='noopener'\n      >Trustpilot<\/a\n    >\n  <\/div>\n<\/div>",
+            "spacing_top": 10,
+            "spacing_bottom": 10,
+            "color_scheme": "color__bg-body color__text",
+            "style_border": "",
+            "position": "right"
+          }
         }
       },
       "block_order": [
@@ -189,7 +200,8 @@
         "c18a6be5-7074-4b70-a8e1-d4f845a9e665",
         "76f2c051-662d-4c42-b036-d6658cf9616f",
         "848f5aea-f7ad-4974-a5fb-020776e3e523",
-        "3db25bb5-c745-4ead-a0a8-35abd3655cda"
+        "3db25bb5-c745-4ead-a0a8-35abd3655cda",
+        "3ba7f3c7-8c36-4bc9-9233-efb1153b1728"
       ],
       "settings": {
         "enable_default_variant": true,
