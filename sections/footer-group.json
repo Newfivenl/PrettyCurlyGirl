@@ -13,6 +13,15 @@
             "logo_mobile_height": 150
           }
         },
+        "60a14b1f-939a-4e8d-98fc-b083a1ddea45": {
+          "type": "content",
+          "settings": {
+            "heading": "Your #1 Hair Care brand",
+            "content": "<p>We're a woman owned and driven to give you the best products for your curly hair.<br\/><\/p><p><br\/><br\/><br\/>Botersloot 42A<br\/>3011HH Rotterdam<br\/>The Netherlands<\/p><p>CoC: 90677153<br\/>VAT: NL86540470B01<\/p>",
+            "button_label": "",
+            "button_url": ""
+          }
+        },
         "150805eb-9862-49dd-b0c2-0111162d6fce": {
           "type": "menu",
           "settings": {
@@ -25,21 +34,30 @@
             "menu": "customer-support"
           }
         },
-        "60a14b1f-939a-4e8d-98fc-b083a1ddea45": {
+        "f88bd7b3-b91e-45ba-b0b0-3c007a6bd7ed": {
           "type": "content",
+          "disabled": true,
           "settings": {
-            "heading": "Your #1 Hair Care brand",
-            "content": "<p>We're a woman owned and driven to give you the best products for your curly hair.<br\/><\/p><p><br\/><br\/><br\/>Botersloot 42A<br\/>3011HH Rotterdam<br\/>The Netherlands<\/p><p>CoC: 90677153<br\/>VAT: NL86540470B01<\/p>",
-            "button_label": "",
-            "button_url": ""
+            "heading": "Block heading",
+            "content": "<p>Remind customers of offers like free shipping and lifetime warranty<\/p>",
+            "button_label": "Button",
+            "button_url": "shopify:\/\/collections\/all"
+          }
+        },
+        "5301297b-6452-41a5-974d-45106604dc5d": {
+          "type": "menu",
+          "settings": {
+            "menu": "main-menu-new"
           }
         }
       },
       "block_order": [
         "112393ba-7951-414b-a738-b9bd6860735d",
+        "60a14b1f-939a-4e8d-98fc-b083a1ddea45",
         "150805eb-9862-49dd-b0c2-0111162d6fce",
         "6ad6b950-210d-4cf8-b231-62c67db4980e",
-        "60a14b1f-939a-4e8d-98fc-b083a1ddea45"
+        "f88bd7b3-b91e-45ba-b0b0-3c007a6bd7ed",
+        "5301297b-6452-41a5-974d-45106604dc5d"
       ],
       "settings": {
         "main_color_scheme": "color__bg-primary color__primary",
