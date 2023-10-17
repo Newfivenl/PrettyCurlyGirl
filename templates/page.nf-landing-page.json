@@ -2,6 +2,7 @@
   "sections": {
     "main": {
       "type": "page__main",
+      "disabled": true,
       "settings": {
         "spacing_top": 60,
         "spacing_bottom": 60,
@@ -35,6 +36,7 @@
         "46e41359-349f-465f-a482-efa3a4969c7a",
         "17e916e0-cc1b-4cb4-bb27-3f7bbc998c4d"
       ],
+      "disabled": true,
       "settings": {
         "spacing_top": 100,
         "spacing_bottom": 100,
