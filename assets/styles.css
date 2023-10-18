@@ -1937,6 +1937,9 @@ img:after {
 .\!w-\[300px\] {
   width: 300px !important;
 }
+.w-\[138px\] {
+  width: 138px;
+}
 .\!min-w-0 {
   min-width: 0px !important;
 }
