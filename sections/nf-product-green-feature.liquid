@@ -1,0 +1,49 @@
+<section class="bg-[#FAF0F0] md:h-[121px] h-full flex  items-center justify-center md:mb-[60px] md:mt-[40px]">
+<div
+    class="md:h-[82px] h-full mx-auto flex flex-wrap flex-col sm:flex-row sm:space-x-[65px] md:space-x-[89px] space-y-[20px] sm:space-y-0 py-[30px] md:pt-0 justify-center items-center">
+    {% for block in section.blocks %}
+        <div class="flex flex-col justify-center items-center">
+            {% if block.settings.icon %}
+                {{ block.settings.icon }}
+            {% endif %}
+            {% if block.settings.icon_text %}
+                <h3 class="text-[#514843] font-bold mt-[23px] text-[14px] uppercase tracking-[0.6px]">
+                    {{ block.settings.icon_text }}
+                </h3>
+            {% endif %}
+        </div>
+    {% endfor %}
+</div>
+</section>
+
+{% schema %}
+    {
+      "name": "NF - Icon with text",
+      "settings": [
+      ],
+      "blocks": [
+        {
+          "type": "icon_with_text",
+          "name": "Icon with text",
+          "limit": 5,
+          "settings": [
+            {
+                "type": "html",
+                "id": "icon",
+                "label": "Icon svg"
+            },
+            {
+                "type": "text",
+                "id": "icon_text",
+                "label": "Icon text"
+            }
+          ]
+        }
+      ],
+      "presets": [
+        {
+          "name": "NF - Icon with text"
+        }
+      ]
+    }
+  {% endschema %}
