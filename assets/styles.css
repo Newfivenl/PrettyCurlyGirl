@@ -2634,6 +2634,9 @@ img:after {
 .text-\[12px\] {
   font-size: 12px;
 }
+.text-\[13px\] {
+  font-size: 13px;
+}
 .text-\[14px\] {
   font-size: 14px;
 }
@@ -2651,6 +2654,10 @@ img:after {
 }
 .text-\[30px\] {
   font-size: 30px;
+}
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 .text-sm {
   font-size: 0.875rem;
@@ -2689,6 +2696,9 @@ img:after {
 }
 .\!leading-tight {
   line-height: 1.25 !important;
+}
+.leading-\[3\.5rem\] {
+  line-height: 3.5rem;
 }
 .leading-none {
   line-height: 1;
@@ -2729,8 +2739,15 @@ img:after {
 .tracking-normal {
   letter-spacing: 0em;
 }
+.tracking-wide {
+  letter-spacing: 0.025em;
+}
 .tracking-wider {
   letter-spacing: 0.05em;
+}
+.\!text-\[\#AB8F80\] {
+  --tw-text-opacity: 1 !important;
+  color: rgb(171 143 128 / var(--tw-text-opacity)) !important;
 }
 .text-\[\#1C1C1C\] {
   --tw-text-opacity: 1;
@@ -4789,6 +4806,9 @@ html {
   .md\:pb-\[41px\] {
     padding-bottom: 41px;
   }
+  .md\:pb-\[5\.6rem\] {
+    padding-bottom: 5.6rem;
+  }
   .md\:pr-4 {
     padding-right: 1rem;
   }
@@ -4955,6 +4975,9 @@ html {
   }
   .xl\:w-\[470px\] {
     width: 470px;
+  }
+  .xl\:w-\[510px\] {
+    width: 510px;
   }
   .xl\:p-0 {
     padding: 0px;

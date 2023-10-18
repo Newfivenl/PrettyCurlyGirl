@@ -5,29 +5,49 @@
       <!-- Image -->
       <div class="relative sm:order-1 sm:h-full sm:w-1/2">
         <img src="{{ section.settings.banner_image | img_url: 'master' }}" alt="hero-img"
-          class="h-[330px] sm:h-full w-full object-cover sm:object-[80%,70%] origin-top-right " />
+          class="h-[330px] sm:h-full w-full object-cover sm:object-[80%,70%] origin-top-right " /> 
       </div>
       <!-- Text -->
-      <div class="flex flex-col bg-clr-secondry sm:h-full sm:w-1/2 lg:items-center lg:justify-center ">
-        <div class="space-y-2 px-6 xl:w-[470px] text-clr-primary sm:h-full xl:h-fit sm:p-6 md:p-10 lg:p-16 xl:p-0">
-          <h2
-            class="leading-51 mt-2 text-left font-oswald text-[1.68rem] font-medium uppercase tracking-normal text-white opacity-100 lg:text-[42px] lg:leading-tight">
-            {{ section.settings.banner_heading }}</h2>
-          <p class="font-source font-normal tracking-wider">{{ section.settings.banner_text | escape }}</p>
+      <div class="flex flex-col bg-clr-secondry bg-[#AB8F80] sm:h-full sm:w-1/2 lg:items-center lg:justify-center ">
+        <div class="px-6 xl:w-[510px] text-clr-primary sm:h-full xl:h-fit sm:p-6 md:p-10 lg:p-16 xl:p-0">
+          {% if section.settings.banner_heading != blank %}
+            <h2
+              class="leading-51 mt-2 text-left font-oswald text-[1.68rem] font-medium uppercase tracking-normal text-white opacity-100 lg:text-[42px] lg:leading-tight">
+              {{ section.settings.banner_heading }}
+            </h2>
+          {% endif %}
+          {% if section.settings.banner_text != blank %}
+          <p class="mb-8 font-source font-normal text-base tracking-wider text-white">
+            {{ section.settings.banner_text }}
+          </p>
+          {% endif %}
           <!-- List Items -->
-          <ul class="flex flex-col space-y-4">
+          <ul class="flex flex-col space-y-4 p-0">
             {% for block in section.blocks %}
               <li class="flex">
-                <svg xmlns="http://www.w3.org/2000/svg" class="mr-4 h-6 w-5 font-bold" width="24" height="24"
+                <svg xmlns="http://www.w3.org/2000/svg" class="mr-4 h-6 w-5 font-bold text-white" width="24" height="24"
                   viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"
                   stroke-linejoin="round" class="feather feather-check-circle">
                   <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
                   <polyline points="22 4 12 14.01 9 11.01"></polyline>
                 </svg>
-                <span>{{ block.settings.item_text }}</span>
+                <span class="text-white">{{ block.settings.item_text }}</span>
               </li>
             {% endfor %}
           </ul>
+          <div class="flex flex-col space-y-4 mt-8">
+            {% if section.settings.button_link != blank %}
+              <a href="{{ section.settings.button_link }}" class="btn btn--tertiary !text-[#AB8F80]"> {{ section.settings.button_text }}</a>
+            {% endif %}
+            {% if section.settings.free_delivery_text != blank %}
+              <div class="flex items-center justify-center">
+                {% if section.settings.free_delivery_icon != blank %}
+                <span>{{ section.settings.free_delivery_icon }}</span>
+                {% endif %}
+                <span class="text-[13px] text-white tracking-wide">{{ section.settings.free_delivery_text }}</span>
+              </div>
+            {% endif %}
+          </div>
           <!-- ... rest of the markup remains the same -->
         </div>
       </div>
@@ -38,7 +58,7 @@
 
 {% schema %}
   {
-    "name": "Banner Section",
+    "name": "NF - Banner section",
     "settings": [
       {
         "type": "image_picker",
@@ -52,7 +72,7 @@
         "default": "START WITH YOUR HEALY HAIR CARE JOURNEY"
       },
       {
-        "type": "richtext",
+        "type": "textarea",
         "id": "banner_text",
         "label": "Sub-text"
       },
@@ -66,6 +86,21 @@
         "type": "url",
         "id": "button_link",
         "label": "Button Link"
+      },
+      {
+        "type": "header",
+        "content": "Free delivery contents"
+      },
+      {
+        "type": "text",
+        "id": "free_delivery_text",
+        "label": "Content",
+        "default": "Free delivery on all orders over $95,50"
+      },
+      {
+        "type": "html",
+        "id": "free_delivery_icon",
+        "label": "Icon"
       }
     ],
     "blocks": [
@@ -81,6 +116,11 @@
             "default": "Lorem ipsum dolor sit amet"
           }
         ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "NF - Banner section"
       }
     ]
   }
