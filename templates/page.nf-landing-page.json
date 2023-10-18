@@ -120,12 +120,24 @@
         "style_border": "border--b-width",
         "layout_padding": true
       }
+    },
+    "b9f0017b-ba5e-4589-a993-74eb88e71782": {
+      "type": "nf-featured-section",
+      "settings": {
+        "section_heading": "LOVE YOUR CURLS AND YOUR CURLS WILL LOVE YOU BACK.",
+        "section_image": "shopify:\/\/shop_images\/100mlGelLR-removebg-preview.png",
+        "section_text1": "Hydrates hair &soothes the scalp",
+        "section_text2": "Create stunning results",
+        "section_text3": "Made for the whole family",
+        "section_text4": "No nasty ingredients - Curly Girl approved"
+      }
     }
   },
   "order": [
     "4aaa1b8f-9f96-4d73-be22-025a4db67b70",
     "b707287c-4623-455e-87da-06d56c22dd5b",
     "main",
-    "169702038597d5372e"
+    "169702038597d5372e",
+    "b9f0017b-ba5e-4589-a993-74eb88e71782"
   ]
 }
