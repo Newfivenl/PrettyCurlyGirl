@@ -135,6 +135,35 @@
       "settings": {
       }
     },
+    "438c26d5-4191-4e99-8314-16891e303998": {
+      "type": "nf-compare-product",
+      "blocks": {
+        "57e7be51-c569-4140-9b7c-f9970df98fa3": {
+          "type": "compare_products",
+          "settings": {
+            "product_image": "shopify:\/\/shop_images\/100mlGelLR-removebg-preview.png",
+            "product_title": "PRETTY CURLY GURL",
+            "compare_text1": "lorem upsum dolor amit",
+            "compare_icon1": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" class=\"mr-4 h-6 w-5 font-bold\" width=\"24\" height=\"24\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                            <path d=\"M22 11.08V12a10 10 0 1 1-5.93-9.14\"><\/path>\n                            <polyline points=\"22 4 12 14.01 9 11.01\"><\/polyline>\n                        <\/svg>",
+            "compare_text2": "Compare text 2",
+            "compare_icon2": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" class=\"mr-4 h-6 w-5 font-bold\" width=\"24\" height=\"24\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                            <path d=\"M22 11.08V12a10 10 0 1 1-5.93-9.14\"><\/path>\n                            <polyline points=\"22 4 12 14.01 9 11.01\"><\/polyline>\n                        <\/svg>",
+            "compare_text3": "Compare text 3",
+            "compare_icon3": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" class=\"mr-4 h-6 w-5 font-bold\" width=\"24\" height=\"24\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                            <path d=\"M22 11.08V12a10 10 0 1 1-5.93-9.14\"><\/path>\n                            <polyline points=\"22 4 12 14.01 9 11.01\"><\/polyline>\n                        <\/svg>",
+            "compare_text4": "Compare text 4",
+            "compare_icon4": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" class=\"mr-4 h-6 w-5 font-bold\" width=\"24\" height=\"24\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                            <path d=\"M22 11.08V12a10 10 0 1 1-5.93-9.14\"><\/path>\n                            <polyline points=\"22 4 12 14.01 9 11.01\"><\/polyline>\n                        <\/svg>",
+            "compare_text5": "Compare text 5",
+            "compare_icon5": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" class=\"mr-4 h-6 w-5 font-bold\" width=\"24\" height=\"24\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                            <path d=\"M22 11.08V12a10 10 0 1 1-5.93-9.14\"><\/path>\n                            <polyline points=\"22 4 12 14.01 9 11.01\"><\/polyline>\n                        <\/svg>",
+            "product_button_text": "",
+            "product_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "57e7be51-c569-4140-9b7c-f9970df98fa3"
+      ],
+      "settings": {
+      }
+    },
     "main": {
       "type": "page__main",
       "disabled": true,
@@ -187,6 +216,7 @@
     "b707287c-4623-455e-87da-06d56c22dd5b",
     "b9f0017b-ba5e-4589-a993-74eb88e71782",
     "3f8c8497-81dc-4a78-8822-e91d58b05778",
+    "438c26d5-4191-4e99-8314-16891e303998",
     "main",
     "169702038597d5372e"
   ]
