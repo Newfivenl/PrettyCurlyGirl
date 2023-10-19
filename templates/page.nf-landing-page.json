@@ -136,6 +136,42 @@
         "icon_settings": "style-1"
       }
     },
+    "169702038597d5372e": {
+      "type": "apps",
+      "blocks": {
+        "1c54f300-f273-4610-94c4-9f8dda0d238a": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/all_reviews_page\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "46e41359-349f-465f-a482-efa3a4969c7a": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/all_reviews_text\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "17e916e0-cc1b-4cb4-bb27-3f7bbc998c4d": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "1c54f300-f273-4610-94c4-9f8dda0d238a",
+        "46e41359-349f-465f-a482-efa3a4969c7a",
+        "17e916e0-cc1b-4cb4-bb27-3f7bbc998c4d"
+      ],
+      "settings": {
+        "spacing_top": 100,
+        "spacing_bottom": 100,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "style_border": "border--b-width",
+        "layout_padding": true
+      }
+    },
     "438c26d5-4191-4e99-8314-16891e303998": {
       "type": "nf-compare-product",
       "blocks": {
@@ -185,50 +221,14 @@
       "settings": {
       }
     },
-    "main": {
-      "type": "page__main",
-      "disabled": true,
+    "1935dfab-5924-45a9-921f-6d0fd075b9a0": {
+      "type": "nf-two-column-with-text",
       "settings": {
-        "spacing_top": 60,
-        "spacing_bottom": 60,
-        "color_scheme": "color__bg-body color__text"
-      }
-    },
-    "169702038597d5372e": {
-      "type": "apps",
-      "blocks": {
-        "1c54f300-f273-4610-94c4-9f8dda0d238a": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/all_reviews_page\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
-        },
-        "46e41359-349f-465f-a482-efa3a4969c7a": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/all_reviews_text\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "disabled": true,
-          "settings": {
-          }
-        },
-        "17e916e0-cc1b-4cb4-bb27-3f7bbc998c4d": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "disabled": true,
-          "settings": {
-            "maxwidth": 1080
-          }
-        }
-      },
-      "block_order": [
-        "1c54f300-f273-4610-94c4-9f8dda0d238a",
-        "46e41359-349f-465f-a482-efa3a4969c7a",
-        "17e916e0-cc1b-4cb4-bb27-3f7bbc998c4d"
-      ],
-      "disabled": true,
-      "settings": {
-        "spacing_top": 100,
-        "spacing_bottom": 100,
-        "color_scheme": "color__bg-body color__text",
-        "color_border": "color__border-divider-1",
-        "style_border": "border--b-width",
-        "layout_padding": true
+        "section_heading": "CREATE STUNNING RESULTS",
+        "section_content": "<p>Kinky, Coily, Wavy &gt;&gt;&gt; It does not matter. With our product line we want to create the best products for all curl types. <br\/><br\/>Use the Heavy Cream together with the Magical Fkaxseed Gel if you have a type 4. <br\/><br\/>The Heavy Cream can also be used if you have a type 3 hair and your hair is very dry. <br\/><br\/>Use the protein version of the Heavy Cream if your hair is damaged. <br\/><\/p>",
+        "button_text": "Shop now",
+        "button_link": "shopify:\/\/collections",
+        "section_image": "shopify:\/\/shop_images\/image1_2_480x480_77bdfd34-c868-4cdb-8601-ff0e1823ac16.jpg"
       }
     },
     "8bc88d48-2771-404e-8b9a-10d364cfa2ba": {
@@ -272,6 +272,15 @@
       "settings": {
         "icon_settings": "style-2"
       }
+    },
+    "main": {
+      "type": "page__main",
+      "disabled": true,
+      "settings": {
+        "spacing_top": 60,
+        "spacing_bottom": 60,
+        "color_scheme": "color__bg-body color__text"
+      }
     }
   },
   "order": [
@@ -279,9 +288,10 @@
     "b707287c-4623-455e-87da-06d56c22dd5b",
     "b9f0017b-ba5e-4589-a993-74eb88e71782",
     "48eae37e-2344-486e-bb2d-7312ffe942c0",
-    "438c26d5-4191-4e99-8314-16891e303998",
-    "main",
     "169702038597d5372e",
-    "8bc88d48-2771-404e-8b9a-10d364cfa2ba"
+    "438c26d5-4191-4e99-8314-16891e303998",
+    "1935dfab-5924-45a9-921f-6d0fd075b9a0",
+    "8bc88d48-2771-404e-8b9a-10d364cfa2ba",
+    "main"
   ]
 }
