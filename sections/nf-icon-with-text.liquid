@@ -17,49 +17,49 @@
 </section>
 
 {% schema %}
-    {
-      "name": "NF - Icon with text",
-      "settings": [
-        {
-          "type": "select",
-          "id": "icon_settings",
-          "label": "Icon settings",
-          "options": [
-            {
-              "value": "style-1",
-              "label": "Style 1"
-            },
-            {
-              "value": "style-2",
-              "label": "Style 2"
-            }
-          ],
-          "default": "style-1"
-        }
-      ],
-      "blocks": [
-        {
-          "type": "icon_with_text",
-          "name": "Icon with text",
-          "limit": 5,
-          "settings": [
-            {
-                "type": "html",
-                "id": "icon",
-                "label": "Icon svg"
-            },
-            {
-                "type": "text",
-                "id": "icon_text",
-                "label": "Icon text"
-            }
-          ]
-        }
-      ],
-      "presets": [
-        {
-          "name": "NF - Icon with text"
-        }
-      ]
-    }
-  {% endschema %}
+  {
+    "name": "NF - Icon with text",
+    "settings": [
+      {
+        "type": "select",
+        "id": "icon_settings",
+        "label": "Icon settings",
+        "options": [
+          {
+            "value": "style-1",
+            "label": "Style 1"
+          },
+          {
+            "value": "style-2",
+            "label": "Style 2"
+          }
+        ],
+        "default": "style-1"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "icon_with_text",
+        "name": "Icon with text",
+        "limit": 5,
+        "settings": [
+          {
+              "type": "html",
+              "id": "icon",
+              "label": "Icon svg"
+          },
+          {
+              "type": "text",
+              "id": "icon_text",
+              "label": "Icon text"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "NF - Icon with text"
+      }
+    ]
+  }
+{% endschema %}
