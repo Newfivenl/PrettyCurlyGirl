@@ -380,6 +380,110 @@
         "spacing_bottom": 60,
         "color_scheme": "color__bg-body color__text"
       }
+    },
+    "9c3da5e6-46ce-4594-91b5-bf698168311e": {
+      "type": "featured-product",
+      "blocks": {
+        "template--19929447825738__9c3da5e6-46ce-4594-91b5-bf698168311e-title-1": {
+          "type": "title",
+          "settings": {
+            "spacing_top": 20,
+            "spacing_bottom": 10,
+            "color_scheme": "color__bg-body color__text",
+            "style_border": "",
+            "enable_thumbnails_product_type": false,
+            "enable_thumbnails_vendor": false,
+            "content": "<p>Curly girl Approved<\/p>"
+          }
+        },
+        "template--19929447825738__9c3da5e6-46ce-4594-91b5-bf698168311e-price-1": {
+          "type": "price",
+          "settings": {
+            "spacing_top": 5,
+            "spacing_bottom": 20,
+            "color_scheme": "color__bg-body color__text",
+            "style_border": "border--b-width"
+          }
+        },
+        "template--19929447825738__9c3da5e6-46ce-4594-91b5-bf698168311e-options-1": {
+          "type": "options",
+          "settings": {
+            "spacing_top": 10,
+            "spacing_bottom": 10,
+            "color_scheme": "color__bg-body color__text",
+            "style_border": ""
+          }
+        },
+        "template--19929447825738__9c3da5e6-46ce-4594-91b5-bf698168311e-add-1": {
+          "type": "add",
+          "settings": {
+            "spacing_top": 20,
+            "spacing_bottom": 20,
+            "color_scheme": "color__bg-body color__text",
+            "style_border": "border--b-width",
+            "enable_quantity": true,
+            "enable_dynamic_checkout": false,
+            "content": "<p>Remind customers of offers like free shipping and lifetime warranty<\/p>"
+          }
+        },
+        "template--19929447825738__9c3da5e6-46ce-4594-91b5-bf698168311e-description-1": {
+          "type": "description",
+          "settings": {
+            "color_scheme": "color__bg-body color__text",
+            "style_border": "border--b-width",
+            "enable_open": false
+          }
+        },
+        "c2c7da28-9f8c-4aee-bdac-d3be22d134e2": {
+          "type": "accordion",
+          "settings": {
+            "color_scheme": "color__bg-body color__text",
+            "style_border": "",
+            "enable_open": false,
+            "title": "How to use",
+            "content": "{{ section.settings.product.metafields.custom.how_to_use | metafield_tag }}"
+          }
+        },
+        "877ba202-2962-4ba6-a390-660532e64aa3": {
+          "type": "accordion",
+          "settings": {
+            "color_scheme": "color__bg-body color__text",
+            "style_border": "border--t-width",
+            "enable_open": false,
+            "title": "Ingredients",
+            "content": "{{ section.settings.product.metafields.custom.ingredients_text | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "template--19929447825738__9c3da5e6-46ce-4594-91b5-bf698168311e-title-1",
+        "template--19929447825738__9c3da5e6-46ce-4594-91b5-bf698168311e-price-1",
+        "template--19929447825738__9c3da5e6-46ce-4594-91b5-bf698168311e-options-1",
+        "template--19929447825738__9c3da5e6-46ce-4594-91b5-bf698168311e-add-1",
+        "template--19929447825738__9c3da5e6-46ce-4594-91b5-bf698168311e-description-1",
+        "c2c7da28-9f8c-4aee-bdac-d3be22d134e2",
+        "877ba202-2962-4ba6-a390-660532e64aa3"
+      ],
+      "settings": {
+        "product": "flaxseed-styling-serum-250ml",
+        "enable_default_variant": true,
+        "media_gallery_style": "thumbnail-slider",
+        "enable_zoom": true,
+        "enable_alt": false,
+        "enable_variant_images": false,
+        "media_color_scheme": "color__bg-overlay-1 color__text",
+        "media_ratio": "aspect-[1\/1] aspect-w-1 aspect-h-1",
+        "media_object-sizing": "cover",
+        "enable_ratio": true,
+        "show_product_badges": true,
+        "spacing_top": 0,
+        "spacing_bottom": 0,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "!color__border-transparent",
+        "style_border": "",
+        "layout_gallery_size": "w-full md:w-1\/2",
+        "visibility": ""
+      }
     }
   },
   "order": [
@@ -392,6 +496,7 @@
     "3b51516b-9154-4b6e-b6ed-dc1f4bbd2033",
     "1935dfab-5924-45a9-921f-6d0fd075b9a0",
     "8bc88d48-2771-404e-8b9a-10d364cfa2ba",
-    "main"
+    "main",
+    "9c3da5e6-46ce-4594-91b5-bf698168311e"
   ]
 }
