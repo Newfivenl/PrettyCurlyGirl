@@ -169,7 +169,7 @@
         "color_scheme": "color__bg-body color__text",
         "color_border": "color__border-divider-1",
         "style_border": "border--b-width",
-        "layout_padding": true
+        "layout_padding": false
       }
     },
     "438c26d5-4191-4e99-8314-16891e303998": {
