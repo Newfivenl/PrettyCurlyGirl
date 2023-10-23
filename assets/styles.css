@@ -2206,14 +2206,14 @@ img:after {
 .gap-2 {
   gap: 0.5rem;
 }
+.gap-2\.5 {
+  gap: 0.625rem;
+}
 .gap-20 {
   gap: 5rem;
 }
 .gap-4 {
   gap: 1rem;
-}
-.gap-2\.5 {
-  gap: 0.625rem;
 }
 .gap-x-1 {
   -moz-column-gap: 0.25rem;
@@ -2695,6 +2695,9 @@ img:after {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+.text-\[45px\] {
+  font-size: 45px;
 }
 .font-bold {
   font-weight: 700;
@@ -4559,6 +4562,9 @@ html {
   .md\:mt-\[75px\] {
     margin-top: 75px;
   }
+  .md\:mb-\[180px\] {
+    margin-bottom: 180px;
+  }
   .md\:block {
     display: block;
   }
@@ -4882,6 +4888,9 @@ html {
   }
   .md\:text-\[24px\] {
     font-size: 24px;
+  }
+  .md\:text-\[2\.6rem\] {
+    font-size: 2.6rem;
   }
   .md\:tracking-\[0\.1px\] {
     letter-spacing: 0.1px;
