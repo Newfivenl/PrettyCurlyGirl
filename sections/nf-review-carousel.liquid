@@ -1,0 +1,242 @@
+<section class="w-full md:mb-[180px] mb-[0px]">
+    <div class="lg:w-[995px] w-full h-[600px] mx-auto flex items-center flex-col">
+        {% if section.settings.section_heading != blank %}
+            <h2 class="font-oswald font-medium mb-1 md:mt-[75px] mt-[48px]  text-[24px]  sm:text-[35px] md:text-[2.6rem] leading-normal text-center tracking-[0.21px] text-[#7E695D] md:w-[40.3rem] sm:w-[450px] w-[335px]">
+                JOIN 10,700+ OTHERS WITH
+                PRETTY CURLY GIRL
+            </h2>
+        {% endif %}
+    <div x-data="{
+        skip: 1,
+        atBeginning: false,
+        atEnd: false,
+        currentSlide: 0,
+        slides: [
+            { name: 'Slide 1' },
+            { name: 'Slide 2' },
+            { name: 'Slide 3' },
+            { name: 'Slide 4' },
+            { name: 'Slide 5' }
+        ],
+        next() {
+            if (!this.atEnd) {
+                if (this.currentSlide < this.slides.length - 1) {
+                    this.currentSlide++;
+                    this.to((current, offset) => current + (offset * this.skip));
+                }
+            }
+        },
+        prev() {
+            if (!this.atBeginning) {
+                if (this.currentSlide > 0) {
+                    this.currentSlide--;
+                    this.to((current, offset) => current - (offset * this.skip));
+                }
+            }
+        },
+        to(strategy) {
+            let slider = this.$refs.slider;
+            let current = slider.scrollLeft;
+            let offset = slider.firstElementChild.getBoundingClientRect().width;
+            slider.scrollTo({ left: strategy(current, offset), behavior: 'smooth' });
+        },
+        focusableWhenVisible: {
+            'x-intersect:enter'() {
+                this.$el.removeAttribute('tabindex');
+            },
+            'x-intersect:leave'() {
+                this.$el.setAttribute('tabindex', '-1');
+            },
+        },
+        disableNextAndPreviousButtons: {
+            'x-intersect:enter.threshold.05'() {
+                let slideEls = this.$el.parentElement.children;
+                if (slideEls[0] === this.$el) {
+                    this.atBeginning = true;
+                } else if (slideEls[slideEls.length - 1] === this.$el) {
+                    this.atEnd = true;
+                }
+            },
+            'x-intersect:leave.threshold.05'() {
+                let slideEls = this.$el.parentElement.children;
+                if (slideEls[0] === this.$el) {
+                    this.atBeginning = false;
+                } else if (slideEls[slideEls.length - 1] === this.$el) {
+                    this.atEnd = false;
+                }
+            },
+        },
+    }" class="flex w-full flex-col">
+        <div x-on:keydown.right="next" x-on:keydown.left="prev" tabindex="0" role="region"
+        aria-labelledby="carousel-label" class="flex space-x-6">
+        <h2 id="carousel-label" class="sr-only" hidden>Carousel</h2>
+
+        <!-- Prev Button -->
+
+        <span id="carousel-content-label" class="sr-only" hidden>Carousel</span>
+
+        <ul x-ref="slider" tabindex="0" role="listbox" aria-labelledby="carousel-content-label"
+            class="flex w-full sm:gap-10 gap-4 md:gap-0 ml-[26px] snap-x snap-mandatory overflow-x-hidden mt-[18px] lg:space-x-[34px] md:space-x-[25px]">
+
+            {% for block in section.blocks %}
+                <li x-bind="disableNextAndPreviousButtons"
+                    class="flex md:w-[30%] sm:w-[45%] w-[88%]  h-[362px] shrink-0 snap-start rounded   border flex-col items-center justify-center p-4"
+                    role="option">
+                    <div class="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-[20px] h-[20px] text-[#BAAB3F]" width="32"
+                    height="32" viewBox="0 0 24 24">
+                    <path fill="currentColor"
+                        d="m12 17l-5.877 3.59l1.598-6.7l-5.23-4.48l6.865-.55L12 2.5l2.645 6.36l6.865.55l-5.23 4.48l1.598 6.7L12 17Z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-[20px] h-[20px] text-[#BAAB3F]" width="32"
+                    height="32" viewBox="0 0 24 24">
+                    <path fill="currentColor"
+                        d="m12 17l-5.877 3.59l1.598-6.7l-5.23-4.48l6.865-.55L12 2.5l2.645 6.36l6.865.55l-5.23 4.48l1.598 6.7L12 17Z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-[20px] h-[20px] text-[#BAAB3F]" width="32"
+                    height="32" viewBox="0 0 24 24">
+                    <path fill="currentColor"
+                        d="m12 17l-5.877 3.59l1.598-6.7l-5.23-4.48l6.865-.55L12 2.5l2.645 6.36l6.865.55l-5.23 4.48l1.598 6.7L12 17Z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-[20px] h-[20px] text-[#BAAB3F]" width="32"
+                    height="32" viewBox="0 0 24 24">
+                    <path fill="currentColor"
+                        d="m12 17l-5.877 3.59l1.598-6.7l-5.23-4.48l6.865-.55L12 2.5l2.645 6.36l6.865.55l-5.23 4.48l1.598 6.7L12 17Z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-[20px] h-[20px] text-[#BAAB3F]" width="32"
+                    height="32" viewBox="0 0 24 24">
+                    <path fill="currentColor"
+                        d="m12 17l-5.877 3.59l1.598-6.7l-5.23-4.48l6.865-.55L12 2.5l2.645 6.36l6.865.55l-5.23 4.48l1.598 6.7L12 17Z" />
+                    </svg>
+                    </div>
+                    {% if block.settings.review_title != blank %}
+                        <p
+                        class="font-bold font-source mt-2 mb-0 tracking-[0.09] text-center w-[279px] sm:w-full text-[#1C1C1C] text-[18px]">
+                       {{ block.settings.review_title }}</p>
+                    {% endif %}
+                    {% if block.settings.review_content != blank %}
+                        <div class="font-normal text-center  mt-[10px] w-[260px] sm:w-full [&>p]:text-[16px] [&>p]:leading-normal">
+                            {{ block.settings.review_content }}
+                        </div>
+                    {% endif %}
+                    {% if block.settings.review_name != blank %}
+                        <p class="text-center mt-[15px]">- {{ block.settings.review_name }}</p>
+                    {% endif %}
+                    <h5 class="text-[#7E695D] text-[12px] mt-[7px] font-oswald font-medium text-center ">
+                        VERIFIED CUSTOMER
+                    </h5>
+                </li>
+            {% endfor %}
+        </ul>
+        </div>
+        <div class=" flex justify-center items-center mt-[38px] space-x-[20px] mb-[20px] xl:mb-0">
+        <button x-on:click="prev" class="text-6xl w-[38px] h-[38px] rounded-full bg-[#7E695D] text-[#f2f2f2]"
+            :aria-disabled="atBeginning" :tabindex="atEnd ? -1 : 0"
+            :class="{ 'opacity-50  cursor-not-allowed': atBeginning }">
+            <span aria-hidden="true">
+                <?xml version="1.0" encoding="UTF-8"?>
+                <svg width="38px" height="38px" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink">
+                <title>Group 38</title>
+                <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g id="Landing-Page" transform="translate(-592, -4169)">
+                    <g id="Group-32" transform="translate(198, 3607)">
+                        <g id="Group-38" transform="translate(394, 562)">
+                        <circle id="Oval" fill="#7E695D"
+                            transform="translate(19, 19) scale(-1, 1) translate(-19, -19)" cx="19" cy="19" r="19">
+                        </circle>
+                        <polyline id="Path" stroke="#FFFFFF" stroke-width="1.66666667" stroke-linecap="round"
+                            stroke-linejoin="round"
+                            transform="translate(16.25, 18.8333) scale(-1, 1) translate(-16.25, -18.8333)"
+                            points="13.3333333 13 19.1666667 18.8333333 13.3333333 24.6666667"></polyline>
+                        </g>
+                    </g>
+                    </g>
+                </g>
+                </svg>
+            </span>
+            <span class="sr-only">Skip to previous slide page</span>
+        </button>
+        <!-- Slide Indicator Buttons -->
+            <div class="flex space-x-1 ">
+            <template x-for="(slide, index) in slides">
+                <button type="button" disabled
+                    class="w-4 h-1 rounded-2xl"
+                    :class="{ 'bg-[#7E695D]': currentSlide === index, 'bg-[#999999]': currentSlide !== index }"
+                    :aria-label="slide.name"
+                    @click="currentSlide = index; to((current, offset) => current + (offset * skip))">
+                </button>
+            </template>
+        </div>
+        <button x-on:click="next" class="text-6xl w-[38px] h-[38px] bg-[#7E695D] rounded-full text-[#f2f2f2]"
+            :aria-disabled="atEnd" :tabindex="atEnd ? -1 : 0" :class="{ 'opacity-50 cursor-not-allowed': atEnd }">
+            <span aria-hidden="true">
+                <?xml version="1.0" encoding="UTF-8"?>
+                <svg width="38px" height="38px" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink">
+                <title>Group 39</title>
+                <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g id="Landing-Page" transform="translate(-737, -4169)">
+                    <g id="Group-32" transform="translate(198, 3607)">
+                        <g id="Group-39" transform="translate(539, 562)">
+                        <circle id="Oval" fill="#7E695D" cx="19" cy="19" r="19"></circle>
+                        <line x1="13" y1="18.8333333" x2="24.6666667" y2="18.8333333" id="Path" stroke="#FFFFFF"
+                            stroke-width="1.66666667" stroke-linecap="round" stroke-linejoin="round"></line>
+                        <polyline id="Path" stroke="#FFFFFF" stroke-width="1.66666667" stroke-linecap="round"
+                            stroke-linejoin="round"
+                            points="18.8333333 13 24.6666667 18.8333333 18.8333333 24.6666667">
+                        </polyline>
+                        </g>
+                    </g>
+                    </g>
+                </g>
+                </svg>
+            </span>
+            <span class="sr-only">Skip to next slide page</span>
+        </button>
+    </div>
+    </div>
+    </div>
+</section>
+
+{% schema %}
+{
+    "name": "NF - Review carousel",
+    "settings": [
+        {
+            "type": "text",
+            "id": "section_heading",
+            "label": "Heading text"
+        }
+    ],
+    "blocks": [
+        {
+            "type": "review",
+            "name": "review",
+            "limit": 10,
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "review_title",
+                    "label": "Review title"
+                },
+                {
+                    "type": "richtext",
+                    "id": "review_content",
+                    "label": "Review content"
+                },
+                {
+                    "type": "text",
+                    "id": "review_name",
+                    "label": "Review name"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "NF - Review carousel"
+        }
+    ]
+}
+{% endschema %}

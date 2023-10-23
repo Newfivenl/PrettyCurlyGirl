@@ -1,14 +1,5 @@
 {
   "sections": {
-<<<<<<< HEAD
-    "main": {
-      "type": "page__main",
-      "disabled": true,
-      "settings": {
-        "spacing_top": 60,
-        "spacing_bottom": 60,
-        "color_scheme": "color__bg-body color__text"
-=======
     "4aaa1b8f-9f96-4d73-be22-025a4db67b70": {
       "type": "nf-banner-section",
       "blocks": {
@@ -41,6 +32,7 @@
         "banner_heading": "START WITH YOUR HEALY HAIR CARE JOURNEY",
         "banner_text": "Love your curls, take care of your curls. Your curls will love you back.",
         "enable_review_stars": true,
+        "review_count": "1,000",
         "button_text": "SHOP NOW",
         "button_link": "shopify:\/\/collections",
         "free_delivery_text": "Free delivery on all orders over $95,50",
@@ -144,7 +136,52 @@
       ],
       "settings": {
         "icon_settings": "style-1"
->>>>>>> origin/tailwind/landingpage
+      }
+    },
+    "065b7e41-d90d-40fa-a059-6bd7f6447a65": {
+      "type": "nf-review-carousel",
+      "blocks": {
+        "dc8cc92c-8f1c-4163-8aa9-ca0223f11661": {
+          "type": "review",
+          "settings": {
+            "review_title": "Leaves my hair soft and manageable for days",
+            "review_content": "<p>“A simple, single step for clean, conditioned and tangle-free hair in half the time as shampoo and conditioner with no residue or build up.”<\/p>",
+            "review_name": "Eric C"
+          }
+        },
+        "85bbdac7-26d2-4c6b-9022-5e83f131822f": {
+          "type": "review",
+          "settings": {
+            "review_title": "I have a good hair day everyday",
+            "review_content": "<p>“It is now the only hair product I have, there is no need for masks or conditioners. I have oily roots and NW helped to make my hair a bit less oily.”<\/p>",
+            "review_name": "Eva C"
+          }
+        },
+        "0c3325d7-fed8-4d45-9ffa-aebf2b5803db": {
+          "type": "review",
+          "settings": {
+            "review_title": "My shampoo AND conditioner have been replaced",
+            "review_content": "<p>“My hair is prone to frizz but now I can basically just wash and go and it air dries beautifully with lovely moisture and texture.”<\/p>",
+            "review_name": "Martha L"
+          }
+        },
+        "84f4d25e-2273-49f3-9272-a30a8312f45f": {
+          "type": "review",
+          "settings": {
+            "review_title": "Leaves my hair soft and manageable for days",
+            "review_content": "<p>“A simple, single step for clean, conditioned and tangle-free hair in half the time as shampoo and conditioner with no residue or build up.”<\/p>",
+            "review_name": "Erin C"
+          }
+        }
+      },
+      "block_order": [
+        "dc8cc92c-8f1c-4163-8aa9-ca0223f11661",
+        "85bbdac7-26d2-4c6b-9022-5e83f131822f",
+        "0c3325d7-fed8-4d45-9ffa-aebf2b5803db",
+        "84f4d25e-2273-49f3-9272-a30a8312f45f"
+      ],
+      "settings": {
+        "section_heading": "JOIN 10,700+ OTHERS WITH PRETTY CURLY GIRL"
       }
     },
     "169702038597d5372e": {
@@ -152,10 +189,7 @@
       "blocks": {
         "1c54f300-f273-4610-94c4-9f8dda0d238a": {
           "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/all_reviews_page\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-<<<<<<< HEAD
-=======
           "disabled": true,
->>>>>>> origin/tailwind/landingpage
           "settings": {
           }
         },
@@ -167,14 +201,8 @@
         },
         "17e916e0-cc1b-4cb4-bb27-3f7bbc998c4d": {
           "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-<<<<<<< HEAD
-          "disabled": true,
-          "settings": {
-            "maxwidth": 1080
-=======
           "settings": {
             "maxwidth": 1600
->>>>>>> origin/tailwind/landingpage
           }
         }
       },
@@ -183,19 +211,13 @@
         "46e41359-349f-465f-a482-efa3a4969c7a",
         "17e916e0-cc1b-4cb4-bb27-3f7bbc998c4d"
       ],
-<<<<<<< HEAD
       "disabled": true,
-=======
->>>>>>> origin/tailwind/landingpage
       "settings": {
         "spacing_top": 100,
         "spacing_bottom": 100,
         "color_scheme": "color__bg-body color__text",
         "color_border": "color__border-divider-1",
         "style_border": "border--b-width",
-<<<<<<< HEAD
-        "layout_padding": true
-=======
         "layout_padding": false
       }
     },
@@ -510,19 +532,15 @@
         "style_border": "",
         "layout_gallery_size": "w-full md:w-1\/2",
         "visibility": ""
->>>>>>> origin/tailwind/landingpage
       }
     }
   },
   "order": [
-<<<<<<< HEAD
-    "main",
-    "169702038597d5372e"
-=======
     "4aaa1b8f-9f96-4d73-be22-025a4db67b70",
     "b707287c-4623-455e-87da-06d56c22dd5b",
     "b9f0017b-ba5e-4589-a993-74eb88e71782",
     "48eae37e-2344-486e-bb2d-7312ffe942c0",
+    "065b7e41-d90d-40fa-a059-6bd7f6447a65",
     "169702038597d5372e",
     "438c26d5-4191-4e99-8314-16891e303998",
     "3b51516b-9154-4b6e-b6ed-dc1f4bbd2033",
@@ -530,6 +548,5 @@
     "8bc88d48-2771-404e-8b9a-10d364cfa2ba",
     "main",
     "9c3da5e6-46ce-4594-91b5-bf698168311e"
->>>>>>> origin/tailwind/landingpage
   ]
 }
