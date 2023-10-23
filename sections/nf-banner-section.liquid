@@ -35,7 +35,50 @@
               </li>
             {% endfor %}
           </ul>
-          <div class="flex flex-col space-y-4 mt-8">
+          {% if section.settings.enable_review_stars %}
+            <div class="flex justify-center py-3 gap-2.5">
+              {% comment %} {{ shop.metafields.judgeme.all_reviews_rating|round: 1 }} {% endcomment %}
+              <div class="flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="feather feather-star h-4 w-4 fill-white stroke-white">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                  </polygon>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="feather feather-star h-4 w-4 fill-white stroke-white">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                  </polygon>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="feather feather-star h-4 w-4 fill-white stroke-white">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                  </polygon>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="feather feather-star h-4 w-4 fill-white stroke-white">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                  </polygon>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="feather feather-star h-4 w-4 fill-white stroke-white">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                  </polygon>
+                </svg>
+              </div>
+              <p class="font-source text-sm text-white mb-0">{{ shop.metafields.judgeme.all_reviews_count }} reviews</p>
+            </div>
+          {% endif %}
+          <div class="flex flex-col space-y-4 {% if section.settings.enable_review_stars %} mt-2 {% else %} mt-6 {% endif %}">
             {% if section.settings.button_link != blank %}
               <a href="{{ section.settings.button_link }}" class="btn btn--tertiary !text-[#AB8F80]"> {{ section.settings.button_text }}</a>
             {% endif %}
@@ -75,6 +118,12 @@
         "type": "textarea",
         "id": "banner_text",
         "label": "Sub-text"
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_review_stars",
+        "label": "Show review stars",
+        "default": false
       },
       {
         "type": "text",
