@@ -2738,6 +2738,12 @@ img:after {
 .leading-normal {
   line-height: 1.5;
 }
+.leading-\[1rem\] {
+  line-height: 1rem;
+}
+.leading-\[2rem\] {
+  line-height: 2rem;
+}
 .tracking-\[\.06px\] {
   letter-spacing: .06px;
 }
@@ -4891,6 +4897,9 @@ html {
   }
   .md\:text-\[2\.6rem\] {
     font-size: 2.6rem;
+  }
+  .md\:leading-\[3\.5rem\] {
+    line-height: 3.5rem;
   }
   .md\:tracking-\[0\.1px\] {
     letter-spacing: 0.1px;
