@@ -75,7 +75,7 @@
                   </polygon>
                 </svg>
               </div>
-              <p class="font-source text-sm text-white mb-0">{{ shop.metafields.judgeme.all_reviews_count }} reviews</p>
+              <p class="font-source text-sm text-white mb-0">{{ section.settings.review_count }} reviews</p>
             </div>
           {% endif %}
           <div class="flex flex-col space-y-4 {% if section.settings.enable_review_stars %} mt-2 {% else %} mt-6 {% endif %}">
@@ -124,6 +124,12 @@
         "id": "enable_review_stars",
         "label": "Show review stars",
         "default": false
+      },
+      {
+        "type": "text",
+        "id": "review_count",
+        "label": "Review count",
+        "default": "1,000"
       },
       {
         "type": "text",
