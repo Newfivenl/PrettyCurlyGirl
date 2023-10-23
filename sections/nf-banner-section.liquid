@@ -1,0 +1,184 @@
+<section class="mx-auto flex h-full w-full justify-center banner-section ">
+  <div class="flex w-full flex-col">
+    <!-- Banner Image and Text -->
+    <div class="flex flex-col sm:h-[450px] sm:flex-row md:h-[500px] lg:h-[600px]">
+      <!-- Image -->
+      <div class="relative sm:order-1 sm:h-full sm:w-1/2">
+        <img src="{{ section.settings.banner_image | img_url: 'master' }}" alt="hero-img"
+          class="h-[330px] sm:h-full w-full object-cover sm:object-[80%,70%] origin-top-right " /> 
+      </div>
+      <!-- Text -->
+      <div class="flex flex-col bg-clr-secondry bg-[#AB8F80] sm:h-full sm:w-1/2 lg:items-center lg:justify-center ">
+        <div class="px-6 xl:w-[510px] text-clr-primary sm:h-full xl:h-fit sm:p-6 md:p-10 lg:p-16 xl:p-0">
+          {% if section.settings.banner_heading != blank %}
+            <h2
+              class="leading-51 mt-2 text-left font-oswald text-[1.68rem] font-medium uppercase tracking-normal text-white opacity-100 lg:text-[42px] lg:leading-tight">
+              {{ section.settings.banner_heading }}
+            </h2>
+          {% endif %}
+          {% if section.settings.banner_text != blank %}
+          <p class="mb-8 font-source font-normal text-base tracking-wider text-white">
+            {{ section.settings.banner_text }}
+          </p>
+          {% endif %}
+          <!-- List Items -->
+          <ul class="flex flex-col space-y-4 p-0">
+            {% for block in section.blocks %}
+              <li class="flex">
+                <svg xmlns="http://www.w3.org/2000/svg" class="mr-4 h-6 w-5 font-bold text-white" width="24" height="24"
+                  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                  stroke-linejoin="round" class="feather feather-check-circle">
+                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                  <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                </svg>
+                <span class="text-white">{{ block.settings.item_text }}</span>
+              </li>
+            {% endfor %}
+          </ul>
+          {% if section.settings.enable_review_stars %}
+            <div class="flex justify-center py-3 gap-2.5">
+              {% comment %} {{ shop.metafields.judgeme.all_reviews_rating|round: 1 }} {% endcomment %}
+              <div class="flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="feather feather-star h-4 w-4 fill-white stroke-white">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                  </polygon>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="feather feather-star h-4 w-4 fill-white stroke-white">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                  </polygon>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="feather feather-star h-4 w-4 fill-white stroke-white">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                  </polygon>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="feather feather-star h-4 w-4 fill-white stroke-white">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                  </polygon>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="feather feather-star h-4 w-4 fill-white stroke-white">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                  </polygon>
+                </svg>
+              </div>
+              <p class="font-source text-sm text-white mb-0">{{ shop.metafields.judgeme.all_reviews_count }} reviews</p>
+            </div>
+          {% endif %}
+          <div class="flex flex-col space-y-4 {% if section.settings.enable_review_stars %} mt-2 {% else %} mt-6 {% endif %}">
+            {% if section.settings.button_link != blank %}
+              <a href="{{ section.settings.button_link }}" class="btn btn--tertiary !text-[#AB8F80]"> {{ section.settings.button_text }}</a>
+            {% endif %}
+            {% if section.settings.free_delivery_text != blank %}
+              <div class="flex items-center justify-center">
+                {% if section.settings.free_delivery_icon != blank %}
+                <span>{{ section.settings.free_delivery_icon }}</span>
+                {% endif %}
+                <span class="text-[13px] text-white tracking-wide">{{ section.settings.free_delivery_text }}</span>
+              </div>
+            {% endif %}
+          </div>
+          <!-- ... rest of the markup remains the same -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+{% schema %}
+  {
+    "name": "NF - Banner section",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "banner_image",
+        "label": "Banner Image"
+      },
+      {
+        "type": "text",
+        "id": "banner_heading",
+        "label": "Heading",
+        "default": "START WITH YOUR HEALY HAIR CARE JOURNEY"
+      },
+      {
+        "type": "textarea",
+        "id": "banner_text",
+        "label": "Sub-text"
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_review_stars",
+        "label": "Show review stars",
+        "default": false
+      },
+      {
+        "type": "text",
+        "id": "button_text",
+        "label": "Button Text",
+        "default": "SHOP NOW"
+      },
+      {
+        "type": "url",
+        "id": "button_link",
+        "label": "Button Link"
+      },
+      {
+        "type": "header",
+        "content": "Free delivery contents"
+      },
+      {
+        "type": "text",
+        "id": "free_delivery_text",
+        "label": "Content",
+        "default": "Free delivery on all orders over $95,50"
+      },
+      {
+        "type": "html",
+        "id": "free_delivery_icon",
+        "label": "Icon"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "list_item",
+        "name": "List Item",
+        "limit": 3,
+        "settings": [
+          {
+            "type": "text",
+            "id": "item_text",
+            "label": "Item Text",
+            "default": "Lorem ipsum dolor sit amet"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "NF - Banner section"
+      }
+    ]
+  }
+{% endschema %}
+
+
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

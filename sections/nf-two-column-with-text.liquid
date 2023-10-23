@@ -1,0 +1,67 @@
+<section class="w-full bg-[#FAF0F0]">
+    <div
+        class="h-full  items-center sm:items-stretch max-w-[1366px] flex sm:flex-row flex-col  mx-auto justify-center sm:mt-[20px] sm:py-[73px]">
+        <div class="lg:mr-[90px] ml-[20px] order-1 sm:-order-1 md:mr-[45px] lg:ml-[0px]">
+        {% if section.settings.section_heading != blank %}
+            <h1 class="text-[30px] font-oswald font-medium text-[#7E695D] tracking-[0.15]">{{ section.settings.section_heading }}</h1>
+        {% endif %}
+        {% if section.settings.section_content != blank %}
+            <div class="md:w-[408px] w-[335px] space-y-[14px] mt-[22px]">
+                {{ section.settings.section_content }}
+            </div>
+        {% endif %}
+        {% if section.settings.button_link != blank %}
+            <a href="{{ section.settings.button_link }}"
+                class="btn  md:w-[280px] w-[335px] h-[40px] !bg-[#FFFFFF] font-medium !text-[#AB8F80] font-oswald border mt-[24px] !border-[#AB8F80] rounded mb-[38px] sm:mb-0">
+                {{ section.settings.button_text }}
+            </a>
+        {% endif %}
+        </div>
+        <div
+        class="w-[335px] h-[335px] md:w-[480px]  lg:h-[480px] md:h-[400px] mb-[20px] sm:mb-[0px] sm:mt-[0px] mt-[37px]">
+        {% if section.settings.section_image != blank %}
+            <img src="{{ section.settings.section_image |  img_url: 'master' }}" class="w-full h-full"
+            alt="{{ section.settings.section_image.alt }}">
+        {% endif %}
+        </div>
+    </div>
+</section>
+
+{% schema %}
+{
+    "name": "NF - Two column / text",
+    "settings": [
+        {
+            "type": "text",
+            "id": "section_heading",
+            "label": "Heading",
+            "default": "HEADING TEXT HERE"
+        },
+        {
+            "type": "richtext",
+            "id": "section_content",
+            "label": "Content"
+        },
+        {
+            "type": "text",
+            "id": "button_text",
+            "label": "Button text"  
+        },
+        {
+            "type": "url",
+            "id": "button_link",
+            "label": "Button link"  
+        },
+        {
+            "type": "image_picker",
+            "id": "section_image",
+            "label": "Image"
+        }   
+    ],
+    "presets": [
+        {
+            "name": "NF - Two column / text"
+        }
+    ]
+}
+{% endschema %}

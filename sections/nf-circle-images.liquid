@@ -1,0 +1,79 @@
+<section class="pt-[35px] md:pt-[5.6rem] md:pb-[2.5rem]">
+    <div class=" flex items-center flex-col justify-center">
+    {% if section.settings.section_heading != blank %}
+        <h2 class="font-oswald font-medium mb-1 text-[24px] md:text-Heading-h2 sm:text-[35px]  text-center tracking-[0.21px] text-[#7E695D] md:w-[40.3rem] sm:w-[450px] w-[335px] leading-[3.5rem]">
+            {{ section.settings.section_heading }}
+        </h2>
+    {% endif %}
+    {% if section.settings.section_sub_heading != blank %}
+        <p class="text-black tracking-[0.08px] text-center pt-3 w-[271px] md:w-[607px] font-medium font-source pb-2">
+           {{ section.settings.section_sub_heading }}
+        </p>
+    {% endif %}
+    </div>
+    <div class="max-w-[57rem] mx-auto flex flex-wrap justify-center items-center md:mt-[1.9rem] flex-col sm:flex-row sm:gap-[7rem]">
+        {% for block in section.blocks %}
+            <div class="flex flex-col w-[13.75rem] justify-center text-center mt-[30px] sm:mt-0">
+                {% if block.settings.image_item != blank %}
+                    <div class="relative w-[13.75rem] h-[13.75rem]">
+                        <img src="{{ block.settings.image_item |  img_url: 'medium' }}" alt="img" class="w-full h-full rounded-full object-cover object-[70%] border border-[rgba(250,240,240, 1)]">
+                    </div>
+                {% endif %}
+                {% if block.settings.image_title != blank %}
+                    <h4 class="text-[#7E695D] font-oswald text-[1.25rem] font-medium tracking-[0.1] uppercase text-center mt-[15px] md:mt-[24px]">{{ block.settings.image_title }}</h4>
+                {% endif %}
+                {% if block.settings.image_sub_title != blank %}
+                    <p class="text-black mt-1.5 tracking-[0.08px] font-source">{{ block.settings.image_sub_title }}</p>
+                {% endif %}
+            </div>
+        {% endfor %}
+    </div> 
+</section>
+
+{% schema %}
+    {
+      "name": "NF - Cicle images section",
+      "settings": [
+        {
+          "type": "text",
+          "id": "section_heading",
+          "label": "Heading",
+          "default": "START WITH YOUR HEALY HAIR CARE JOURNEY"
+        },
+        {
+          "type": "textarea",
+          "id": "section_sub_heading",
+          "label": "Sub heading"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "image_item",
+          "name": "Image item",
+          "limit": 3,
+          "settings": [
+            {
+                "type": "image_picker",
+                "id": "image_item",
+                "label": "Image"
+            },
+            {
+              "type": "text",
+              "id": "image_title",
+              "label": "Image title"
+            },
+            {
+              "type": "text",
+              "id": "image_sub_title",
+              "label": "Image title"
+            }
+          ]
+        }
+      ],
+      "presets": [
+        {
+          "name": "NF - Cicle images section"
+        }
+      ]
+    }
+  {% endschema %}

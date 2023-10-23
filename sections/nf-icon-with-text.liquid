@@ -1,0 +1,65 @@
+<section class="{% if section.settings.icon_settings == 'style-1' %} bg-[#FAF0F0] md:h-[121px]  md:mb-[60px] md:mt-[40px] {% else %} w-full bg-[#F0EDEB] lg:h-[221px] md:h-[180px] h-full w-full mx-auto  flex justify-center items-center {% endif %} h-full flex  items-center justify-center">
+<div
+    class="md:h-[82px] h-full mx-auto flex flex-wrap flex-col sm:flex-row sm:space-x-[65px] md:space-x-[89px] space-y-[20px] sm:space-y-0 py-[30px] md:pt-0 justify-center items-center">
+    {% for block in section.blocks %}
+        <div class="flex flex-col justify-center items-center">
+            {% if block.settings.icon %}
+                {{ block.settings.icon }}
+            {% endif %}
+            {% if block.settings.icon_text %}
+            <h3 class="{% if section.settings.icon_settings == 'style-1' %} text-[#514843] font-bold mt-[23px] text-[14px] uppercase tracking-[0.6px] {% else %} text-[#7E695D] text-[18px] text-center font-medium mt-[13px] font-source tracking-[0.09] w-[138px] leading-normal h-[50px] {% endif %}">
+                    {{ block.settings.icon_text }}
+                </h3>
+            {% endif %}
+        </div>
+    {% endfor %}
+</div>
+</section>
+
+{% schema %}
+  {
+    "name": "NF - Icon with text",
+    "settings": [
+      {
+        "type": "select",
+        "id": "icon_settings",
+        "label": "Icon settings",
+        "options": [
+          {
+            "value": "style-1",
+            "label": "Style 1"
+          },
+          {
+            "value": "style-2",
+            "label": "Style 2"
+          }
+        ],
+        "default": "style-1"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "icon_with_text",
+        "name": "Icon with text",
+        "limit": 5,
+        "settings": [
+          {
+              "type": "html",
+              "id": "icon",
+              "label": "Icon svg"
+          },
+          {
+              "type": "text",
+              "id": "icon_text",
+              "label": "Icon text"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "NF - Icon with text"
+      }
+    ]
+  }
+{% endschema %}
