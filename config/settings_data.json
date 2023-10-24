@@ -286,41 +286,6 @@
           "content": "<p>Please confirm that you are over the age of 18 to proceed.<\/p>"
         }
       },
-      "banner-section": {
-        "type": "banner-section",
-        "blocks": {
-          "6e4a3dd6-ce8f-4132-8a3c-e5a30ddc20db": {
-            "type": "list_item",
-            "settings": {
-              "item_text": "Lorem ipsum dolor sit amet"
-            }
-          },
-          "65073a34-b86b-4c72-8360-02426a8580fe": {
-            "type": "list_item",
-            "settings": {
-              "item_text": "Lorem ipsum dolor sit amet"
-            }
-          },
-          "1b702faf-74ea-4026-9a11-5669a316fd5d": {
-            "type": "list_item",
-            "settings": {
-              "item_text": "Lorem ipsum dolor sit amet"
-            }
-          }
-        },
-        "block_order": [
-          "6e4a3dd6-ce8f-4132-8a3c-e5a30ddc20db",
-          "65073a34-b86b-4c72-8360-02426a8580fe",
-          "1b702faf-74ea-4026-9a11-5669a316fd5d"
-        ],
-        "settings": {
-          "banner_image": "shopify:\/\/shop_images\/47DABC65-3006-480C-B2A9-1559E556FCE7.jpg",
-          "banner_heading": "START WITH YOUR HEALY HAIR CARE JOURNEY",
-          "banner_text": "<p>test<\/p>",
-          "button_text": "SHOP NOW",
-          "button_link": ""
-        }
-      },
       "nf-landing": {
         "type": "nf-landing",
         "settings": {
