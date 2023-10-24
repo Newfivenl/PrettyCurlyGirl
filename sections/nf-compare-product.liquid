@@ -3,7 +3,7 @@
         {% for block in section.blocks %}
             <div class="{% if forloop.index == 1 %} bg-[#AB8F80] flex lg:flex-row flex-col justify-center lg:pb-0 pb-[60px]  items-center w-full md:w-[50%] h-full pt-[3rem] xl:pr-[60px] md:pr-[25px] {% else %} bg-[#F2F2F2] w-full md:w-[50%] {% endif %} ">
                 {%  unless forloop.index == 1 %}
-                <div class="flex lg:flex-row flex-col items-center lg:items-stretch sm:mt-[20px] lg:mt-[140px] 2xl:ml-[4rem]">
+                <div class="flex lg:flex-row flex-col items-center lg:items-stretch sm:mt-[20px] lg:mt-[140px] 2xl:ml-[4rem] max-[768px]:pb-[40px]">
                 {% endunless %}
                     {% if block.settings.product_image != blank %}
                     <div class="{% if forloop.index == 1 %} lg:h-[450px] w-[197px] h-[197px] lg:mt-[-10rem]  xl:ml-[4rem] md:ml-[.5rem] 2xl:pl-[6rem] max-w-[400px] lg:w-full {% else %}  lg:w-[195px] lg:h-[299px] w-[95px] h-[146px] lg:mt-[-2rem] mt-[61px] mb-2 lg:mb-0  {% endif %}">
@@ -11,7 +11,7 @@
                         alt="{{ block.settings.product_image.alt }}">
                     </div>
                     {% endif %}
-                    <div class="flex flex-col text-left">
+                    <div class="flex flex-col max-[768px]:text-center max-[768px]:items-center">
                     {% if block.settings.product_title != blank %}
                         <h3 class="{% if forloop.index == 1 %} text-[#FFFFFF] {% else %} text-[#514843] {% endif %} font-medium font-oswald mb-[26px] text-[24px] tracking-[0.12]">PRETTY CURLY GIRL
                         </h3>
@@ -58,96 +58,9 @@
                 {% endunless %}
                 </div>
             </div>
-            {% comment %} <div >
-                <div class="flex lg:flex-row flex-col items-center lg:items-stretch sm:mt-[20px] lg:mt-[140px] 2xl:ml-[4rem] ">
-                <div class="lg:w-[195px] lg:h-[299px] w-[95px] h-[146px] lg:mt-[-2rem] mt-[61px] mb-2 lg:mb-0">
-                    <img
-                    src="/images/png-transparent-grey-and-white-pump-bottle-shampoo-bottle-computer-file-painted-shampoo-water-bottles-watercolor-painting-painted-hand-removebg-preview.png"
-                    alt="other product">
-                </div>
-                <div class="flex flex-col">
-                    <h3 class="text-[#514843] font-medium font-oswald mb-[26px] text-[24px] tracking-[0.12]">PRETTY CURLY GIRL
-                    </h3>
-                    <ul class="space-y-[20px] ">
-                    <li class="flex text-[#514843]">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="mr-4 h-6 w-5 font-bold" width="24" height="24"
-                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"
-                        stroke-linejoin="round" class="feather feather-check-circle">
-                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-                        <polyline points="22 4 12 14.01 9 11.01"></polyline>
-                        </svg>
-                        <span class="font-source font-medium text-[16px]"> lorem upsum dolor amit </span>
-                    </li>
-                    <li class="flex text-[#514843]">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="mr-4 h-6 w-5 font-bold" width="24" height="24"
-                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"
-                        stroke-linejoin="round" class="feather feather-check-circle">
-                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-                        <polyline points="22 4 12 14.01 9 11.01"></polyline>
-                        </svg>
-                        <span class="font-source font-medium text-[16px]"> Duis aute irure dolor in reprehenderit</span>
-                    </li>
-                    <li class="flex text-[#514843]">
-                        <?xml version="1.0" encoding="UTF-8"?>
-                        <svg width="22px" height="22px" class="mr-4 h-6 w-5 font-bold" viewBox="0 0 22 22" version="1.1"
-                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <title>x-circle</title>
-                        <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round"
-                            stroke-linejoin="round">
-                            <g id="Landing-Page" transform="translate(-926, -4571)" stroke="#E12A32" stroke-width="2">
-                            <g id="compare-section" transform="translate(0, 4298)">
-                                <g id="Group-33-Copy" transform="translate(927, 188)">
-                                <g id="x-circle" transform="translate(0, 86)">
-                                    <path
-                                    d="M10,20 C15.5228475,20 20,15.5228475 20,10 C20,4.4771525 15.5228475,0 10,0 C4.4771525,0 0,4.4771525 0,10 C0,15.5228475 4.4771525,20 10,20 Z M13,7 L7,13 M7,7 L13,13"
-                                    id="Combined-Shape"></path>
-                                </g>
-                                </g>
-                            </g>
-                            </g>
-                        </g>
-                        </svg>
-                        <span class="font-source font-medium text-[16px]"> Excepteur sint occaecat cupidatat </span>
-                    </li>
-                    <li class="flex text-[#514843]">
-                        <?xml version="1.0" encoding="UTF-8"?>
-                        <svg width="22px" height="22px" class="mr-4 h-6 w-5 font-bold" viewBox="0 0 22 22" version="1.1"
-                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <title>x-circle</title>
-                        <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round"
-                            stroke-linejoin="round">
-                            <g id="Landing-Page" transform="translate(-926, -4571)" stroke="#E12A32" stroke-width="2">
-                            <g id="compare-section" transform="translate(0, 4298)">
-                                <g id="Group-33-Copy" transform="translate(927, 188)">
-                                <g id="x-circle" transform="translate(0, 86)">
-                                    <path
-                                    d="M10,20 C15.5228475,20 20,15.5228475 20,10 C20,4.4771525 15.5228475,0 10,0 C4.4771525,0 0,4.4771525 0,10 C0,15.5228475 4.4771525,20 10,20 Z M13,7 L7,13 M7,7 L13,13"
-                                    id="Combined-Shape"></path>
-                                </g>
-                                </g>
-                            </g>
-                            </g>
-                        </g>
-                        </svg>
-                        <span class="font-source font-medium text-[16px]">Lorem ipsum dolor amit</span>
-                    </li>
-                    <li class="flex text-[#514843]">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="mr-4 h-6 w-5 font-bold" width="24" height="24"
-                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"
-                        stroke-linejoin="round" class="feather feather-check-circle">
-                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-                        <polyline points="22 4 12 14.01 9 11.01"></polyline>
-                        </svg>
-                        <span class="font-source font-medium text-[16px] lg:pb-0 pb-[41px]"> Duis aute irure dolor in
-                        reprehenderit </span>
-                    </li>
-                    </ul>
-                </div>
-                </div>
-            </div> {% endcomment %}
         {% endfor %}
         <div
-            class="bg-black rounded-full w-[60px] h-[60px] absolute lg:inset-x-[48%] sm:inset-x-[47%] sm:inset-y-[52%] inset-x-[45%] inset-y-[53%]">
+            class="max-[768px]:hidden bg-black rounded-full w-[60px] h-[60px] absolute lg:inset-x-[48%] sm:inset-x-[47%] sm:inset-y-[52%] inset-x-[45%] inset-y-[53%]">
             <?xml version="1.0" encoding="UTF-8"?>
             <svg width="60px" height="60px" class="rotate-90 sm:rotate-0" viewBox="0 0 60 60" version="1.1"
             xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">

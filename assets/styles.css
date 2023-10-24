@@ -1496,6 +1496,9 @@ img:after {
 .mt-\[48px\] {
   margin-top: 48px;
 }
+.mt-\[50px\] {
+  margin-top: 50px;
+}
 .mt-\[61px\] {
   margin-top: 61px;
 }
@@ -1504,6 +1507,15 @@ img:after {
 }
 .mt-auto {
   margin-top: auto;
+}
+.mb-\[80px\] {
+  margin-bottom: 80px;
+}
+.mb-\[60px\] {
+  margin-bottom: 60px;
+}
+.mb-\[40px\] {
+  margin-bottom: 40px;
 }
 .block {
   display: block;
@@ -2696,9 +2708,6 @@ img:after {
   font-size: 0.75rem;
   line-height: 1rem;
 }
-.text-\[45px\] {
-  font-size: 45px;
-}
 .font-bold {
   font-weight: 700;
 }
@@ -2729,20 +2738,14 @@ img:after {
 .\!leading-tight {
   line-height: 1.25 !important;
 }
-.leading-\[3\.5rem\] {
-  line-height: 3.5rem;
+.leading-\[2rem\] {
+  line-height: 2rem;
 }
 .leading-none {
   line-height: 1;
 }
 .leading-normal {
   line-height: 1.5;
-}
-.leading-\[1rem\] {
-  line-height: 1rem;
-}
-.leading-\[2rem\] {
-  line-height: 2rem;
 }
 .tracking-\[\.06px\] {
   letter-spacing: .06px;
@@ -4255,6 +4258,20 @@ html {
     bottom: 6.39%;
   }
 }
+@media (max-width: 768px) {
+  .max-\[768px\]\:hidden {
+    display: none;
+  }
+  .max-\[768px\]\:items-center {
+    align-items: center;
+  }
+  .max-\[768px\]\:pb-\[40px\] {
+    padding-bottom: 40px;
+  }
+  .max-\[768px\]\:text-center {
+    text-align: center;
+  }
+}
 @media not all and (min-width: 640px) {
   .max-sm\:h-\[57\.49px\] {
     height: 57.49px;
@@ -4282,6 +4299,11 @@ html {
   }
   .max-sm\:leading-\[1\.286\] {
     line-height: 1.286;
+  }
+}
+@media (min-width: 360px) {
+  .xs\:hidden {
+    display: none;
   }
 }
 @media (min-width: 640px) {
@@ -4317,8 +4339,23 @@ html {
   .sm\:mt-\[20px\] {
     margin-top: 20px;
   }
+  .sm\:mb-\[40px\] {
+    margin-bottom: 40px;
+  }
+  .sm\:mb-\[50px\] {
+    margin-bottom: 50px;
+  }
+  .sm\:mb-\[60px\] {
+    margin-bottom: 60px;
+  }
+  .sm\:mb-\[80px\] {
+    margin-bottom: 80px;
+  }
   .sm\:block {
     display: block;
+  }
+  .sm\:hidden {
+    display: none;
   }
   .sm\:h-10 {
     height: 2.5rem;
@@ -4535,6 +4572,9 @@ html {
   .md\:mb-2\.5 {
     margin-bottom: 0.625rem;
   }
+  .md\:mb-\[180px\] {
+    margin-bottom: 180px;
+  }
   .md\:mb-\[25px\] {
     margin-bottom: 25px;
   }
@@ -4567,9 +4607,6 @@ html {
   }
   .md\:mt-\[75px\] {
     margin-top: 75px;
-  }
-  .md\:mb-\[180px\] {
-    margin-bottom: 180px;
   }
   .md\:block {
     display: block;
@@ -4889,14 +4926,14 @@ html {
   .md\:align-middle {
     vertical-align: middle;
   }
+  .md\:text-\[2\.6rem\] {
+    font-size: 2.6rem;
+  }
   .md\:text-\[20px\] {
     font-size: 20px;
   }
   .md\:text-\[24px\] {
     font-size: 24px;
-  }
-  .md\:text-\[2\.6rem\] {
-    font-size: 2.6rem;
   }
   .md\:leading-\[3\.5rem\] {
     line-height: 3.5rem;
