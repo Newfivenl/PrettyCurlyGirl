@@ -6,19 +6,19 @@
         "496e2385-4ce1-4748-89e8-f22c7940e6c1": {
           "type": "list_item",
           "settings": {
-            "item_text": "Integer eu scelerisque quam."
+            "item_text": "Extreme high concentration of flaxseed extract"
           }
         },
         "2dc7e959-1267-4568-aa95-ce02f1b3d281": {
           "type": "list_item",
           "settings": {
-            "item_text": "Nulla pharetra venenatis maximus"
+            "item_text": "Shiny, healthy and bouncy curls"
           }
         },
         "c9e7b764-d964-4273-ab8d-568d1eddc9d0": {
           "type": "list_item",
           "settings": {
-            "item_text": "Pellentesque quis sem convallis"
+            "item_text": "For all curl types"
           }
         }
       },
@@ -46,24 +46,24 @@
           "type": "image_item",
           "settings": {
             "image_item": "shopify:\/\/shop_images\/shutterstock_1873777390.jpg",
-            "image_title": "Duis aute irure",
-            "image_sub_title": "Excepteur sint occaecat cupidatat non proident"
+            "image_title": "Step 1",
+            "image_sub_title": "Apply the gel with your fingers to wet hair. The gel will create a cast (a hard gel layer)."
           }
         },
         "a9dd35e0-a785-4852-be35-8a102787bb45": {
           "type": "image_item",
           "settings": {
             "image_item": "shopify:\/\/shop_images\/shutterstock_1435341317.jpg",
-            "image_title": "Excepteur sint",
-            "image_sub_title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+            "image_title": "Step 2",
+            "image_sub_title": "Break the cast with the Scrunch Out The Crunch (SOTC) method when your hair is 100%  dry."
           }
         },
         "dce525c2-a851-4c01-ac27-a3937df5347c": {
           "type": "image_item",
           "settings": {
             "image_item": "shopify:\/\/shop_images\/stock-photo-young-woman-washing-hair-in-shower-at-luxury-spa-woman-washing-her-curly-hair-with-shampoo-and-a-1581002035.jpg",
-            "image_title": "Ut enim ad minima",
-            "image_sub_title": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem"
+            "image_title": "step 3",
+            "image_sub_title": "SOTC = break the gel cast with your fingers or use a towel to create soft and defined curls."
           }
         }
       },
@@ -80,7 +80,7 @@
     "b9f0017b-ba5e-4589-a993-74eb88e71782": {
       "type": "nf-featured-section",
       "settings": {
-        "section_heading": "LOVE YOUR CURLS AND YOUR CURLS WILL LOVE YOU BACK.",
+        "section_heading": "We're a woman owned and driven to give you the best products for your curly hair.",
         "section_image": "shopify:\/\/shop_images\/100mlGelLR-removebg-preview.png",
         "section_text1": "Hydrates hair &soothes the scalp",
         "section_text2": "Create stunning results",
