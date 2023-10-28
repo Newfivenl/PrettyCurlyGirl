@@ -29,8 +29,8 @@
       ],
       "settings": {
         "banner_image": "shopify:\/\/shop_images\/47DABC65-3006-480C-B2A9-1559E556FCE7.jpg",
-        "banner_heading": "Magical Flaxseed gel",
-        "banner_text": "Flaxseed is the answer to create gorgeous defined and healthy curls. It works on all hair types. Also important the smell is amazing.",
+        "banner_heading": "create magical CURL DEFINITION",
+        "banner_text": "Magical Flaxseed gel is the answer to create gorgeous defined and healthy curls. It works on all hair types. Also important the smell is amazing.",
         "enable_review_stars": true,
         "review_count": "74",
         "button_text": "SHOP NOW",
@@ -380,57 +380,6 @@
         "section_image": "shopify:\/\/shop_images\/image1_2_480x480_77bdfd34-c868-4cdb-8601-ff0e1823ac16.jpg"
       }
     },
-    "8bc88d48-2771-404e-8b9a-10d364cfa2ba": {
-      "type": "nf-icon-with-text",
-      "blocks": {
-        "f2a4da93-18b8-4588-9a2c-18e9135ead17": {
-          "type": "icon_with_text",
-          "settings": {
-            "icon": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" class=\"text-[#7E695D] w-[35] h-[35]\" width=\"32\" height=\"32\" viewbox=\"0 0 16 16\">\n                <path fill=\"currentColor\" d=\"M7.5 1.018a7 7 0 0 0-4.79 11.566L7.5 7.793V1.018zm1 0V7.5h6.482A7.001 7.001 0 0 0 8.5 1.018zM14.982 8.5H8.207l-4.79 4.79A7 7 0 0 0 14.982 8.5zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8z\"><\/path>\n              <\/svg>",
-            "icon_text": "98% naturalingredients"
-          }
-        },
-        "2da2d6ec-b336-4af7-ac05-d225a44f2341": {
-          "type": "icon_with_text",
-          "settings": {
-            "icon": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" class=\"text-[#7E695D] w-[35px] h-[35px]\" width=\"32\" height=\"32\" viewbox=\"0 0 24 24\">\n                <path fill=\"currentColor\" d=\"M11 19.425v-6.85L5 9.1v6.85l6 3.475Zm2 0l6-3.475V9.1l-6 3.475v6.85Zm-2 2.3L4 17.7q-.475-.275-.738-.725t-.262-1v-7.95q0-.55.263-1T4 6.3l7-4.025Q11.475 2 12 2t1 .275L20 6.3q.475.275.738.725t.262 1v7.95q0 .55-.263 1T20 17.7l-7 4.025Q12.525 22 12 22t-1-.275Zm5-13.2l1.925-1.1L12 4l-1.95 1.125l5.95 3.4Zm-4 2.325l1.95-1.125L8.025 6.3l-1.95 1.125L12 10.85Z\"><\/path>\n              <\/svg>",
-            "icon_text": "Sustainable packaging"
-          }
-        },
-        "54bd1c1b-46aa-44eb-b90c-d7b4384e6473": {
-          "type": "icon_with_text",
-          "settings": {
-            "icon": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" class=\"text-[#7E695D] w-[35px] h-[35px]\" width=\"32\" height=\"32\" viewbox=\"0 0 24 24\">\n                <path fill=\"currentColor\" d=\"M7 21V8l6-5.95q.375-.375.888-.437t.987.187q.475.25.7.7t.1.925L14.55 8H21q.8 0 1.4.6T23 10v2q0 .175-.05.375t-.1.375l-3 7.05q-.225.5-.75.85T18 21H7ZM9 8.85V19h9l3-7v-2h-9l1.35-5.5L9 8.85ZM4 21q-.825 0-1.413-.588T2 19v-9q0-.825.588-1.413T4 8h3v2H4v9h3v2H4Zm5-2V8.85V19Z\"><\/path>\n              <\/svg>",
-            "icon_text": "Curl girl approve ingridients"
-          }
-        },
-        "0b867209-2575-41a4-ba12-1ecb4a131d2f": {
-          "type": "icon_with_text",
-          "settings": {
-            "icon": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" class=\"text-[#7E695D] w-[35px] h-[35px]\" width=\"32\" height=\"32\" viewbox=\"0 0 24 24\">\n                <path fill=\"currentColor\" d=\"M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3C4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5C22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1l-.1-.1C7.14 14.24 4 11.39 4 8.5C4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5c0 2.89-3.14 5.74-7.9 10.05z\"><\/path>\n              <\/svg>",
-            "icon_text": "Made with love"
-          }
-        }
-      },
-      "block_order": [
-        "f2a4da93-18b8-4588-9a2c-18e9135ead17",
-        "2da2d6ec-b336-4af7-ac05-d225a44f2341",
-        "54bd1c1b-46aa-44eb-b90c-d7b4384e6473",
-        "0b867209-2575-41a4-ba12-1ecb4a131d2f"
-      ],
-      "settings": {
-        "icon_settings": "style-2"
-      }
-    },
-    "main": {
-      "type": "page__main",
-      "disabled": true,
-      "settings": {
-        "spacing_top": 60,
-        "spacing_bottom": 60,
-        "color_scheme": "color__bg-body color__text"
-      }
-    },
     "9c3da5e6-46ce-4594-91b5-bf698168311e": {
       "type": "featured-product",
       "blocks": {
@@ -515,7 +464,7 @@
         "877ba202-2962-4ba6-a390-660532e64aa3"
       ],
       "settings": {
-        "product": "flaxseed-styling-serum-250ml",
+        "product": "magical-flaxseed-gel-250ml-tube",
         "enable_default_variant": true,
         "media_gallery_style": "thumbnail-slider",
         "enable_zoom": true,
@@ -534,6 +483,57 @@
         "layout_gallery_size": "w-full md:w-1\/2",
         "visibility": ""
       }
+    },
+    "8bc88d48-2771-404e-8b9a-10d364cfa2ba": {
+      "type": "nf-icon-with-text",
+      "blocks": {
+        "f2a4da93-18b8-4588-9a2c-18e9135ead17": {
+          "type": "icon_with_text",
+          "settings": {
+            "icon": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" class=\"text-[#7E695D] w-[35] h-[35]\" width=\"32\" height=\"32\" viewbox=\"0 0 16 16\">\n                <path fill=\"currentColor\" d=\"M7.5 1.018a7 7 0 0 0-4.79 11.566L7.5 7.793V1.018zm1 0V7.5h6.482A7.001 7.001 0 0 0 8.5 1.018zM14.982 8.5H8.207l-4.79 4.79A7 7 0 0 0 14.982 8.5zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8z\"><\/path>\n              <\/svg>",
+            "icon_text": "98% naturalingredients"
+          }
+        },
+        "2da2d6ec-b336-4af7-ac05-d225a44f2341": {
+          "type": "icon_with_text",
+          "settings": {
+            "icon": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" class=\"text-[#7E695D] w-[35px] h-[35px]\" width=\"32\" height=\"32\" viewbox=\"0 0 24 24\">\n                <path fill=\"currentColor\" d=\"M11 19.425v-6.85L5 9.1v6.85l6 3.475Zm2 0l6-3.475V9.1l-6 3.475v6.85Zm-2 2.3L4 17.7q-.475-.275-.738-.725t-.262-1v-7.95q0-.55.263-1T4 6.3l7-4.025Q11.475 2 12 2t1 .275L20 6.3q.475.275.738.725t.262 1v7.95q0 .55-.263 1T20 17.7l-7 4.025Q12.525 22 12 22t-1-.275Zm5-13.2l1.925-1.1L12 4l-1.95 1.125l5.95 3.4Zm-4 2.325l1.95-1.125L8.025 6.3l-1.95 1.125L12 10.85Z\"><\/path>\n              <\/svg>",
+            "icon_text": "Sustainable packaging"
+          }
+        },
+        "54bd1c1b-46aa-44eb-b90c-d7b4384e6473": {
+          "type": "icon_with_text",
+          "settings": {
+            "icon": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" class=\"text-[#7E695D] w-[35px] h-[35px]\" width=\"32\" height=\"32\" viewbox=\"0 0 24 24\">\n                <path fill=\"currentColor\" d=\"M7 21V8l6-5.95q.375-.375.888-.437t.987.187q.475.25.7.7t.1.925L14.55 8H21q.8 0 1.4.6T23 10v2q0 .175-.05.375t-.1.375l-3 7.05q-.225.5-.75.85T18 21H7ZM9 8.85V19h9l3-7v-2h-9l1.35-5.5L9 8.85ZM4 21q-.825 0-1.413-.588T2 19v-9q0-.825.588-1.413T4 8h3v2H4v9h3v2H4Zm5-2V8.85V19Z\"><\/path>\n              <\/svg>",
+            "icon_text": "Curl girl approve ingridients"
+          }
+        },
+        "0b867209-2575-41a4-ba12-1ecb4a131d2f": {
+          "type": "icon_with_text",
+          "settings": {
+            "icon": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" class=\"text-[#7E695D] w-[35px] h-[35px]\" width=\"32\" height=\"32\" viewbox=\"0 0 24 24\">\n                <path fill=\"currentColor\" d=\"M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3C4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5C22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1l-.1-.1C7.14 14.24 4 11.39 4 8.5C4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5c0 2.89-3.14 5.74-7.9 10.05z\"><\/path>\n              <\/svg>",
+            "icon_text": "Made with love"
+          }
+        }
+      },
+      "block_order": [
+        "f2a4da93-18b8-4588-9a2c-18e9135ead17",
+        "2da2d6ec-b336-4af7-ac05-d225a44f2341",
+        "54bd1c1b-46aa-44eb-b90c-d7b4384e6473",
+        "0b867209-2575-41a4-ba12-1ecb4a131d2f"
+      ],
+      "settings": {
+        "icon_settings": "style-2"
+      }
+    },
+    "main": {
+      "type": "page__main",
+      "disabled": true,
+      "settings": {
+        "spacing_top": 60,
+        "spacing_bottom": 60,
+        "color_scheme": "color__bg-body color__text"
+      }
     }
   },
   "order": [
@@ -546,8 +546,8 @@
     "438c26d5-4191-4e99-8314-16891e303998",
     "3b51516b-9154-4b6e-b6ed-dc1f4bbd2033",
     "1935dfab-5924-45a9-921f-6d0fd075b9a0",
+    "9c3da5e6-46ce-4594-91b5-bf698168311e",
     "8bc88d48-2771-404e-8b9a-10d364cfa2ba",
-    "main",
-    "9c3da5e6-46ce-4594-91b5-bf698168311e"
+    "main"
   ]
 }
