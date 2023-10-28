@@ -45,7 +45,7 @@
         "8b92afe1-28a6-4471-8eba-b66bd4781da0": {
           "type": "image_item",
           "settings": {
-            "image_item": "shopify:\/\/shop_images\/shutterstock_1873777390.jpg",
+            "image_item": "shopify:\/\/shop_images\/shutterstock_1969761964.jpg",
             "image_title": "Step 1",
             "image_sub_title": "Apply the gel with your fingers to wet hair. The gel will create a cast (a hard gel layer)."
           }
@@ -53,7 +53,7 @@
         "a9dd35e0-a785-4852-be35-8a102787bb45": {
           "type": "image_item",
           "settings": {
-            "image_item": "shopify:\/\/shop_images\/shutterstock_1435341317.jpg",
+            "image_item": "shopify:\/\/shop_images\/shutterstock_2209975343.jpg",
             "image_title": "Step 2",
             "image_sub_title": "Break the cast with the Scrunch Out The Crunch (SOTC) method when your hair is 100%  dry."
           }
@@ -61,7 +61,7 @@
         "dce525c2-a851-4c01-ac27-a3937df5347c": {
           "type": "image_item",
           "settings": {
-            "image_item": "shopify:\/\/shop_images\/stock-photo-young-woman-washing-hair-in-shower-at-luxury-spa-woman-washing-her-curly-hair-with-shampoo-and-a-1581002035.jpg",
+            "image_item": "shopify:\/\/shop_images\/shutterstock_2150171729.jpg",
             "image_title": "step 3",
             "image_sub_title": "SOTC = break the gel cast with your fingers or use a towel to create soft and defined curls."
           }
@@ -114,6 +114,7 @@
         },
         "a78465c3-9c47-474a-bcf2-2f760bab83b6": {
           "type": "icon_with_text",
+          "disabled": true,
           "settings": {
             "icon": "<!--?xml version=\"1.0\" encoding=\"UTF-8\"?-->\n          <svg width=\"29px\" height=\"34px\" viewbox=\"0 0 29 34\" version=\"1.1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\">\n            <title>Group 15<\/title>\n            <g id=\"Design\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\n              <g id=\"Landing-Page\" transform=\"translate(-825, -2269)\" fill-rule=\"nonzero\" stroke=\"#7E695D\" stroke-width=\"1.1\">\n                <g id=\"Group-5\" transform=\"translate(0, 2241)\">\n                  <g id=\"Group-4\" transform=\"translate(360, 16)\">\n                    <g id=\"Group-18\" transform=\"translate(450, 0)\">\n                      <g id=\"Group-15\" transform=\"translate(17, 15)\">\n                        <path d=\"M22,12.4568051 C17.7445811,13.3570779 15.218512,15.9351319 14.135911,20 C13.1329818,15.8351015 10.5225542,13.3070627 6,12.4477114 C8.17926186,12.024856 9.93204452,11.265535 11.3848858,9.92876629 C12.8330404,8.59199758 13.6438196,6.91421643 14.1499707,5 C15.1388401,9.12397696 17.8055067,11.5201576 22,12.4568051 L22,12.4568051 Z\" id=\"Path\"><\/path>\n                        <path d=\"M11,20.9364332 C8.75620767,21.3413773 7.48306998,22.7115951 6.97742664,25 C6.48532731,22.6927604 5.22121896,21.3507946 3,20.9364332 C5.12641084,20.4702766 6.48984199,19.2460271 6.98645598,17 C7.49209932,19.2036492 8.82844244,20.4891112 11,20.9364332 L11,20.9364332 Z\" id=\"Path\"><\/path>\n                        <path d=\"M21,23.9364332 C18.7562077,24.3413773 17.48307,25.7115951 16.9774266,28 C16.4853273,25.6927604 15.221219,24.3507946 13,23.9364332 C15.1264108,23.4702766 16.489842,22.2460271 16.986456,20 C17.4920993,22.2036492 18.8284424,23.4891112 21,23.9364332 L21,23.9364332 Z\" id=\"Path\"><\/path>\n                        <path d=\"M24,3.9364332 C21.7562077,4.34137728 20.48307,5.71159506 19.9774266,8 C19.4853273,5.69276045 18.221219,4.35079459 16,3.9364332 C18.1264108,3.47027663 19.489842,2.24602707 19.986456,0 C20.4920993,2.20364921 21.8284424,3.48911124 24,3.9364332 L24,3.9364332 L24,3.9364332 Z\" id=\"Path\"><\/path>\n                        <path d=\"M7,9.01665675 C5.11521873,9.57346817 3.94208256,10.8774539 3.5021565,13 C3.05360444,10.9012493 1.91497227,9.5687091 0,9.02141582 C1.89340727,8.43604997 3.09673444,7.15585961 3.5107825,5 C3.90757856,7.15110054 5.09365373,8.4312909 7,9.01665675 L7,9.01665675 L7,9.01665675 Z\" id=\"Path\"><\/path>\n                      <\/g>\n                    <\/g>\n                  <\/g>\n                <\/g>\n              <\/g>\n            <\/g>\n          <\/svg>",
             "icon_text": "Group 15"
