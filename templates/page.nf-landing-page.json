@@ -476,7 +476,7 @@
       "settings": {
         "product": "magical-flaxseed-gel-250ml-tube",
         "enable_default_variant": true,
-        "media_gallery_style": "thumbnail-slider",
+        "media_gallery_style": "slider",
         "enable_zoom": true,
         "enable_alt": false,
         "enable_variant_images": false,
@@ -490,7 +490,7 @@
         "color_scheme": "color__bg-body color__text",
         "color_border": "!color__border-transparent",
         "style_border": "",
-        "layout_gallery_size": "w-full md:w-1\/2",
+        "layout_gallery_size": "w-full md:w-2\/3",
         "visibility": ""
       }
     },
