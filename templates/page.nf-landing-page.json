@@ -60,6 +60,7 @@
         },
         "dce525c2-a851-4c01-ac27-a3937df5347c": {
           "type": "image_item",
+          "disabled": true,
           "settings": {
             "image_title": "step 3",
             "image_sub_title": "SOTC = break the gel cast with your fingers or use a towel to create soft and defined curls."
