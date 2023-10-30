@@ -34,7 +34,7 @@
         "enable_review_stars": true,
         "review_count": "74",
         "button_text": "SHOP NOW",
-        "button_link": "shopify:\/\/products\/magical-flaxseed-gel-250ml-tube",
+        "button_link": "\/pages\/magical-flaxseed-gel#featured",
         "free_delivery_text": "Free delivery on all orders over €50,-",
         "free_delivery_icon": ""
       }
@@ -111,10 +111,9 @@
         },
         "a78465c3-9c47-474a-bcf2-2f760bab83b6": {
           "type": "icon_with_text",
-          "disabled": true,
           "settings": {
-            "icon": "<!--?xml version=\"1.0\" encoding=\"UTF-8\"?-->\n          <svg width=\"29px\" height=\"34px\" viewbox=\"0 0 29 34\" version=\"1.1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\">\n            <title>Group 15<\/title>\n            <g id=\"Design\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\n              <g id=\"Landing-Page\" transform=\"translate(-825, -2269)\" fill-rule=\"nonzero\" stroke=\"#7E695D\" stroke-width=\"1.1\">\n                <g id=\"Group-5\" transform=\"translate(0, 2241)\">\n                  <g id=\"Group-4\" transform=\"translate(360, 16)\">\n                    <g id=\"Group-18\" transform=\"translate(450, 0)\">\n                      <g id=\"Group-15\" transform=\"translate(17, 15)\">\n                        <path d=\"M22,12.4568051 C17.7445811,13.3570779 15.218512,15.9351319 14.135911,20 C13.1329818,15.8351015 10.5225542,13.3070627 6,12.4477114 C8.17926186,12.024856 9.93204452,11.265535 11.3848858,9.92876629 C12.8330404,8.59199758 13.6438196,6.91421643 14.1499707,5 C15.1388401,9.12397696 17.8055067,11.5201576 22,12.4568051 L22,12.4568051 Z\" id=\"Path\"><\/path>\n                        <path d=\"M11,20.9364332 C8.75620767,21.3413773 7.48306998,22.7115951 6.97742664,25 C6.48532731,22.6927604 5.22121896,21.3507946 3,20.9364332 C5.12641084,20.4702766 6.48984199,19.2460271 6.98645598,17 C7.49209932,19.2036492 8.82844244,20.4891112 11,20.9364332 L11,20.9364332 Z\" id=\"Path\"><\/path>\n                        <path d=\"M21,23.9364332 C18.7562077,24.3413773 17.48307,25.7115951 16.9774266,28 C16.4853273,25.6927604 15.221219,24.3507946 13,23.9364332 C15.1264108,23.4702766 16.489842,22.2460271 16.986456,20 C17.4920993,22.2036492 18.8284424,23.4891112 21,23.9364332 L21,23.9364332 Z\" id=\"Path\"><\/path>\n                        <path d=\"M24,3.9364332 C21.7562077,4.34137728 20.48307,5.71159506 19.9774266,8 C19.4853273,5.69276045 18.221219,4.35079459 16,3.9364332 C18.1264108,3.47027663 19.489842,2.24602707 19.986456,0 C20.4920993,2.20364921 21.8284424,3.48911124 24,3.9364332 L24,3.9364332 L24,3.9364332 Z\" id=\"Path\"><\/path>\n                        <path d=\"M7,9.01665675 C5.11521873,9.57346817 3.94208256,10.8774539 3.5021565,13 C3.05360444,10.9012493 1.91497227,9.5687091 0,9.02141582 C1.89340727,8.43604997 3.09673444,7.15585961 3.5107825,5 C3.90757856,7.15110054 5.09365373,8.4312909 7,9.01665675 L7,9.01665675 L7,9.01665675 Z\" id=\"Path\"><\/path>\n                      <\/g>\n                    <\/g>\n                  <\/g>\n                <\/g>\n              <\/g>\n            <\/g>\n          <\/svg>",
-            "icon_text": "Group 15"
+            "icon": "<svg width=\"16px\" height=\"20px\" viewbox=\"0 0 16 20\" version=\"1.1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\">\n    <g id=\"Tajeaware\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\n        <g id=\"Product-page---Volume-discount-v1\" transform=\"translate(-520, -1590)\" fill=\"#7C6A5F\" fill-rule=\"nonzero\">\n            <g id=\"water_drop_FILL0_wght400_GRAD0_opsz24\" transform=\"translate(520, 1590)\">\n                <path d=\"M8.275,17 C8.475,16.9833333 8.64583333,16.9041667 8.7875,16.7625 C8.92916667,16.6208333 9,16.45 9,16.25 C9,16.0166667 8.925,15.8291667 8.775,15.6875 C8.625,15.5458333 8.43333333,15.4833333 8.2,15.5 C7.51666667,15.55 6.79166667,15.3625 6.025,14.9375 C5.25833333,14.5125 4.775,13.7416667 4.575,12.625 C4.54166667,12.4416667 4.45416667,12.2916667 4.3125,12.175 C4.17083333,12.0583333 4.00833333,12 3.825,12 C3.59166667,12 3.4,12.0875 3.25,12.2625 C3.1,12.4375 3.05,12.6416667 3.1,12.875 C3.38333333,14.3916667 4.05,15.475 5.1,16.125 C6.15,16.775 7.20833333,17.0666667 8.275,17 Z M8,20 C5.71666667,20 3.8125,19.2166667 2.2875,17.65 C0.7625,16.0833333 0,14.1333333 0,11.8 C0,10.1333333 0.6625,8.32083333 1.9875,6.3625 C3.3125,4.40416667 5.31666667,2.28333333 8,0 C10.6833333,2.28333333 12.6875,4.40416667 14.0125,6.3625 C15.3375,8.32083333 16,10.1333333 16,11.8 C16,14.1333333 15.2375,16.0833333 13.7125,17.65 C12.1875,19.2166667 10.2833333,20 8,20 Z M8,18 C9.73333333,18 11.1666667,17.4125 12.3,16.2375 C13.4333333,15.0625 14,13.5833333 14,11.8 C14,10.5833333 13.4958333,9.20833333 12.4875,7.675 C11.4791667,6.14166667 9.98333333,4.46666667 8,2.65 C6.01666667,4.46666667 4.52083333,6.14166667 3.5125,7.675 C2.50416667,9.20833333 2,10.5833333 2,11.8 C2,13.5833333 2.56666667,15.0625 3.7,16.2375 C4.83333333,17.4125 6.26666667,18 8,18 Z\" id=\"Shape\"><\/path>\n            <\/g>\n        <\/g>\n    <\/g>\n<\/svg>",
+            "icon_text": "Small amount needed"
           }
         },
         "fa6dc0b7-088a-4921-8b5e-bdc14f10591f": {
@@ -180,7 +179,7 @@
         "84f4d25e-2273-49f3-9272-a30a8312f45f"
       ],
       "settings": {
-        "section_heading": "JOIN 10,700+ OTHERS WITH PRETTY CURLY GIRL"
+        "section_heading": "JOIN 20.000 OTHERS WITH PRETTY CURLY GIRL"
       }
     },
     "169702038597d5372e": {
@@ -239,7 +238,7 @@
             "compare_text5": "Product works as promised",
             "compare_icon5": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" class=\"mr-4 h-6 w-5 font-bold\" width=\"24\" height=\"24\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                            <path d=\"M22 11.08V12a10 10 0 1 1-5.93-9.14\"><\/path>\n                            <polyline points=\"22 4 12 14.01 9 11.01\"><\/polyline>\n                        <\/svg>",
             "product_button_text": "Shop now",
-            "product_button_link": "shopify:\/\/collections"
+            "product_button_link": "\/pages\/magical-flaxseed-gel#featured"
           }
         },
         "191542de-1ba3-4af4-8b70-344f72edf7a0": {
@@ -374,7 +373,7 @@
         "section_heading": "CREATE STUNNING RESULTS",
         "section_content": "<p>Kinky, Coily, Wavy &gt;&gt;&gt; It does not matter. With our product line we offer you the best products for your curls. <br\/><br\/>Start today and you will be amazed. <\/p><p>Be Pretty. Be Curly. Be You. <br\/><\/p>",
         "button_text": "Shop now",
-        "button_link": "shopify:\/\/collections",
+        "button_link": "\/pages\/magical-flaxseed-gel#featured",
         "section_image": "shopify:\/\/shop_images\/image0_24.jpg"
       }
     },
