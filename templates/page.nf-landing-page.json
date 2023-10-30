@@ -170,13 +170,22 @@
             "review_content": "<p>Very happy<\/p>",
             "review_name": "Gerda V."
           }
+        },
+        "02ccd1c9-50f2-48b1-a9f5-269fb18108d0": {
+          "type": "review",
+          "settings": {
+            "review_title": "Heerlijke producten",
+            "review_content": "<p>Alle producten zijn heerlijk en worden snel geleverd<br\/>De shampoo conditioner en flanseed zijn onze favoriete haar producten<\/p>",
+            "review_name": "Nynke D."
+          }
         }
       },
       "block_order": [
         "dc8cc92c-8f1c-4163-8aa9-ca0223f11661",
         "85bbdac7-26d2-4c6b-9022-5e83f131822f",
         "0c3325d7-fed8-4d45-9ffa-aebf2b5803db",
-        "84f4d25e-2273-49f3-9272-a30a8312f45f"
+        "84f4d25e-2273-49f3-9272-a30a8312f45f",
+        "02ccd1c9-50f2-48b1-a9f5-269fb18108d0"
       ],
       "settings": {
         "section_heading": "JOIN 20.000 OTHERS WITH PRETTY CURLY GIRL"
