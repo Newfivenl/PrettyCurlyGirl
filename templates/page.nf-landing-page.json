@@ -34,7 +34,7 @@
         "enable_review_stars": true,
         "review_count": "74",
         "button_text": "SHOP NOW",
-        "button_link": "shopify:\/\/products\/magical-flaxseed-gel-250ml-tube",
+        "button_link": "\/pages\/magical-flaxseed-gel#featured",
         "free_delivery_text": "Free delivery on all orders over €50,-",
         "free_delivery_icon": ""
       }
@@ -239,7 +239,7 @@
             "compare_text5": "Product works as promised",
             "compare_icon5": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" class=\"mr-4 h-6 w-5 font-bold\" width=\"24\" height=\"24\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                            <path d=\"M22 11.08V12a10 10 0 1 1-5.93-9.14\"><\/path>\n                            <polyline points=\"22 4 12 14.01 9 11.01\"><\/polyline>\n                        <\/svg>",
             "product_button_text": "Shop now",
-            "product_button_link": "shopify:\/\/collections"
+            "product_button_link": "\/pages\/magical-flaxseed-gel#featured"
           }
         },
         "191542de-1ba3-4af4-8b70-344f72edf7a0": {
@@ -374,7 +374,7 @@
         "section_heading": "CREATE STUNNING RESULTS",
         "section_content": "<p>Kinky, Coily, Wavy &gt;&gt;&gt; It does not matter. With our product line we offer you the best products for your curls. <br\/><br\/>Start today and you will be amazed. <\/p><p>Be Pretty. Be Curly. Be You. <br\/><\/p>",
         "button_text": "Shop now",
-        "button_link": "shopify:\/\/collections",
+        "button_link": "\/pages\/magical-flaxseed-gel#featured",
         "section_image": "shopify:\/\/shop_images\/image0_24.jpg"
       }
     },
