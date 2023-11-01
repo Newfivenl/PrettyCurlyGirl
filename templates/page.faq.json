@@ -43,13 +43,22 @@
             "content": "<p>Yes we do our best to be sustainable step by step. We use tubes made of 100% recycled plastic. We are very proud that as a small business we oould do this just 1 year after our launch. Our lab and our packaging company are located in the Netherlands, so we work locally. <\/p>",
             "icon": ""
           }
+        },
+        "8e69b688-0386-4996-b01e-c71debe78e05": {
+          "type": "content",
+          "settings": {
+            "title": "Are you woman owned",
+            "content": "<p>Yes absolutely. Check who the founder is at \"OUR STORY\"<\/p>",
+            "icon": ""
+          }
         }
       },
       "block_order": [
         "template--19832239685962__a34cde32-6cc5-47ea-bd7e-51474ea6b015-content-1",
         "template--19832239685962__a34cde32-6cc5-47ea-bd7e-51474ea6b015-content-2",
         "template--19832239685962__a34cde32-6cc5-47ea-bd7e-51474ea6b015-content-3",
-        "fcb9b837-2f4d-49f9-a245-db1767d725a2"
+        "fcb9b837-2f4d-49f9-a245-db1767d725a2",
+        "8e69b688-0386-4996-b01e-c71debe78e05"
       ],
       "settings": {
         "heading": "FAQ",
