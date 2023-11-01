@@ -699,7 +699,7 @@
             "icon": "shopify:\/\/shop_images\/returns.svg",
             "icon_height": "h-8",
             "heading": "Fast Delivery",
-            "content": "<p>Cut off time 22:00. <\/p>",
+            "content": "<p>Cut off time 20:00. <\/p>",
             "enable_padding": true,
             "color_scheme": "color__bg-secondary color__secondary",
             "color_border": "!color__border-transparent",
