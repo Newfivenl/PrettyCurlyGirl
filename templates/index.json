@@ -133,7 +133,6 @@
       ],
       "settings": {
         "image_background_desktop": "shopify:\/\/shop_images\/happy_bday_fcbe58f8-1baa-48a2-b625-5e200a7aa5bc.webp",
-        "image_background_mobile": "shopify:\/\/shop_images\/happy_bday.webp",
         "show_entire_image": false,
         "enable_lazy_loading": false,
         "show_video_background_mobile": true,
@@ -145,7 +144,57 @@
         "layout_y_spacing": "min-h-[650px] max-h-[85vh] md:min-h-[80vh]",
         "layout_y_alignment": "items-end",
         "layout_x_alignment": "justify-center text-center",
-        "visibility": ""
+        "visibility": "hidden md:block"
+      }
+    },
+    "a8fcd2ad-c37c-4ffc-a813-3b38498d2f03": {
+      "type": "banner",
+      "blocks": {
+        "83df2887-d609-41b0-ae8b-ce31ce0d88e1": {
+          "type": "heading",
+          "settings": {
+            "content": "15% BDAY DISCOUNT"
+          }
+        },
+        "8e40ae7e-c598-4a3d-9815-985bf6bde519": {
+          "type": "content",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Create stunning, amazing, healthy and bouncy curls with our products. <\/p>"
+          }
+        },
+        "e8b831d6-1e20-4084-aa5c-7ef983983d04": {
+          "type": "buttons",
+          "settings": {
+            "button_color": "btn btn--secondary",
+            "button_label": "Shop Pretty Curly Girl",
+            "button_url": "shopify:\/\/collections\/all",
+            "secondary_button_color": "btn btn--tertiary",
+            "secondary_button_label": "SHOP KIDS Line",
+            "secondary_button_url": "shopify:\/\/collections\/curly-star"
+          }
+        }
+      },
+      "block_order": [
+        "83df2887-d609-41b0-ae8b-ce31ce0d88e1",
+        "8e40ae7e-c598-4a3d-9815-985bf6bde519",
+        "e8b831d6-1e20-4084-aa5c-7ef983983d04"
+      ],
+      "settings": {
+        "image_background_desktop": "shopify:\/\/shop_images\/happy_bday_fcbe58f8-1baa-48a2-b625-5e200a7aa5bc.webp",
+        "image_background_mobile": "shopify:\/\/shop_images\/happy_bday.webp",
+        "show_entire_image": false,
+        "enable_lazy_loading": false,
+        "show_video_background_mobile": true,
+        "color_scheme": "color__bg-overlay-1 color__text",
+        "color_text": "color__light",
+        "color_border": "color__border-divider-1",
+        "enable_gradient": true,
+        "style_border": "",
+        "layout_y_spacing": "min-h-[450px] md:min-h-[550px]",
+        "layout_y_alignment": "items-end",
+        "layout_x_alignment": "justify-center text-center",
+        "visibility": "md:hidden"
       }
     },
     "b1e83feb-711b-4266-b0bc-088a4d48a207": {
@@ -1065,6 +1114,7 @@
   "order": [
     "7c450e25-a49b-4dbd-aa01-9b08189f1f76",
     "f96b8e1b-0fd4-4c65-856c-cdd01fe228cc",
+    "a8fcd2ad-c37c-4ffc-a813-3b38498d2f03",
     "b1e83feb-711b-4266-b0bc-088a4d48a207",
     "fa45b532-e64f-489b-9403-7046250c0e16",
     "ca2883b6-efd0-48c1-8f9e-520a6b9a64bc",
