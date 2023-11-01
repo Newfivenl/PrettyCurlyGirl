@@ -51,6 +51,14 @@
             "content": "<p>Yes absolutely. Check who the founder is at \"OUR STORY\"<\/p>",
             "icon": ""
           }
+        },
+        "220d9211-942d-4656-bce1-1a15ebe7a186": {
+          "type": "content",
+          "settings": {
+            "title": "Are you a big company?",
+            "content": "<p>No we are a very small company. Its just the owner & founder Hanan who tries to manage it all by herself. If you buy from this website you are supporting a small company that;s driven to give you the best of the best.<\/p>",
+            "icon": ""
+          }
         }
       },
       "block_order": [
@@ -58,7 +66,8 @@
         "template--19832239685962__a34cde32-6cc5-47ea-bd7e-51474ea6b015-content-2",
         "template--19832239685962__a34cde32-6cc5-47ea-bd7e-51474ea6b015-content-3",
         "fcb9b837-2f4d-49f9-a245-db1767d725a2",
-        "8e69b688-0386-4996-b01e-c71debe78e05"
+        "8e69b688-0386-4996-b01e-c71debe78e05",
+        "220d9211-942d-4656-bce1-1a15ebe7a186"
       ],
       "settings": {
         "heading": "FAQ",
