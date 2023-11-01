@@ -72,7 +72,7 @@
         "b78b560b-e1c2-428d-ad73-fb5f8aac6d53": {
           "type": "add",
           "settings": {
-            "content": "<p>15% BIRTHDAY SALE - ONLY TODAY<\/p>",
+            "content": "<p>15% BIRTHDAY SALE - ONLY TODAY<br\/>Automatically applied in checkout<\/p>",
             "spacing_top": 20,
             "spacing_bottom": 20,
             "color_scheme": "color__bg-body color__text",
