@@ -40,7 +40,7 @@
     "thumbnails_border_style": "image",
     "thumbnail_alignment": "",
     "stock_threshold": 0,
-    "savings_badge": "percent",
+    "savings_badge": "none",
     "enable_thumbnails_variant_count": false,
     "enable_thumbnails_product_type": true,
     "enable_thumbnails_vendor": false,
