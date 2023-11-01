@@ -102,7 +102,7 @@
         "template--18730720428336__f96b8e1b-0fd4-4c65-856c-cdd01fe228cc-1681420271694828b0-0": {
           "type": "heading",
           "settings": {
-            "content": "Love Your curls"
+            "content": "15% BDAY DISCOUNT"
           }
         },
         "template--18730720428336__f96b8e1b-0fd4-4c65-856c-cdd01fe228cc-1681420271694828b0-1": {
@@ -132,18 +132,18 @@
 
       ],
       "settings": {
-        "image_background_desktop": "shopify:\/\/shop_images\/happy_bday.webp",
+        "image_background_desktop": "shopify:\/\/shop_images\/happy_bday_fcbe58f8-1baa-48a2-b625-5e200a7aa5bc.webp",
         "show_entire_image": false,
         "enable_lazy_loading": false,
         "show_video_background_mobile": true,
         "color_scheme": "color__bg-overlay-1 color__text",
         "color_text": "color__light",
         "color_border": "color__border-divider-1",
-        "enable_gradient": false,
+        "enable_gradient": true,
         "style_border": "",
-        "layout_y_spacing": "min-h-[450px] md:min-h-[550px]",
+        "layout_y_spacing": "min-h-[650px] max-h-[85vh] md:min-h-[80vh]",
         "layout_y_alignment": "items-end",
-        "layout_x_alignment": "justify-start",
+        "layout_x_alignment": "justify-center text-center",
         "visibility": ""
       }
     },
