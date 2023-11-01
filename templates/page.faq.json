@@ -67,10 +67,19 @@
             "content": "<p>Holiday season - November & December:<br\/>The cut off time will be 20:00 so that the warehouse will have enough time to pack the orders. <\/p><p>Orders before 20:00 will be dispatched the same day. There is next day delivery for the Netherlands, but keep mind that it can be busy for DHL and there can be a delay. <br\/>Europe 2-4 business days<br\/>Rest of the World 3-5 days<\/p><p><\/p>",
             "icon": ""
           }
+        },
+        "c64553b9-a7d7-4c09-b513-cafe5347cda9": {
+          "type": "content",
+          "settings": {
+            "title": "Do you send a track and trace?",
+            "content": "<p>Yes, please make sure that your e-mail address is correct so that you will receive the track and trace. <\/p>",
+            "icon": ""
+          }
         }
       },
       "block_order": [
-        "5ec0306c-74b7-4758-bceb-8d0728c17108"
+        "5ec0306c-74b7-4758-bceb-8d0728c17108",
+        "c64553b9-a7d7-4c09-b513-cafe5347cda9"
       ],
       "settings": {
         "heading": "Shipping",
