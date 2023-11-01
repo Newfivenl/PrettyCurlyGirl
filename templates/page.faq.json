@@ -64,7 +64,7 @@
           "type": "content",
           "settings": {
             "title": "What is the delivery time?",
-            "content": "<p>Orders before 22:00 will be dispatched the same day. There is next day delivery for the Netherlands, but keep mind that it can be busy for DHL and there can be a delay. <br\/>Europe 2-4 business days<br\/>Rest of the World 3-5 days<\/p>",
+            "content": "<p>Holiday season - November & December:<br\/>The cut off time will be 20:00 so that the warehouse will have enough time to pack the orders. <\/p><p>Orders before 20:00 will be dispatched the same day. There is next day delivery for the Netherlands, but keep mind that it can be busy for DHL and there can be a delay. <br\/>Europe 2-4 business days<br\/>Rest of the World 3-5 days<\/p><p><\/p>",
             "icon": ""
           }
         }
