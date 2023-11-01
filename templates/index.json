@@ -121,12 +121,19 @@
             "secondary_button_label": "SHOP KIDS Line",
             "secondary_button_url": "shopify:\/\/collections\/curly-star"
           }
+        },
+        "4a92a534-d1a3-4004-bba0-15424e872c3d": {
+          "type": "content",
+          "settings": {
+            "content": "<p>Keep a close eye on our e-mail & socials <\/p>"
+          }
         }
       },
       "block_order": [
         "template--18730720428336__f96b8e1b-0fd4-4c65-856c-cdd01fe228cc-1681420271694828b0-0",
         "template--18730720428336__f96b8e1b-0fd4-4c65-856c-cdd01fe228cc-1681420271694828b0-1",
-        "template--18730720428336__f96b8e1b-0fd4-4c65-856c-cdd01fe228cc-1681420271694828b0-2"
+        "template--18730720428336__f96b8e1b-0fd4-4c65-856c-cdd01fe228cc-1681420271694828b0-2",
+        "4a92a534-d1a3-4004-bba0-15424e872c3d"
       ],
       "custom_css": [
 
