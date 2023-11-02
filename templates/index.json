@@ -140,6 +140,7 @@
       ],
       "settings": {
         "image_background_desktop": "shopify:\/\/shop_images\/happy_bday_fcbe58f8-1baa-48a2-b625-5e200a7aa5bc.webp",
+        "image_background_mobile": "shopify:\/\/shop_images\/happy_bday.webp",
         "show_entire_image": false,
         "enable_lazy_loading": false,
         "show_video_background_mobile": true,
