@@ -7,7 +7,6 @@
     handleSharedCart(); 
     updateCart(false);">
   <head>
-  {% render 'elevar-head' %}
 	{% include "pandectes-rules" %}
 	{% include "pandectes-rules" %} 
     {% render 'theme__meta' %}
@@ -32,7 +31,6 @@
     x-init="initScroll()" 
      class="min-h-[100vh] break-words 
     {{ template | handle }}">
-  {% render 'elevar-body-end' %}
 
     <a href="#root"
       class="top-4 left-4 color__bg-body focus:translate-y-0 border__button--radius fixed z-50 px-4 py-2 no-underline transform -translate-y-20 shadow-md">
