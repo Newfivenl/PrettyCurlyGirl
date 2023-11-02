@@ -363,7 +363,7 @@
             {% render 'component__icon', icon: 'menu', size: '24', class: '' %}
           </button>
         {% endif %}
-
+        <div class="no-js--hide inline-flex block md:hidden"><span class="" onclick="orbito.openAndRefreshModal();">{{ localization.country.iso_code }}</span></div>
         <noscript>
           {% if section.settings.bar_button_menu_type == 'text' %}
             <button
