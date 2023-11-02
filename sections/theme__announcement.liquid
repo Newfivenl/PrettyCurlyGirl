@@ -29,7 +29,7 @@
       {% if section.settings.show_localization %}
         {% if settings.enable_region or settings.enable_language %}
           <button class="flex items-center"
-            @click="localization_popup = true;">
+            onclick="orbito.openAndRefreshModal();">
             <span class="type--smaller">
               {{ localization.country.currency.symbol }} {{ localization.country.currency.iso_code }}
               {% if settings.type_seperator == 'dot' %}·{% else %}|{% endif %}
