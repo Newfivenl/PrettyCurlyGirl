@@ -446,7 +446,7 @@
         </div>
       {% endif %}
         {% if settings.enable_region or settings.enable_language %}
-          <button class="btn btn--smaller {{ section.settings.sub_color_button }}" @click="localization_popup = true;">
+          <button class="btn btn--smaller {{ section.settings.sub_color_button }}" onclick="orbito.openAndRefreshModal();">
             <span class="fi type--smaller" style="background-image: url(https://flagicons.lipis.dev/flags/4x3/{{ localization.country.iso_code | downcase }}.svg)"></span>
             <span class="type--smaller ml-1">{{ localization.country.currency.symbol }} {{ localization.country.currency.iso_code }}
             {% if settings.type_seperator == 'dot' %}·{% else %}|{% endif %}
