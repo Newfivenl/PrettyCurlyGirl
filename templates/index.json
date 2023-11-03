@@ -148,7 +148,7 @@
         "color_text": "color__light",
         "color_border": "color__border-divider-1",
         "enable_gradient": true,
-        "style_border": "",
+        "style_border": "border--b-width",
         "layout_y_spacing": "min-h-[650px] max-h-[85vh] md:min-h-[80vh]",
         "layout_y_alignment": "items-end",
         "layout_x_alignment": "justify-center text-center",
