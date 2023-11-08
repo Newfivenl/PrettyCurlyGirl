@@ -72,7 +72,7 @@
         "b78b560b-e1c2-428d-ad73-fb5f8aac6d53": {
           "type": "add",
           "settings": {
-            "content": "<p>Get <strong>15% off<\/strong> everything. This <strong>weekend<\/strong> <strong>only<\/strong>. <br\/>Automatically applied in checkout<\/p>",
+            "content": "",
             "spacing_top": 20,
             "spacing_bottom": 20,
             "color_scheme": "color__bg-body color__text",
