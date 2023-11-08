@@ -45,7 +45,7 @@
         "color_text": "",
         "color_border": "color__border-divider-1",
         "style_border": "border--b-width",
-        "content_width": 70,
+        "content_width": 50,
         "image_position": "right",
         "layout_y_spacing": "min-h-[450px] md:min-h-[550px]",
         "layout_y_alignment": "items-center",
