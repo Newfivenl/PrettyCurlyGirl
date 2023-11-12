@@ -98,8 +98,10 @@ Possible enhancements:
           value="1"
           placeholder="1"
           min="1"
+          {% if product.metafields.custom.add_to_cart_max_two_product %}
           x-bind:readonly="!allowTyping"
           @keydown="if (!allowTyping) { $event.preventDefault(); }"
+          {%  endif %}
           x-model='quantity'
           @change.debounce="
                                     button_loading = true; 
