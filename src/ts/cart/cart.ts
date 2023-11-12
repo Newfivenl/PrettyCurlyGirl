@@ -67,6 +67,39 @@ export const cart = {
             100 +
           "%";
 
+          //console.log("updateCart")
+          //console.log(this.cart.items);
+
+          if(this.cart.items.length > 0){
+            this.cart.items.forEach((item: any) => {
+              if(item.properties.add_to_cart_max_two_product == 'true'){
+  
+                const decreaseBtn = document.querySelector('#pdp-btn-decrease') as HTMLElement;
+                const increaseBtn = document.querySelector('#pdp-btn-increase') as HTMLElement;
+                const addtToCartBtn =  document.querySelector('#add-to-cart-button') as HTMLElement;
+                const cartQuantityContainer  = document.querySelector('#cart-quantity-container') as HTMLInputElement;
+                const quantityMaxOnload = document.querySelector('#quantity-max-onload') as HTMLInputElement;
+                const quantityMax =  document.querySelector('#quantity-max') as HTMLInputElement;
+                
+                cartQuantityContainer.value = item.quantity;
+                quantityMaxOnload.value = item.quantity;
+                quantityMax.value = item.quantity;
+               
+                addtToCartBtn.removeAttribute('disabled');
+                decreaseBtn.removeAttribute('disabled');
+                increaseBtn.removeAttribute('disabled');
+              }
+
+              const quantityField : any = document.querySelectorAll(`.quantity-${item.product_id}`);
+              //console.log(quantityField);
+
+              quantityField.forEach((quantity_field:any) => {
+                quantity_field.value = '1';
+              })
+
+            })
+          }
+          
         // Finish loading
         setTimeout(() => {
           this.cart_loading = false;
@@ -187,6 +220,8 @@ export const cart = {
       this.playSound(this.click_audio);
     }
 
+    
+
     this.cart_loading = true;
     let formData = {
       id: key.toString(),
@@ -207,6 +242,29 @@ export const cart = {
           this.show_alert = true;
           this.cart_loading = false;
         }
+
+        if(this.cart.items.length > 0){
+          this.cart.items.forEach((item: any) => {
+
+            if(item.properties.add_to_cart_max_two_product == 'true'){
+              const quantityMax =  document.querySelector('#quantity-max') as HTMLInputElement;
+              const addtToCartBtn =  document.querySelector('#add-to-cart-button') as HTMLElement;
+              const decreaseBtn = document.querySelector('#pdp-btn-decrease') as HTMLElement;
+              const increaseBtn = document.querySelector('#pdp-btn-increase') as HTMLElement;
+              const cartQuantityContainer  = document.querySelector('#cart-quantity-container') as HTMLInputElement;
+              addtToCartBtn.removeAttribute('disabled');
+              decreaseBtn.removeAttribute('disabled');
+              increaseBtn.removeAttribute('disabled');
+              //quantityMax.value = '2';
+              //cartQuantityContainer.value = '';
+            }
+
+          })
+        }
+        
+        //console.log("changeCartItemQuantity")
+        //console.log(this.cart.items)
+
         this.cart.items = data.items.map((item: Product) => {
           return {
             ...item,
@@ -217,6 +275,7 @@ export const cart = {
         } else {
           this.updateCart(openCart);
         }
+
       })
       .catch((error) => {
         console.error("Error:", error);
@@ -225,6 +284,12 @@ export const cart = {
   },
 
   addCartItem(form: any, bundle = false) {
+
+    const productFormContainer = document.querySelector('#product-form-container') as HTMLElement;
+    const addToCartMaxtwoProduct = productFormContainer.getAttribute('add-to-cart-max-two-product');
+    const cartQuantityContainer  = document.querySelector('#cart-quantity-container') as HTMLInputElement;
+    const  addToCartMaxTwoProductContainer = document.querySelector('#add-to-cart-max-two-product') as HTMLInputElement;
+
     if(this.enable_audio) {
       this.playSound(this.click_audio);
     }
@@ -304,7 +369,8 @@ export const cart = {
             selling_plan: sellingPlanId,
             properties: {
               ...propertiesObj,
-              ...recipientObj
+              ...recipientObj,
+              'add_to_cart_max_two_product': addToCartMaxtwoProduct
             },
           },
         ]}
@@ -326,6 +392,16 @@ export const cart = {
             this.playSound(this.success_audio);
             }
           this.updateCart(true);
+         
+          data.items.forEach((item: any) => {
+
+            if(item.properties.add_to_cart_max_two_product == 'true' && item.quantity >= 2){
+              cartQuantityContainer.value = item.quantity;
+              addToCartMaxTwoProductContainer.value = item.properties.add_to_cart_max_two_product;
+            }
+
+          })
+          
         }
 
         // Error response

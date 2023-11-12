@@ -248,6 +248,28 @@ const cart = {
       this.cart.note = data2.note;
       this.cart.shipping_gap = this.progress_bar_threshold * (+window.Shopify.currency.rate || 1) - this.cart.total_price;
       this.cart.shipping_progress = this.cart.total_price / (this.progress_bar_threshold * (+window.Shopify.currency.rate || 1)) * 100 + "%";
+      if (this.cart.items.length > 0) {
+        this.cart.items.forEach((item) => {
+          if (item.properties.add_to_cart_max_two_product == "true") {
+            const decreaseBtn = document.querySelector("#pdp-btn-decrease");
+            const increaseBtn = document.querySelector("#pdp-btn-increase");
+            const addtToCartBtn = document.querySelector("#add-to-cart-button");
+            const cartQuantityContainer = document.querySelector("#cart-quantity-container");
+            const quantityMaxOnload = document.querySelector("#quantity-max-onload");
+            const quantityMax = document.querySelector("#quantity-max");
+            cartQuantityContainer.value = item.quantity;
+            quantityMaxOnload.value = item.quantity;
+            quantityMax.value = item.quantity;
+            addtToCartBtn.removeAttribute("disabled");
+            decreaseBtn.removeAttribute("disabled");
+            increaseBtn.removeAttribute("disabled");
+          }
+          const quantityField = document.querySelectorAll(`.quantity-${item.product_id}`);
+          quantityField.forEach((quantity_field) => {
+            quantity_field.value = "1";
+          });
+        });
+      }
       setTimeout(() => {
         this.cart_loading = false;
         this.button_loading = false;
@@ -348,6 +370,20 @@ const cart = {
         this.error_title = data2.message, this.error_message = data2.description, this.show_alert = true;
         this.cart_loading = false;
       }
+      if (this.cart.items.length > 0) {
+        this.cart.items.forEach((item) => {
+          if (item.properties.add_to_cart_max_two_product == "true") {
+            document.querySelector("#quantity-max");
+            const addtToCartBtn = document.querySelector("#add-to-cart-button");
+            const decreaseBtn = document.querySelector("#pdp-btn-decrease");
+            const increaseBtn = document.querySelector("#pdp-btn-increase");
+            document.querySelector("#cart-quantity-container");
+            addtToCartBtn.removeAttribute("disabled");
+            decreaseBtn.removeAttribute("disabled");
+            increaseBtn.removeAttribute("disabled");
+          }
+        });
+      }
       this.cart.items = data2.items.map((item) => {
         return {
           ...item
@@ -364,6 +400,10 @@ const cart = {
     });
   },
   addCartItem(form, bundle = false) {
+    const productFormContainer = document.querySelector("#product-form-container");
+    const addToCartMaxtwoProduct = productFormContainer.getAttribute("add-to-cart-max-two-product");
+    const cartQuantityContainer = document.querySelector("#cart-quantity-container");
+    const addToCartMaxTwoProductContainer = document.querySelector("#add-to-cart-max-two-product");
     if (this.enable_audio) {
       this.playSound(this.click_audio);
     }
@@ -432,7 +472,8 @@ const cart = {
           selling_plan: sellingPlanId,
           properties: {
             ...propertiesObj,
-            ...recipientObj
+            ...recipientObj,
+            "add_to_cart_max_two_product": addToCartMaxtwoProduct
           }
         }
       ] };
@@ -450,6 +491,12 @@ const cart = {
           this.playSound(this.success_audio);
         }
         this.updateCart(true);
+        data2.items.forEach((item) => {
+          if (item.properties.add_to_cart_max_two_product == "true" && item.quantity >= 2) {
+            cartQuantityContainer.value = item.quantity;
+            addToCartMaxTwoProductContainer.value = item.properties.add_to_cart_max_two_product;
+          }
+        });
       } else {
         this.error_title = data2.message, this.error_message = data2.description, this.show_alert = true;
         this.cart_loading = false;

@@ -36,22 +36,55 @@ Possible enhancements:
 -%}
 
 {%- comment -%}add{%- endcomment -%}
-  <div class="px-4"> {% if blocksettings.enable_quantity %}
+<div id="product-form-container" add-to-cart-max-two-product="{% if product.metafields.custom.add_to_cart_max_two_product %}{{ product.metafields.custom.add_to_cart_max_two_product }}{% else %}false{% endif %}" class="px-4"> {% if blocksettings.enable_quantity %}
     <div class="mb-4">
       <label
         class="type--smaller flex mb-1 opacity-75"
         for="{{ product.id }}-quantity">
-        {{ 'products.general.quantity' | t }}
+        {{ 'products.general.quantity' | t }}   {% if product.metafields.custom.add_to_cart_max_two_product %} - max 2 products only. {% endif %}
       </label>
-      <div class="color__text color__border-divider-2 color__bg-overlay-1 border--width hover:color__border-selected-1 border__input--radius relative flex w-[150px] overflow-hidden" x-data="{ 
-                              button_loading: false
-                            }">
+      
+      {% if product.metafields.custom.add_to_cart_max_two_product %}
+        {% assign quantity_increase = 'quantity < max && quantity++;' %}
+        {% assign quantity_decrease = 'quantity > min && quantity--;' %}
+      {% else %}
+        {% assign quantity_increase = 'quantity++;' %}
+        {% assign quantity_decrease = 'quantity--;' %}
+      {% endif %}
+
+      <input type="hidden" id="cart-quantity-container" x-ref="cart_quantity_container" value="">
+    <input type="hidden" id="add-to-cart-max-two-product" x-ref="add_to_cart_max_two_product" value="{% if product.metafields.custom.add_to_cart_max_two_product %}{{ product.metafields.custom.add_to_cart_max_two_product }}{% else %}false{% endif %}">
+      <input type="hidden" id="quantity-max" x-ref="quantity_max" value="">
+      
+      <div x-data="fetchCartItems()">
+        <p x-text="cartQuantity"></p>
+        <p x-text="maxTwoProducts"></p>
+        <p>{{ product.id }}</p>
+        <p x-text="productId"></p>
+        <input type="hidden" value="" x-model="cartQuantity">
+        <input type="hidden"  value="" x-model="maxTwoProducts"> 
+        <input type="hidden" id="quantity-max-onload" value="" x-model="max">
+      </div>
+      
+
+      <div id="input-field-quantity" class="color__text color__border-divider-2 color__bg-overlay-1 border--width hover:color__border-selected-1 border__input--radius relative flex w-[150px] overflow-hidden" 
+        x-data="{ 
+          button_loading: false,
+          quantity: 1, 
+          allowTyping: false,
+        }">
         <button
+          id="pdp-btn-decrease"
           class="btn btn--smaller btn--plain shrink-0 !rounded-none"
           title="{{ 'cart.general.decrease' | t }}"
+          {% if product.metafields.custom.add_to_cart_max_two_product %}
+          x-data="fetchCartItems()"
+          :disabled="button_loading || cartQuantity >= 2 && maxTwoProducts == 'true' && productId == {{ product.id }} || max == 1 || $refs.cart_quantity_container.value == 1 "
+          {% else %}
           :disabled="button_loading"
+          {% endif %}
           @click="
-                                    quantity--;
+                                    {{ quantity_decrease }}
                                     handleForm(); 
                                     button_loading = true; 
                                     setTimeout(function(){ button_loading = false}, 500);">
@@ -59,12 +92,14 @@ Possible enhancements:
         </button>
         <input
           id="{{ product.id }}-quantity"
-          class="form-input !border-0 text-center !rounded-none"
+          class="quantity-{{product.id}} form-input !border-0 text-center !rounded-none"
           type="text"
           name="quantity"
           value="1"
           placeholder="1"
           min="1"
+          x-bind:readonly="!allowTyping"
+          @keydown="if (!allowTyping) { $event.preventDefault(); }"
           x-model='quantity'
           @change.debounce="
                                     button_loading = true; 
@@ -74,11 +109,17 @@ Possible enhancements:
           {% render 'component__icon', icon: 'spinner', size: '24', class: '' %}
         </div>
         <button
+          id="pdp-btn-increase"
           class="btn btn--smaller btn--plain shrink-0 !rounded-none"
           title="{{ 'cart.general.increase' | t }}"
+          {% if product.metafields.custom.add_to_cart_max_two_product %}
+          x-data="fetchCartItems()"
+          :disabled="button_loading || cartQuantity >= 2 && maxTwoProducts == 'true' && productId == {{ product.id }} || max == 1 || $refs.cart_quantity_container.value == 1 "
+          {% else %}
           :disabled="button_loading"
+          {% endif %}
           @click="
-                                    quantity++; 
+                                    {{ quantity_increase }}
                                     handleForm();
                                     button_loading = true; 
                                     setTimeout(function(){ button_loading = false}, 500);">
@@ -156,11 +197,18 @@ Possible enhancements:
       </div>
     </button>
     <button
+      id="add-to-cart-button"
       class="btn btn--load !w-full"
       type="submit"
       role="button"
       :class="{ 'btn--loading' : cart_loading && button_loading }"
+      {% if product.metafields.custom.add_to_cart_max_two_product %}
+     
+      x-data="fetchCartItems()"
+      :disabled="button_loading || incomplete_fields || cartQuantity >= 2 && maxTwoProducts == 'true' && productId == {{ product.id }} || $refs.cart_quantity_container.value >= '2' && $refs.add_to_cart_max_two_product.value == 'true' "
+      {% else %}
       :disabled="button_loading || incomplete_fields"
+      {%  endif %}
       {% if alt_options_enabled %}
       x-show="true"
       {% else %}
@@ -198,3 +246,60 @@ Possible enhancements:
     </button>
   </div>
 </div>
+
+<script>
+
+  // document.addEventListener("DOMContentLoaded", function(){
+  //   if(document.querySelector('#quantity-max').value == ''){
+  //     document.querySelector('#quantity-max').value = '2';
+  //   }
+  // });
+
+  function fetchCartItems() {
+    return {
+      cartQuantity: '0',
+      maxTwoProducts: '{{ product.metafields.custom.add_to_cart_max_two_product }}',
+      productId: '',
+      min: 1,
+      max: 2,
+      // Initialize the component and fetch data
+      init() {
+        this.fetchData();
+      },
+      fetchData() {
+        const apiEndpoint = '/cart.js';
+        fetch(apiEndpoint)
+          .then(response => response.json())
+          .then(data => {
+            //console.log(data.items)
+            data.items.forEach((item) => {
+              
+             
+              if(item.properties.add_to_cart_max_two_product == 'true' && item.quantity >= 2 && item.product_id == {{ product.id }}){
+                this.maxTwoProducts = item.properties.add_to_cart_max_two_product;
+                this.productId = item.product_id;
+                this.cartQuantity = item.quantity;
+              }
+
+              if(item.properties.add_to_cart_max_two_product == 'true' && item.product_id == {{ product.id }} ){
+                this.min = 1;
+                this.max = item.quantity;
+                this.maxTwoProducts = item.properties.add_to_cart_max_two_product;
+              }else {
+                this.maxTwoProducts = 'false'
+              }
+
+
+            })
+          
+          })
+          .catch(error => {
+            console.error('Error fetching data:', error);
+            this.cartQuantity = 'Failed to load quantity.';
+            this.maxTwoProducts = 'Failed to load max product props.';
+          });
+      }
+    }
+  }
+
+</script>
