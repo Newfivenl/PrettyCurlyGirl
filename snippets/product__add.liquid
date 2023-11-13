@@ -83,7 +83,7 @@ Possible enhancements:
           title="{{ 'cart.general.decrease' | t }}"
           {% if product.metafields.custom.add_to_cart_max_two_product %}
           x-data="fetchCartItems()"
-          :disabled="disabled || button_loading || cartQuantity >= 2 && maxTwoProducts == 'true' && productId == {{ product.id }} || max == 1 || $refs.cart_quantity_container.value == 1"
+          :disabled="disabled || button_loading || cartQuantity >= 2 && maxTwoProducts == 'true' && productId == {{ product.id }} "
           {% else %}
           :disabled="button_loading"
           {% endif %}
@@ -120,7 +120,7 @@ Possible enhancements:
           title="{{ 'cart.general.increase' | t }}"
           {% if product.metafields.custom.add_to_cart_max_two_product %}
           x-data="fetchCartItems()"
-          :disabled="disabled || button_loading || cartQuantity >= 2 && maxTwoProducts == 'true' && productId == {{ product.id }} || max == 1 || $refs.cart_quantity_container.value == 1 "
+          :disabled="disabled || button_loading || cartQuantity >= 2 && maxTwoProducts == 'true' && productId == {{ product.id }}"
           {% else %}
           :disabled="button_loading"
           {% endif %}
@@ -211,7 +211,7 @@ Possible enhancements:
       {% if product.metafields.custom.add_to_cart_max_two_product %}
       x-data="fetchCartItems()"
       :disabled="button_loading || incomplete_fields || cartQuantity >= 2 && maxTwoProducts == 'true' && productId == {{ product.id }} || $refs.cart_quantity_container.value >= '2' && $refs.add_to_cart_max_two_product.value == 'true' "
-      @click="$dispatch('update-quantity-field', { newQuantity: 1 }), $dispatch('disable-pdp-quantity-btn')"
+      @click="setTimeout(() => { $dispatch('update-quantity-field', { newQuantity: 1 }) }, 700), $dispatch('disable-pdp-quantity-btn')"
       {% else %}
       :disabled="button_loading || incomplete_fields"
       {%  endif %}
