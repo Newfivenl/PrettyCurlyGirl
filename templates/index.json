@@ -928,7 +928,7 @@
         "items_count": 3,
         "heading": "Pretty Blog",
         "content": "",
-        "button_label": "All Blogs",
+        "button_label": "Go to All Blogs",
         "button_url": "shopify:\/\/blogs\/cg-aprroved-curly-girl-method",
         "enable_author": false,
         "enable_summary": false,
