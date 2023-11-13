@@ -2197,9 +2197,6 @@ img:after {
 .justify-between {
   justify-content: space-between;
 }
-.justify-items-end {
-  justify-items: end;
-}
 .gap-1 {
   gap: 0.25rem;
 }

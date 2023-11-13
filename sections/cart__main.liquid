@@ -121,7 +121,6 @@
                     </div>
 
                   </div>
-                  <p x-text="item.properties?.add_to_cart_max_two_product"></p>
                   <div x-data="{
                     condition: item.properties?.add_to_cart_max_two_product
                   }"
@@ -165,8 +164,7 @@
                           }">
                         {% render 'component__icon', icon: 'plus', size: '14', class: '' %}
                       </button>
-                    </div>
-                    
+                    </div> 
                     <div  x-data="{ button_loading: false }">
                       <button 
                         class="btn btn--load btn--plain btn--small"
