@@ -53,33 +53,37 @@ Possible enhancements:
       {% endif %}
 
       <input type="hidden" id="cart-quantity-container" x-ref="cart_quantity_container" value="">
-    <input type="hidden" id="add-to-cart-max-two-product" x-ref="add_to_cart_max_two_product" value="{% if product.metafields.custom.add_to_cart_max_two_product %}{{ product.metafields.custom.add_to_cart_max_two_product }}{% else %}false{% endif %}">
-      <input type="hidden" id="quantity-max" x-ref="quantity_max" value="">
+      <input type="hidden" id="add-to-cart-max-two-product" x-ref="add_to_cart_max_two_product" value="{% if product.metafields.custom.add_to_cart_max_two_product %}{{ product.metafields.custom.add_to_cart_max_two_product }}{% else %}false{% endif %}">
       
       <div x-data="fetchCartItems()">
-        <p x-text="cartQuantity"></p>
+        {% comment %} <p x-text="cartQuantity"></p>
         <p x-text="maxTwoProducts"></p>
         <p>{{ product.id }}</p>
-        <p x-text="productId"></p>
+        <p x-text="productId"></p> {% endcomment %}
         <input type="hidden" value="" x-model="cartQuantity">
         <input type="hidden"  value="" x-model="maxTwoProducts"> 
         <input type="hidden" id="quantity-max-onload" value="" x-model="max">
       </div>
       
-
       <div id="input-field-quantity" class="color__text color__border-divider-2 color__bg-overlay-1 border--width hover:color__border-selected-1 border__input--radius relative flex w-[150px] overflow-hidden" 
         x-data="{ 
           button_loading: false,
           quantity: 1, 
           allowTyping: false,
-        }">
+          disabled: false,
+          min: 1,
+          max: 2
+        }" x-on:update-quantity-field.window="quantity = $event.detail.newQuantity"
+         x-on:disable-pdp-quantity-btn.window="disabled = true" 
+         x-on:enable-pdp-quantity-btn.window="disabled = false" 
+         x-on:update-max.window="max = 2">
         <button
           id="pdp-btn-decrease"
           class="btn btn--smaller btn--plain shrink-0 !rounded-none"
           title="{{ 'cart.general.decrease' | t }}"
           {% if product.metafields.custom.add_to_cart_max_two_product %}
           x-data="fetchCartItems()"
-          :disabled="button_loading || cartQuantity >= 2 && maxTwoProducts == 'true' && productId == {{ product.id }} || max == 1 || $refs.cart_quantity_container.value == 1 "
+          :disabled="disabled || button_loading || cartQuantity >= 2 && maxTwoProducts == 'true' && productId == {{ product.id }} || max == 1 || $refs.cart_quantity_container.value == 1"
           {% else %}
           :disabled="button_loading"
           {% endif %}
@@ -116,7 +120,7 @@ Possible enhancements:
           title="{{ 'cart.general.increase' | t }}"
           {% if product.metafields.custom.add_to_cart_max_two_product %}
           x-data="fetchCartItems()"
-          :disabled="button_loading || cartQuantity >= 2 && maxTwoProducts == 'true' && productId == {{ product.id }} || max == 1 || $refs.cart_quantity_container.value == 1 "
+          :disabled="disabled || button_loading || cartQuantity >= 2 && maxTwoProducts == 'true' && productId == {{ product.id }} || max == 1 || $refs.cart_quantity_container.value == 1 "
           {% else %}
           :disabled="button_loading"
           {% endif %}
@@ -205,9 +209,9 @@ Possible enhancements:
       role="button"
       :class="{ 'btn--loading' : cart_loading && button_loading }"
       {% if product.metafields.custom.add_to_cart_max_two_product %}
-     
       x-data="fetchCartItems()"
       :disabled="button_loading || incomplete_fields || cartQuantity >= 2 && maxTwoProducts == 'true' && productId == {{ product.id }} || $refs.cart_quantity_container.value >= '2' && $refs.add_to_cart_max_two_product.value == 'true' "
+      @click="$dispatch('update-quantity-field', { newQuantity: 1 }), $dispatch('disable-pdp-quantity-btn')"
       {% else %}
       :disabled="button_loading || incomplete_fields"
       {%  endif %}
@@ -251,12 +255,6 @@ Possible enhancements:
 
 <script>
 
-  // document.addEventListener("DOMContentLoaded", function(){
-  //   if(document.querySelector('#quantity-max').value == ''){
-  //     document.querySelector('#quantity-max').value = '2';
-  //   }
-  // });
-
   function fetchCartItems() {
     return {
       cartQuantity: '0',
@@ -276,7 +274,6 @@ Possible enhancements:
             //console.log(data.items)
             data.items.forEach((item) => {
               
-             
               if(item.properties.add_to_cart_max_two_product == 'true' && item.quantity >= 2 && item.product_id == {{ product.id }}){
                 this.maxTwoProducts = item.properties.add_to_cart_max_two_product;
                 this.productId = item.product_id;
@@ -290,7 +287,6 @@ Possible enhancements:
               }else {
                 this.maxTwoProducts = 'false'
               }
-
 
             })
           

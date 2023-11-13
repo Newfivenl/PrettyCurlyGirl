@@ -251,23 +251,15 @@ const cart = {
       if (this.cart.items.length > 0) {
         this.cart.items.forEach((item) => {
           if (item.properties.add_to_cart_max_two_product == "true") {
-            const decreaseBtn = document.querySelector("#pdp-btn-decrease");
-            const increaseBtn = document.querySelector("#pdp-btn-increase");
+            document.querySelector("#pdp-btn-decrease");
+            document.querySelector("#pdp-btn-increase");
             const addtToCartBtn = document.querySelector("#add-to-cart-button");
             const cartQuantityContainer = document.querySelector("#cart-quantity-container");
             const quantityMaxOnload = document.querySelector("#quantity-max-onload");
-            const quantityMax = document.querySelector("#quantity-max");
             cartQuantityContainer.value = item.quantity;
             quantityMaxOnload.value = item.quantity;
-            quantityMax.value = item.quantity;
             addtToCartBtn.removeAttribute("disabled");
-            decreaseBtn.removeAttribute("disabled");
-            increaseBtn.removeAttribute("disabled");
           }
-          const quantityField = document.querySelectorAll(`.quantity-${item.product_id}`);
-          quantityField.forEach((quantity_field) => {
-            quantity_field.value = "1";
-          });
         });
       }
       setTimeout(() => {
@@ -373,14 +365,11 @@ const cart = {
       if (this.cart.items.length > 0) {
         this.cart.items.forEach((item) => {
           if (item.properties.add_to_cart_max_two_product == "true") {
-            document.querySelector("#quantity-max");
             const addtToCartBtn = document.querySelector("#add-to-cart-button");
-            const decreaseBtn = document.querySelector("#pdp-btn-decrease");
-            const increaseBtn = document.querySelector("#pdp-btn-increase");
+            document.querySelector("#pdp-btn-decrease");
+            document.querySelector("#pdp-btn-increase");
             document.querySelector("#cart-quantity-container");
             addtToCartBtn.removeAttribute("disabled");
-            decreaseBtn.removeAttribute("disabled");
-            increaseBtn.removeAttribute("disabled");
           }
         });
       }

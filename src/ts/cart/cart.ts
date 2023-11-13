@@ -79,23 +79,15 @@ export const cart = {
                 const addtToCartBtn =  document.querySelector('#add-to-cart-button') as HTMLElement;
                 const cartQuantityContainer  = document.querySelector('#cart-quantity-container') as HTMLInputElement;
                 const quantityMaxOnload = document.querySelector('#quantity-max-onload') as HTMLInputElement;
-                const quantityMax =  document.querySelector('#quantity-max') as HTMLInputElement;
                 
                 cartQuantityContainer.value = item.quantity;
                 quantityMaxOnload.value = item.quantity;
-                quantityMax.value = item.quantity;
                
                 addtToCartBtn.removeAttribute('disabled');
-                decreaseBtn.removeAttribute('disabled');
-                increaseBtn.removeAttribute('disabled');
+                //decreaseBtn.removeAttribute('disabled');
+                //increaseBtn.removeAttribute('disabled');
+                
               }
-
-              const quantityField : any = document.querySelectorAll(`.quantity-${item.product_id}`);
-              //console.log(quantityField);
-
-              quantityField.forEach((quantity_field:any) => {
-                quantity_field.value = '1';
-              })
 
             })
           }
@@ -247,14 +239,13 @@ export const cart = {
           this.cart.items.forEach((item: any) => {
 
             if(item.properties.add_to_cart_max_two_product == 'true'){
-              const quantityMax =  document.querySelector('#quantity-max') as HTMLInputElement;
               const addtToCartBtn =  document.querySelector('#add-to-cart-button') as HTMLElement;
               const decreaseBtn = document.querySelector('#pdp-btn-decrease') as HTMLElement;
               const increaseBtn = document.querySelector('#pdp-btn-increase') as HTMLElement;
               const cartQuantityContainer  = document.querySelector('#cart-quantity-container') as HTMLInputElement;
               addtToCartBtn.removeAttribute('disabled');
-              decreaseBtn.removeAttribute('disabled');
-              increaseBtn.removeAttribute('disabled');
+              //decreaseBtn.removeAttribute('disabled');
+              //increaseBtn.removeAttribute('disabled');
               //quantityMax.value = '2';
               //cartQuantityContainer.value = '';
             }
@@ -262,7 +253,7 @@ export const cart = {
           })
         }
         
-        //console.log("changeCartItemQuantity")
+        //console.log("changeCartItemQuantity");
         //console.log(this.cart.items)
 
         this.cart.items = data.items.map((item: Product) => {

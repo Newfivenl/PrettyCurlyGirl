@@ -33,17 +33,6 @@
     </div>
   {% endfor %}
 {% endcapture %}
-
-{% comment %}
-{%  capture max_two_products  %}
-  {% for item in cart.items %}
-      {% if item.properties.add_to_cart_max_two_product == 'true' %}
-       {{ item.properties.add_to_cart_max_two_product }}
-       {% break %}
-     {% endif %} 
-   {% endfor %}
- {% endcapture %}
-{% endcomment %}
   
 {% capture alert_content %}
   <div class="flex flex-wrap items-center justify-between mb-4">
@@ -270,10 +259,11 @@
                         x-data="{ 
                           button_loading: false
                         }">
-                        <button class="btn btn--smaller btn--plain shrink-0 !rounded-none" 
+                        <button class=" drawer-button-decrease btn btn--smaller btn--plain shrink-0 !rounded-none" 
                           :disabled="button_loading"
                           title="{{ 'cart.general.decrease' | t }}"
                           @click="
+                            $dispatch('disable-pdp-quantity-btn')
                             if(changeCartItemQuantity(item.key, item.quantity-1, false, false)) {
                               button_loading = true; 
                               item.quantity--;
@@ -283,6 +273,8 @@
                         </button>
                         <label :for="'cart-' + item.key + '-quantity'" class="sr-only">{{ 'products.general.quantity' | t }}</label>
                         <input :id="'cart-' + item.key + '-quantity'" placeholder="1" type="text" 
+                          x-bind:readonly="item.properties?.add_to_cart_max_two_product == 'true'"
+                          @keydown="if (item.properties?.add_to_cart_max_two_product == 'true') { $event.preventDefault(); }"
                           class="form-input !border-0 text-center !rounded-none" 
                           @change.debounce="
                             changeCartItemQuantity(item.key, item.quantity, false);
@@ -295,7 +287,7 @@
                         </div>
 
                         <button class="btn btn--smaller btn--plain shrink-0 !rounded-none"
-                          :disabled="button_loading || item.properties.add_to_cart_max_two_product == 'true' "
+                          :disabled="button_loading || item.properties?.add_to_cart_max_two_product == 'true' "
                           title="{{ 'cart.general.increase' | t }}"
                           @click="
                             if(changeCartItemQuantity(item.key, item.quantity+1, false, false)) {
@@ -321,12 +313,11 @@
                           </button>
                         </div>
                         <div x-data="{ button_loading: false }">
-                          delete btn
                           <button 
                             class="btn btn--load btn--plain btn--small"
                             :class="{ 'btn--loading' : cart_loading && button_loading }"
                             :disabled="button_loading"
-                            @click="changeCartItemQuantity(item.key, 0, false); button_loading = true; setTimeout(function(){ button_loading = false}, 500);" >
+                            @click="$dispatch('enable-pdp-quantity-btn'); $dispatch('update-max'); changeCartItemQuantity(item.key, 0, false); button_loading = true; setTimeout(function(){ button_loading = false}, 500);" >
                             {% render 'component__icon', icon: 'trash', size: '14', class: '' %}
                             <div class="btn__spinner">
                               {% render 'component__icon', icon: 'spinner', size: '20', class: '' %}
