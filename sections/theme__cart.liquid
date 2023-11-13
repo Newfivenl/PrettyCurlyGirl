@@ -259,11 +259,13 @@
                         x-data="{ 
                           button_loading: false
                         }">
-                        <button class=" drawer-button-decrease btn btn--smaller btn--plain shrink-0 !rounded-none" 
+                        <button class="btn btn--smaller btn--plain shrink-0 !rounded-none" 
                           :disabled="button_loading"
                           title="{{ 'cart.general.decrease' | t }}"
                           @click="
-                            $dispatch('disable-pdp-quantity-btn')
+                            if(item.quantity == 1){
+                              $dispatch('enable-pdp-quantity-btn');
+                            };
                             if(changeCartItemQuantity(item.key, item.quantity-1, false, false)) {
                               button_loading = true; 
                               item.quantity--;
