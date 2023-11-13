@@ -70,28 +70,31 @@ export const cart = {
           //console.log("updateCart")
           //console.log(this.cart.items);
 
-          if(this.cart.items.length > 0){
-            this.cart.items.forEach((item: any) => {
-              if(item.properties.add_to_cart_max_two_product == 'true'){
+          var isProductPage = /\/products\/.+/i.test(window.location.pathname);
+          console.log(isProductPage);
+          if(isProductPage) {
+            if(this.cart.items.length > 0){
+              this.cart.items.forEach((item: any) => {
+                if(item.properties.add_to_cart_max_two_product == 'true'){
+    
+                  const decreaseBtn = document.querySelector('#pdp-btn-decrease') as HTMLElement;
+                  const increaseBtn = document.querySelector('#pdp-btn-increase') as HTMLElement;
+                  const addtToCartBtn =  document.querySelector('#add-to-cart-button') as HTMLElement;
+                  const cartQuantityContainer  = document.querySelector('#cart-quantity-container') as HTMLInputElement;
+                  const quantityMaxOnload = document.querySelector('#quantity-max-onload') as HTMLInputElement;
+                  
+                  cartQuantityContainer.value = item.quantity;
+                  quantityMaxOnload.value = item.quantity;
+                 
+                  addtToCartBtn.removeAttribute('disabled');
+                  //decreaseBtn.removeAttribute('disabled');
+                  //increaseBtn.removeAttribute('disabled');
+                  
+                }
   
-                const decreaseBtn = document.querySelector('#pdp-btn-decrease') as HTMLElement;
-                const increaseBtn = document.querySelector('#pdp-btn-increase') as HTMLElement;
-                const addtToCartBtn =  document.querySelector('#add-to-cart-button') as HTMLElement;
-                const cartQuantityContainer  = document.querySelector('#cart-quantity-container') as HTMLInputElement;
-                const quantityMaxOnload = document.querySelector('#quantity-max-onload') as HTMLInputElement;
-                
-                cartQuantityContainer.value = item.quantity;
-                quantityMaxOnload.value = item.quantity;
-               
-                addtToCartBtn.removeAttribute('disabled');
-                //decreaseBtn.removeAttribute('disabled');
-                //increaseBtn.removeAttribute('disabled');
-                
-              }
-
-            })
+              })
+            }
           }
-          
         // Finish loading
         setTimeout(() => {
           this.cart_loading = false;
@@ -235,24 +238,28 @@ export const cart = {
           this.cart_loading = false;
         }
 
-        if(this.cart.items.length > 0){
-          this.cart.items.forEach((item: any) => {
+        var isProductPage = /\/products\/.+/i.test(window.location.pathname);
+         console.log(isProductPage);
 
-            if(item.properties.add_to_cart_max_two_product == 'true'){
-              const addtToCartBtn =  document.querySelector('#add-to-cart-button') as HTMLElement;
-              const decreaseBtn = document.querySelector('#pdp-btn-decrease') as HTMLElement;
-              const increaseBtn = document.querySelector('#pdp-btn-increase') as HTMLElement;
-              const cartQuantityContainer  = document.querySelector('#cart-quantity-container') as HTMLInputElement;
-              addtToCartBtn.removeAttribute('disabled');
-              //decreaseBtn.removeAttribute('disabled');
-              //increaseBtn.removeAttribute('disabled');
-              //quantityMax.value = '2';
-              //cartQuantityContainer.value = '';
-            }
-
-          })
+        if(isProductPage){
+          if(this.cart.items.length > 0){
+            this.cart.items.forEach((item: any) => {
+  
+              if(item.properties.add_to_cart_max_two_product == 'true'){
+                const addtToCartBtn =  document.querySelector('#add-to-cart-button') as HTMLElement;
+                const decreaseBtn = document.querySelector('#pdp-btn-decrease') as HTMLElement;
+                const increaseBtn = document.querySelector('#pdp-btn-increase') as HTMLElement;
+                const cartQuantityContainer  = document.querySelector('#cart-quantity-container') as HTMLInputElement;
+                addtToCartBtn.removeAttribute('disabled');
+                //decreaseBtn.removeAttribute('disabled');
+                //increaseBtn.removeAttribute('disabled');
+                //quantityMax.value = '2';
+                //cartQuantityContainer.value = '';
+              }
+  
+            })
+          }
         }
-        
         //console.log("changeCartItemQuantity");
         //console.log(this.cart.items)
 
@@ -276,125 +283,129 @@ export const cart = {
 
   addCartItem(form: any, bundle = false) {
 
-    const productFormContainer = document.querySelector('#product-form-container') as HTMLElement;
-    const addToCartMaxtwoProduct = productFormContainer.getAttribute('add-to-cart-max-two-product');
-    const cartQuantityContainer  = document.querySelector('#cart-quantity-container') as HTMLInputElement;
-    const  addToCartMaxTwoProductContainer = document.querySelector('#add-to-cart-max-two-product') as HTMLInputElement;
+    
+    var isProductPage = /\/products\/.+/i.test(window.location.pathname);
+    console.log(isProductPage)
+    
+    if(isProductPage){
 
-    if(this.enable_audio) {
-      this.playSound(this.click_audio);
-    }
-    this.button_loading = true;
-    this.cart_loading = true;
-    let formData = new FormData(form);
+      const productFormContainer = document.querySelector('#product-form-container') as HTMLElement;
+      const addToCartMaxtwoProduct = productFormContainer.getAttribute('add-to-cart-max-two-product');
+      const cartQuantityContainer  = document.querySelector('#cart-quantity-container') as HTMLInputElement;
+      const  addToCartMaxTwoProductContainer = document.querySelector('#add-to-cart-max-two-product') as HTMLInputElement;
 
-    // if product is a bundle
-    let productArray = [];
-    if(bundle) {
-      // create array of product ids
-      for (var pair of formData.entries()) {
-        if(pair[0].includes('bundle_option')) {
-          productArray.push({id:pair[1], quantity: 1})
+      if(this.enable_audio) {
+        this.playSound(this.click_audio);
+      }
+      this.button_loading = true;
+      this.cart_loading = true;
+      let formData = new FormData(form);
+  
+      // if product is a bundle
+      let productArray = [];
+      if(bundle) {
+        // create array of product ids
+        for (var pair of formData.entries()) {
+          if(pair[0].includes('bundle_option')) {
+            productArray.push({id:pair[1], quantity: 1})
+          }
         }
       }
-    }
-
-    // check if selling plan is available
-    let sellingPlanId = formData.get("selling_plan") as number | string;
-    // get all custom properties from the formData
-    let propertiesArr = [];
-    let propertiesObj;
-    for (const pair of formData.entries()) {
-      if(pair[0].includes("properties")) {
-        let name = pair[0].replace("properties[", "").replace("]", "");
-        propertiesArr.push([name, pair[1]]);
+  
+      // check if selling plan is available
+      let sellingPlanId = formData.get("selling_plan") as number | string;
+      // get all custom properties from the formData
+      let propertiesArr = [];
+      let propertiesObj;
+      for (const pair of formData.entries()) {
+        if(pair[0].includes("properties")) {
+          let name = pair[0].replace("properties[", "").replace("]", "");
+          propertiesArr.push([name, pair[1]]);
+        }
+      }
+      if (propertiesArr.length > 0) {
+        propertiesObj = Object.fromEntries(propertiesArr);
+      }
+      // gift card recipient
+      let recipientCheckbox =  document.querySelector(`#recipient-checkbox`) as HTMLInputElement;
+      let recipientObj;
+      if(recipientCheckbox && recipientCheckbox.checked) {
+      let recipientName =  document.querySelector(`#recipient-name`) as HTMLInputElement;
+      let recipientEmail =  document.querySelector(`#recipient-email`) as HTMLInputElement;
+      let recipientMessage =  document.querySelector(`#recipient-message`) as HTMLInputElement;
+  
+      // throw error if name or email are empty
+      if(!recipientName.value || !recipientEmail.value) {
+        this.error_title = "Error",
+        this.error_message = "Please fill out name and email of gift card recepient",
+        this.show_alert = true;
+        this.cart_loading = false;
+        return;
+      }
+  
+      recipientObj = {
+        "Recipient email": recipientEmail.value,
+        "Recipient name": recipientName.value,
+        "Message": recipientMessage.value,
+        "__shopify_send_gift_card_to_recipient": "on",
       }
     }
-    if (propertiesArr.length > 0) {
-      propertiesObj = Object.fromEntries(propertiesArr);
-    }
-    // gift card recipient
-    let recipientCheckbox =  document.querySelector(`#recipient-checkbox`) as HTMLInputElement;
-    let recipientObj;
-    if(recipientCheckbox && recipientCheckbox.checked) {
-    let recipientName =  document.querySelector(`#recipient-name`) as HTMLInputElement;
-    let recipientEmail =  document.querySelector(`#recipient-email`) as HTMLInputElement;
-    let recipientMessage =  document.querySelector(`#recipient-message`) as HTMLInputElement;
-
-    // throw error if name or email are empty
-    if(!recipientName.value || !recipientEmail.value) {
-      this.error_title = "Error",
-      this.error_message = "Please fill out name and email of gift card recepient",
-      this.show_alert = true;
-      this.cart_loading = false;
-      return;
-    }
-
-    recipientObj = {
-      "Recipient email": recipientEmail.value,
-      "Recipient name": recipientName.value,
-      "Message": recipientMessage.value,
-      "__shopify_send_gift_card_to_recipient": "on",
-    }
-  }
-    let reqBody;
-      if(bundle) {
-        reqBody = {
-          items: [...productArray]}
-      } else if(sellingPlanId == 0) {
-        reqBody = {items: [
-          {
-            id: formData.get("id"),
-            quantity: formData.get("quantity"),
-            properties: {
-              ...propertiesObj,
-              ...recipientObj
+      let reqBody;
+        if(bundle) {
+          reqBody = {
+            items: [...productArray]}
+        } else if(sellingPlanId == 0) {
+          reqBody = {items: [
+            {
+              id: formData.get("id"),
+              quantity: formData.get("quantity"),
+              properties: {
+                ...propertiesObj,
+                ...recipientObj
+              },
             },
-          },
-        ]}
-      } else {
-        reqBody = {items: [
-          {
-            id: formData.get("id"),
-            quantity: formData.get("quantity"),
-            selling_plan: sellingPlanId,
-            properties: {
-              ...propertiesObj,
-              ...recipientObj,
-              'add_to_cart_max_two_product': addToCartMaxtwoProduct
+          ]}
+        } else {
+          reqBody = {items: [
+            {
+              id: formData.get("id"),
+              quantity: formData.get("quantity"),
+              selling_plan: sellingPlanId,
+              properties: {
+                ...propertiesObj,
+                ...recipientObj,
+                'add_to_cart_max_two_product': addToCartMaxtwoProduct
+              },
             },
-          },
-        ]}
-      }
-
-    fetch("/cart/add.js", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(reqBody),
-    })
+          ]}
+        }
+  
+      fetch("/cart/add.js", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(reqBody),
+      })
       .then(async (response) => {
         let data = await response.json();
-
+  
         // Good response
         if (response.status === 200) {
           if(this.enable_audio){
             this.playSound(this.success_audio);
             }
           this.updateCart(true);
-         
-          data.items.forEach((item: any) => {
-
-            if(item.properties.add_to_cart_max_two_product == 'true' && item.quantity >= 2){
-              cartQuantityContainer.value = item.quantity;
-              addToCartMaxTwoProductContainer.value = item.properties.add_to_cart_max_two_product;
-            }
-
-          })
-          
+            
+            data.items.forEach((item: any) => {
+              if(item.properties.add_to_cart_max_two_product == 'true' && item.quantity >= 2){
+                cartQuantityContainer.value = item.quantity;
+                addToCartMaxTwoProductContainer.value = item.properties.add_to_cart_max_two_product;
+              }
+            });
+  
         }
-
+  
         // Error response
         else {
           (this.error_title = data.message),
@@ -408,6 +419,128 @@ export const cart = {
         console.error("Error:", error);
         this.cart_loading = false;
       });
+
+    }else {
+
+      if(this.enable_audio) {
+        this.playSound(this.click_audio);
+      }
+      this.button_loading = true;
+      this.cart_loading = true;
+      let formData = new FormData(form);
+  
+      // if product is a bundle
+      let productArray = [];
+      if(bundle) {
+        // create array of product ids
+        for (var pair of formData.entries()) {
+          if(pair[0].includes('bundle_option')) {
+            productArray.push({id:pair[1], quantity: 1})
+          }
+        }
+      }
+  
+      // check if selling plan is available
+      let sellingPlanId = formData.get("selling_plan") as number | string;
+      // get all custom properties from the formData
+      let propertiesArr = [];
+      let propertiesObj;
+      for (const pair of formData.entries()) {
+        if(pair[0].includes("properties")) {
+          let name = pair[0].replace("properties[", "").replace("]", "");
+          propertiesArr.push([name, pair[1]]);
+        }
+      }
+      if (propertiesArr.length > 0) {
+        propertiesObj = Object.fromEntries(propertiesArr);
+      }
+      // gift card recipient
+      let recipientCheckbox =  document.querySelector(`#recipient-checkbox`) as HTMLInputElement;
+      let recipientObj;
+      if(recipientCheckbox && recipientCheckbox.checked) {
+      let recipientName =  document.querySelector(`#recipient-name`) as HTMLInputElement;
+      let recipientEmail =  document.querySelector(`#recipient-email`) as HTMLInputElement;
+      let recipientMessage =  document.querySelector(`#recipient-message`) as HTMLInputElement;
+  
+      // throw error if name or email are empty
+      if(!recipientName.value || !recipientEmail.value) {
+        this.error_title = "Error",
+        this.error_message = "Please fill out name and email of gift card recepient",
+        this.show_alert = true;
+        this.cart_loading = false;
+        return;
+      }
+  
+      recipientObj = {
+        "Recipient email": recipientEmail.value,
+        "Recipient name": recipientName.value,
+        "Message": recipientMessage.value,
+        "__shopify_send_gift_card_to_recipient": "on",
+      }
+    }
+      let reqBody;
+        if(bundle) {
+          reqBody = {
+            items: [...productArray]}
+        } else if(sellingPlanId == 0) {
+          reqBody = {items: [
+            {
+              id: formData.get("id"),
+              quantity: formData.get("quantity"),
+              properties: {
+                ...propertiesObj,
+                ...recipientObj
+              },
+            },
+          ]}
+        } else {
+          reqBody = {items: [
+            {
+              id: formData.get("id"),
+              quantity: formData.get("quantity"),
+              selling_plan: sellingPlanId,
+              properties: {
+                ...propertiesObj,
+                ...recipientObj
+              },
+            },
+          ]}
+        }
+  
+      fetch("/cart/add.js", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(reqBody),
+      })
+      .then(async (response) => {
+        let data = await response.json();
+  
+        // Good response
+        if (response.status === 200) {
+          if(this.enable_audio){
+            this.playSound(this.success_audio);
+            }
+          this.updateCart(true);
+  
+        }
+  
+        // Error response
+        else {
+          (this.error_title = data.message),
+            (this.error_message = data.description),
+            (this.show_alert = true);
+            this.cart_loading = false;
+            this.button_loading = false;
+        }
+      })
+      .catch((error) => {
+        console.error("Error:", error);
+        this.cart_loading = false;
+      });
+    }
+  
   },
 
   // Call add.js to add cart item then use updateCart()
