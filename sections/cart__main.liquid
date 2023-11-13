@@ -69,7 +69,9 @@
                       <p class="mb-0 !leading-tight" x-text="item.product_title"></p>
                       <template x-if="item.properties">
                         <template x-for="property in Object.entries(item.properties)">
-                          <p class="type--smaller mb-0 opacity-75" x-text="property[0] + ' : ' + property[1]"></p>
+                          <template x-if="property[0] != 'add_to_cart_max_two_product'">
+                            <p class="type--smaller mb-0 opacity-75" x-text="property[0] + ' : ' + property[1]"></p>
+                          </template>
                         </template>
                       </template>
                         
@@ -119,14 +121,16 @@
                     </div>
 
                   </div>
-                  <div class="flex items-center justify-between gap-2 mt-2">
-
-                    <div class="relative flex max-w-[150px] color__text color__border-divider-2 border--width hover:color__border-selected-1 color__bg-overlay-1 border__input--radius overflow-hidden animation-500" 
+                  <div x-data="{
+                    condition: item.properties?.add_to_cart_max_two_product
+                  }"
+                    x-bind:class=" condition ? 'flex items-center justify-flex-end gap-2 mt-2' : 'flex items-center justify-between gap-2 mt-2' " >
+                    <div x-show="item.properties?.add_to_cart_max_two_product != 'true'" class="relative flex max-w-[150px] color__text color__border-divider-2 border--width hover:color__border-selected-1 color__bg-overlay-1 border__input--radius overflow-hidden animation-500" 
                       x-data="{ 
                         button_loading: false
                       }">
                       <button class="btn btn--smaller btn--plain shrink-0 !rounded-none" 
-                        :disabled="button_loading"
+                        :disabled="button_loading || item.properties?.add_to_cart_max_two_product == 'true'"
                         title="{{ 'cart.general.decrease' | t }}"
                         @click.prevent="
                           if(changeCartItemQuantity(item.key, item.quantity-1, false, false)) {
@@ -137,7 +141,8 @@
                         {% render 'component__icon', icon: 'minus', size: '14', class: '' %}
                       </button>
                       <label :for="'cart-' + item.key + '-quantity'" class="sr-only">{{ 'products.general.quantity' | t }}</label>
-                      <input :id="'cart-' + item.key + '-quantity'" placeholder="1" type="text" 
+                      <input :id="'cart-' + item.key + '-quantity'" placeholder="1" type="text"
+                        x-bind:readonly="item.properties?.add_to_cart_max_two_product == 'true'"
                         class="form-input !border-0 text-center !rounded-none" 
                         @change.debounce="
                           changeCartItemQuantity(item.key, item.quantity, false);
@@ -149,7 +154,7 @@
                         {% render 'component__icon', icon: 'spinner', size: '16', class: '' %}
                       </div>
                       <button class="btn btn--smaller btn--plain shrink-0 !rounded-none" 
-                        :disabled="button_loading"
+                        :disabled="button_loading || item.properties?.add_to_cart_max_two_product == 'true'"
                         title="{{ 'cart.general.increase' | t }}"
                         @click.prevent="
                           if(changeCartItemQuantity(item.key, item.quantity+1, false, false)) {
@@ -159,9 +164,8 @@
                           }">
                         {% render 'component__icon', icon: 'plus', size: '14', class: '' %}
                       </button>
-                    </div>
-                    
-                    <div x-data="{ button_loading: false }">
+                    </div> 
+                    <div  x-data="{ button_loading: false }">
                       <button 
                         class="btn btn--load btn--plain btn--small"
                         :class="{ 'btn--loading' : cart_loading && button_loading }"

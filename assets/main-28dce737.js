@@ -248,6 +248,24 @@ const cart = {
       this.cart.note = data2.note;
       this.cart.shipping_gap = this.progress_bar_threshold * (+window.Shopify.currency.rate || 1) - this.cart.total_price;
       this.cart.shipping_progress = this.cart.total_price / (this.progress_bar_threshold * (+window.Shopify.currency.rate || 1)) * 100 + "%";
+      var isProductPage = /\/products\/.+/i.test(window.location.pathname);
+      console.log(isProductPage);
+      if (isProductPage) {
+        if (this.cart.items.length > 0) {
+          this.cart.items.forEach((item) => {
+            if (item.properties.add_to_cart_max_two_product == "true") {
+              document.querySelector("#pdp-btn-decrease");
+              document.querySelector("#pdp-btn-increase");
+              const addtToCartBtn = document.querySelector("#add-to-cart-button");
+              const cartQuantityContainer = document.querySelector("#cart-quantity-container");
+              const quantityMaxOnload = document.querySelector("#quantity-max-onload");
+              cartQuantityContainer.value = item.quantity;
+              quantityMaxOnload.value = item.quantity;
+              addtToCartBtn.removeAttribute("disabled");
+            }
+          });
+        }
+      }
       setTimeout(() => {
         this.cart_loading = false;
         this.button_loading = false;
@@ -348,6 +366,21 @@ const cart = {
         this.error_title = data2.message, this.error_message = data2.description, this.show_alert = true;
         this.cart_loading = false;
       }
+      var isProductPage = /\/products\/.+/i.test(window.location.pathname);
+      console.log(isProductPage);
+      if (isProductPage) {
+        if (this.cart.items.length > 0) {
+          this.cart.items.forEach((item) => {
+            if (item.properties.add_to_cart_max_two_product == "true") {
+              const addtToCartBtn = document.querySelector("#add-to-cart-button");
+              document.querySelector("#pdp-btn-decrease");
+              document.querySelector("#pdp-btn-increase");
+              document.querySelector("#cart-quantity-container");
+              addtToCartBtn.removeAttribute("disabled");
+            }
+          });
+        }
+      }
       this.cart.items = data2.items.map((item) => {
         return {
           ...item
@@ -364,101 +397,212 @@ const cart = {
     });
   },
   addCartItem(form, bundle = false) {
-    if (this.enable_audio) {
-      this.playSound(this.click_audio);
-    }
-    this.button_loading = true;
-    this.cart_loading = true;
-    let formData = new FormData(form);
-    let productArray = [];
-    if (bundle) {
-      for (var pair of formData.entries()) {
-        if (pair[0].includes("bundle_option")) {
-          productArray.push({ id: pair[1], quantity: 1 });
-        }
+    var isProductPage = /\/products\/.+/i.test(window.location.pathname);
+    console.log(isProductPage);
+    if (isProductPage) {
+      const productFormContainer = document.querySelector("#product-form-container");
+      const addToCartMaxtwoProduct = productFormContainer.getAttribute("add-to-cart-max-two-product");
+      const cartQuantityContainer = document.querySelector("#cart-quantity-container");
+      const addToCartMaxTwoProductContainer = document.querySelector("#add-to-cart-max-two-product");
+      if (this.enable_audio) {
+        this.playSound(this.click_audio);
       }
-    }
-    let sellingPlanId = formData.get("selling_plan");
-    let propertiesArr = [];
-    let propertiesObj;
-    for (const pair2 of formData.entries()) {
-      if (pair2[0].includes("properties")) {
-        let name = pair2[0].replace("properties[", "").replace("]", "");
-        propertiesArr.push([name, pair2[1]]);
-      }
-    }
-    if (propertiesArr.length > 0) {
-      propertiesObj = Object.fromEntries(propertiesArr);
-    }
-    let recipientCheckbox = document.querySelector(`#recipient-checkbox`);
-    let recipientObj;
-    if (recipientCheckbox && recipientCheckbox.checked) {
-      let recipientName = document.querySelector(`#recipient-name`);
-      let recipientEmail = document.querySelector(`#recipient-email`);
-      let recipientMessage = document.querySelector(`#recipient-message`);
-      if (!recipientName.value || !recipientEmail.value) {
-        this.error_title = "Error", this.error_message = "Please fill out name and email of gift card recepient", this.show_alert = true;
-        this.cart_loading = false;
-        return;
-      }
-      recipientObj = {
-        "Recipient email": recipientEmail.value,
-        "Recipient name": recipientName.value,
-        "Message": recipientMessage.value,
-        "__shopify_send_gift_card_to_recipient": "on"
-      };
-    }
-    let reqBody;
-    if (bundle) {
-      reqBody = {
-        items: [...productArray]
-      };
-    } else if (sellingPlanId == 0) {
-      reqBody = { items: [
-        {
-          id: formData.get("id"),
-          quantity: formData.get("quantity"),
-          properties: {
-            ...propertiesObj,
-            ...recipientObj
+      this.button_loading = true;
+      this.cart_loading = true;
+      let formData = new FormData(form);
+      let productArray = [];
+      if (bundle) {
+        for (var pair of formData.entries()) {
+          if (pair[0].includes("bundle_option")) {
+            productArray.push({ id: pair[1], quantity: 1 });
           }
         }
-      ] };
-    } else {
-      reqBody = { items: [
-        {
-          id: formData.get("id"),
-          quantity: formData.get("quantity"),
-          selling_plan: sellingPlanId,
-          properties: {
-            ...propertiesObj,
-            ...recipientObj
+      }
+      let sellingPlanId = formData.get("selling_plan");
+      let propertiesArr = [];
+      let propertiesObj;
+      for (const pair2 of formData.entries()) {
+        if (pair2[0].includes("properties")) {
+          let name = pair2[0].replace("properties[", "").replace("]", "");
+          propertiesArr.push([name, pair2[1]]);
+        }
+      }
+      if (propertiesArr.length > 0) {
+        propertiesObj = Object.fromEntries(propertiesArr);
+      }
+      let recipientCheckbox = document.querySelector(`#recipient-checkbox`);
+      let recipientObj;
+      if (recipientCheckbox && recipientCheckbox.checked) {
+        let recipientName = document.querySelector(`#recipient-name`);
+        let recipientEmail = document.querySelector(`#recipient-email`);
+        let recipientMessage = document.querySelector(`#recipient-message`);
+        if (!recipientName.value || !recipientEmail.value) {
+          this.error_title = "Error", this.error_message = "Please fill out name and email of gift card recepient", this.show_alert = true;
+          this.cart_loading = false;
+          return;
+        }
+        recipientObj = {
+          "Recipient email": recipientEmail.value,
+          "Recipient name": recipientName.value,
+          "Message": recipientMessage.value,
+          "__shopify_send_gift_card_to_recipient": "on"
+        };
+      }
+      let reqBody;
+      if (bundle) {
+        reqBody = {
+          items: [...productArray]
+        };
+      } else if (sellingPlanId == 0) {
+        reqBody = { items: [
+          {
+            id: formData.get("id"),
+            quantity: formData.get("quantity"),
+            properties: {
+              ...propertiesObj,
+              ...recipientObj
+            }
           }
-        }
-      ] };
-    }
-    fetch("/cart/add.js", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify(reqBody)
-    }).then(async (response) => {
-      let data2 = await response.json();
-      if (response.status === 200) {
-        if (this.enable_audio) {
-          this.playSound(this.success_audio);
-        }
-        this.updateCart(true);
+        ] };
       } else {
-        this.error_title = data2.message, this.error_message = data2.description, this.show_alert = true;
-        this.cart_loading = false;
-        this.button_loading = false;
+        reqBody = { items: [
+          {
+            id: formData.get("id"),
+            quantity: formData.get("quantity"),
+            selling_plan: sellingPlanId,
+            properties: {
+              ...propertiesObj,
+              ...recipientObj,
+              "add_to_cart_max_two_product": addToCartMaxtwoProduct
+            }
+          }
+        ] };
       }
-    }).catch((error2) => {
-      console.error("Error:", error2);
-      this.cart_loading = false;
-    });
+      fetch("/cart/add.js", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify(reqBody)
+      }).then(async (response) => {
+        let data2 = await response.json();
+        if (response.status === 200) {
+          if (this.enable_audio) {
+            this.playSound(this.success_audio);
+          }
+          this.updateCart(true);
+          data2.items.forEach((item) => {
+            if (item.properties.add_to_cart_max_two_product == "true" && item.quantity >= 2) {
+              cartQuantityContainer.value = item.quantity;
+              addToCartMaxTwoProductContainer.value = item.properties.add_to_cart_max_two_product;
+            }
+          });
+        } else {
+          this.error_title = data2.message, this.error_message = data2.description, this.show_alert = true;
+          this.cart_loading = false;
+          this.button_loading = false;
+        }
+      }).catch((error2) => {
+        console.error("Error:", error2);
+        this.cart_loading = false;
+      });
+    } else {
+      if (this.enable_audio) {
+        this.playSound(this.click_audio);
+      }
+      this.button_loading = true;
+      this.cart_loading = true;
+      let formData = new FormData(form);
+      let productArray = [];
+      if (bundle) {
+        for (var pair of formData.entries()) {
+          if (pair[0].includes("bundle_option")) {
+            productArray.push({ id: pair[1], quantity: 1 });
+          }
+        }
+      }
+      let sellingPlanId = formData.get("selling_plan");
+      let propertiesArr = [];
+      let propertiesObj;
+      for (const pair2 of formData.entries()) {
+        if (pair2[0].includes("properties")) {
+          let name = pair2[0].replace("properties[", "").replace("]", "");
+          propertiesArr.push([name, pair2[1]]);
+        }
+      }
+      if (propertiesArr.length > 0) {
+        propertiesObj = Object.fromEntries(propertiesArr);
+      }
+      let recipientCheckbox = document.querySelector(`#recipient-checkbox`);
+      let recipientObj;
+      if (recipientCheckbox && recipientCheckbox.checked) {
+        let recipientName = document.querySelector(`#recipient-name`);
+        let recipientEmail = document.querySelector(`#recipient-email`);
+        let recipientMessage = document.querySelector(`#recipient-message`);
+        if (!recipientName.value || !recipientEmail.value) {
+          this.error_title = "Error", this.error_message = "Please fill out name and email of gift card recepient", this.show_alert = true;
+          this.cart_loading = false;
+          return;
+        }
+        recipientObj = {
+          "Recipient email": recipientEmail.value,
+          "Recipient name": recipientName.value,
+          "Message": recipientMessage.value,
+          "__shopify_send_gift_card_to_recipient": "on"
+        };
+      }
+      let reqBody;
+      if (bundle) {
+        reqBody = {
+          items: [...productArray]
+        };
+      } else if (sellingPlanId == 0) {
+        reqBody = { items: [
+          {
+            id: formData.get("id"),
+            quantity: formData.get("quantity"),
+            properties: {
+              ...propertiesObj,
+              ...recipientObj
+            }
+          }
+        ] };
+      } else {
+        reqBody = { items: [
+          {
+            id: formData.get("id"),
+            quantity: formData.get("quantity"),
+            selling_plan: sellingPlanId,
+            properties: {
+              ...propertiesObj,
+              ...recipientObj
+            }
+          }
+        ] };
+      }
+      fetch("/cart/add.js", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify(reqBody)
+      }).then(async (response) => {
+        let data2 = await response.json();
+        if (response.status === 200) {
+          if (this.enable_audio) {
+            this.playSound(this.success_audio);
+          }
+          this.updateCart(true);
+        } else {
+          this.error_title = data2.message, this.error_message = data2.description, this.show_alert = true;
+          this.cart_loading = false;
+          this.button_loading = false;
+        }
+      }).catch((error2) => {
+        console.error("Error:", error2);
+        this.cart_loading = false;
+      });
+    }
   },
   // Call add.js to add cart item then use updateCart()
   addWithId(variantID, sellingPlanId, quantity, openCart, giftCardRecipient, productHandle) {
