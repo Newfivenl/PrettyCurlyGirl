@@ -311,9 +311,9 @@
         "accept_marketing_checkbox_label": "Aanmelden nieuwsbrief voor inspiratie en de beste aanbiedingen."
       },
       "contact": {
-        "address1_label": "Straat + HUISNUMMER (*VERPLICHT)",
-        "address2_label": "Huisnummer + toevoeging",
-        "optional_address2_label": "Huisnummer + toevoeging"
+        "address1_label": "Straat ",
+        "address2_label": "Huisnummer + toevoeging *Verplicht",
+        "optional_address2_label": "Huisnummer + toevoeging *Verplicht"
       },
       "shipping": {
         "address2_add_label": "Straat + HUISNUMMER (*VERPLICHT)"
