@@ -312,7 +312,8 @@
     "checkout": {
       "contact": {
         "address2_label": "HOUSE NUMBER, Apartment, suite, etc",
-        "optional_address2_label": "HOUSE NUMBER, Apartment, suite, etc"
+        "optional_address2_label": "HOUSE NUMBER, Apartment, suite, etc",
+        "address1_label": "Address"
       },
       "shipping": {
         "address2_add_label": "HOUSE NUMBER, Apartment, suite, etc"
