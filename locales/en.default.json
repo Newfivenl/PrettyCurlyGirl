@@ -307,5 +307,26 @@
     "changelog": "Changelog",
     "by": "by",
     "visibility_note": "This widget will not be visible to customers visiting your online store."
+  },
+  "shopify": {
+    "checkout": {
+      "contact": {
+        "address2_label": "HOUSE NUMBER, Apartment, suite, etc",
+        "optional_address2_label": "HOUSE NUMBER, Apartment, suite, etc"
+      },
+      "shipping": {
+        "address2_add_label": "HOUSE NUMBER, Apartment, suite, etc"
+      },
+      "field_errors": {
+        "address_address2_blank": "Enter a house number"
+      },
+      "wallets": {
+        "errors": {
+          "missing": {
+            "address2": "HOUSE NUMBER, Apartment, suite, etc"
+          }
+        }
+      }
+    }
   }
 }
