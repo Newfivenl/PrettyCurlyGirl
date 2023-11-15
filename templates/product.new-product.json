@@ -27,7 +27,7 @@
         "853ae7f0-85c9-45dc-8326-6e4044bcf5e5": {
           "type": "title",
           "settings": {
-            "content": "<h6>MAX. 2 PER CUSTOMER! PRE-ORDER 20-11<\/h6>",
+            "content": "<p><strong>MAX. 2 PER CUSTOMER! PRE-ORDER 20-11<\/strong><\/p>",
             "spacing_top": 0,
             "spacing_bottom": 20,
             "color_scheme": "color__bg-body color__text",
@@ -72,7 +72,7 @@
         "b78b560b-e1c2-428d-ad73-fb5f8aac6d53": {
           "type": "add",
           "settings": {
-            "content": "<p>MAX 2 PRODUCTS PER CUSTOMER<\/p>",
+            "content": "",
             "spacing_top": 20,
             "spacing_bottom": 20,
             "color_scheme": "color__bg-body color__text",
@@ -159,7 +159,7 @@
             "usp_product_text_2": "<p>Free shipping on orders over €50,- in NL<\/p>",
             "usp_product_icon_svg_2": "",
             "usp_product_icon_image_2": "shopify:\/\/shop_images\/package_1.svg",
-            "usp_product_text_3": "<p>Order before 20:00, shipped same day<\/p>",
+            "usp_product_text_3": "<p>Pre-order: Shipment 20-11<\/p>",
             "usp_product_icon_svg_3": "",
             "usp_product_icon_image_3": "shopify:\/\/shop_images\/truck.svg",
             "usp_product_text_4": "",
