@@ -1067,6 +1067,28 @@
         "layout_x_alignment": "justify-center",
         "visibility": ""
       }
+    },
+    "1700059578830b1268": {
+      "type": "apps",
+      "blocks": {
+        "08c789ea-447d-4389-a332-43e7fea0675b": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "SXaXx9"
+          }
+        }
+      },
+      "block_order": [
+        "08c789ea-447d-4389-a332-43e7fea0675b"
+      ],
+      "settings": {
+        "spacing_top": 100,
+        "spacing_bottom": 100,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "style_border": "border--b-width",
+        "layout_padding": false
+      }
     }
   },
   "order": [
@@ -1081,6 +1103,7 @@
     "f3fd7d15-8af4-4a33-810d-e1dbd27ed532",
     "f2025db8-9888-4968-a264-b30575d1ee48",
     "d7a4adc5-757d-44b6-9dd3-e5cce4fb9ce2",
-    "cf475604-fd24-4d65-8a42-9ed8e5ab6541"
+    "cf475604-fd24-4d65-8a42-9ed8e5ab6541",
+    "1700059578830b1268"
   ]
 }
