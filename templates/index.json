@@ -5,6 +5,7 @@
       "blocks": {
         "b5f44dff-54f7-40c3-8c2c-107701aca42e": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image_featured": "shopify:\/\/shop_images\/BUY-2-GET-1FREE.webp",
             "heading": "BUY 2 GET 1 FREE",
