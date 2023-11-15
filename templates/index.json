@@ -1057,6 +1057,7 @@
       "block_order": [
         "template--19487943393610__cf475604-fd24-4d65-8a42-9ed8e5ab6541-newsletter-1"
       ],
+      "disabled": true,
       "settings": {
         "spacing_top": 20,
         "spacing_bottom": 20,
@@ -1082,8 +1083,8 @@
         "08c789ea-447d-4389-a332-43e7fea0675b"
       ],
       "settings": {
-        "spacing_top": 100,
-        "spacing_bottom": 100,
+        "spacing_top": 40,
+        "spacing_bottom": 40,
         "color_scheme": "color__bg-body color__text",
         "color_border": "color__border-divider-1",
         "style_border": "border--b-width",
