@@ -3,6 +3,14 @@
     "7c450e25-a49b-4dbd-aa01-9b08189f1f76": {
       "type": "navigation-slider",
       "blocks": {
+        "0ce04e77-6e38-4cb0-97f9-c8dea0a71a06": {
+          "type": "slide",
+          "settings": {
+            "image_featured": "shopify:\/\/shop_images\/damage_repair_before_and_after.png",
+            "heading": "NEW",
+            "url": "shopify:\/\/products\/damage-repair-spray"
+          }
+        },
         "template--19487943393610__7c450e25-a49b-4dbd-aa01-9b08189f1f76-slide-1": {
           "type": "slide",
           "settings": {
@@ -66,17 +74,10 @@
             "heading": "Accesoires",
             "url": "shopify:\/\/collections\/accessories"
           }
-        },
-        "0ce04e77-6e38-4cb0-97f9-c8dea0a71a06": {
-          "type": "slide",
-          "settings": {
-            "image_featured": "shopify:\/\/shop_images\/damage_repair_before_and_after.png",
-            "heading": "NEW",
-            "url": "shopify:\/\/products\/damage-repair-spray"
-          }
         }
       },
       "block_order": [
+        "0ce04e77-6e38-4cb0-97f9-c8dea0a71a06",
         "template--19487943393610__7c450e25-a49b-4dbd-aa01-9b08189f1f76-slide-1",
         "template--19487943393610__7c450e25-a49b-4dbd-aa01-9b08189f1f76-slide-2",
         "template--19487943393610__7c450e25-a49b-4dbd-aa01-9b08189f1f76-slide-3",
@@ -84,8 +85,7 @@
         "template--19487943393610__7c450e25-a49b-4dbd-aa01-9b08189f1f76-slide-5",
         "e9433735-3896-4cbb-a4d1-19ad3f337d2c",
         "d78ab6ae-ba92-4e8f-9fcf-e69760d1754c",
-        "7e21a01b-d242-4f4e-a818-342043746b09",
-        "0ce04e77-6e38-4cb0-97f9-c8dea0a71a06"
+        "7e21a01b-d242-4f4e-a818-342043746b09"
       ],
       "settings": {
         "spacing_top": 0,
