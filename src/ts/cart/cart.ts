@@ -363,7 +363,7 @@ export const cart = {
                 ...propertiesObj,
                 ...recipientObj
               },
-            },
+            }, 
           ]}
         } else {
           reqBody = {items: [
@@ -374,7 +374,7 @@ export const cart = {
               properties: {
                 ...propertiesObj,
                 ...recipientObj,
-                '_add_to_cart_max_two_product': addToCartMaxtwoProduct
+                'add_to_cart_max_two_product': addToCartMaxtwoProduct
               },
             },
           ]}
