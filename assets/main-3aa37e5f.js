@@ -473,7 +473,7 @@ const cart = {
             properties: {
               ...propertiesObj,
               ...recipientObj,
-              "add_to_cart_max_two_product": addToCartMaxtwoProduct
+              "_add_to_cart_max_two_product": addToCartMaxtwoProduct
             }
           }
         ] };

@@ -202,7 +202,7 @@
                           
                           <template x-if="item.properties">
                             <template x-for="property in Object.entries(item.properties)">
-                              <template x-if="property[0] != 'add_to_cart_max_two_product'">
+                              <template x-if="property[0] != '_add_to_cart_max_two_product'">
                                 <p x-show="!property[0].includes('__')" class="type--smaller mb-0 opacity-75" x-text="property[0] + ' : ' + property[1]"></p>
                               </template>
                             </template>
