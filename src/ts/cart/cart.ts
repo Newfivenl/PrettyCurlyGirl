@@ -71,11 +71,11 @@ export const cart = {
           //console.log(this.cart.items);
 
           var isProductPage = /\/products\/.+/i.test(window.location.pathname);
-          console.log(isProductPage);
+          //console.log(isProductPage);
           if(isProductPage) {
             if(this.cart.items.length > 0){
               this.cart.items.forEach((item: any) => {
-                if(item.properties.add_to_cart_max_two_product == 'true'){
+                if(item.properties._add_to_cart_max_two_product == 'true'){
     
                   const decreaseBtn = document.querySelector('#pdp-btn-decrease') as HTMLElement;
                   const increaseBtn = document.querySelector('#pdp-btn-increase') as HTMLElement;
@@ -239,13 +239,13 @@ export const cart = {
         }
 
         var isProductPage = /\/products\/.+/i.test(window.location.pathname);
-         console.log(isProductPage);
+         //console.log(isProductPage);
 
         if(isProductPage){
           if(this.cart.items.length > 0){
             this.cart.items.forEach((item: any) => {
   
-              if(item.properties.add_to_cart_max_two_product == 'true'){
+              if(item.properties._add_to_cart_max_two_product == 'true'){
                 const addtToCartBtn =  document.querySelector('#add-to-cart-button') as HTMLElement;
                 const decreaseBtn = document.querySelector('#pdp-btn-decrease') as HTMLElement;
                 const increaseBtn = document.querySelector('#pdp-btn-increase') as HTMLElement;
@@ -363,7 +363,7 @@ export const cart = {
                 ...propertiesObj,
                 ...recipientObj
               },
-            }, 
+            },
           ]}
         } else {
           reqBody = {items: [
@@ -374,7 +374,7 @@ export const cart = {
               properties: {
                 ...propertiesObj,
                 ...recipientObj,
-                'add_to_cart_max_two_product': addToCartMaxtwoProduct
+                '_add_to_cart_max_two_product': addToCartMaxtwoProduct
               },
             },
           ]}
@@ -398,9 +398,9 @@ export const cart = {
           this.updateCart(true);
             
             data.items.forEach((item: any) => {
-              if(item.properties.add_to_cart_max_two_product == 'true' && item.quantity >= 2){
+              if(item.properties._add_to_cart_max_two_product == 'true' && item.quantity >= 2){
                 cartQuantityContainer.value = item.quantity;
-                addToCartMaxTwoProductContainer.value = item.properties.add_to_cart_max_two_product;
+                addToCartMaxTwoProductContainer.value = item.properties._add_to_cart_max_two_product;
               }
             });
   

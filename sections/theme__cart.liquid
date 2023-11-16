@@ -202,7 +202,7 @@
                           
                           <template x-if="item.properties">
                             <template x-for="property in Object.entries(item.properties)">
-                              <template x-if="property[0] != 'add_to_cart_max_two_product'">
+                              <template x-if="property[0] != '_add_to_cart_max_two_product'">
                                 <p x-show="!property[0].includes('__')" class="type--smaller mb-0 opacity-75" x-text="property[0] + ' : ' + property[1]"></p>
                               </template>
                             </template>
@@ -275,8 +275,8 @@
                         </button>
                         <label :for="'cart-' + item.key + '-quantity'" class="sr-only">{{ 'products.general.quantity' | t }}</label>
                         <input :id="'cart-' + item.key + '-quantity'" placeholder="1" type="text" 
-                          x-bind:readonly="item.properties?.add_to_cart_max_two_product == 'true'"
-                          @keydown="if (item.properties?.add_to_cart_max_two_product == 'true') { $event.preventDefault(); }"
+                          x-bind:readonly="item.properties?._add_to_cart_max_two_product == 'true'"
+                          @keydown="if (item.properties?._add_to_cart_max_two_product == 'true') { $event.preventDefault(); }"
                           class="form-input !border-0 text-center !rounded-none" 
                           @change.debounce="
                             changeCartItemQuantity(item.key, item.quantity, false);
@@ -289,7 +289,7 @@
                         </div>
 
                         <button class="btn btn--smaller btn--plain shrink-0 !rounded-none"
-                          :disabled="button_loading || item.properties?.add_to_cart_max_two_product == 'true' "
+                          :disabled="button_loading || item.properties?._add_to_cart_max_two_product == 'true' "
                           title="{{ 'cart.general.increase' | t }}"
                           @click="
                             if(changeCartItemQuantity(item.key, item.quantity+1, false, false)) {

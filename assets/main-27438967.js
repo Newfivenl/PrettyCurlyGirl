@@ -249,11 +249,10 @@ const cart = {
       this.cart.shipping_gap = this.progress_bar_threshold * (+window.Shopify.currency.rate || 1) - this.cart.total_price;
       this.cart.shipping_progress = this.cart.total_price / (this.progress_bar_threshold * (+window.Shopify.currency.rate || 1)) * 100 + "%";
       var isProductPage = /\/products\/.+/i.test(window.location.pathname);
-      console.log(isProductPage);
       if (isProductPage) {
         if (this.cart.items.length > 0) {
           this.cart.items.forEach((item) => {
-            if (item.properties.add_to_cart_max_two_product == "true") {
+            if (item.properties._add_to_cart_max_two_product == "true") {
               document.querySelector("#pdp-btn-decrease");
               document.querySelector("#pdp-btn-increase");
               const addtToCartBtn = document.querySelector("#add-to-cart-button");
@@ -367,11 +366,10 @@ const cart = {
         this.cart_loading = false;
       }
       var isProductPage = /\/products\/.+/i.test(window.location.pathname);
-      console.log(isProductPage);
       if (isProductPage) {
         if (this.cart.items.length > 0) {
           this.cart.items.forEach((item) => {
-            if (item.properties.add_to_cart_max_two_product == "true") {
+            if (item.properties._add_to_cart_max_two_product == "true") {
               const addtToCartBtn = document.querySelector("#add-to-cart-button");
               document.querySelector("#pdp-btn-decrease");
               document.querySelector("#pdp-btn-increase");
@@ -473,7 +471,7 @@ const cart = {
             properties: {
               ...propertiesObj,
               ...recipientObj,
-              "add_to_cart_max_two_product": addToCartMaxtwoProduct
+              "_add_to_cart_max_two_product": addToCartMaxtwoProduct
             }
           }
         ] };
@@ -492,9 +490,9 @@ const cart = {
           }
           this.updateCart(true);
           data2.items.forEach((item) => {
-            if (item.properties.add_to_cart_max_two_product == "true" && item.quantity >= 2) {
+            if (item.properties._add_to_cart_max_two_product == "true" && item.quantity >= 2) {
               cartQuantityContainer.value = item.quantity;
-              addToCartMaxTwoProductContainer.value = item.properties.add_to_cart_max_two_product;
+              addToCartMaxTwoProductContainer.value = item.properties._add_to_cart_max_two_product;
             }
           });
         } else {

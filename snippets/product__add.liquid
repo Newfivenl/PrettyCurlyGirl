@@ -273,17 +273,19 @@ Possible enhancements:
           .then(data => {
             //console.log(data.items)
             data.items.forEach((item) => {
+
+              //console.log(item.properties._add_to_cart_max_two_product)
               
-              if(item.properties.add_to_cart_max_two_product == 'true' && item.quantity >= 2 && item.product_id == {{ product.id }}){
-                this.maxTwoProducts = item.properties.add_to_cart_max_two_product;
+              if(item.properties._add_to_cart_max_two_product == 'true' && item.quantity >= 2 && item.product_id == {{ product.id }}){
+                this.maxTwoProducts = item.properties._add_to_cart_max_two_product;
                 this.productId = item.product_id;
                 this.cartQuantity = item.quantity;
               }
 
-              if(item.properties.add_to_cart_max_two_product == 'true' && item.product_id == {{ product.id }} ){
+              if(item.properties._add_to_cart_max_two_product == 'true' && item.product_id == {{ product.id }} ){
                 this.min = 1;
                 this.max = item.quantity;
-                this.maxTwoProducts = item.properties.add_to_cart_max_two_product;
+                this.maxTwoProducts = item.properties._add_to_cart_max_two_product;
               }else {
                 this.maxTwoProducts = 'false'
               }
