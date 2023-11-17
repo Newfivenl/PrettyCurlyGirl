@@ -6,7 +6,7 @@
         "496e2385-4ce1-4748-89e8-f22c7940e6c1": {
           "type": "list_item",
           "settings": {
-            "item_text": "Extreme high concentration of flaxseed extract"
+            "item_text": "Easy to follow routine"
           }
         },
         "2dc7e959-1267-4568-aa95-ce02f1b3d281": {
@@ -45,9 +45,9 @@
         "8b92afe1-28a6-4471-8eba-b66bd4781da0": {
           "type": "image_item",
           "settings": {
-            "image_item": "shopify:\/\/shop_images\/video-output-C301E9DB-286B-413C-B1D4-EC17A7C1994C.gif",
+            "image_item": "shopify:\/\/shop_images\/shutterstock_1969761964.jpg",
             "image_title": "Step 1",
-            "image_sub_title": "Apply the gel with your fingers to wet hair. The gel will create a cast (a hard gel layer)."
+            "image_sub_title": "Cleanse your curls with our peppermint clean shampoo."
           }
         },
         "a9dd35e0-a785-4852-be35-8a102787bb45": {
@@ -60,8 +60,8 @@
         },
         "dce525c2-a851-4c01-ac27-a3937df5347c": {
           "type": "image_item",
-          "disabled": true,
           "settings": {
+            "image_item": "shopify:\/\/shop_images\/shutter_iconcg.jpg",
             "image_title": "step 3",
             "image_sub_title": "SOTC = break the gel cast with your fingers or use a towel to create soft and defined curls."
           }
