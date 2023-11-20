@@ -31,6 +31,7 @@
       "block_order": [
         "template--19487943262538__c5147f2a-a62e-4101-8df0-b02b79af010a-code-1"
       ],
+      "disabled": true,
       "settings": {
         "spacing_top": 0,
         "spacing_bottom": 0,
