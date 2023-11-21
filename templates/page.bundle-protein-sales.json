@@ -72,6 +72,7 @@
         "a9dd35e0-a785-4852-be35-8a102787bb45",
         "dce525c2-a851-4c01-ac27-a3937df5347c"
       ],
+      "disabled": true,
       "settings": {
         "section_heading": "WORLDWIDE THE MOST FAVORITE CURLY PRODUCTS",
         "section_sub_heading": "Our products will control your frizz and will give your curls an incredible curl definition with a magical shine."
@@ -492,7 +493,7 @@
         "877ba202-2962-4ba6-a390-660532e64aa3"
       ],
       "settings": {
-        "product": "magical-flaxseed-gel-250ml-tube",
+        "product": "keep-it-simple-bundle-with-protein",
         "enable_default_variant": true,
         "media_gallery_style": "slider",
         "enable_zoom": true,
