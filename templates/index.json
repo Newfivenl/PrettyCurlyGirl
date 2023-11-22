@@ -504,6 +504,7 @@
             "button_label": "SHOP NEW PRODUCT",
             "button_url": "shopify:\/\/products\/damage-repair-spray",
             "full_block_link": false,
+            "image_featured": "shopify:\/\/shop_images\/image1_4_90cbebb2-773d-4e9f-b936-df4b0488f38e.png",
             "enable_autoplay": true,
             "enable_mute_toggle": true,
             "enable_loop": true,
