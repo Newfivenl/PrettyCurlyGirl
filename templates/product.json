@@ -87,10 +87,10 @@
         "1bb8221f-6812-4972-8e02-9b4256af89c0": {
           "type": "countdown_timer",
           "settings": {
-            "timer_title": "Black friday",
+            "timer_title": "BLACK FRIDAY ENDING",
             "timer_link_title": "",
             "timer_link": "",
-            "timer_date": "Jan 01, 2024 00:00:00",
+            "timer_date": "Nov 25, 2023 00:00:00",
             "timer_title_after_time_expires": "New collection is live!"
           }
         },
