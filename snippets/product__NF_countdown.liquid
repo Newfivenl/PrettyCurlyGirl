@@ -1,11 +1,11 @@
 <div class="countdown_time--container">
-    <div class="countdown_timer--wrapper color-{{ block.settings.timer_color_scheme }} gradient">
+    <div class="countdown_timer--wrapper gradient">
         <div class="countdown_timer--item">
             {% if block.settings.timer_title != blank %}
                 <div id="timer-headline" class="h4">{{ block.settings.timer_title }}</div>
             {% endif %}
             {% if block.settings.timer_link_title != blank %}
-                <a href="{{ block.settings.timer_link }}" class="color-{{ block.settings.timer_color_scheme }} gradient"> {{ block.settings.timer_link_title }} </a>
+                <a href="{{ block.settings.timer_link }}" class=" gradient"> {{ block.settings.timer_link_title }} </a>
             {% endif %}
         </div>
         <div class="countdown_timer--item">
