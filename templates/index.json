@@ -96,19 +96,63 @@
         "visibility": ""
       }
     },
+    "fbb1d9cb-4bbf-4522-8356-5cfeb332bcce": {
+      "type": "banner-alternative",
+      "blocks": {
+        "template--19487943393610__fbb1d9cb-4bbf-4522-8356-5cfeb332bcce-heading-1": {
+          "type": "heading",
+          "settings": {
+            "content": "BLACK FRIDAY SALE"
+          }
+        },
+        "template--19487943393610__fbb1d9cb-4bbf-4522-8356-5cfeb332bcce-content-1": {
+          "type": "content",
+          "settings": {
+            "content": "<p>Shop now with <strong>20% off<\/strong> everything<\/p>",
+            "content_text": "Create stunning, amazing, healthy and bouncy curls with our products."
+          }
+        },
+        "template--19487943393610__fbb1d9cb-4bbf-4522-8356-5cfeb332bcce-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_color": "btn",
+            "reviews": "",
+            "delivery": "",
+            "button_label": "Shop Pretty Curly Girl",
+            "button_url": "shopify:\/\/collections\/all",
+            "secondary_button_color": "btn btn--neutral",
+            "secondary_button_label": "SHOP KIDS Line",
+            "secondary_button_url": "shopify:\/\/collections\/curly-star"
+          }
+        }
+      },
+      "block_order": [
+        "template--19487943393610__fbb1d9cb-4bbf-4522-8356-5cfeb332bcce-heading-1",
+        "template--19487943393610__fbb1d9cb-4bbf-4522-8356-5cfeb332bcce-content-1",
+        "template--19487943393610__fbb1d9cb-4bbf-4522-8356-5cfeb332bcce-buttons-1"
+      ],
+      "settings": {
+        "image_background_desktop": "shopify:\/\/shop_images\/6F9E5AE6-61D6-49D6-A2AE-CE8CBE660844.png",
+        "enable_lazy_loading": false,
+        "color_scheme": "color__bg-overlay-1 color__text",
+        "color_text": "",
+        "color_border": "color__border-divider-1",
+        "style_border": "border--b-width",
+        "content_width": 50,
+        "image_position": "right",
+        "layout_y_spacing": "min-h-[650px] max-h-[85vh] md:min-h-[80vh]",
+        "layout_y_alignment": "items-center",
+        "layout_x_alignment": "justify-start",
+        "visibility": "hidden md:block"
+      }
+    },
     "f96b8e1b-0fd4-4c65-856c-cdd01fe228cc": {
       "type": "banner",
       "blocks": {
         "template--18730720428336__f96b8e1b-0fd4-4c65-856c-cdd01fe228cc-1681420271694828b0-0": {
           "type": "heading",
           "settings": {
-            "content": "ANNIVERSARY MONTH"
-          }
-        },
-        "4a92a534-d1a3-4004-bba0-15424e872c3d": {
-          "type": "content",
-          "settings": {
-            "content": "<p>Keep an eye on our socials for all the promotions<\/p>"
+            "content": "20% off everything"
           }
         },
         "template--18730720428336__f96b8e1b-0fd4-4c65-856c-cdd01fe228cc-1681420271694828b0-1": {
@@ -131,7 +175,6 @@
       },
       "block_order": [
         "template--18730720428336__f96b8e1b-0fd4-4c65-856c-cdd01fe228cc-1681420271694828b0-0",
-        "4a92a534-d1a3-4004-bba0-15424e872c3d",
         "template--18730720428336__f96b8e1b-0fd4-4c65-856c-cdd01fe228cc-1681420271694828b0-1",
         "template--18730720428336__f96b8e1b-0fd4-4c65-856c-cdd01fe228cc-1681420271694828b0-2"
       ],
@@ -139,11 +182,10 @@
 
       ],
       "settings": {
-        "image_background_desktop": "shopify:\/\/shop_images\/happy_bday_fcbe58f8-1baa-48a2-b625-5e200a7aa5bc.webp",
-        "image_background_mobile": "shopify:\/\/shop_images\/happy_bday.webp",
+        "image_background_mobile": "shopify:\/\/shop_images\/6F9E5AE6-61D6-49D6-A2AE-CE8CBE660844.png",
         "show_entire_image": false,
         "enable_lazy_loading": false,
-        "show_video_background_mobile": true,
+        "show_video_background_mobile": false,
         "color_scheme": "color__bg-overlay-1 color__text",
         "color_text": "color__light",
         "color_border": "color__border-divider-1",
@@ -151,8 +193,8 @@
         "style_border": "border--b-width",
         "layout_y_spacing": "min-h-[650px] max-h-[85vh] md:min-h-[80vh]",
         "layout_y_alignment": "items-end",
-        "layout_x_alignment": "justify-center text-center",
-        "visibility": ""
+        "layout_x_alignment": "justify-start",
+        "visibility": "md:hidden"
       }
     },
     "b1e83feb-711b-4266-b0bc-088a4d48a207": {
@@ -1121,6 +1163,7 @@
   },
   "order": [
     "7c450e25-a49b-4dbd-aa01-9b08189f1f76",
+    "fbb1d9cb-4bbf-4522-8356-5cfeb332bcce",
     "f96b8e1b-0fd4-4c65-856c-cdd01fe228cc",
     "b1e83feb-711b-4266-b0bc-088a4d48a207",
     "fa45b532-e64f-489b-9403-7046250c0e16",
