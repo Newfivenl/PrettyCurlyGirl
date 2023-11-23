@@ -115,7 +115,7 @@
         "template--19487943393610__fbb1d9cb-4bbf-4522-8356-5cfeb332bcce-buttons-1": {
           "type": "buttons",
           "settings": {
-            "button_color": "btn",
+            "button_color": "btn btn--secondary",
             "reviews": "",
             "delivery": "",
             "button_label": "Shop Pretty Curly Girl",
@@ -131,10 +131,13 @@
         "template--19487943393610__fbb1d9cb-4bbf-4522-8356-5cfeb332bcce-content-1",
         "template--19487943393610__fbb1d9cb-4bbf-4522-8356-5cfeb332bcce-buttons-1"
       ],
+      "custom_css": [
+        ".color__bg-primary {background: #161319;}"
+      ],
       "settings": {
         "image_background_desktop": "shopify:\/\/shop_images\/6F9E5AE6-61D6-49D6-A2AE-CE8CBE660844.png",
         "enable_lazy_loading": false,
-        "color_scheme": "color__bg-overlay-1 color__text",
+        "color_scheme": "color__bg-primary color__primary",
         "color_text": "",
         "color_border": "color__border-divider-1",
         "style_border": "border--b-width",
