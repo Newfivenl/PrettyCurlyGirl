@@ -380,6 +380,8 @@
                 {% if block.settings.position == "right" %}
                   {% render 'product__liquid', blocksettings: block.settings %}
                 {% endif %}
+              {%- when 'countdown_timer' -%}
+                {% render 'product__NF_countdown', block: block %}
     
               {% when '@app' %}
                 {% render block %}
@@ -456,8 +458,6 @@
                   {% if block.settings.position == "left" %}
                     {% render 'product__inventory', blocksettings: block.settings %}
                   {% endif %}
-                  {%- when 'countdown_timer' -%}
-                    {% render 'product__NF_countdown', block: block %}
                 {%- when 'pickup' -%}
                   {% if block.settings.position == "left" %}
                     {% render 'product__pickup', blocksettings: block.settings %}  
