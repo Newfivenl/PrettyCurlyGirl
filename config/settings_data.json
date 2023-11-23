@@ -185,9 +185,8 @@
           "62364748-86ba-4235-b149-37c37c3a382f": {
             "type": "Content",
             "settings": {
-              "image_featured": "shopify:\/\/shop_images\/free-shipping.svg",
-              "heading": "Free shipping",
-              "content": "<p>Spend over €50 and receive free shipping in NL<\/p>"
+              "heading": "BLACK FRIDAY -20%",
+              "content": "<p>Your discount is automatically applied!<\/p>"
             }
           }
         },
