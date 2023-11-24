@@ -380,6 +380,8 @@
                 {% if block.settings.position == "right" %}
                   {% render 'product__liquid', blocksettings: block.settings %}
                 {% endif %}
+              {%- when 'countdown_timer' -%}
+                {% render 'product__NF_countdown', block: block %}
     
               {% when '@app' %}
                 {% render block %}
@@ -456,7 +458,6 @@
                   {% if block.settings.position == "left" %}
                     {% render 'product__inventory', blocksettings: block.settings %}
                   {% endif %}
-
                 {%- when 'pickup' -%}
                   {% if block.settings.position == "left" %}
                     {% render 'product__pickup', blocksettings: block.settings %}  
@@ -3717,6 +3718,45 @@
           "step": 5,
           "default": 15,
           "unit": "px"
+        }
+      ]
+    },
+    {
+      "type": "countdown_timer",
+      "name": "Countdown timer",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "timer_title",
+          "label": "Title"
+        },
+        {
+          "type": "text",
+          "id": "timer_link_title",
+          "label": "Link title"
+        },
+        {
+          "type": "url",
+          "id": "timer_link",
+          "label": "Link to"
+        },
+        {
+          "type": "header",
+          "content": "Countdown date"
+        },
+        {
+          "type": "text",
+          "id": "timer_date",
+          "label": "Date",
+          "default": "Jan 01, 2021 00:00:00",
+          "info": "e.g Jan 01, 2021 00:00:00"
+        },
+        {
+          "type": "text",
+          "id": "timer_title_after_time_expires",
+          "label": "Title after time expires",
+          "default": "New collection is live!"
         }
       ]
     },

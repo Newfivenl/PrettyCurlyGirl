@@ -111,6 +111,16 @@
             "enable_gift_card_recipient": false
           }
         },
+        "1bb8221f-6812-4972-8e02-9b4256af89c0": {
+          "type": "countdown_timer",
+          "settings": {
+            "timer_title": "BLACK FRIDAY ENDING",
+            "timer_link_title": "",
+            "timer_link": "",
+            "timer_date": "Nov 28, 2023 00:00:00",
+            "timer_title_after_time_expires": "Too late..."
+          }
+        },
         "123fd04c-91f3-4248-a65a-614e2f64fdeb": {
           "type": "description",
           "settings": {
@@ -221,6 +231,7 @@
         "b78b560b-e1c2-428d-ad73-fb5f8aac6d58",
         "9f1692ea-ccb9-4e4c-9c83-7a6ae53392aa",
         "b78b560b-e1c2-428d-ad73-fb5f8aac6d53",
+        "1bb8221f-6812-4972-8e02-9b4256af89c0",
         "123fd04c-91f3-4248-a65a-614e2f64fdeb",
         "fd18c62c-f5e0-4e28-855f-29aa1676eea3",
         "e330660c-f160-4592-b934-2da2024f8ef8",

@@ -1,0 +1,129 @@
+<div class="countdown_time--container">
+    <div class="countdown_timer--wrapper gradient">
+        <div class="countdown_timer--item">
+            {% if block.settings.timer_title != blank %}
+                <div id="timer-headline" class="h5">{{ block.settings.timer_title }}</div>
+            {% endif %}
+            {% if block.settings.timer_link_title != blank %}
+                <a href="{{ block.settings.timer_link }}" class=" gradient"> {{ block.settings.timer_link_title }} </a>
+            {% endif %}
+        </div>
+        <div class="countdown_timer--item">
+            <div id="countdown">
+                <ul>
+                {% comment %} <li><span class="count" id="days"></span><span class="label" style="color: rgba(var(--color-body-color), 0.5)">{{ 'general.countdown_timer.day' | t }}</span></li>
+                <li><span class="count" id="hours"></span><span class="label" style="color: rgba(var(--color-body-color), 0.5)">{{ 'general.countdown_timer.hour' | t }}</span></li>
+                <li><span class="count" id="minutes"></span><span class="label" style="color: rgba(var(--color-body-color), 0.5)">{{ 'general.countdown_timer.minute' | t }}</span></li>
+                <li><span class="count" id="seconds"></span><span class="label" style="color: rgba(var(--color-body-color), 0.5)">{{ 'general.countdown_timer.second' | t }}</span></li> {% endcomment %}
+              <li><span class="count" id="days"></span><span class="label" style="color: rgba(var(--color-body-color), 0.5)">DAYS</span></li>
+                <li><span class="count" id="hours"></span><span class="label" style="color: rgba(var(--color-body-color), 0.5)">HOURS</span></li>
+                <li><span class="count" id="minutes"></span><span class="label" style="color: rgba(var(--color-body-color), 0.5)">MINS</span></li>
+                <li><span class="count" id="seconds"></span><span class="label" style="color: rgba(var(--color-body-color), 0.5)">SEC</span></li>
+                </ul>
+            </div>
+        </div> 
+    </div>
+    </div> 
+    
+    <style>
+        .countdown_timer--wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            margin-top: 10px; 
+            margin-bottom: 20px;
+            gap: 10px;
+        }
+    
+        .countdown_timer--wrapper #countdown ul li:not(.countdown_timer--wrapper #countdown ul li:last-child) .count:after {
+            content: ":";
+            margin-left: 11px;
+            margin-right: 7px;
+        }
+    
+        #countdown ul {
+            display: flex;
+            gap: 5px;
+            padding: 0px;
+            margin: 0px;
+        }
+    
+        #countdown ul li {
+            display: flex;
+            flex-direction: column;
+            list-style-type: none;
+        }
+    
+        #countdown ul li .count {
+            display: flex;
+            gap: 5px;
+            font-size: 20px;
+            line-height: 20px;
+        }
+    
+        #countdown ul li .label {
+            text-transform: uppercase;
+            font-size: 9px;
+        }
+    
+        /* .time_expired {
+            padding: 10px;
+        } */
+    
+        .countdown_timer--item:first-child {
+            text-align: center;
+            line-height: 20px;
+        }
+        
+        @media screen and (max-width: 480px){
+            .countdown_timer--wrapper {
+                flex-direction: column;
+                gap: 0px;
+                padding-top: 15px;
+            }
+        }
+        .countdown_time--container { container-name: countdown;container-type: inline-size;}
+        @container countdown  (inline-size < 400px) {
+            .countdown_timer--wrapper {
+                flex-direction: column;
+                gap: 0px;
+                /* Styles specific to the countdown timer wrapper when the container's width is at most 350px */
+            }
+        }
+    
+    </style>
+    
+    <script>
+    (function () {
+      const second = 1000,
+            minute = second * 60,
+            hour = minute * 60,
+            day = hour * 24;
+    
+        let timer = "{{block.settings.timer_date}}",
+        countDown = new Date(timer).getTime(),
+        x = setInterval(function() {    
+    
+        let now = new Date().getTime(),
+            distance = countDown - now;
+    
+        document.getElementById("days").innerHTML = Math.floor(distance / (day));
+        document.getElementById("hours").innerHTML = Math.floor((distance % (day)) / (hour));
+        document.getElementById("minutes").innerHTML = Math.floor((distance % (hour)) / (minute));
+        document.getElementById("seconds").innerHTML = Math.floor((distance % (minute)) / second);
+    
+        //do something later when date is reached
+        if (distance < 0) {
+            let headline = document.getElementById("timer-headline"),
+            countdown = document.getElementById("countdown");
+            document.querySelectorAll('.countdown_timer--item')[0].classList.add('time_expired');
+            headline.classList.add('time_expired');
+            headline.innerText = "{{block.settings.timer_title_after_time_expires}}";
+            countdown.parentNode.remove();
+    
+            clearInterval(x);
+        }
+        //seconds
+        }, 0)
+    }());
+    </script>
