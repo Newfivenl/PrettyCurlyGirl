@@ -84,6 +84,16 @@
             "enable_gift_card_recipient": false
           }
         },
+        "bb38ef3b-c1c8-4a29-ab93-d42c68c150cb": {
+          "type": "countdown_timer",
+          "settings": {
+            "timer_title": "CYBER MONDAY",
+            "timer_link_title": "",
+            "timer_link": "",
+            "timer_date": "nov 28, 2023 00:00:00",
+            "timer_title_after_time_expires": "New collection is live!"
+          }
+        },
         "3db25bb5-c745-4ead-a0a8-35abd3655cda": {
           "type": "usp-product",
           "settings": {
@@ -183,6 +193,7 @@
         "b78b560b-e1c2-428d-ad73-fb5f8aac6d58",
         "9f1692ea-ccb9-4e4c-9c83-7a6ae53392aa",
         "b78b560b-e1c2-428d-ad73-fb5f8aac6d53",
+        "bb38ef3b-c1c8-4a29-ab93-d42c68c150cb",
         "3db25bb5-c745-4ead-a0a8-35abd3655cda",
         "123fd04c-91f3-4248-a65a-614e2f64fdeb",
         "fd18c62c-f5e0-4e28-855f-29aa1676eea3",
