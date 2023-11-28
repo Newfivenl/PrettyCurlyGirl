@@ -102,13 +102,13 @@
         "template--19487943393610__fbb1d9cb-4bbf-4522-8356-5cfeb332bcce-heading-1": {
           "type": "heading",
           "settings": {
-            "content": "BLACK FRIDAY SALE"
+            "content": "ANNIVERSARY MONTH"
           }
         },
         "template--19487943393610__fbb1d9cb-4bbf-4522-8356-5cfeb332bcce-content-1": {
           "type": "content",
           "settings": {
-            "content": "<p>Shop now with <strong>20% off<\/strong> everything<\/p>",
+            "content": "",
             "content_text": "Create stunning, amazing, healthy and bouncy curls with our products."
           }
         },
@@ -132,13 +132,13 @@
         "template--19487943393610__fbb1d9cb-4bbf-4522-8356-5cfeb332bcce-buttons-1"
       ],
       "custom_css": [
-        ".color__bg-primary {background: #161319;}"
+        ".color__bg-primary {background: #e2c0a3;}"
       ],
       "settings": {
-        "image_background_desktop": "shopify:\/\/shop_images\/6F9E5AE6-61D6-49D6-A2AE-CE8CBE660844.png",
+        "image_background_desktop": "shopify:\/\/shop_images\/happy_bday.webp",
         "enable_lazy_loading": false,
         "color_scheme": "color__bg-primary color__primary",
-        "color_text": "",
+        "color_text": "color__dark",
         "color_border": "color__border-divider-1",
         "style_border": "border--b-width",
         "content_width": 50,
