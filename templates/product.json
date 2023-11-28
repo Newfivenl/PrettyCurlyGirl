@@ -99,7 +99,7 @@
         "b78b560b-e1c2-428d-ad73-fb5f8aac6d53": {
           "type": "add",
           "settings": {
-            "content": "<p>20% DISCOUNT AUTOMATICALLY APPLIED<\/p>",
+            "content": "",
             "spacing_top": 20,
             "spacing_bottom": 20,
             "color_scheme": "color__bg-body color__text",
@@ -113,6 +113,7 @@
         },
         "c59e1f5d-1156-4c73-a40c-5c5a6dbef28c": {
           "type": "countdown_timer",
+          "disabled": true,
           "settings": {
             "timer_title": "CYBER MONDAY",
             "timer_link_title": "",
