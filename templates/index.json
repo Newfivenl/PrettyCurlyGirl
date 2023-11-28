@@ -155,7 +155,7 @@
         "template--18730720428336__f96b8e1b-0fd4-4c65-856c-cdd01fe228cc-1681420271694828b0-0": {
           "type": "heading",
           "settings": {
-            "content": "20% off everything"
+            "content": "ANNIVERSARY MONTH"
           }
         },
         "template--18730720428336__f96b8e1b-0fd4-4c65-856c-cdd01fe228cc-1681420271694828b0-1": {
@@ -185,7 +185,7 @@
 
       ],
       "settings": {
-        "image_background_mobile": "shopify:\/\/shop_images\/6F9E5AE6-61D6-49D6-A2AE-CE8CBE660844.png",
+        "image_background_mobile": "shopify:\/\/shop_images\/happy_bday.webp",
         "show_entire_image": false,
         "enable_lazy_loading": false,
         "show_video_background_mobile": false,
