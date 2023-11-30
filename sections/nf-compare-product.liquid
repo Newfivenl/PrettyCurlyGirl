@@ -1,7 +1,7 @@
 <section class="flex justify-center items-center">
     <div class="w-full flex md:flex-row flex-col lg:h-[551px] h-full relative">
         {% for block in section.blocks %}
-            <div class="{% if forloop.index == 1 %} bg-[#AB8F80] flex lg:flex-row flex-col justify-center lg:pb-0 pb-[60px]  items-center w-full md:w-[50%] h-full pt-[3rem] xl:pr-[60px] md:pr-[25px] {% else %} bg-[#F2F2F2] w-full md:w-[50%] {% endif %} ">
+            <div class="{% if forloop.index == 1 %} bg-[#AB8F80] flex lg:flex-row flex-col justify-center lg:pb-0 pb-[60px]  items-center w-full md:w-[50%] h-full pt-[3rem] xl:pr-[60px] md:pr-[25px] {% else %} bg-[#F2F2F2] w-full md:w-[50%] pb-[60px] {% endif %} ">
                 {%  unless forloop.index == 1 %}
                 <div class="flex lg:flex-row flex-col items-center lg:items-stretch sm:mt-[20px] lg:mt-[140px] 2xl:ml-[4rem]">
                 {% endunless %}
