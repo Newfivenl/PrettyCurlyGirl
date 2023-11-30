@@ -565,6 +565,19 @@
         "spacing_bottom": 60,
         "color_scheme": "color__bg-body color__text"
       }
+    },
+    "aedceb96-4fae-44d4-a4a7-2c24186bc769": {
+      "type": "liquid",
+      "settings": {
+        "liquid": "<style>.search {display:none!important;<\/style>",
+        "spacing_top": 100,
+        "spacing_bottom": 100,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "style_border": "border--b-width",
+        "layout_padding": true,
+        "visibility": ""
+      }
     }
   },
   "order": [
@@ -579,6 +592,7 @@
     "1935dfab-5924-45a9-921f-6d0fd075b9a0",
     "9c3da5e6-46ce-4594-91b5-bf698168311e",
     "8bc88d48-2771-404e-8b9a-10d364cfa2ba",
-    "main"
+    "main",
+    "aedceb96-4fae-44d4-a4a7-2c24186bc769"
   ]
 }
