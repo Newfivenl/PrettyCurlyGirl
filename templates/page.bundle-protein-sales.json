@@ -569,7 +569,7 @@
     "aedceb96-4fae-44d4-a4a7-2c24186bc769": {
       "type": "liquid",
       "settings": {
-        "liquid": "<style>.search {display:none!important;<\/style>",
+        "liquid": "<style>.search {display:none!important;}<\/style>",
         "spacing_top": 0,
         "spacing_bottom": 0,
         "color_scheme": "color__bg-body color__text",
