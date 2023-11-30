@@ -578,6 +578,35 @@
         "layout_padding": false,
         "visibility": "hidden md:block"
       }
+    },
+    "17013645477e1f79c6": {
+      "type": "apps",
+      "blocks": {
+        "fc8cfe4d-091f-4c89-acbc-f4283e94f9d3": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/all_reviews_text\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "dce594cc-b043-4216-a260-c27456e246fc": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/all_reviews_page\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "fc8cfe4d-091f-4c89-acbc-f4283e94f9d3",
+        "dce594cc-b043-4216-a260-c27456e246fc"
+      ],
+      "disabled": true,
+      "settings": {
+        "spacing_top": 100,
+        "spacing_bottom": 100,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "style_border": "border--b-width",
+        "layout_padding": true
+      }
     }
   },
   "order": [
@@ -593,6 +622,7 @@
     "1935dfab-5924-45a9-921f-6d0fd075b9a0",
     "8bc88d48-2771-404e-8b9a-10d364cfa2ba",
     "main",
-    "aedceb96-4fae-44d4-a4a7-2c24186bc769"
+    "aedceb96-4fae-44d4-a4a7-2c24186bc769",
+    "17013645477e1f79c6"
   ]
 }
