@@ -108,8 +108,8 @@
         "template--19487943393610__fbb1d9cb-4bbf-4522-8356-5cfeb332bcce-content-1": {
           "type": "content",
           "settings": {
-            "content": "<p>Birthday Sale - Only today 15% off everything. Discount automatically applied at checkout. <\/p>",
-            "content_text": "Create stunning, amazing, healthy and bouncy curls with our products."
+            "content": "<p><br\/>Birthday Sale - Only today 15% off everything. Discount automatically applied at checkout. <br\/><\/p>",
+            "content_text": ""
           }
         },
         "template--19487943393610__fbb1d9cb-4bbf-4522-8356-5cfeb332bcce-buttons-1": {
