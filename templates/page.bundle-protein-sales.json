@@ -389,16 +389,6 @@
         "visibility": ""
       }
     },
-    "1935dfab-5924-45a9-921f-6d0fd075b9a0": {
-      "type": "nf-two-column-with-text",
-      "settings": {
-        "section_heading": "CREATE STUNNING RESULTS",
-        "section_content": "<p>With our products we offer you the best products for your curls. <br\/><br\/>Start today and you will be amazed on how your curls can transform form dry and frizzy to healthy, shiny and bouncy.  <\/p><p>Be Pretty. Be Curly. Be You. <br\/><\/p>",
-        "button_text": "Shop now",
-        "button_link": "#featured",
-        "section_image": "shopify:\/\/shop_images\/image0_24.jpg"
-      }
-    },
     "9c3da5e6-46ce-4594-91b5-bf698168311e": {
       "type": "featured-product",
       "blocks": {
@@ -515,6 +505,16 @@
         "visibility": ""
       }
     },
+    "1935dfab-5924-45a9-921f-6d0fd075b9a0": {
+      "type": "nf-two-column-with-text",
+      "settings": {
+        "section_heading": "CREATE STUNNING RESULTS",
+        "section_content": "<p>With our products we offer you the best products for your curls. <br\/><br\/>Start today and you will be amazed on how your curls can transform form dry and frizzy to healthy, shiny and bouncy.  <\/p><p>Be Pretty. Be Curly. Be You. <br\/><\/p>",
+        "button_text": "Shop now",
+        "button_link": "#featured",
+        "section_image": "shopify:\/\/shop_images\/image0_24.jpg"
+      }
+    },
     "8bc88d48-2771-404e-8b9a-10d364cfa2ba": {
       "type": "nf-icon-with-text",
       "blocks": {
@@ -589,8 +589,8 @@
     "169702038597d5372e",
     "438c26d5-4191-4e99-8314-16891e303998",
     "3b51516b-9154-4b6e-b6ed-dc1f4bbd2033",
-    "1935dfab-5924-45a9-921f-6d0fd075b9a0",
     "9c3da5e6-46ce-4594-91b5-bf698168311e",
+    "1935dfab-5924-45a9-921f-6d0fd075b9a0",
     "8bc88d48-2771-404e-8b9a-10d364cfa2ba",
     "main",
     "aedceb96-4fae-44d4-a4a7-2c24186bc769"
