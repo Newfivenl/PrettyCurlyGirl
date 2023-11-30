@@ -185,7 +185,7 @@
           "62364748-86ba-4235-b149-37c37c3a382f": {
             "type": "Content",
             "settings": {
-              "heading": "BLACK FRIDAY -20%",
+              "heading": "BIRTHDAY SALE -15%",
               "content": "<p>Your discount is automatically applied!<\/p>"
             }
           }
@@ -1731,7 +1731,7 @@
       ".md-modal__footerPoweredOrbe {display: none !important;}",
       ".md-modal__footer {padding: 0.5rem 1.6rem 1rem 1.6rem;}",
       ".md-btn__primary {font-family: var(--type-font-button-family);}",
-      ".countdown_timer--wrapper {margin-top:0;}"
+      ".countdown_timer--wrapper {margin-top: 0;}"
     ]
   }
 }
