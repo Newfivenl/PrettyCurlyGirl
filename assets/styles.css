@@ -1095,6 +1095,14 @@ img:after {
   top: 53%;
   bottom: 53%;
 }
+.inset-x-\[42\%\] {
+  left: 42%;
+  right: 42%;
+}
+.inset-y-\[55\%\] {
+  top: 55%;
+  bottom: 55%;
+}
 .\!top-4 {
   top: 1rem !important;
 }
