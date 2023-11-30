@@ -1513,6 +1513,9 @@ img:after {
 .mt-auto {
   margin-top: auto;
 }
+.mt-0 {
+  margin-top: 0px;
+}
 .block {
   display: block;
 }
@@ -2645,6 +2648,9 @@ img:after {
 }
 .pb-1 {
   padding-bottom: 0.25rem;
+}
+.pb-3 {
+  padding-bottom: 0.75rem;
 }
 .text-left {
   text-align: left;

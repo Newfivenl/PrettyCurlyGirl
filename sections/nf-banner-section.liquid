@@ -9,7 +9,7 @@
       </div>
       <!-- Text -->
       <div class="flex flex-col bg-clr-secondry bg-[#AB8F80] sm:h-full sm:w-1/2 lg:items-center lg:justify-center ">
-        <div class="px-6 xl:w-[510px] text-clr-primary sm:h-full xl:h-fit sm:p-6 md:p-10 lg:p-16 xl:p-0">
+        <div class="px-6 xl:w-[510px] text-clr-primary sm:h-full xl:h-fit sm:p-6 md:p-10 lg:p-16 xl:p-0 pt-3">
           {% if section.settings.banner_heading != blank %}
             <h2
               class="leading-51 mt-2 text-left font-oswald text-[1.68rem] font-medium uppercase tracking-normal text-white opacity-100 lg:text-[42px] lg:leading-tight">
@@ -83,7 +83,7 @@
               <a href="{{ section.settings.button_link }}" class="btn btn--tertiary !text-[#AB8F80]"> {{ section.settings.button_text }}</a>
             {% endif %}
             {% if section.settings.free_delivery_text != blank %}
-              <div class="flex items-center justify-center">
+              <div class="flex items-center justify-center mt-0 pb-3">
                 {% if section.settings.free_delivery_icon != blank %}
                 <span>{{ section.settings.free_delivery_icon }}</span>
                 {% endif %}
