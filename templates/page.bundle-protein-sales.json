@@ -247,7 +247,7 @@
         "57e7be51-c569-4140-9b7c-f9970df98fa3": {
           "type": "compare_products",
           "settings": {
-            "product_image": "shopify:\/\/shop_images\/budle_set_4_products.jpg",
+            "product_image": "shopify:\/\/shop_images\/pcg-solo.webp",
             "product_title": "PRETTY CURLY GIRL",
             "compare_text1": "Clean, gentle ingredients - CG APPROVED",
             "compare_icon1": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" class=\"mr-4 h-6 w-5 font-bold\" width=\"24\" height=\"24\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                            <path d=\"M22 11.08V12a10 10 0 1 1-5.93-9.14\"><\/path>\n                            <polyline points=\"22 4 12 14.01 9 11.01\"><\/polyline>\n                        <\/svg>",
@@ -298,7 +298,7 @@
           "settings": {
             "heading": "",
             "content": "",
-            "video_background": "shopify:\/\/files\/videos\/Snapinsta.app_video_10000000_278155371316473_7421143614027377512_n.mp4",
+            "video_background": "shopify:\/\/files\/videos\/PCG B1 S3H2V1.mp4",
             "enable_autoplay": true,
             "enable_mute_toggle": true,
             "enable_loop": true,
@@ -323,7 +323,7 @@
           "settings": {
             "heading": "",
             "content": "",
-            "video_background": "shopify:\/\/files\/videos\/Project zonder titel (1).mp4",
+            "video_background": "shopify:\/\/files\/videos\/PCG B1 S3H2V1 (1).mp4",
             "enable_autoplay": true,
             "enable_mute_toggle": true,
             "enable_loop": true,
@@ -348,7 +348,7 @@
           "settings": {
             "heading": "",
             "content": "",
-            "video_background": "shopify:\/\/files\/videos\/Project zonder titel.mp4",
+            "video_background": "shopify:\/\/files\/videos\/20e2edde-3463-4b0e-b862-2c8354f00ec8.mp4",
             "enable_autoplay": true,
             "enable_mute_toggle": true,
             "enable_loop": true,
@@ -375,7 +375,7 @@
         "template--19929447825738__3b51516b-9154-4b6e-b6ed-dc1f4bbd2033-content-3"
       ],
       "settings": {
-        "heading": "PRETTY CURLY GIRL RESULTS",
+        "heading": "Curly hair routine explained",
         "content": "",
         "button_label": "Button label",
         "button_url": "",
@@ -463,6 +463,7 @@
         },
         "c2c7da28-9f8c-4aee-bdac-d3be22d134e2": {
           "type": "accordion",
+          "disabled": true,
           "settings": {
             "color_scheme": "color__bg-body color__text",
             "style_border": "",
@@ -473,6 +474,7 @@
         },
         "877ba202-2962-4ba6-a390-660532e64aa3": {
           "type": "accordion",
+          "disabled": true,
           "settings": {
             "color_scheme": "color__bg-body color__text",
             "style_border": "border--t-width",
