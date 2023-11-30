@@ -570,13 +570,13 @@
       "type": "liquid",
       "settings": {
         "liquid": "<style>.search {display:none!important;<\/style>",
-        "spacing_top": 100,
-        "spacing_bottom": 100,
+        "spacing_top": 0,
+        "spacing_bottom": 0,
         "color_scheme": "color__bg-body color__text",
         "color_border": "color__border-divider-1",
         "style_border": "border--b-width",
-        "layout_padding": true,
-        "visibility": ""
+        "layout_padding": false,
+        "visibility": "hidden md:block"
       }
     }
   },
