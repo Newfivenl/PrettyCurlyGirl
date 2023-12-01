@@ -190,7 +190,7 @@
         "enable_lazy_loading": false,
         "show_video_background_mobile": false,
         "color_scheme": "color__bg-overlay-1 color__text",
-        "color_text": "color__dark",
+        "color_text": "color__light",
         "color_border": "color__border-divider-1",
         "enable_gradient": true,
         "style_border": "border--b-width",
