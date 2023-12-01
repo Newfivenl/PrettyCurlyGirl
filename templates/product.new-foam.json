@@ -86,6 +86,7 @@
         },
         "bb38ef3b-c1c8-4a29-ab93-d42c68c150cb": {
           "type": "countdown_timer",
+          "disabled": true,
           "settings": {
             "timer_title": "BIRTHDAY SALE",
             "timer_link_title": "",
