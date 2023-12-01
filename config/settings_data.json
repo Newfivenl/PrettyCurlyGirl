@@ -184,6 +184,7 @@
           },
           "62364748-86ba-4235-b149-37c37c3a382f": {
             "type": "Content",
+            "disabled": true,
             "settings": {
               "heading": "BIRTHDAY SALE -15%",
               "content": "<p>Your discount is automatically applied!<\/p>"
