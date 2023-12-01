@@ -108,7 +108,7 @@
         "template--19487943393610__fbb1d9cb-4bbf-4522-8356-5cfeb332bcce-content-1": {
           "type": "content",
           "settings": {
-            "content": "<p><br\/>Birthday Sale - 15% off everything. Discount automatically applied at checkout. Today only.<br\/><\/p>",
+            "content": "<p><br\/>Experience the difference with our high quality & curly girl approved ingredients.<\/p>",
             "content_text": ""
           }
         },
@@ -185,7 +185,7 @@
 
       ],
       "settings": {
-        "image_background_mobile": "shopify:\/\/shop_images\/happy_bday.webp",
+        "image_background_mobile": "shopify:\/\/shop_images\/shutterstock_1873777390.jpg",
         "show_entire_image": false,
         "enable_lazy_loading": false,
         "show_video_background_mobile": false,
