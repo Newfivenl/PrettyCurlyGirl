@@ -39,6 +39,105 @@
         "free_delivery_icon": ""
       }
     },
+    "3b51516b-9154-4b6e-b6ed-dc1f4bbd2033": {
+      "type": "content-slider",
+      "blocks": {
+        "template--19929447825738__3b51516b-9154-4b6e-b6ed-dc1f4bbd2033-content-1": {
+          "type": "content",
+          "settings": {
+            "heading": "",
+            "content": "",
+            "video_background": "shopify:\/\/files\/videos\/PCG B1 S3H2V1.mp4",
+            "enable_autoplay": true,
+            "enable_mute_toggle": true,
+            "enable_loop": true,
+            "button_label": "Button",
+            "button_url": "",
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "color__border-divider-1",
+            "color_text": "color__text",
+            "color_button": "btn",
+            "enable_gradient": false,
+            "layout_y_alignment": "items-start content-start",
+            "layout_x_alignment": "",
+            "layout_desktop_width": 4,
+            "layout_mobile_width": 8
+          }
+        },
+        "template--19929447825738__3b51516b-9154-4b6e-b6ed-dc1f4bbd2033-content-2": {
+          "type": "content",
+          "settings": {
+            "heading": "",
+            "content": "",
+            "video_background": "shopify:\/\/files\/videos\/PCG B1 S3H2V1 (1).mp4",
+            "enable_autoplay": true,
+            "enable_mute_toggle": true,
+            "enable_loop": true,
+            "button_label": "Button",
+            "button_url": "",
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "enable_padding": true,
+            "color_scheme": "color__bg-overlay-1 color__text",
+            "color_border": "color__border-divider-1",
+            "color_text": "color__text",
+            "color_button": "btn btn--neutral",
+            "enable_gradient": false,
+            "layout_y_alignment": "items-start content-start",
+            "layout_x_alignment": "",
+            "layout_desktop_width": 4,
+            "layout_mobile_width": 8
+          }
+        },
+        "template--19929447825738__3b51516b-9154-4b6e-b6ed-dc1f4bbd2033-content-3": {
+          "type": "content",
+          "settings": {
+            "heading": "",
+            "content": "",
+            "video_background": "shopify:\/\/files\/videos\/20e2edde-3463-4b0e-b862-2c8354f00ec8.mp4",
+            "enable_autoplay": true,
+            "enable_mute_toggle": true,
+            "enable_loop": true,
+            "button_label": "Button",
+            "button_url": "",
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "enable_padding": true,
+            "color_scheme": "color__bg-secondary color__secondary",
+            "color_border": "color__border-divider-1",
+            "color_text": "color__light",
+            "color_button": "btn btn--plain",
+            "enable_gradient": false,
+            "layout_y_alignment": "items-start content-start",
+            "layout_x_alignment": "",
+            "layout_desktop_width": 4,
+            "layout_mobile_width": 8
+          }
+        }
+      },
+      "block_order": [
+        "template--19929447825738__3b51516b-9154-4b6e-b6ed-dc1f4bbd2033-content-1",
+        "template--19929447825738__3b51516b-9154-4b6e-b6ed-dc1f4bbd2033-content-2",
+        "template--19929447825738__3b51516b-9154-4b6e-b6ed-dc1f4bbd2033-content-3"
+      ],
+      "settings": {
+        "heading": "Curly hair routine explained",
+        "content": "",
+        "button_label": "Button label",
+        "button_url": "",
+        "spacing_top": 100,
+        "spacing_bottom": 100,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "color_button": "btn btn--secondary",
+        "style_border": "border--b-width",
+        "layout_x_alignment": "justify-between",
+        "visibility": ""
+      }
+    },
     "b707287c-4623-455e-87da-06d56c22dd5b": {
       "type": "nf-circle-images",
       "blocks": {
@@ -290,105 +389,6 @@
       "settings": {
       }
     },
-    "3b51516b-9154-4b6e-b6ed-dc1f4bbd2033": {
-      "type": "content-slider",
-      "blocks": {
-        "template--19929447825738__3b51516b-9154-4b6e-b6ed-dc1f4bbd2033-content-1": {
-          "type": "content",
-          "settings": {
-            "heading": "",
-            "content": "",
-            "video_background": "shopify:\/\/files\/videos\/PCG B1 S3H2V1.mp4",
-            "enable_autoplay": true,
-            "enable_mute_toggle": true,
-            "enable_loop": true,
-            "button_label": "Button",
-            "button_url": "",
-            "spacing_top": 0,
-            "spacing_bottom": 0,
-            "enable_padding": true,
-            "color_scheme": "color__bg-body color__text",
-            "color_border": "color__border-divider-1",
-            "color_text": "color__text",
-            "color_button": "btn",
-            "enable_gradient": false,
-            "layout_y_alignment": "items-start content-start",
-            "layout_x_alignment": "",
-            "layout_desktop_width": 4,
-            "layout_mobile_width": 8
-          }
-        },
-        "template--19929447825738__3b51516b-9154-4b6e-b6ed-dc1f4bbd2033-content-2": {
-          "type": "content",
-          "settings": {
-            "heading": "",
-            "content": "",
-            "video_background": "shopify:\/\/files\/videos\/PCG B1 S3H2V1 (1).mp4",
-            "enable_autoplay": true,
-            "enable_mute_toggle": true,
-            "enable_loop": true,
-            "button_label": "Button",
-            "button_url": "",
-            "spacing_top": 0,
-            "spacing_bottom": 0,
-            "enable_padding": true,
-            "color_scheme": "color__bg-overlay-1 color__text",
-            "color_border": "color__border-divider-1",
-            "color_text": "color__text",
-            "color_button": "btn btn--neutral",
-            "enable_gradient": false,
-            "layout_y_alignment": "items-start content-start",
-            "layout_x_alignment": "",
-            "layout_desktop_width": 4,
-            "layout_mobile_width": 8
-          }
-        },
-        "template--19929447825738__3b51516b-9154-4b6e-b6ed-dc1f4bbd2033-content-3": {
-          "type": "content",
-          "settings": {
-            "heading": "",
-            "content": "",
-            "video_background": "shopify:\/\/files\/videos\/20e2edde-3463-4b0e-b862-2c8354f00ec8.mp4",
-            "enable_autoplay": true,
-            "enable_mute_toggle": true,
-            "enable_loop": true,
-            "button_label": "Button",
-            "button_url": "",
-            "spacing_top": 0,
-            "spacing_bottom": 0,
-            "enable_padding": true,
-            "color_scheme": "color__bg-secondary color__secondary",
-            "color_border": "color__border-divider-1",
-            "color_text": "color__light",
-            "color_button": "btn btn--plain",
-            "enable_gradient": false,
-            "layout_y_alignment": "items-start content-start",
-            "layout_x_alignment": "",
-            "layout_desktop_width": 4,
-            "layout_mobile_width": 8
-          }
-        }
-      },
-      "block_order": [
-        "template--19929447825738__3b51516b-9154-4b6e-b6ed-dc1f4bbd2033-content-1",
-        "template--19929447825738__3b51516b-9154-4b6e-b6ed-dc1f4bbd2033-content-2",
-        "template--19929447825738__3b51516b-9154-4b6e-b6ed-dc1f4bbd2033-content-3"
-      ],
-      "settings": {
-        "heading": "Curly hair routine explained",
-        "content": "",
-        "button_label": "Button label",
-        "button_url": "",
-        "spacing_top": 100,
-        "spacing_bottom": 100,
-        "color_scheme": "color__bg-body color__text",
-        "color_border": "color__border-divider-1",
-        "color_button": "btn btn--secondary",
-        "style_border": "border--b-width",
-        "layout_x_alignment": "justify-between",
-        "visibility": ""
-      }
-    },
     "9c3da5e6-46ce-4594-91b5-bf698168311e": {
       "type": "featured-product",
       "blocks": {
@@ -611,13 +611,13 @@
   },
   "order": [
     "4aaa1b8f-9f96-4d73-be22-025a4db67b70",
+    "3b51516b-9154-4b6e-b6ed-dc1f4bbd2033",
     "b707287c-4623-455e-87da-06d56c22dd5b",
     "b9f0017b-ba5e-4589-a993-74eb88e71782",
     "48eae37e-2344-486e-bb2d-7312ffe942c0",
     "065b7e41-d90d-40fa-a059-6bd7f6447a65",
     "169702038597d5372e",
     "438c26d5-4191-4e99-8314-16891e303998",
-    "3b51516b-9154-4b6e-b6ed-dc1f4bbd2033",
     "9c3da5e6-46ce-4594-91b5-bf698168311e",
     "1935dfab-5924-45a9-921f-6d0fd075b9a0",
     "8bc88d48-2771-404e-8b9a-10d364cfa2ba",
