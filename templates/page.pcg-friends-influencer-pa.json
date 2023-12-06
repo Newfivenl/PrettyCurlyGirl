@@ -64,7 +64,7 @@
             "enable_loop": true,
             "button_label": "Button",
             "button_url": "",
-            "spacing_top": 80,
+            "spacing_top": 0,
             "spacing_bottom": 0,
             "enable_padding": true,
             "color_scheme": "color__bg-body color__text",
@@ -149,6 +149,105 @@
         "visibility": ""
       }
     },
+    "7acb6f6a-6368-446e-9ca7-705d01454580": {
+      "type": "content-slider",
+      "blocks": {
+        "721152ee-940b-4edb-ac42-72fc349f63a5": {
+          "type": "content",
+          "settings": {
+            "heading": "Block heading",
+            "content": "<p>Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "video_background": "shopify:\/\/files\/videos\/AB6C58A1-01CE-4886-81EA-992CDB7FC2EF.mov",
+            "enable_autoplay": true,
+            "enable_mute_toggle": true,
+            "enable_loop": true,
+            "button_label": "Button",
+            "button_url": "",
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "color__border-divider-1",
+            "color_text": "color__text",
+            "color_button": "btn",
+            "enable_gradient": false,
+            "layout_y_alignment": "items-start content-start",
+            "layout_x_alignment": "",
+            "layout_desktop_width": 5,
+            "layout_mobile_width": 6
+          }
+        },
+        "c8152b54-58df-4dc4-9541-caca178967b2": {
+          "type": "content",
+          "settings": {
+            "heading": "Block heading",
+            "content": "<p>Describe a product, make announcements, or inform customers about a promotion.<\/p>",
+            "video_background": "shopify:\/\/files\/videos\/Project zonder titel.mp4",
+            "enable_autoplay": true,
+            "enable_mute_toggle": true,
+            "enable_loop": true,
+            "button_label": "Button",
+            "button_url": "",
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "enable_padding": true,
+            "color_scheme": "color__bg-overlay-1 color__text",
+            "color_border": "color__border-divider-1",
+            "color_text": "color__text",
+            "color_button": "btn btn--neutral",
+            "enable_gradient": false,
+            "layout_y_alignment": "items-end content-end",
+            "layout_x_alignment": "",
+            "layout_desktop_width": 5,
+            "layout_mobile_width": 8
+          }
+        },
+        "d9e70f2b-0e46-4e4f-9009-0db12518c49e": {
+          "type": "content",
+          "settings": {
+            "heading": "Block heading",
+            "content": "<p>Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "video_background": "shopify:\/\/files\/videos\/PCG B1 S3H2V1.mp4",
+            "enable_autoplay": true,
+            "enable_mute_toggle": true,
+            "enable_loop": true,
+            "button_label": "Button",
+            "button_url": "",
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "enable_padding": true,
+            "color_scheme": "color__bg-secondary color__secondary",
+            "color_border": "color__border-divider-1",
+            "color_text": "color__light",
+            "color_button": "btn btn--plain",
+            "enable_gradient": false,
+            "layout_y_alignment": "items-end content-end",
+            "layout_x_alignment": "",
+            "layout_desktop_width": 5,
+            "layout_mobile_width": 8
+          }
+        }
+      },
+      "block_order": [
+        "721152ee-940b-4edb-ac42-72fc349f63a5",
+        "c8152b54-58df-4dc4-9541-caca178967b2",
+        "d9e70f2b-0e46-4e4f-9009-0db12518c49e"
+      ],
+      "settings": {
+        "heading": "",
+        "content": "",
+        "button_label": "",
+        "button_url": "",
+        "spacing_top": 0,
+        "spacing_bottom": 100,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "color_button": "btn btn--secondary",
+        "style_border": "border--b-width",
+        "layout_x_alignment": "justify-between",
+        "visibility": ""
+      }
+    },
     "92fb8fc7-c929-472e-b5ce-8f17a060e71b": {
       "type": "video",
       "settings": {
@@ -174,6 +273,7 @@
     "60da6e79-efc7-4da7-9562-a4129be1b27b",
     "main",
     "a8d3025c-9049-4f85-a99f-46d25ccfbc8d",
+    "7acb6f6a-6368-446e-9ca7-705d01454580",
     "92fb8fc7-c929-472e-b5ce-8f17a060e71b"
   ]
 }
