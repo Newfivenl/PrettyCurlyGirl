@@ -1,5 +1,43 @@
 {
   "sections": {
+    "60da6e79-efc7-4da7-9562-a4129be1b27b": {
+      "type": "slideshow",
+      "blocks": {
+        "template--20255012585802__60da6e79-efc7-4da7-9562-a4129be1b27b-slide-1": {
+          "type": "slide",
+          "settings": {
+            "video_background": "shopify:\/\/files\/videos\/winkel opening v2.mp4",
+            "show_entire_image": false,
+            "enable_lazy_loading": true,
+            "show_video_background_mobile": true,
+            "heading": "",
+            "content": "",
+            "button_color": "btn",
+            "button_label": "",
+            "button_url": "\/collections\/all",
+            "secondary_button_color": "btn btn--neutral",
+            "secondary_button_label": "",
+            "secondary_button_url": "\/collections\/all"
+          }
+        }
+      },
+      "block_order": [
+        "template--20255012585802__60da6e79-efc7-4da7-9562-a4129be1b27b-slide-1"
+      ],
+      "settings": {
+        "color_scheme": "color__bg-overlay-1 color__text",
+        "color_text": "",
+        "color_border": "color__border-divider-1",
+        "enable_gradient": false,
+        "style_border": "border--b-width",
+        "layout_y_spacing": "min-h-[450px] md:min-h-[550px]",
+        "layout_y_alignment": "items-end",
+        "layout_x_alignment": "justify-start",
+        "visibility": "",
+        "auto_scroll": false,
+        "auto_scroll_delay": 5
+      }
+    },
     "main": {
       "type": "page__main",
       "disabled": true,
@@ -104,49 +142,11 @@
         "layout_x_alignment": "justify-between",
         "visibility": ""
       }
-    },
-    "60da6e79-efc7-4da7-9562-a4129be1b27b": {
-      "type": "slideshow",
-      "blocks": {
-        "template--20255012585802__60da6e79-efc7-4da7-9562-a4129be1b27b-slide-1": {
-          "type": "slide",
-          "settings": {
-            "video_background": "shopify:\/\/files\/videos\/winkel opening v2.mp4",
-            "show_entire_image": false,
-            "enable_lazy_loading": true,
-            "show_video_background_mobile": true,
-            "heading": "",
-            "content": "",
-            "button_color": "btn",
-            "button_label": "",
-            "button_url": "\/collections\/all",
-            "secondary_button_color": "btn btn--neutral",
-            "secondary_button_label": "",
-            "secondary_button_url": "\/collections\/all"
-          }
-        }
-      },
-      "block_order": [
-        "template--20255012585802__60da6e79-efc7-4da7-9562-a4129be1b27b-slide-1"
-      ],
-      "settings": {
-        "color_scheme": "color__bg-overlay-1 color__text",
-        "color_text": "",
-        "color_border": "color__border-divider-1",
-        "enable_gradient": false,
-        "style_border": "border--b-width",
-        "layout_y_spacing": "min-h-[450px] md:min-h-[550px]",
-        "layout_y_alignment": "items-end",
-        "layout_x_alignment": "justify-start",
-        "visibility": "",
-        "auto_scroll": false,
-        "auto_scroll_delay": 5
-      }
     }
   },
   "order": [
+    "60da6e79-efc7-4da7-9562-a4129be1b27b",
     "main",
-    "a8d3025c-9049-4f85-a99f-46d25ccfbc8d",
-    "60da6e79-efc7-4da7-9562-a4129be1b27b"
+    "a8d3025c-9049-4f85-a99f-46d25ccfbc8d"
   ]
 }
