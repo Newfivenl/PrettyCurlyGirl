@@ -55,6 +55,7 @@
           "settings": {
             "heading": "Block heading",
             "content": "<p>Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "video_background": "shopify:\/\/files\/videos\/AB6C58A1-01CE-4886-81EA-992CDB7FC2EF.mov",
             "enable_autoplay": true,
             "enable_mute_toggle": true,
             "enable_loop": true,
@@ -68,10 +69,10 @@
             "color_text": "color__text",
             "color_button": "btn",
             "enable_gradient": false,
-            "layout_y_alignment": "items-end content-end",
+            "layout_y_alignment": "items-start content-start",
             "layout_x_alignment": "",
             "layout_desktop_width": 5,
-            "layout_mobile_width": 8
+            "layout_mobile_width": 6
           }
         },
         "template--20255012585802__a8d3025c-9049-4f85-a99f-46d25ccfbc8d-content-2": {
@@ -84,7 +85,7 @@
             "enable_loop": true,
             "button_label": "Button",
             "button_url": "shopify:\/\/collections\/all",
-            "spacing_top": 80,
+            "spacing_top": 0,
             "spacing_bottom": 0,
             "enable_padding": true,
             "color_scheme": "color__bg-overlay-1 color__text",
@@ -107,8 +108,8 @@
             "enable_mute_toggle": true,
             "enable_loop": true,
             "button_label": "Button",
-            "button_url": "\/",
-            "spacing_top": 80,
+            "button_url": "",
+            "spacing_top": 0,
             "spacing_bottom": 0,
             "enable_padding": true,
             "color_scheme": "color__bg-secondary color__secondary",
