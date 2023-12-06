@@ -2,51 +2,151 @@
   "sections": {
     "main": {
       "type": "page__main",
+      "disabled": true,
       "settings": {
         "spacing_top": 60,
         "spacing_bottom": 60,
         "color_scheme": "color__bg-body color__text"
       }
     },
-    "169702038597d5372e": {
-      "type": "apps",
+    "a8d3025c-9049-4f85-a99f-46d25ccfbc8d": {
+      "type": "content-slider",
       "blocks": {
-        "1c54f300-f273-4610-94c4-9f8dda0d238a": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/all_reviews_page\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "template--20255012585802__a8d3025c-9049-4f85-a99f-46d25ccfbc8d-content-1": {
+          "type": "content",
           "settings": {
+            "heading": "Block heading",
+            "content": "<p>Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "enable_autoplay": true,
+            "enable_mute_toggle": true,
+            "enable_loop": true,
+            "button_label": "Button",
+            "button_url": "\/",
+            "spacing_top": 80,
+            "spacing_bottom": 0,
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "color__border-divider-1",
+            "color_text": "color__text",
+            "color_button": "btn",
+            "enable_gradient": false,
+            "layout_y_alignment": "items-end content-end",
+            "layout_x_alignment": "",
+            "layout_desktop_width": 5,
+            "layout_mobile_width": 8
           }
         },
-        "46e41359-349f-465f-a482-efa3a4969c7a": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/all_reviews_text\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "disabled": true,
+        "template--20255012585802__a8d3025c-9049-4f85-a99f-46d25ccfbc8d-content-2": {
+          "type": "content",
           "settings": {
+            "heading": "Block heading",
+            "content": "<p>Describe a product, make announcements, or inform customers about a promotion.<\/p>",
+            "enable_autoplay": true,
+            "enable_mute_toggle": true,
+            "enable_loop": true,
+            "button_label": "Button",
+            "button_url": "shopify:\/\/collections\/all",
+            "spacing_top": 80,
+            "spacing_bottom": 0,
+            "enable_padding": true,
+            "color_scheme": "color__bg-overlay-1 color__text",
+            "color_border": "color__border-divider-1",
+            "color_text": "color__text",
+            "color_button": "btn btn--neutral",
+            "enable_gradient": false,
+            "layout_y_alignment": "items-end content-end",
+            "layout_x_alignment": "",
+            "layout_desktop_width": 5,
+            "layout_mobile_width": 8
           }
         },
-        "17e916e0-cc1b-4cb4-bb27-3f7bbc998c4d": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "disabled": true,
+        "template--20255012585802__a8d3025c-9049-4f85-a99f-46d25ccfbc8d-content-3": {
+          "type": "content",
           "settings": {
-            "maxwidth": 1080
+            "heading": "Block heading",
+            "content": "<p>Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "enable_autoplay": true,
+            "enable_mute_toggle": true,
+            "enable_loop": true,
+            "button_label": "Button",
+            "button_url": "\/",
+            "spacing_top": 80,
+            "spacing_bottom": 0,
+            "enable_padding": true,
+            "color_scheme": "color__bg-secondary color__secondary",
+            "color_border": "color__border-divider-1",
+            "color_text": "color__light",
+            "color_button": "btn btn--plain",
+            "enable_gradient": false,
+            "layout_y_alignment": "items-end content-end",
+            "layout_x_alignment": "",
+            "layout_desktop_width": 5,
+            "layout_mobile_width": 8
           }
         }
       },
       "block_order": [
-        "1c54f300-f273-4610-94c4-9f8dda0d238a",
-        "46e41359-349f-465f-a482-efa3a4969c7a",
-        "17e916e0-cc1b-4cb4-bb27-3f7bbc998c4d"
+        "template--20255012585802__a8d3025c-9049-4f85-a99f-46d25ccfbc8d-content-1",
+        "template--20255012585802__a8d3025c-9049-4f85-a99f-46d25ccfbc8d-content-2",
+        "template--20255012585802__a8d3025c-9049-4f85-a99f-46d25ccfbc8d-content-3"
       ],
       "settings": {
+        "heading": "Friends of Pretty Curly Girl",
+        "content": "<p>Describe a product, make announcements, or welcome customers to your store.<\/p>",
+        "button_label": "",
+        "button_url": "",
         "spacing_top": 100,
         "spacing_bottom": 100,
         "color_scheme": "color__bg-body color__text",
         "color_border": "color__border-divider-1",
+        "color_button": "btn btn--secondary",
         "style_border": "border--b-width",
-        "layout_padding": true
+        "layout_x_alignment": "justify-between",
+        "visibility": ""
+      }
+    },
+    "60da6e79-efc7-4da7-9562-a4129be1b27b": {
+      "type": "slideshow",
+      "blocks": {
+        "template--20255012585802__60da6e79-efc7-4da7-9562-a4129be1b27b-slide-1": {
+          "type": "slide",
+          "settings": {
+            "video_background": "shopify:\/\/files\/videos\/winkel opening v2.mp4",
+            "show_entire_image": false,
+            "enable_lazy_loading": true,
+            "show_video_background_mobile": true,
+            "heading": "",
+            "content": "",
+            "button_color": "btn",
+            "button_label": "",
+            "button_url": "\/collections\/all",
+            "secondary_button_color": "btn btn--neutral",
+            "secondary_button_label": "",
+            "secondary_button_url": "\/collections\/all"
+          }
+        }
+      },
+      "block_order": [
+        "template--20255012585802__60da6e79-efc7-4da7-9562-a4129be1b27b-slide-1"
+      ],
+      "settings": {
+        "color_scheme": "color__bg-overlay-1 color__text",
+        "color_text": "",
+        "color_border": "color__border-divider-1",
+        "enable_gradient": false,
+        "style_border": "border--b-width",
+        "layout_y_spacing": "min-h-[450px] md:min-h-[550px]",
+        "layout_y_alignment": "items-end",
+        "layout_x_alignment": "justify-start",
+        "visibility": "",
+        "auto_scroll": false,
+        "auto_scroll_delay": 5
       }
     }
   },
   "order": [
     "main",
-    "169702038597d5372e"
+    "a8d3025c-9049-4f85-a99f-46d25ccfbc8d",
+    "60da6e79-efc7-4da7-9562-a4129be1b27b"
   ]
 }
