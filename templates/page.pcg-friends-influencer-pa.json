@@ -140,7 +140,7 @@
         "button_label": "",
         "button_url": "",
         "spacing_top": 100,
-        "spacing_bottom": 100,
+        "spacing_bottom": 0,
         "color_scheme": "color__bg-body color__text",
         "color_border": "color__border-divider-1",
         "color_button": "btn btn--secondary",
