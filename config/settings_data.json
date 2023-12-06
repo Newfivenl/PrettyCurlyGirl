@@ -170,14 +170,6 @@
       "theme__cart": {
         "type": "theme__cart",
         "blocks": {
-          "dc415ec9-53ea-4c8e-aa82-79bb3e7f0b16": {
-            "type": "Content",
-            "disabled": true,
-            "settings": {
-              "heading": "Buy 2 Get 10% Off",
-              "content": "<p>Buy any two items and recieve 10% off your order until 10\/10<\/p>"
-            }
-          },
           "62364748-86ba-4235-b149-37c37c3a382f": {
             "type": "Content",
             "settings": {
@@ -185,11 +177,34 @@
               "heading": "Free shipping",
               "content": "<p>Spend over €50 and receive free shipping in NL<\/p>"
             }
+          },
+          "1f36914a-fdc3-4360-b19b-4ba3d5ae116c": {
+            "type": "Content",
+            "settings": {
+              "heading": "Gift #1",
+              "content": "<p>Remind customers of offers like free shipping and lifetime warranty<\/p>"
+            }
+          },
+          "5c24c5ce-fbe6-4a35-b3f5-2e16d87cdfcd": {
+            "type": "Content",
+            "settings": {
+              "heading": "Gift #2",
+              "content": "<p>Remind customers of offers like free shipping and lifetime warranty<\/p>"
+            }
+          },
+          "65850fc7-2afe-43d0-b16d-bf9915ecdb83": {
+            "type": "Content",
+            "settings": {
+              "heading": "Gift #3",
+              "content": "<p>Remind customers of offers like free shipping and lifetime warranty<\/p>"
+            }
           }
         },
         "block_order": [
-          "dc415ec9-53ea-4c8e-aa82-79bb3e7f0b16",
-          "62364748-86ba-4235-b149-37c37c3a382f"
+          "62364748-86ba-4235-b149-37c37c3a382f",
+          "1f36914a-fdc3-4360-b19b-4ba3d5ae116c",
+          "5c24c5ce-fbe6-4a35-b3f5-2e16d87cdfcd",
+          "65850fc7-2afe-43d0-b16d-bf9915ecdb83"
         ],
         "settings": {
           "top_color_scheme": "color__bg-body color__text",
