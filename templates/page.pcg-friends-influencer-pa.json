@@ -145,11 +145,32 @@
         "layout_x_alignment": "justify-between",
         "visibility": ""
       }
+    },
+    "92fb8fc7-c929-472e-b5ce-8f17a060e71b": {
+      "type": "video",
+      "settings": {
+        "video_background": "shopify:\/\/files\/videos\/Video (3).mov",
+        "auto_play": true,
+        "heading": "Video",
+        "content": "<p>Give customers a summary of the video you want to share.<\/p>",
+        "button_label": "Button",
+        "button_url": "",
+        "spacing_top": 100,
+        "spacing_bottom": 100,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "color_button": "btn btn--secondary",
+        "style_border": "border--b-width",
+        "layout_x_alignment": "justify-between",
+        "aspect_ratio": "aspect-video",
+        "visibility": ""
+      }
     }
   },
   "order": [
     "60da6e79-efc7-4da7-9562-a4129be1b27b",
     "main",
-    "a8d3025c-9049-4f85-a99f-46d25ccfbc8d"
+    "a8d3025c-9049-4f85-a99f-46d25ccfbc8d",
+    "92fb8fc7-c929-472e-b5ce-8f17a060e71b"
   ]
 }
