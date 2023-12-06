@@ -24,6 +24,9 @@
       "block_order": [
         "template--20255012585802__60da6e79-efc7-4da7-9562-a4129be1b27b-slide-1"
       ],
+      "custom_css": [
+        ".btn {display: none;}"
+      ],
       "settings": {
         "color_scheme": "color__bg-overlay-1 color__text",
         "color_text": "",
