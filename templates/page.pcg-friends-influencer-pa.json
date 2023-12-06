@@ -13,8 +13,8 @@
             "heading": "",
             "content": "",
             "button_color": "btn",
-            "button_label": "",
-            "button_url": "\/collections\/all",
+            "button_label": "Shop now",
+            "button_url": "shopify:\/\/collections\/all",
             "secondary_button_color": "btn btn--neutral",
             "secondary_button_label": "",
             "secondary_button_url": "\/collections\/all"
