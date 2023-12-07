@@ -292,6 +292,189 @@
         "aspect_ratio": "aspect-video",
         "visibility": ""
       }
+    },
+    "7c729183-6118-4d93-8674-4efc4c4a939a": {
+      "type": "content-grid",
+      "blocks": {
+        "template--20255012585802__7c729183-6118-4d93-8674-4efc4c4a939a-content-1": {
+          "type": "content",
+          "settings": {
+            "heading": "Before & AFter",
+            "content": "",
+            "button_label": "shop products",
+            "button_url": "\/",
+            "full_block_link": false,
+            "image_featured": "shopify:\/\/shop_images\/IMG_0764.jpg",
+            "enable_autoplay": true,
+            "enable_mute_toggle": true,
+            "enable_loop": true,
+            "spacing_top": 80,
+            "spacing_bottom": 0,
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "color__border-selected-1",
+            "color_text": "color__text",
+            "color_button": "btn",
+            "enable_gradient": false,
+            "layout_y_alignment": "items-end content-end",
+            "layout_x_alignment": "",
+            "layout_row_span": "row-span-2",
+            "layout_col_span": "col-span-1 md: md:col-span-1"
+          }
+        },
+        "template--20255012585802__7c729183-6118-4d93-8674-4efc4c4a939a-content-2": {
+          "type": "content",
+          "settings": {
+            "heading": "Block heading",
+            "content": "<p>Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "button_label": "Button",
+            "button_url": "\/",
+            "full_block_link": false,
+            "enable_autoplay": true,
+            "enable_mute_toggle": true,
+            "enable_loop": true,
+            "spacing_top": 80,
+            "spacing_bottom": 0,
+            "enable_padding": true,
+            "color_scheme": "color__bg-neutral color__text",
+            "color_border": "color__border-divider-1",
+            "color_text": "color__text",
+            "color_button": "btn btn--plain",
+            "enable_gradient": false,
+            "layout_y_alignment": "items-end content-end",
+            "layout_x_alignment": "",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md: md:col-span-1"
+          }
+        },
+        "template--20255012585802__7c729183-6118-4d93-8674-4efc4c4a939a-content-3": {
+          "type": "content",
+          "settings": {
+            "heading": "Block heading",
+            "content": "<p>Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "button_label": "Button",
+            "button_url": "\/",
+            "full_block_link": false,
+            "enable_autoplay": true,
+            "enable_mute_toggle": true,
+            "enable_loop": true,
+            "spacing_top": 80,
+            "spacing_bottom": 0,
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "color__border-divider-1",
+            "color_text": "color__text",
+            "color_button": "btn btn--plain",
+            "enable_gradient": false,
+            "layout_y_alignment": "items-end content-end",
+            "layout_x_alignment": "",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md: md:col-span-1"
+          }
+        },
+        "template--20255012585802__7c729183-6118-4d93-8674-4efc4c4a939a-content-4": {
+          "type": "content",
+          "disabled": true,
+          "settings": {
+            "heading": "Block heading",
+            "content": "<p>Describe a product, make announcements, or inform customers about a promotion.<\/p>",
+            "button_label": "Button",
+            "button_url": "shopify:\/\/collections\/all",
+            "full_block_link": false,
+            "enable_autoplay": true,
+            "enable_mute_toggle": true,
+            "enable_loop": true,
+            "spacing_top": 80,
+            "spacing_bottom": 0,
+            "enable_padding": true,
+            "color_scheme": "color__bg-overlay-1 color__text",
+            "color_border": "color__border-divider-1",
+            "color_text": "color__text",
+            "color_button": "btn btn--neutral",
+            "enable_gradient": false,
+            "layout_y_alignment": "items-end content-end",
+            "layout_x_alignment": "",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md: md:col-span-1"
+          }
+        },
+        "template--20255012585802__7c729183-6118-4d93-8674-4efc4c4a939a-content-5": {
+          "type": "content",
+          "disabled": true,
+          "settings": {
+            "heading": "Block heading",
+            "content": "<p>Describe a product, make announcements, or inform customers about a promotion.<\/p>",
+            "button_label": "Button",
+            "button_url": "shopify:\/\/collections\/all",
+            "full_block_link": false,
+            "enable_autoplay": true,
+            "enable_mute_toggle": true,
+            "enable_loop": true,
+            "spacing_top": 80,
+            "spacing_bottom": 0,
+            "enable_padding": true,
+            "color_scheme": "color__bg-secondary color__secondary",
+            "color_border": "color__border-divider-1",
+            "color_text": "color__text",
+            "color_button": "btn btn--plain",
+            "enable_gradient": false,
+            "layout_y_alignment": "items-end content-end",
+            "layout_x_alignment": "",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md: md:col-span-1"
+          }
+        },
+        "template--20255012585802__7c729183-6118-4d93-8674-4efc4c4a939a-content-6": {
+          "type": "content",
+          "disabled": true,
+          "settings": {
+            "heading": "Block heading",
+            "content": "<p>Describe a product, make announcements, or inform customers about a promotion.<\/p>",
+            "button_label": "Button",
+            "button_url": "shopify:\/\/collections\/all",
+            "full_block_link": false,
+            "enable_autoplay": true,
+            "enable_mute_toggle": true,
+            "enable_loop": true,
+            "spacing_top": 80,
+            "spacing_bottom": 0,
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "color__border-selected-1",
+            "color_text": "color__text",
+            "color_button": "btn",
+            "enable_gradient": false,
+            "layout_y_alignment": "items-end content-end",
+            "layout_x_alignment": "",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md: md:col-span-2"
+          }
+        }
+      },
+      "block_order": [
+        "template--20255012585802__7c729183-6118-4d93-8674-4efc4c4a939a-content-1",
+        "template--20255012585802__7c729183-6118-4d93-8674-4efc4c4a939a-content-2",
+        "template--20255012585802__7c729183-6118-4d93-8674-4efc4c4a939a-content-3",
+        "template--20255012585802__7c729183-6118-4d93-8674-4efc4c4a939a-content-4",
+        "template--20255012585802__7c729183-6118-4d93-8674-4efc4c4a939a-content-5",
+        "template--20255012585802__7c729183-6118-4d93-8674-4efc4c4a939a-content-6"
+      ],
+      "settings": {
+        "heading": "Heading",
+        "content": "<p>This is a description of your content block<\/p>",
+        "button_label": "Button label",
+        "button_url": "\/",
+        "spacing_top": 100,
+        "spacing_bottom": 100,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "color_button": "btn btn--secondary",
+        "style_border": "border--b-width",
+        "row_size_desktop": "md:grid-cols-4",
+        "row_size_mobile": "grid-cols-1",
+        "layout_x_alignment": "justify-between",
+        "visibility": ""
+      }
     }
   },
   "order": [
@@ -299,6 +482,7 @@
     "main",
     "a8d3025c-9049-4f85-a99f-46d25ccfbc8d",
     "7acb6f6a-6368-446e-9ca7-705d01454580",
-    "92fb8fc7-c929-472e-b5ce-8f17a060e71b"
+    "92fb8fc7-c929-472e-b5ce-8f17a060e71b",
+    "7c729183-6118-4d93-8674-4efc4c4a939a"
   ]
 }
