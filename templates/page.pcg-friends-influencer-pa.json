@@ -477,6 +477,127 @@
         "layout_x_alignment": "justify-between",
         "visibility": ""
       }
+    },
+    "7f4f4d8a-6063-4243-ba84-80fcab99d307": {
+      "type": "banner-alternative",
+      "blocks": {
+        "template--20255012585802__7f4f4d8a-6063-4243-ba84-80fcab99d307-heading-1": {
+          "type": "heading",
+          "settings": {
+            "content": "Heading"
+          }
+        },
+        "template--20255012585802__7f4f4d8a-6063-4243-ba84-80fcab99d307-content-1": {
+          "type": "content",
+          "settings": {
+            "content": "<p>Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "content_text": ""
+          }
+        },
+        "template--20255012585802__7f4f4d8a-6063-4243-ba84-80fcab99d307-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_color": "btn",
+            "reviews": "",
+            "delivery": "",
+            "button_label": "Button label",
+            "button_url": "\/collections\/all",
+            "secondary_button_color": "btn btn--neutral",
+            "secondary_button_label": "Button label",
+            "secondary_button_url": "\/collections\/all"
+          }
+        }
+      },
+      "block_order": [
+        "template--20255012585802__7f4f4d8a-6063-4243-ba84-80fcab99d307-heading-1",
+        "template--20255012585802__7f4f4d8a-6063-4243-ba84-80fcab99d307-content-1",
+        "template--20255012585802__7f4f4d8a-6063-4243-ba84-80fcab99d307-buttons-1"
+      ],
+      "settings": {
+        "enable_lazy_loading": false,
+        "color_scheme": "color__bg-overlay-1 color__text",
+        "color_text": "",
+        "color_border": "color__border-divider-1",
+        "style_border": "border--b-width",
+        "content_width": 40,
+        "image_position": "left",
+        "layout_y_spacing": "min-h-[450px] md:min-h-[550px]",
+        "layout_y_alignment": "items-center",
+        "layout_x_alignment": "justify-start",
+        "visibility": ""
+      }
+    },
+    "8f1e7a15-e6a0-4196-a03f-5558dbbd4318": {
+      "type": "logo-list",
+      "blocks": {
+        "template--20255012585802__8f1e7a15-e6a0-4196-a03f-5558dbbd4318-logo-1": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/IMG_9248_1.jpg",
+            "logo_height": "max-h-[128px]",
+            "enable_padding": false,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "color__border-divider-1",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md:col-span-1"
+          }
+        },
+        "template--20255012585802__8f1e7a15-e6a0-4196-a03f-5558dbbd4318-logo-2": {
+          "type": "logo",
+          "settings": {
+            "logo_height": "max-h-[128px]",
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "color__border-divider-1",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md:col-span-1"
+          }
+        },
+        "template--20255012585802__8f1e7a15-e6a0-4196-a03f-5558dbbd4318-logo-3": {
+          "type": "logo",
+          "settings": {
+            "logo_height": "max-h-[128px]",
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "color__border-divider-1",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md:col-span-1"
+          }
+        },
+        "template--20255012585802__8f1e7a15-e6a0-4196-a03f-5558dbbd4318-logo-4": {
+          "type": "logo",
+          "settings": {
+            "logo_height": "max-h-[128px]",
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "color__border-divider-1",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md:col-span-1"
+          }
+        }
+      },
+      "block_order": [
+        "template--20255012585802__8f1e7a15-e6a0-4196-a03f-5558dbbd4318-logo-1",
+        "template--20255012585802__8f1e7a15-e6a0-4196-a03f-5558dbbd4318-logo-2",
+        "template--20255012585802__8f1e7a15-e6a0-4196-a03f-5558dbbd4318-logo-3",
+        "template--20255012585802__8f1e7a15-e6a0-4196-a03f-5558dbbd4318-logo-4"
+      ],
+      "settings": {
+        "heading": "Logo list",
+        "content": "<p>Talk about press mentions, notable awards, or other brand partnerships.<\/p>",
+        "button_label": "Button",
+        "button_url": "\/",
+        "spacing_top": 100,
+        "spacing_bottom": 100,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "color_button": "btn btn--secondary",
+        "style_border": "border--b-width",
+        "row_size_desktop": "md:grid-cols-4",
+        "row_size_mobile": "grid-cols-2",
+        "layout_x_alignment": "justify-between",
+        "visibility": ""
+      }
     }
   },
   "order": [
@@ -485,6 +606,8 @@
     "a8d3025c-9049-4f85-a99f-46d25ccfbc8d",
     "7acb6f6a-6368-446e-9ca7-705d01454580",
     "92fb8fc7-c929-472e-b5ce-8f17a060e71b",
-    "7c729183-6118-4d93-8674-4efc4c4a939a"
+    "7c729183-6118-4d93-8674-4efc4c4a939a",
+    "7f4f4d8a-6063-4243-ba84-80fcab99d307",
+    "8f1e7a15-e6a0-4196-a03f-5558dbbd4318"
   ]
 }
