@@ -325,11 +325,12 @@
         "template--20255012585802__7c729183-6118-4d93-8674-4efc4c4a939a-content-2": {
           "type": "content",
           "settings": {
-            "heading": "Block heading",
-            "content": "<p>Describe a product, make announcements, or welcome customers to your store.<\/p>",
-            "button_label": "Button",
+            "heading": "Join us",
+            "content": "",
+            "button_label": "Shop Products",
             "button_url": "\/",
             "full_block_link": false,
+            "image_featured": "shopify:\/\/shop_images\/IMG_9248_1.jpg",
             "enable_autoplay": true,
             "enable_mute_toggle": true,
             "enable_loop": true,
@@ -349,6 +350,7 @@
         },
         "template--20255012585802__7c729183-6118-4d93-8674-4efc4c4a939a-content-3": {
           "type": "content",
+          "disabled": true,
           "settings": {
             "heading": "Block heading",
             "content": "<p>Describe a product, make announcements, or welcome customers to your store.<\/p>",
