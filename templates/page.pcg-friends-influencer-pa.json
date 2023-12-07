@@ -6,7 +6,7 @@
         "template--20255012585802__60da6e79-efc7-4da7-9562-a4129be1b27b-slide-1": {
           "type": "slide",
           "settings": {
-            "video_background": "shopify:\/\/files\/videos\/winkel opening v2.mp4",
+            "video_background": "shopify:\/\/files\/videos\/Video_1.MOV",
             "show_entire_image": false,
             "enable_lazy_loading": true,
             "show_video_background_mobile": true,
@@ -107,7 +107,7 @@
           "type": "content",
           "settings": {
             "heading": "Curly Influencer Nikita",
-            "content": "<p>Knows as @curlykiet she loves the lightweigt products of Pretty Curly Girl <\/p>",
+            "content": "<p>Know as @curlykiet she loves the lightweigt products of Pretty Curly Girl <\/p>",
             "video_background": "shopify:\/\/files\/videos\/Video_1.MOV",
             "enable_autoplay": true,
             "enable_mute_toggle": true,
