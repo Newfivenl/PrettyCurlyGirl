@@ -56,9 +56,9 @@
         "template--20255012585802__a8d3025c-9049-4f85-a99f-46d25ccfbc8d-content-1": {
           "type": "content",
           "settings": {
-            "heading": "Wavy Diede",
-            "content": "<p>\"These products hit different, alwasy amazed to see the incredible results\"<\/p>",
-            "video_background": "shopify:\/\/files\/videos\/AB6C58A1-01CE-4886-81EA-992CDB7FC2EF.mov",
+            "heading": "Fajah Lourens",
+            "content": "<p>\"I want to start with taking care of my curls\"<\/p>",
+            "video_background": "shopify:\/\/files\/videos\/IMG_8227.MOV",
             "enable_autoplay": true,
             "enable_mute_toggle": true,
             "enable_loop": true,
@@ -127,12 +127,37 @@
             "layout_desktop_width": 4,
             "layout_mobile_width": 6
           }
+        },
+        "d28393ad-ff5b-41ba-9203-a16e275e82ae": {
+          "type": "content",
+          "settings": {
+            "heading": "Block heading",
+            "content": "<p>Describe a product, make announcements, or inform customers about a promotion.<\/p>",
+            "enable_autoplay": true,
+            "enable_mute_toggle": true,
+            "enable_loop": true,
+            "button_label": "Button",
+            "button_url": "shopify:\/\/collections\/all",
+            "spacing_top": 80,
+            "spacing_bottom": 0,
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "color__border-divider-1",
+            "color_text": "color__text",
+            "color_button": "btn btn--secondary",
+            "enable_gradient": false,
+            "layout_y_alignment": "items-end content-end",
+            "layout_x_alignment": "",
+            "layout_desktop_width": 6,
+            "layout_mobile_width": 10
+          }
         }
       },
       "block_order": [
         "template--20255012585802__a8d3025c-9049-4f85-a99f-46d25ccfbc8d-content-1",
         "template--20255012585802__a8d3025c-9049-4f85-a99f-46d25ccfbc8d-content-2",
-        "template--20255012585802__a8d3025c-9049-4f85-a99f-46d25ccfbc8d-content-3"
+        "template--20255012585802__a8d3025c-9049-4f85-a99f-46d25ccfbc8d-content-3",
+        "d28393ad-ff5b-41ba-9203-a16e275e82ae"
       ],
       "settings": {
         "heading": "Friends of Pretty Curly Girl",
