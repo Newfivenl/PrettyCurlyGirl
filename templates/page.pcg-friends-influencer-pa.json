@@ -57,7 +57,7 @@
           "type": "content",
           "settings": {
             "heading": "Block heading",
-            "content": "<p>Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "content": "<p>As seen on<\/p>",
             "video_background": "shopify:\/\/files\/videos\/AB6C58A1-01CE-4886-81EA-992CDB7FC2EF.mov",
             "enable_autoplay": true,
             "enable_mute_toggle": true,
