@@ -130,6 +130,7 @@
         },
         "d28393ad-ff5b-41ba-9203-a16e275e82ae": {
           "type": "content",
+          "disabled": true,
           "settings": {
             "heading": "Block heading",
             "content": "<p>Describe a product, make announcements, or inform customers about a promotion.<\/p>",
