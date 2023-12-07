@@ -81,9 +81,9 @@
         "template--20255012585802__a8d3025c-9049-4f85-a99f-46d25ccfbc8d-content-2": {
           "type": "content",
           "settings": {
-            "heading": "Block heading",
-            "content": "<p>Describe a product, make announcements, or inform customers about a promotion.<\/p>",
-            "video_background": "shopify:\/\/files\/videos\/Project zonder titel.mp4",
+            "heading": "Curly Hairdresser",
+            "content": "<p>Curly Hairdresser Leonie Rietdijk loves to use Pretty Curly Girl <\/p>",
+            "video_background": "shopify:\/\/files\/videos\/Video (9).mov",
             "enable_autoplay": true,
             "enable_mute_toggle": true,
             "enable_loop": true,
