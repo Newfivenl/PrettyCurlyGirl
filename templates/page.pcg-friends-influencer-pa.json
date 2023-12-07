@@ -106,9 +106,9 @@
         "template--20255012585802__a8d3025c-9049-4f85-a99f-46d25ccfbc8d-content-3": {
           "type": "content",
           "settings": {
-            "heading": "Block heading",
-            "content": "<p>Describe a product, make announcements, or welcome customers to your store.<\/p>",
-            "video_background": "shopify:\/\/files\/videos\/PCG B1 S3H2V1.mp4",
+            "heading": "Curly Influencer Nikita",
+            "content": "<p>Knows as @curlykiet she loves the lightweigt products of Pretty Curly Girl <\/p>",
+            "video_background": "shopify:\/\/files\/videos\/Video_1.MOV",
             "enable_autoplay": true,
             "enable_mute_toggle": true,
             "enable_loop": true,
