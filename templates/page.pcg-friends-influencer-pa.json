@@ -480,6 +480,105 @@
         "visibility": ""
       }
     },
+    "7cc67359-14bf-4d4d-8d22-e04fc9a82f5e": {
+      "type": "content-slider",
+      "blocks": {
+        "template--20255012585802__7cc67359-14bf-4d4d-8d22-e04fc9a82f5e-content-1": {
+          "type": "content",
+          "settings": {
+            "heading": "Charlotte Curls",
+            "content": "<p>Always a great result with these products. My curls are popping. <\/p>",
+            "video_background": "shopify:\/\/files\/videos\/4209B878-EC51-4554-A3F3-A7D763F0AB1F.mp4",
+            "enable_autoplay": true,
+            "enable_mute_toggle": true,
+            "enable_loop": true,
+            "button_label": "",
+            "button_url": "\/",
+            "spacing_top": 80,
+            "spacing_bottom": 0,
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "color__border-divider-1",
+            "color_text": "color__text",
+            "color_button": "btn",
+            "enable_gradient": false,
+            "layout_y_alignment": "items-end content-end",
+            "layout_x_alignment": "",
+            "layout_desktop_width": 5,
+            "layout_mobile_width": 8
+          }
+        },
+        "template--20255012585802__7cc67359-14bf-4d4d-8d22-e04fc9a82f5e-content-2": {
+          "type": "content",
+          "settings": {
+            "heading": "Lynda Llooks",
+            "content": "<p>Loves to use our productline on her cusomers.<\/p>",
+            "video_background": "shopify:\/\/files\/videos\/575FCC87-9DA0-4363-BBD8-461A037849F7_83f4520b-37f8-40de-9cdd-5c3df5ab26ff.mp4",
+            "enable_autoplay": true,
+            "enable_mute_toggle": true,
+            "enable_loop": true,
+            "button_label": "",
+            "button_url": "shopify:\/\/collections\/all",
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "enable_padding": true,
+            "color_scheme": "color__bg-overlay-1 color__text",
+            "color_border": "color__border-divider-1",
+            "color_text": "color__text",
+            "color_button": "btn btn--plain",
+            "enable_gradient": false,
+            "layout_y_alignment": "items-end content-end",
+            "layout_x_alignment": "",
+            "layout_desktop_width": 5,
+            "layout_mobile_width": 8
+          }
+        },
+        "template--20255012585802__7cc67359-14bf-4d4d-8d22-e04fc9a82f5e-content-3": {
+          "type": "content",
+          "settings": {
+            "heading": "Curlstudio Belgium",
+            "content": "<p>Amazing results with the pretty curly girl products. <\/p>",
+            "video_background": "shopify:\/\/files\/videos\/Video (8).mov",
+            "enable_autoplay": true,
+            "enable_mute_toggle": true,
+            "enable_loop": true,
+            "button_label": "",
+            "button_url": "\/",
+            "spacing_top": 80,
+            "spacing_bottom": 40,
+            "enable_padding": true,
+            "color_scheme": "color__bg-secondary color__secondary",
+            "color_border": "color__border-divider-1",
+            "color_text": "color__light",
+            "color_button": "btn btn--secondary",
+            "enable_gradient": false,
+            "layout_y_alignment": "items-end content-end",
+            "layout_x_alignment": "",
+            "layout_desktop_width": 5,
+            "layout_mobile_width": 8
+          }
+        }
+      },
+      "block_order": [
+        "template--20255012585802__7cc67359-14bf-4d4d-8d22-e04fc9a82f5e-content-1",
+        "template--20255012585802__7cc67359-14bf-4d4d-8d22-e04fc9a82f5e-content-2",
+        "template--20255012585802__7cc67359-14bf-4d4d-8d22-e04fc9a82f5e-content-3"
+      ],
+      "settings": {
+        "heading": "",
+        "content": "",
+        "button_label": "",
+        "button_url": "\/",
+        "spacing_top": 100,
+        "spacing_bottom": 100,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "color_button": "btn btn--secondary",
+        "style_border": "border--b-width",
+        "layout_x_alignment": "justify-between",
+        "visibility": ""
+      }
+    },
     "7f4f4d8a-6063-4243-ba84-80fcab99d307": {
       "type": "banner-alternative",
       "blocks": {
@@ -602,105 +701,6 @@
         "layout_x_alignment": "justify-between",
         "visibility": ""
       }
-    },
-    "7cc67359-14bf-4d4d-8d22-e04fc9a82f5e": {
-      "type": "content-slider",
-      "blocks": {
-        "template--20255012585802__7cc67359-14bf-4d4d-8d22-e04fc9a82f5e-content-1": {
-          "type": "content",
-          "settings": {
-            "heading": "Charlotte Curls",
-            "content": "<p>Always a great result with these products. My curls are popping. <\/p>",
-            "video_background": "shopify:\/\/files\/videos\/4209B878-EC51-4554-A3F3-A7D763F0AB1F.mp4",
-            "enable_autoplay": true,
-            "enable_mute_toggle": true,
-            "enable_loop": true,
-            "button_label": "",
-            "button_url": "\/",
-            "spacing_top": 80,
-            "spacing_bottom": 0,
-            "enable_padding": true,
-            "color_scheme": "color__bg-body color__text",
-            "color_border": "color__border-divider-1",
-            "color_text": "color__text",
-            "color_button": "btn",
-            "enable_gradient": false,
-            "layout_y_alignment": "items-end content-end",
-            "layout_x_alignment": "",
-            "layout_desktop_width": 5,
-            "layout_mobile_width": 8
-          }
-        },
-        "template--20255012585802__7cc67359-14bf-4d4d-8d22-e04fc9a82f5e-content-2": {
-          "type": "content",
-          "settings": {
-            "heading": "Lynda Llooks",
-            "content": "<p>Loves to use our productline on her cusomers.<\/p>",
-            "video_background": "shopify:\/\/files\/videos\/575FCC87-9DA0-4363-BBD8-461A037849F7_83f4520b-37f8-40de-9cdd-5c3df5ab26ff.mp4",
-            "enable_autoplay": true,
-            "enable_mute_toggle": true,
-            "enable_loop": true,
-            "button_label": "",
-            "button_url": "shopify:\/\/collections\/all",
-            "spacing_top": 0,
-            "spacing_bottom": 0,
-            "enable_padding": true,
-            "color_scheme": "color__bg-overlay-1 color__text",
-            "color_border": "color__border-divider-1",
-            "color_text": "color__text",
-            "color_button": "btn btn--plain",
-            "enable_gradient": false,
-            "layout_y_alignment": "items-end content-end",
-            "layout_x_alignment": "",
-            "layout_desktop_width": 5,
-            "layout_mobile_width": 8
-          }
-        },
-        "template--20255012585802__7cc67359-14bf-4d4d-8d22-e04fc9a82f5e-content-3": {
-          "type": "content",
-          "settings": {
-            "heading": "Curlstudio Belgium",
-            "content": "<p>Amazing results with the pretty curly girl products. <\/p>",
-            "video_background": "shopify:\/\/files\/videos\/Video (8).mov",
-            "enable_autoplay": true,
-            "enable_mute_toggle": true,
-            "enable_loop": true,
-            "button_label": "",
-            "button_url": "\/",
-            "spacing_top": 80,
-            "spacing_bottom": 40,
-            "enable_padding": true,
-            "color_scheme": "color__bg-secondary color__secondary",
-            "color_border": "color__border-divider-1",
-            "color_text": "color__light",
-            "color_button": "btn btn--secondary",
-            "enable_gradient": false,
-            "layout_y_alignment": "items-end content-end",
-            "layout_x_alignment": "",
-            "layout_desktop_width": 5,
-            "layout_mobile_width": 8
-          }
-        }
-      },
-      "block_order": [
-        "template--20255012585802__7cc67359-14bf-4d4d-8d22-e04fc9a82f5e-content-1",
-        "template--20255012585802__7cc67359-14bf-4d4d-8d22-e04fc9a82f5e-content-2",
-        "template--20255012585802__7cc67359-14bf-4d4d-8d22-e04fc9a82f5e-content-3"
-      ],
-      "settings": {
-        "heading": "",
-        "content": "",
-        "button_label": "",
-        "button_url": "\/",
-        "spacing_top": 100,
-        "spacing_bottom": 100,
-        "color_scheme": "color__bg-body color__text",
-        "color_border": "color__border-divider-1",
-        "color_button": "btn btn--secondary",
-        "style_border": "border--b-width",
-        "layout_x_alignment": "justify-between",
-        "visibility": ""
-      }
     }
   },
   "order": [
@@ -710,8 +710,8 @@
     "7acb6f6a-6368-446e-9ca7-705d01454580",
     "92fb8fc7-c929-472e-b5ce-8f17a060e71b",
     "7c729183-6118-4d93-8674-4efc4c4a939a",
+    "7cc67359-14bf-4d4d-8d22-e04fc9a82f5e",
     "7f4f4d8a-6063-4243-ba84-80fcab99d307",
-    "8f1e7a15-e6a0-4196-a03f-5558dbbd4318",
-    "7cc67359-14bf-4d4d-8d22-e04fc9a82f5e"
+    "8f1e7a15-e6a0-4196-a03f-5558dbbd4318"
   ]
 }
