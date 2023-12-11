@@ -634,8 +634,9 @@
         "template--20255012585802__7cc67359-14bf-4d4d-8d22-e04fc9a82f5e-content-2": {
           "type": "content",
           "settings": {
-            "heading": "Block heading",
-            "content": "<p>Describe a product, make announcements, or inform customers about a promotion.<\/p>",
+            "heading": "Lynda Llooks",
+            "content": "<p>Loves to use our productline on her cusomers creating amazing results. <\/p>",
+            "video_background": "shopify:\/\/files\/videos\/575FCC87-9DA0-4363-BBD8-461A037849F7_83f4520b-37f8-40de-9cdd-5c3df5ab26ff.mp4",
             "enable_autoplay": true,
             "enable_mute_toggle": true,
             "enable_loop": true,
