@@ -274,26 +274,6 @@
         "visibility": ""
       }
     },
-    "92fb8fc7-c929-472e-b5ce-8f17a060e71b": {
-      "type": "video",
-      "settings": {
-        "video_background": "shopify:\/\/files\/videos\/Videozondertitel‐GemaaktmetClipchamp.mp4",
-        "auto_play": true,
-        "heading": "Start today and give your curls the love they deserve",
-        "content": "",
-        "button_label": "Button",
-        "button_url": "",
-        "spacing_top": 100,
-        "spacing_bottom": 100,
-        "color_scheme": "color__bg-body color__text",
-        "color_border": "color__border-divider-1",
-        "color_button": "btn btn--secondary",
-        "style_border": "border--b-width",
-        "layout_x_alignment": "justify-between",
-        "aspect_ratio": "aspect-video",
-        "visibility": ""
-      }
-    },
     "7c729183-6118-4d93-8674-4efc4c4a939a": {
       "type": "content-grid",
       "blocks": {
@@ -573,7 +553,7 @@
         "spacing_bottom": 100,
         "color_scheme": "color__bg-body color__text",
         "color_border": "color__border-divider-1",
-        "color_button": "btn btn--secondary",
+        "color_button": "btn btn--tertiary",
         "style_border": "border--b-width",
         "layout_x_alignment": "justify-between",
         "visibility": ""
@@ -626,6 +606,26 @@
         "layout_y_spacing": "min-h-[450px] md:min-h-[550px]",
         "layout_y_alignment": "items-center",
         "layout_x_alignment": "justify-start",
+        "visibility": ""
+      }
+    },
+    "92fb8fc7-c929-472e-b5ce-8f17a060e71b": {
+      "type": "video",
+      "settings": {
+        "video_background": "shopify:\/\/files\/videos\/Videozondertitel‐GemaaktmetClipchamp.mp4",
+        "auto_play": true,
+        "heading": "Start today and give your curls the love they deserve",
+        "content": "",
+        "button_label": "Button",
+        "button_url": "",
+        "spacing_top": 100,
+        "spacing_bottom": 100,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "color_button": "btn btn--secondary",
+        "style_border": "border--b-width",
+        "layout_x_alignment": "justify-between",
+        "aspect_ratio": "aspect-video",
         "visibility": ""
       }
     },
@@ -708,10 +708,10 @@
     "main",
     "a8d3025c-9049-4f85-a99f-46d25ccfbc8d",
     "7acb6f6a-6368-446e-9ca7-705d01454580",
-    "92fb8fc7-c929-472e-b5ce-8f17a060e71b",
     "7c729183-6118-4d93-8674-4efc4c4a939a",
     "7cc67359-14bf-4d4d-8d22-e04fc9a82f5e",
     "7f4f4d8a-6063-4243-ba84-80fcab99d307",
+    "92fb8fc7-c929-472e-b5ce-8f17a060e71b",
     "8f1e7a15-e6a0-4196-a03f-5558dbbd4318"
   ]
 }
