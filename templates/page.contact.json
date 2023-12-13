@@ -1,1 +1,29 @@
-{"sections":{"main":{"type":"page__contact","settings":{"color_scheme":"color__bg-body color__text"}}},"order":["main"]}
+{
+  "sections": {
+    "main": {
+      "type": "page__contact",
+      "settings": {
+        "spacing_top": 60,
+        "spacing_bottom": 60,
+        "color_scheme": "color__bg-body color__text"
+      }
+    },
+    "ea7d6402-6b00-411e-b7eb-9c5d00ce8f85": {
+      "type": "liquid",
+      "settings": {
+        "liquid": "<!--Gorgias Chat Widget Start-->\n<script id=\"gorgias-chat-widget-install-v3\" \n    src=\"https:\/\/config.gorgias.chat\/bundle-loader\/01HHHSE3300RKPD4QC8K6J525C\">\n<\/script>\n<!--Gorgias Chat Widget End-->",
+        "spacing_top": 0,
+        "spacing_bottom": 0,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "style_border": "border--b-width",
+        "layout_padding": true,
+        "visibility": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ea7d6402-6b00-411e-b7eb-9c5d00ce8f85"
+  ]
+}
