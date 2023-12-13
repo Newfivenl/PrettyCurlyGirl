@@ -1,13 +1,5 @@
 {
   "sections": {
-    "main": {
-      "type": "page__contact",
-      "settings": {
-        "spacing_top": 60,
-        "spacing_bottom": 60,
-        "color_scheme": "color__bg-body color__text"
-      }
-    },
     "ea7d6402-6b00-411e-b7eb-9c5d00ce8f85": {
       "type": "liquid",
       "settings": {
@@ -20,10 +12,18 @@
         "layout_padding": true,
         "visibility": ""
       }
+    },
+    "main": {
+      "type": "page__contact",
+      "settings": {
+        "spacing_top": 60,
+        "spacing_bottom": 60,
+        "color_scheme": "color__bg-body color__text"
+      }
     }
   },
   "order": [
-    "main",
-    "ea7d6402-6b00-411e-b7eb-9c5d00ce8f85"
+    "ea7d6402-6b00-411e-b7eb-9c5d00ce8f85",
+    "main"
   ]
 }
