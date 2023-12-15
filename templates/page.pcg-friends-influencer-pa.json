@@ -623,7 +623,7 @@
         "color_scheme": "color__bg-body color__text",
         "color_border": "color__border-divider-1",
         "color_button": "btn btn--secondary",
-        "style_border": "border--b-width",
+        "style_border": "",
         "layout_x_alignment": "justify-between",
         "aspect_ratio": "aspect-video",
         "visibility": ""
@@ -701,6 +701,40 @@
         "layout_x_alignment": "justify-between",
         "visibility": ""
       }
+    },
+    "65f219c7-8e55-4bb9-b5fc-de877d71ef76": {
+      "type": "NF_image_columns",
+      "blocks": {
+        "template--20255012585802__65f219c7-8e55-4bb9-b5fc-de877d71ef76-image_with_text-1": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image6_1.jpg",
+            "text": "Enter your text"
+          }
+        },
+        "6de10f51-b619-4732-b126-dbe995c5c15c": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image0_32.jpg",
+            "text": "Enter your text"
+          }
+        },
+        "e1568577-b756-400c-8349-673b6c16814d": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image4_4.jpg",
+            "text": "Enter your text"
+          }
+        }
+      },
+      "block_order": [
+        "template--20255012585802__65f219c7-8e55-4bb9-b5fc-de877d71ef76-image_with_text-1",
+        "6de10f51-b619-4732-b126-dbe995c5c15c",
+        "e1568577-b756-400c-8349-673b6c16814d"
+      ],
+      "settings": {
+        "title": "Default Title"
+      }
     }
   },
   "order": [
@@ -712,6 +746,7 @@
     "7cc67359-14bf-4d4d-8d22-e04fc9a82f5e",
     "7f4f4d8a-6063-4243-ba84-80fcab99d307",
     "92fb8fc7-c929-472e-b5ce-8f17a060e71b",
-    "8f1e7a15-e6a0-4196-a03f-5558dbbd4318"
+    "8f1e7a15-e6a0-4196-a03f-5558dbbd4318",
+    "65f219c7-8e55-4bb9-b5fc-de877d71ef76"
   ]
 }
