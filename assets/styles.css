@@ -1083,6 +1083,10 @@ img:after {
 .inset-0 {
   inset: 0px;
 }
+.inset-x-\[42\%\] {
+  left: 42%;
+  right: 42%;
+}
 .inset-x-\[45\%\] {
   left: 45%;
   right: 45%;
@@ -1094,10 +1098,6 @@ img:after {
 .inset-y-\[53\%\] {
   top: 53%;
   bottom: 53%;
-}
-.inset-x-\[42\%\] {
-  left: 42%;
-  right: 42%;
 }
 .inset-y-\[55\%\] {
   top: 55%;
@@ -1444,6 +1444,9 @@ img:after {
 .mr-\[10px\] {
   margin-right: 10px;
 }
+.mt-0 {
+  margin-top: 0px;
+}
 .mt-1 {
   margin-top: 0.25rem;
 }
@@ -1513,9 +1516,6 @@ img:after {
 .mt-auto {
   margin-top: auto;
 }
-.mt-0 {
-  margin-top: 0px;
-}
 .block {
   display: block;
 }
@@ -1563,6 +1563,9 @@ img:after {
 }
 .aspect-\[2\\\/3\] {
   aspect-ratio: 2\/3;
+}
+.aspect-\[4\/5\] {
+  aspect-ratio: 4/5;
 }
 .aspect-video {
   aspect-ratio: 16 / 9;
@@ -2553,6 +2556,9 @@ img:after {
 .\!pr-0 {
   padding-right: 0px !important;
 }
+.pb-1 {
+  padding-bottom: 0.25rem;
+}
 .pb-12 {
   padding-bottom: 3rem;
 }
@@ -2561,6 +2567,9 @@ img:after {
 }
 .pb-2 {
   padding-bottom: 0.5rem;
+}
+.pb-3 {
+  padding-bottom: 0.75rem;
 }
 .pb-4 {
   padding-bottom: 1rem;
@@ -2646,12 +2655,6 @@ img:after {
 .pt-\[89px\] {
   padding-top: 89px;
 }
-.pb-1 {
-  padding-bottom: 0.25rem;
-}
-.pb-3 {
-  padding-bottom: 0.75rem;
-}
 .text-left {
   text-align: left;
 }
@@ -2666,6 +2669,10 @@ img:after {
 }
 .align-bottom {
   vertical-align: bottom;
+}
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 .text-6xl {
   font-size: 3.75rem;
