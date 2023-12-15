@@ -1241,6 +1241,12 @@ img:after {
 .top-auto {
   top: auto;
 }
+.bottom-3 {
+  bottom: 0.75rem;
+}
+.left-3 {
+  left: 0.75rem;
+}
 .\!z-10 {
   z-index: 10 !important;
 }
@@ -1680,6 +1686,12 @@ img:after {
 }
 .h-full {
   height: 100%;
+}
+.h-20 {
+  height: 5rem;
+}
+.h-40 {
+  height: 10rem;
 }
 .max-h-\[100vh\] {
   max-height: 100vh;
@@ -4299,6 +4311,11 @@ html {
     line-height: 1.286;
   }
 }
+@media (min-width: 360px) {
+  .xs\:flex-\[0_0_calc\(50\%-8px\)\] {
+    flex: 0 0 calc(50% - 8px);
+  }
+}
 @media (min-width: 640px) {
   .sm\:inset-x-\[47\%\] {
     left: 47%;
@@ -4382,6 +4399,9 @@ html {
   }
   .sm\:max-w-\[70\%\] {
     max-width: 70%;
+  }
+  .sm\:flex-\[0_0_calc\(50\%-8px\)\] {
+    flex: 0 0 calc(50% - 8px);
   }
   .sm\:rotate-0 {
     --tw-rotate: 0deg;
@@ -4625,6 +4645,9 @@ html {
   .md\:h-\[82px\] {
     height: 82px;
   }
+  .md\:h-40 {
+    height: 10rem;
+  }
   .md\:max-h-\[400px\] {
     max-height: 400px;
   }
@@ -4774,6 +4797,12 @@ html {
   }
   .md\:max-w-md {
     max-width: 28rem;
+  }
+  .md\:flex-\[0_0_calc\(50\%-8px\)\] {
+    flex: 0 0 calc(50% - 8px);
+  }
+  .md\:flex-1 {
+    flex: 1 1 0%;
   }
   .md\:basis-\[90\%\] {
     flex-basis: 90%;
