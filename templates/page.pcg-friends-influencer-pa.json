@@ -75,7 +75,7 @@
             "layout_y_alignment": "items-start content-start",
             "layout_x_alignment": "",
             "layout_desktop_width": 4,
-            "layout_mobile_width": 10
+            "layout_mobile_width": 9
           }
         },
         "template--20255012585802__a8d3025c-9049-4f85-a99f-46d25ccfbc8d-content-2": {
@@ -100,7 +100,7 @@
             "layout_y_alignment": "items-end content-end",
             "layout_x_alignment": "",
             "layout_desktop_width": 4,
-            "layout_mobile_width": 10
+            "layout_mobile_width": 9
           }
         },
         "template--20255012585802__a8d3025c-9049-4f85-a99f-46d25ccfbc8d-content-3": {
@@ -125,7 +125,7 @@
             "layout_y_alignment": "items-end content-end",
             "layout_x_alignment": "",
             "layout_desktop_width": 4,
-            "layout_mobile_width": 10
+            "layout_mobile_width": 9
           }
         },
         "d28393ad-ff5b-41ba-9203-a16e275e82ae": {
@@ -200,7 +200,7 @@
             "layout_y_alignment": "items-start content-start",
             "layout_x_alignment": "",
             "layout_desktop_width": 4,
-            "layout_mobile_width": 6
+            "layout_mobile_width": 9
           }
         },
         "c8152b54-58df-4dc4-9541-caca178967b2": {
@@ -225,7 +225,7 @@
             "layout_y_alignment": "items-end content-end",
             "layout_x_alignment": "",
             "layout_desktop_width": 4,
-            "layout_mobile_width": 8
+            "layout_mobile_width": 9
           }
         },
         "d9e70f2b-0e46-4e4f-9009-0db12518c49e": {
@@ -250,7 +250,7 @@
             "layout_y_alignment": "items-end content-end",
             "layout_x_alignment": "",
             "layout_desktop_width": 4,
-            "layout_mobile_width": 8
+            "layout_mobile_width": 9
           }
         }
       },
@@ -484,8 +484,8 @@
             "enable_gradient": false,
             "layout_y_alignment": "items-end content-end",
             "layout_x_alignment": "",
-            "layout_desktop_width": 5,
-            "layout_mobile_width": 8
+            "layout_desktop_width": 4,
+            "layout_mobile_width": 9
           }
         },
         "template--20255012585802__7cc67359-14bf-4d4d-8d22-e04fc9a82f5e-content-2": {
@@ -509,8 +509,8 @@
             "enable_gradient": false,
             "layout_y_alignment": "items-end content-end",
             "layout_x_alignment": "",
-            "layout_desktop_width": 5,
-            "layout_mobile_width": 8
+            "layout_desktop_width": 4,
+            "layout_mobile_width": 9
           }
         },
         "template--20255012585802__7cc67359-14bf-4d4d-8d22-e04fc9a82f5e-content-3": {
@@ -534,8 +534,8 @@
             "enable_gradient": false,
             "layout_y_alignment": "items-end content-end",
             "layout_x_alignment": "",
-            "layout_desktop_width": 5,
-            "layout_mobile_width": 8
+            "layout_desktop_width": 4,
+            "layout_mobile_width": 9
           }
         }
       },
