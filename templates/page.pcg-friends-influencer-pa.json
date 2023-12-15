@@ -732,6 +732,7 @@
         "6de10f51-b619-4732-b126-dbe995c5c15c",
         "e1568577-b756-400c-8349-673b6c16814d"
       ],
+      "disabled": true,
       "settings": {
         "title": "Default Title"
       }
