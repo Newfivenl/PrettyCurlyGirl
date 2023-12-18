@@ -86,12 +86,11 @@
         },
         "bbdb9132-986a-4b6b-8717-642f0cff1f05": {
           "type": "countdown_timer",
-          "disabled": true,
           "settings": {
-            "timer_title": "CYBER MONDAY",
+            "timer_title": "CHRISTMAS SALE",
             "timer_link_title": "",
             "timer_link": "",
-            "timer_date": "nov 28, 2023 00:00:00",
+            "timer_date": "Dec 20, 2023 23:59:59",
             "timer_title_after_time_expires": ""
           }
         },
