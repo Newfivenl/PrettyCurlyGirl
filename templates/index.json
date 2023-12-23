@@ -161,7 +161,7 @@
         "template--18730720428336__f96b8e1b-0fd4-4c65-856c-cdd01fe228cc-1681420271694828b0-1": {
           "type": "content",
           "settings": {
-            "content": "<p>Discover our Christmas sale. Get 15% off everything. This week only. Discount automatically applied at checkout. <br\/><\/p>"
+            "content": "<p>Experience the difference with our high quality & curly girl approved ingredients.<\/p>"
           }
         },
         "template--18730720428336__f96b8e1b-0fd4-4c65-856c-cdd01fe228cc-1681420271694828b0-2": {
@@ -185,7 +185,7 @@
 
       ],
       "settings": {
-        "image_background_mobile": "shopify:\/\/shop_images\/AF4A9186_1.jpg",
+        "image_background_mobile": "shopify:\/\/shop_images\/shutterstock_1873777390.jpg",
         "show_entire_image": false,
         "enable_lazy_loading": false,
         "show_video_background_mobile": false,
