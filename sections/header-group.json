@@ -7,27 +7,25 @@
       "blocks": {
         "b8a10923-6977-408e-b82a-5cafe92c5f2b": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "content": "<p>CHRISTMAS SALE -15% OFF EVERYTHING - LIMITED TIME OFFER<\/p>"
           }
         },
         "f2232503-8685-46db-aaf1-b796c5ea14f9": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "content": "<p>FREE DELIVERY NETHERLAND FOR ORDERS OVER 50,-<\/p>"
           }
         },
         "fa2fb51e-2a00-4875-8dfd-b402f0de9eac": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "content": "<p>WORLDWIDE DELIVERY<\/p>"
           }
         },
         "0aef7f69-5126-412f-b8c7-8453e5ee49b4": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "content": "<p>EXPRESS USA DELIVERY IN 3 DAYS FOR 19,95<\/p>"
           }
