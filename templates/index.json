@@ -108,7 +108,7 @@
         "template--19487943393610__fbb1d9cb-4bbf-4522-8356-5cfeb332bcce-content-1": {
           "type": "content",
           "settings": {
-            "content": "<p><br\/>Discover our Christmas sale. Get 15% off everything. This week only. Discount automatically applied at checkout. <br\/><br\/><\/p>",
+            "content": "<p><br\/>Experience the difference with our high quality & curly girl approved ingredients.<br\/><br\/><\/p>",
             "content_text": ""
           }
         },
@@ -135,7 +135,7 @@
         ".color__bg-primary {background: #e2c0a3;}"
       ],
       "settings": {
-        "image_background_desktop": "shopify:\/\/shop_images\/image0_28.jpg",
+        "image_background_desktop": "shopify:\/\/shop_images\/shutterstock_1873777390.jpg",
         "enable_lazy_loading": false,
         "color_scheme": "color__bg-primary color__primary",
         "color_text": "color__dark",
