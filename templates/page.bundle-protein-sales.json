@@ -29,7 +29,7 @@
       ],
       "settings": {
         "banner_image": "shopify:\/\/shop_images\/budle_set_4_products.jpg",
-        "banner_heading": "Curly Hair Routine",
+        "banner_heading": "Curly Hair Routine that makes you smile",
         "banner_text": "This bundle is the answer to create gorgeous defined, bouncy, shiny and healthy curls. It works on all hair types. Are you ready to create the best curls you can have?",
         "enable_review_stars": true,
         "review_count": "84",
@@ -438,7 +438,7 @@
             "spacing_bottom": 20,
             "color_scheme": "color__bg-body color__text",
             "style_border": "border--b-width",
-            "enable_quantity": true,
+            "enable_quantity": false,
             "enable_dynamic_checkout": false,
             "content": "<p><strong>Free shipping<\/strong> on orders over <strong>€50,-<\/strong> in NL<\/p>"
           }
@@ -485,7 +485,7 @@
         "877ba202-2962-4ba6-a390-660532e64aa3"
       ],
       "settings": {
-        "product": "keep-it-simple-bundle-with-protein",
+        "product": "keep-it-simple-bundle-with-protein-1",
         "enable_default_variant": true,
         "media_gallery_style": "slider",
         "enable_zoom": true,
