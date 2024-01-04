@@ -472,6 +472,16 @@
             "title": "Ingredients",
             "content": "{{ section.settings.product.metafields.custom.ingredients_text | metafield_tag }}"
           }
+        },
+        "ba74d61d-e38b-49e7-88bd-5668d89fc865": {
+          "type": "text",
+          "settings": {
+            "spacing_top": 10,
+            "spacing_bottom": 10,
+            "color_scheme": "color__bg-body color__text",
+            "style_border": "",
+            "content": "<p>Order before 20.00, shipped same day<\/p>"
+          }
         }
       },
       "block_order": [
@@ -482,7 +492,8 @@
         "template--19929447825738__9c3da5e6-46ce-4594-91b5-bf698168311e-add-1",
         "template--19929447825738__9c3da5e6-46ce-4594-91b5-bf698168311e-description-1",
         "c2c7da28-9f8c-4aee-bdac-d3be22d134e2",
-        "877ba202-2962-4ba6-a390-660532e64aa3"
+        "877ba202-2962-4ba6-a390-660532e64aa3",
+        "ba74d61d-e38b-49e7-88bd-5668d89fc865"
       ],
       "settings": {
         "product": "keep-it-simple-bundle-with-protein-1",
