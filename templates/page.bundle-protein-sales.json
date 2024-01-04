@@ -448,7 +448,7 @@
           "settings": {
             "color_scheme": "color__bg-body color__text",
             "style_border": "border--b-width",
-            "enable_open": false
+            "enable_open": true
           }
         },
         "c2c7da28-9f8c-4aee-bdac-d3be22d134e2": {
