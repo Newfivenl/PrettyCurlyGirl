@@ -431,6 +431,16 @@
             "style_border": ""
           }
         },
+        "ba74d61d-e38b-49e7-88bd-5668d89fc865": {
+          "type": "text",
+          "settings": {
+            "spacing_top": 10,
+            "spacing_bottom": 10,
+            "color_scheme": "color__bg-body color__text",
+            "style_border": "",
+            "content": "<p>✅ Order before 20.00, shipped same day<\/p>"
+          }
+        },
         "template--19929447825738__9c3da5e6-46ce-4594-91b5-bf698168311e-add-1": {
           "type": "add",
           "settings": {
@@ -472,16 +482,6 @@
             "title": "Ingredients",
             "content": "{{ section.settings.product.metafields.custom.ingredients_text | metafield_tag }}"
           }
-        },
-        "ba74d61d-e38b-49e7-88bd-5668d89fc865": {
-          "type": "text",
-          "settings": {
-            "spacing_top": 10,
-            "spacing_bottom": 10,
-            "color_scheme": "color__bg-body color__text",
-            "style_border": "",
-            "content": "<p>Order before 20.00, shipped same day<\/p>"
-          }
         }
       },
       "block_order": [
@@ -489,11 +489,11 @@
         "template--19929447825738__9c3da5e6-46ce-4594-91b5-bf698168311e-price-1",
         "template--19929447825738__9c3da5e6-46ce-4594-91b5-bf698168311e-options-1",
         "1c5a8216-6e55-49b2-8890-79fed4268d44",
+        "ba74d61d-e38b-49e7-88bd-5668d89fc865",
         "template--19929447825738__9c3da5e6-46ce-4594-91b5-bf698168311e-add-1",
         "template--19929447825738__9c3da5e6-46ce-4594-91b5-bf698168311e-description-1",
         "c2c7da28-9f8c-4aee-bdac-d3be22d134e2",
-        "877ba202-2962-4ba6-a390-660532e64aa3",
-        "ba74d61d-e38b-49e7-88bd-5668d89fc865"
+        "877ba202-2962-4ba6-a390-660532e64aa3"
       ],
       "settings": {
         "product": "keep-it-simple-bundle-with-protein-1",
