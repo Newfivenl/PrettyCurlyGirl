@@ -1,0 +1,96 @@
+/* @font-face {
+    font-family: 'proxima_nova';
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    src: url('proxima-nova-regular.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'proxima_nova';
+    src: url('proxima-nova-semibold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display:swap;
+  }
+  
+  @font-face {
+    font-family: 'axia_regular';
+    src: url('axia-regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display:swap;
+  }
+
+@font-face {
+    font-family: 'axia_regular';
+    src: url('axia-regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display:swap;
+} */
+
+#klaviyo-bis-modal {
+
+    .modal-title {
+        font-family: Helvetica, arial;
+        text-transform: uppercase;
+    }
+
+    p, input, button {
+        font-family: Helvetica, sans-serif;
+        border-radius: 0px;
+    }
+
+    #container {
+        border-radius: 0px;
+        bottom:0;
+    }
+}
+@media only screen and (min-width: 500px) {
+
+#klaviyo-bis-modal {
+    max-width: 520px;
+    margin: auto;
+}
+#klaviyo-bis-modal #container {
+  border-radius: 0px;
+  bottom:50%;
+}
+}
+.btn {
+  border-radius:5px;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+.input-lg {
+  border:none;
+  border-bottom: 1px solid #fff;
+  padding-left:15px;
+  background-color: #ffffffde;
+}
+.input-lg:focus-visible {
+  border:none;
+  outline: none;
+}
+#container {
+  position: absolute;
+  bottom: 0;
+}
+/* Define the keyframes animation */
+@keyframes slideUpFadeIn {
+  0% {
+    transform: translateY(100%); /* Starts from outside the bottom */
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0); /* Ends at its normal position */
+    opacity: 1;
+  }
+}
+
+/* When parent has .fadein class, apply the animation to the #container */
+.fadein #container {
+  opacity: 1;
+  animation: slideUpFadeIn 0.5s forwards; /* 1s is the animation duration, you can adjust as needed */
+}
