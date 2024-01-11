@@ -127,7 +127,9 @@ Possible enhancements:
           @click="back_in_stock_popup = true">
           {{ "back_in_stock.notify" | t }}
         </button> -->
+        {% if product.selected_or_first_available_variant.available == false %}
       {% render 'klaviyo-back-in-stock-btn', product: product %}
+        {% endif %}
       </div>
     {% endif %}
     <button
