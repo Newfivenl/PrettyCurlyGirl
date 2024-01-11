@@ -121,12 +121,13 @@ Possible enhancements:
     </button>
     {% if blocksettings.enable_notify_me %}
       <div x-show="!defaultAvailable && defaultVariantExists" class="mb-2">
-        <button
+        <!-- <button
           class="btn !w-full"
           type="button"
           @click="back_in_stock_popup = true">
           {{ "back_in_stock.notify" | t }}
-        </button>
+        </button> -->
+      {% render 'klaviyo-back-in-stock-btn', product: product %}
       </div>
     {% endif %}
     <button
