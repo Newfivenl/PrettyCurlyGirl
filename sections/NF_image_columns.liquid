@@ -1,0 +1,89 @@
+<!-- sections/NF_image_columns.liquid -->
+{% comment %} 
+grid of images
+
+  Globals:
+    - settings.layout_horizontal: horizontaly margin
+
+  Possible enhancements:
+    - Add support for global setting to control grid gap.
+
+  Pro tips:
+    - Use this to highlight recent or featured articles anywhere on your site.
+{% endcomment %}
+
+{% schema %}
+{
+    "name": "Image columns",
+    "class": "image-columns",
+    "settings": [
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "Your Title Here"
+        }
+    ],
+    "blocks": [
+        {
+            "type": "image_with_text",
+            "name": "Image with Text",
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": "Image"
+                },
+                {
+                    "type": "text",
+                    "id": "text",
+                    "label": "Text",
+                    "default": "Enter your text"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "Default Image columns",
+            "category": "Custom",
+            "settings": {
+                "title": "Default Title"
+            },
+            "blocks": [
+                {
+                    "type": "image_with_text"
+                }
+            ]
+        }
+    ]
+}
+{% endschema %}
+
+{% stylesheet %}
+
+{% endstylesheet %}
+
+{% javascript %}
+// Optional JavaScript can be added here
+{% endjavascript %}
+
+
+<section class="window">
+    {% if section.settings.title != blank %}
+        <h2 class="text-2xl font-bold">{{ section.settings.title }}</h2>
+    {% endif %}
+    <div class="flex flex-wrap gap-4">
+        {% for block in section.blocks %}
+            <div class="flex-1 relative ">
+                {% if block.settings.image != blank %}
+                    <img class="w-full aspect-[4/5] " src="{{ block.settings.image | img_url: '300x300' }}" alt="{{ block.settings.text | escape }}">
+                {% endif %}
+                {% if block.settings.text != blank %}
+                    <p class="absolute bottom-2 left-2 text-white font-bold">{{ block.settings.text }}</p>
+                {% endif %}
+            </div>
+        {% endfor %}
+    </div>
+</section>
+
