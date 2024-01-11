@@ -65,9 +65,9 @@
 }
 .input-lg {
   border:none;
-  border-bottom: 1px solid #5b5b5b;
-  padding-left:0;
-  background-color: transparent;
+  border-bottom: 1px solid #fff;
+  padding-left:15px;
+  background-color: #ffffffde;
 }
 .input-lg:focus-visible {
   border:none;
