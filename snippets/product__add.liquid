@@ -119,7 +119,7 @@ Possible enhancements:
         {{ 'products.general.choose_options' | t }}
       </div>
     </button>
-    {% if blocksettings.enable_notify_me %}
+    {% if block.settings.enable_notify_me %}
       <div x-show="!defaultAvailable && defaultVariantExists" class="mb-2">
         <!-- <button
           class="btn !w-full"
