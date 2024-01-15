@@ -572,7 +572,7 @@
           "type": "content",
           "settings": {
             "heading": "Pretty Foundation",
-            "content": "<p>Same product different packaging. <\/p>",
+            "content": "<p>Same product different packaging and 3,- will go into the pretty foundation. <\/p>",
             "button_label": "Pretty will donate 3,-",
             "button_url": "shopify:\/\/collections\/pretty-foundation",
             "full_block_link": false,
