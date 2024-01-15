@@ -543,6 +543,7 @@
         },
         "108a3766-9a6c-4037-8c9a-aad78fd92fb5": {
           "type": "content",
+          "disabled": true,
           "settings": {
             "heading": "NEW",
             "content": "",
@@ -550,6 +551,32 @@
             "button_url": "shopify:\/\/products\/damage-repair-spray",
             "full_block_link": false,
             "image_featured": "shopify:\/\/shop_images\/image1_4_90cbebb2-773d-4e9f-b936-df4b0488f38e.png",
+            "enable_autoplay": true,
+            "enable_mute_toggle": true,
+            "enable_loop": true,
+            "spacing_top": 80,
+            "spacing_bottom": 0,
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "color__border-divider-1",
+            "color_text": "color__text",
+            "color_button": "btn btn--secondary",
+            "enable_gradient": false,
+            "layout_y_alignment": "items-end content-end",
+            "layout_x_alignment": "",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md: md:col-span-1"
+          }
+        },
+        "content_F3YK4R": {
+          "type": "content",
+          "settings": {
+            "heading": "Pretty Foundation",
+            "content": "<p>Same product different packaging. <\/p>",
+            "button_label": "Pretty will donate 3,-",
+            "button_url": "shopify:\/\/collections\/pretty-foundation",
+            "full_block_link": false,
+            "image_featured": "shopify:\/\/shop_images\/image0_34.png",
             "enable_autoplay": true,
             "enable_mute_toggle": true,
             "enable_loop": true,
@@ -577,7 +604,8 @@
         "ec996a86-3f30-4e3f-b9f0-819ef2f4e794",
         "1a34bfab-a3a9-4886-81fb-fc43fc99fe79",
         "b9475fa8-659b-4236-97b0-721c3357fdfb",
-        "108a3766-9a6c-4037-8c9a-aad78fd92fb5"
+        "108a3766-9a6c-4037-8c9a-aad78fd92fb5",
+        "content_F3YK4R"
       ],
       "settings": {
         "heading": "Shop by Category",
