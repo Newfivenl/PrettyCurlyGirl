@@ -572,8 +572,8 @@
           "type": "content",
           "settings": {
             "heading": "Pretty Foundation",
-            "content": "<p>Same product different packaging and 3,- will go into the pretty foundation. <\/p>",
-            "button_label": "Pretty will donate 3,-",
+            "content": "<p>Same product different packaging and 2,- will go into the pretty foundation. <\/p>",
+            "button_label": "Pretty will donate 2,-",
             "button_url": "shopify:\/\/collections\/pretty-foundation",
             "full_block_link": false,
             "image_featured": "shopify:\/\/shop_images\/image0_34.png",
