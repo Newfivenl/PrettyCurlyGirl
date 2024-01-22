@@ -32,7 +32,6 @@
       "blocks": {
         "6963d72e-056b-4a9f-879f-6bc3c1f25bb5": {
           "type": "rating",
-          "disabled": true,
           "settings": {
             "spacing_top": 10,
             "spacing_bottom": 0,
@@ -308,7 +307,7 @@
         "color_scheme": "color__bg-body color__text",
         "color_border": "color__border-divider-1",
         "style_border": "border--b-width",
-        "layout_padding": false
+        "layout_padding": true
       }
     }
   },
