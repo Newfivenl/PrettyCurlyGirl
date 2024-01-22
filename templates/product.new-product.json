@@ -267,11 +267,33 @@
         "style_border": "border--b-width",
         "visibility": ""
       }
+    },
+    "17059364315966e3a3": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_fqTpxk": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_fqTpxk"
+      ],
+      "settings": {
+        "spacing_top": 100,
+        "spacing_bottom": 100,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "style_border": "border--b-width",
+        "layout_padding": true
+      }
     }
   },
   "order": [
     "1638995507af787164",
     "1649436653425ff0fe",
-    "1649436645dda33170"
+    "1649436645dda33170",
+    "17059364315966e3a3"
   ]
 }
