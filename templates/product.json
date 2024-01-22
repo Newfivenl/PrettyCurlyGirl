@@ -289,12 +289,34 @@
         "style_border": "border--b-width",
         "visibility": ""
       }
+    },
+    "170593590776d1b5b4": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_RVcJUj": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_RVcJUj"
+      ],
+      "settings": {
+        "spacing_top": 100,
+        "spacing_bottom": 100,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "style_border": "border--b-width",
+        "layout_padding": false
+      }
     }
   },
   "order": [
     "2e17b9be-af79-4d92-a3f0-f68c8823ca08",
     "1638995507af787164",
     "1649436653425ff0fe",
-    "1649436645dda33170"
+    "1649436645dda33170",
+    "170593590776d1b5b4"
   ]
 }
