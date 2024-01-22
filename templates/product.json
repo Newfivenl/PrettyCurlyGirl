@@ -32,12 +32,12 @@
       "blocks": {
         "judge_me_reviews_preview_badge_GVp7Pt": {
           "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
           "settings": {
           }
         },
         "6963d72e-056b-4a9f-879f-6bc3c1f25bb5": {
           "type": "rating",
-          "disabled": true,
           "settings": {
             "spacing_top": 10,
             "spacing_bottom": 0,
