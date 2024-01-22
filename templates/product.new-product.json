@@ -5,7 +5,6 @@
       "blocks": {
         "6963d72e-056b-4a9f-879f-6bc3c1f25bb5": {
           "type": "rating",
-          "disabled": true,
           "settings": {
             "spacing_top": 10,
             "spacing_bottom": 0,
