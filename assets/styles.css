@@ -5129,6 +5129,9 @@ html {
 .\[\&\>p\]\:text-\[14px\]>p {
   font-size: 14px;
 }
+.\[\&\>p\]\:text-\[12px\]>p {
+  font-size: 12px;
+}
 .\[\&\>p\]\:leading-normal>p {
   line-height: 1.5;
 }
