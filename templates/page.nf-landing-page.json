@@ -51,6 +51,15 @@
         "banner_heading": "5 REASONS WHY YOU’LL LOVE PRETTY CURLY GIRL PRODUCTS"
       }
     },
+    "nf_founded_dCt4x3": {
+      "type": "nf-founded",
+      "settings": {
+        "banner_image": "shopify:\/\/shop_images\/Screenshot_2024-01-26_at_10.58.48_AM.png",
+        "title": "Founded by cosmetics artist, Hanan el Fizazi",
+        "content": "<p>I want to give you the best curly hair products possible for all hair types<\/p>",
+        "name": "- Hanan"
+      }
+    },
     "4aaa1b8f-9f96-4d73-be22-025a4db67b70": {
       "type": "nf-banner-section",
       "blocks": {
@@ -618,6 +627,7 @@
   },
   "order": [
     "nf_banner_section_2_Xdd8x3",
+    "nf_founded_dCt4x3",
     "4aaa1b8f-9f96-4d73-be22-025a4db67b70",
     "b707287c-4623-455e-87da-06d56c22dd5b",
     "b9f0017b-ba5e-4589-a993-74eb88e71782",
