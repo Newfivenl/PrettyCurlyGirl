@@ -36,8 +36,20 @@
           "settings": {
           }
         },
+        "liquid_FNJybL": {
+          "type": "liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"ml-0  color__border-divider-1>\n<a href=\"#judgeme_product_reviews\">\n    {% assign rating = product.metafields.reviews.rating.value.rating | times: 1 %}\n    {% assign max = product.metafields.reviews.rating.value.scale_max %}\n\n    <div class=\"flex items-center text-right\">\n      {%- if product.metafields.reviews.rating.value != blank -%}\n        <span>{{ product.metafields.reviews.rating.value.rating | round: 2 }}<\/span> \n        {% for iteration in (1..max) %}\n          {% if iteration <= rating %}\n            {% render 'component__icon', icon: 'star', size: '16', class: 'ml-1' %} \n          {% else %}\n            <span class=\"fa fa-star\"><\/span>\n          {% endif %}\n        {% endfor %}\n        <span class=\"type--small ml-1 opacity-75\">({{ product.metafields.reviews.rating_count }})<\/span>\n      {%- endif -%}\n    <\/div>\n   <\/a>\n  <\/div>",
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "color_scheme": "color__bg-body color__text",
+            "style_border": "",
+            "position": "right"
+          }
+        },
         "6963d72e-056b-4a9f-879f-6bc3c1f25bb5": {
           "type": "rating",
+          "disabled": true,
           "settings": {
             "spacing_top": 10,
             "spacing_bottom": 0,
@@ -241,6 +253,7 @@
       },
       "block_order": [
         "judge_me_reviews_preview_badge_GVp7Pt",
+        "liquid_FNJybL",
         "6963d72e-056b-4a9f-879f-6bc3c1f25bb5",
         "bef9bd40-2a8e-45c2-ae54-59c9ef6f0e26",
         "853ae7f0-85c9-45dc-8326-6e4044bcf5e5",
