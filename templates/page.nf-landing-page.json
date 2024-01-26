@@ -1,5 +1,44 @@
 {
   "sections": {
+    "4aaa1b8f-9f96-4d73-be22-025a4db67b70": {
+      "type": "nf-banner-section",
+      "blocks": {
+        "496e2385-4ce1-4748-89e8-f22c7940e6c1": {
+          "type": "list_item",
+          "settings": {
+            "item_text": "Extreme high concentration of flaxseed extract"
+          }
+        },
+        "2dc7e959-1267-4568-aa95-ce02f1b3d281": {
+          "type": "list_item",
+          "settings": {
+            "item_text": "Shiny, healthy and bouncy curls"
+          }
+        },
+        "c9e7b764-d964-4273-ab8d-568d1eddc9d0": {
+          "type": "list_item",
+          "settings": {
+            "item_text": "For all curl types"
+          }
+        }
+      },
+      "block_order": [
+        "496e2385-4ce1-4748-89e8-f22c7940e6c1",
+        "2dc7e959-1267-4568-aa95-ce02f1b3d281",
+        "c9e7b764-d964-4273-ab8d-568d1eddc9d0"
+      ],
+      "settings": {
+        "banner_image": "shopify:\/\/shop_images\/NEW_style_Copy.webp",
+        "banner_heading": "creates a magical CURL DEFINITION",
+        "banner_text": "Our Magical Flaxseed Gel is the answer to create gorgeous defined, bouncy, shiny and healthy curls. It works on all hair types. Are you ready to create the best curls you can have.",
+        "enable_review_stars": true,
+        "review_count": "74",
+        "button_text": "SHOP NOW",
+        "button_link": "\/pages\/magical-flaxseed-gel#featured",
+        "free_delivery_text": "Free delivery on all orders over €50,-",
+        "free_delivery_icon": ""
+      }
+    },
     "nf_banner_section_2_Xdd8x3": {
       "type": "nf-banner-section-2",
       "blocks": {
@@ -46,58 +85,10 @@
         "list_item_AdNMaq",
         "list_item_gEPniD"
       ],
+      "disabled": true,
       "settings": {
         "banner_image": "shopify:\/\/shop_images\/banner-img.webp",
         "banner_heading": "5 REASONS WHY YOU’LL LOVE PRETTY CURLY GIRL PRODUCTS"
-      }
-    },
-    "nf_founded_dCt4x3": {
-      "type": "nf-founded",
-      "settings": {
-        "banner_image": "shopify:\/\/shop_images\/founder.png",
-        "title": "Founded by cosmetics artist, Hanan el Fizazi",
-        "content": "<p>I want to give you the best curly hair products possible for all hair types<\/p>",
-        "name": "- Hanan"
-      }
-    },
-    "4aaa1b8f-9f96-4d73-be22-025a4db67b70": {
-      "type": "nf-banner-section",
-      "blocks": {
-        "496e2385-4ce1-4748-89e8-f22c7940e6c1": {
-          "type": "list_item",
-          "settings": {
-            "item_text": "Extreme high concentration of flaxseed extract"
-          }
-        },
-        "2dc7e959-1267-4568-aa95-ce02f1b3d281": {
-          "type": "list_item",
-          "settings": {
-            "item_text": "Shiny, healthy and bouncy curls"
-          }
-        },
-        "c9e7b764-d964-4273-ab8d-568d1eddc9d0": {
-          "type": "list_item",
-          "settings": {
-            "item_text": "For all curl types"
-          }
-        }
-      },
-      "block_order": [
-        "496e2385-4ce1-4748-89e8-f22c7940e6c1",
-        "2dc7e959-1267-4568-aa95-ce02f1b3d281",
-        "c9e7b764-d964-4273-ab8d-568d1eddc9d0"
-      ],
-      "disabled": true,
-      "settings": {
-        "banner_image": "shopify:\/\/shop_images\/NEW_style_Copy.webp",
-        "banner_heading": "creates a magical CURL DEFINITION",
-        "banner_text": "Our Magical Flaxseed Gel is the answer to create gorgeous defined, bouncy, shiny and healthy curls. It works on all hair types. Are you ready to create the best curls you can have.",
-        "enable_review_stars": true,
-        "review_count": "74",
-        "button_text": "SHOP NOW",
-        "button_link": "\/pages\/magical-flaxseed-gel#featured",
-        "free_delivery_text": "Free delivery on all orders over €50,-",
-        "free_delivery_icon": ""
       }
     },
     "b707287c-4623-455e-87da-06d56c22dd5b": {
@@ -138,10 +129,19 @@
         "section_sub_heading": "Our Magical Flaxseed Gel will control your frizz and will give your curls an incredible curl definition with a magical shine."
       }
     },
+    "nf_founded_dCt4x3": {
+      "type": "nf-founded",
+      "settings": {
+        "banner_image": "shopify:\/\/shop_images\/founder.png",
+        "title": "Founded by cosmetics artist, Hanan el Fizazi",
+        "content": "<p>I want to give you the best curly hair products possible for all hair types<\/p>",
+        "name": "- Hanan"
+      }
+    },
     "b9f0017b-ba5e-4589-a993-74eb88e71782": {
       "type": "nf-featured-section",
       "settings": {
-        "section_heading": "We're a woman owned company and driven to give you the best products for your curly hair.",
+        "section_heading": "",
         "section_image": "shopify:\/\/shop_images\/100mlGelLR-removebg-preview.png",
         "section_text1": "High concentration of flaxseed",
         "section_text2": "Shiny, healthy & bouncy curls",
@@ -587,7 +587,7 @@
         "judge_me_reviews_featured_carousel_AJqRFW"
       ],
       "custom_css": [
-        ".jdgm-carousel-title {font-size:24px;text-transform:uppercase;}"
+        ".jdgm-carousel-title {font-size: 24px; text-transform: uppercase;}"
       ],
       "settings": {
         "spacing_top": 0,
@@ -651,10 +651,10 @@
     }
   },
   "order": [
-    "nf_banner_section_2_Xdd8x3",
-    "nf_founded_dCt4x3",
     "4aaa1b8f-9f96-4d73-be22-025a4db67b70",
+    "nf_banner_section_2_Xdd8x3",
     "b707287c-4623-455e-87da-06d56c22dd5b",
+    "nf_founded_dCt4x3",
     "b9f0017b-ba5e-4589-a993-74eb88e71782",
     "48eae37e-2344-486e-bb2d-7312ffe942c0",
     "065b7e41-d90d-40fa-a059-6bd7f6447a65",
