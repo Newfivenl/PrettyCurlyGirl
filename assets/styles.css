@@ -1139,6 +1139,9 @@ img:after {
 .bottom-\[-5px\] {
   bottom: -5px;
 }
+.bottom-\[36px\] {
+  bottom: 36px;
+}
 .bottom-\[50\%\] {
   bottom: 50%;
 }
@@ -1169,6 +1172,9 @@ img:after {
 .left-\[50\%\] {
   left: 50%;
 }
+.left-\[80px\] {
+  left: 80px;
+}
 .left-auto {
   left: auto;
 }
@@ -1189,6 +1195,9 @@ img:after {
 }
 .right-\[10px\] {
   right: 10px;
+}
+.right-\[186px\] {
+  right: 186px;
 }
 .right-\[19\.53px\] {
   right: 19.53px;
@@ -1675,6 +1684,9 @@ img:after {
 .h-\[70vh\] {
   height: 70vh;
 }
+.h-\[730px\] {
+  height: 730px;
+}
 .h-\[inherit\] {
   height: inherit;
 }
@@ -1987,11 +1999,17 @@ img:after {
 .max-w-\[45\%\] {
   max-width: 45%;
 }
+.max-w-\[490px\] {
+  max-width: 490px;
+}
 .max-w-\[50\%\] {
   max-width: 50%;
 }
 .max-w-\[57rem\] {
   max-width: 57rem;
+}
+.max-w-\[590px\] {
+  max-width: 590px;
 }
 .max-w-\[855px\] {
   max-width: 855px;
@@ -2232,6 +2250,9 @@ img:after {
 .gap-4 {
   gap: 1rem;
 }
+.gap-\[20px\] {
+  gap: 20px;
+}
 .gap-x-1 {
   -moz-column-gap: 0.25rem;
        column-gap: 0.25rem;
@@ -2427,6 +2448,10 @@ img:after {
   --tw-bg-opacity: 1;
   background-color: rgb(250 240 240 / var(--tw-bg-opacity));
 }
+.bg-\[\#FAFAFA\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 250 250 / var(--tw-bg-opacity));
+}
 .bg-\[\#FFFFFF\] {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -2573,10 +2598,6 @@ img:after {
   padding-left: 0px;
   padding-right: 0px;
 }
-.py-\[15px\] {
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
 .py-\[10px\] {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -2643,6 +2664,12 @@ img:after {
 }
 .pl-8 {
   padding-left: 2rem;
+}
+.pl-\[110px\] {
+  padding-left: 110px;
+}
+.pl-\[80px\] {
+  padding-left: 80px;
 }
 .pr-1 {
   padding-right: 0.25rem;
@@ -2792,6 +2819,9 @@ img:after {
 }
 .leading-normal {
   line-height: 1.5;
+}
+.leading-tight {
+  line-height: 1.25;
 }
 .tracking-\[\.06px\] {
   letter-spacing: .06px;
@@ -4300,12 +4330,31 @@ html {
     --tw-ring-color: rgb(31 41 55 / 0.7);
   }
 }
+@media (max-width: 989px) {
+  .max-\[989px\]\:w-full {
+    width: 100%;
+  }
+  .max-\[989px\]\:flex-col {
+    flex-direction: column;
+  }
+  .max-\[989px\]\:gap-\[50px\] {
+    gap: 50px;
+  }
+  .max-\[989px\]\:pt-\[50px\] {
+    padding-top: 50px;
+  }
+}
 @media not all and (min-width: 768px) {
   .max-md\:bottom-\[-36px\] {
     bottom: -36px;
   }
   .max-md\:bottom-\[6\.39\%\] {
     bottom: 6.39%;
+  }
+}
+@media (max-width: 680px) {
+  .max-\[680px\]\:hidden {
+    display: none;
   }
 }
 @media not all and (min-width: 640px) {
@@ -4335,6 +4384,32 @@ html {
   }
   .max-sm\:leading-\[1\.286\] {
     line-height: 1.286;
+  }
+}
+@media (max-width: 640px) {
+  .max-\[640px\]\:mb-\[20px\] {
+    margin-bottom: 20px;
+  }
+  .max-\[640px\]\:h-\[400px\] {
+    height: 400px;
+  }
+  .max-\[640px\]\:gap-\[10px\] {
+    gap: 10px;
+  }
+  .max-\[640px\]\:pb-\[20px\] {
+    padding-bottom: 20px;
+  }
+  .max-\[640px\]\:pl-\[0px\] {
+    padding-left: 0px;
+  }
+  .max-\[640px\]\:pl-\[30px\] {
+    padding-left: 30px;
+  }
+  .max-\[640px\]\:text-center {
+    text-align: center;
+  }
+  .max-\[640px\]\:leading-\[32px\] {
+    line-height: 32px;
   }
 }
 @media (min-width: 360px) {
@@ -5069,6 +5144,9 @@ html {
   .lg\:text-left {
     text-align: left;
   }
+  .lg\:text-\[36px\] {
+    font-size: 36px;
+  }
   .lg\:text-\[42px\] {
     font-size: 42px;
   }
@@ -5123,23 +5201,36 @@ html {
 .\[\&\>div\]\:font-semibold>div {
   font-weight: 600;
 }
+.\[\&\>p\]\:mt-\[5px\]>p {
+  margin-top: 5px;
+}
 .\[\&\>p\]\:text-\[16px\]>p {
   font-size: 16px;
 }
-.\[\&\>p\]\:text-\[14px\]>p {
-  font-size: 14px;
+.\[\&\>p\]\:text-\[40px\]>p {
+  font-size: 40px;
 }
 .\[\&\>p\]\:text-\[12px\]>p {
   font-size: 12px;
 }
+.\[\&\>p\]\:italic>p {
+  font-style: italic;
+}
+.\[\&\>p\]\:leading-\[20px\]>p {
+  line-height: 20px;
+}
+.\[\&\>p\]\:leading-\[50px\]>p {
+  line-height: 50px;
+}
 .\[\&\>p\]\:leading-normal>p {
   line-height: 1.5;
 }
-.\[\&\>p\]\:leading-none>p {
-  line-height: 1;
-}
 .\[\&\>p\]\:leading-\[19px\]>p {
   line-height: 19px;
+}
+.\[\&\>p\]\:text-white>p {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 .\[\&\>p\]\:text-\[\#222222\]>p {
   --tw-text-opacity: 1;
