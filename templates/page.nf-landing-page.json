@@ -1,5 +1,56 @@
 {
   "sections": {
+    "nf_banner_section_2_Xdd8x3": {
+      "type": "nf-banner-section-2",
+      "blocks": {
+        "list_item_h69QpF": {
+          "type": "list_item",
+          "settings": {
+            "item_text": "Clean, gentle ingredients",
+            "item_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p>"
+          }
+        },
+        "list_item_6fmabd": {
+          "type": "list_item",
+          "settings": {
+            "item_text": "High concentration of active ingredients",
+            "item_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p>"
+          }
+        },
+        "list_item_UQyztG": {
+          "type": "list_item",
+          "settings": {
+            "item_text": "Small amount needed",
+            "item_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p>"
+          }
+        },
+        "list_item_AdNMaq": {
+          "type": "list_item",
+          "settings": {
+            "item_text": "98% natural ingredients",
+            "item_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p>"
+          }
+        },
+        "list_item_gEPniD": {
+          "type": "list_item",
+          "settings": {
+            "item_text": "Product works as promised",
+            "item_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "list_item_h69QpF",
+        "list_item_6fmabd",
+        "list_item_UQyztG",
+        "list_item_AdNMaq",
+        "list_item_gEPniD"
+      ],
+      "settings": {
+        "banner_image": "shopify:\/\/shop_images\/keep-it-simple-protein.webp",
+        "banner_heading": "5 REASONS WHY YOU’LL LOVE PRETTY CURLY GIRL PRODUCTS"
+      }
+    },
     "4aaa1b8f-9f96-4d73-be22-025a4db67b70": {
       "type": "nf-banner-section",
       "blocks": {
@@ -27,6 +78,7 @@
         "2dc7e959-1267-4568-aa95-ce02f1b3d281",
         "c9e7b764-d964-4273-ab8d-568d1eddc9d0"
       ],
+      "disabled": true,
       "settings": {
         "banner_image": "shopify:\/\/shop_images\/NEW_style_Copy.webp",
         "banner_heading": "creates a magical CURL DEFINITION",
@@ -565,6 +617,7 @@
     }
   },
   "order": [
+    "nf_banner_section_2_Xdd8x3",
     "4aaa1b8f-9f96-4d73-be22-025a4db67b70",
     "b707287c-4623-455e-87da-06d56c22dd5b",
     "b9f0017b-ba5e-4589-a993-74eb88e71782",
