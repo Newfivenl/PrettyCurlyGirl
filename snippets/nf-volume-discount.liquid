@@ -1,0 +1,25 @@
+<div class="p-[2rem] bg-[#F0EDEB] rounded-[5px]">
+    {% if blocksettings.volume_discount_title != blank %}
+        <h3 class="type--base !leading-tight mb-0.5 uppercase type__heading text-[#7E695D]">{{ blocksettings.volume_discount_title }}</h3>
+    {% endif %}
+    {% if blocksettings.volume_discount_sub_title != blank %}
+        <p class="text-[14px] text-[#222222]">{{ blocksettings.volume_discount_sub_title }}</p>
+    {% endif %}
+
+    {% assign discount_block = product.metafields.custom.discount_block %}
+    {% assign json_discount_block = discount_block.value | json_parse %}
+    {% if discount_block != blank %}
+        <div class="usp-dialog-discount-block">
+            {% for key in json_discount_block %}
+            <div class="flex items-center justify-between px-[0px] py-[10px] [&>div]:font-semibold [&>div]:text-[14px] border-0 border-b-[1px] border-solid border-[#D4D4D4]">
+                <div>{{ key.title }}</div>
+                <div>{{ key.discount }}</div>
+            </div>
+            {% endfor %}
+        </div>
+    {% endif %}
+    
+    {% if blocksettings.volume_discount_content != blank %}
+        <div class="[&>p]:text-[12px] [&>p]:text-[#222222] [&>p]:leading-[19px] mt-[10px]">{{ blocksettings.volume_discount_content }}</div>
+    {% endif %}
+</div>
