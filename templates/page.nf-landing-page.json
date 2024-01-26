@@ -540,6 +540,16 @@
             "title": "Ingredients",
             "content": "{{ section.settings.product.metafields.custom.ingredients_text | metafield_tag }}"
           }
+        },
+        "volume_discount_mhTT6N": {
+          "type": "volume_discount",
+          "settings": {
+            "volume_discount_title": "",
+            "volume_discount_sub_title": "",
+            "volume_discount_content": "",
+            "spacing_top": 0,
+            "spacing_bottom": 0
+          }
         }
       },
       "block_order": [
@@ -550,7 +560,8 @@
         "template--19929447825738__9c3da5e6-46ce-4594-91b5-bf698168311e-add-1",
         "template--19929447825738__9c3da5e6-46ce-4594-91b5-bf698168311e-description-1",
         "c2c7da28-9f8c-4aee-bdac-d3be22d134e2",
-        "877ba202-2962-4ba6-a390-660532e64aa3"
+        "877ba202-2962-4ba6-a390-660532e64aa3",
+        "volume_discount_mhTT6N"
       ],
       "settings": {
         "product": "magical-flaxseed-gel-250ml-tube",
