@@ -525,6 +525,9 @@
       "block_order": [
         "judge_me_reviews_featured_carousel_AJqRFW"
       ],
+      "custom_css": [
+        ".jdgm-carousel-title {font-size:24px;text-transform:uppercase;}"
+      ],
       "settings": {
         "spacing_top": 0,
         "spacing_bottom": 100,
