@@ -2820,6 +2820,9 @@ img:after {
 .leading-normal {
   line-height: 1.5;
 }
+.leading-tight {
+  line-height: 1.25;
+}
 .tracking-\[\.06px\] {
   letter-spacing: .06px;
 }
