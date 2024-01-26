@@ -382,7 +382,11 @@
                 {% endif %}
               {%- when 'countdown_timer' -%}
                 {% render 'product__NF_countdown', block: block %}
-    
+              {% when 'volume_discount' %}
+                <div class="px-4"  style="padding-top:{{ block.settings.spacing_top }}px; padding-bottom:{{ block.settings.spacing_bottom }}px;">
+                  {% render 'nf-volume-discount', blocksettings: block.settings %}
+                </div>
+                
               {% when '@app' %}
                 {% render block %}
                 
@@ -514,8 +518,6 @@
                     </div>
                   {% endif %}
 
-                
-
                 {%- when 'rating' -%}
                   {% if block.settings.position == "left" %}
                     {% render 'product__rating', blocksettings: block.settings %}
@@ -525,6 +527,7 @@
                   {% if block.settings.position == "left" %}
                     {% render 'product__liquid', blocksettings: block.settings %}
                   {% endif %}
+                
 
               {%- endcase -%}
             {% endfor %}
@@ -3885,6 +3888,52 @@
            }
           ],
           "default":"right"
+        }
+      ]
+    },
+    {
+      "type": "volume_discount",
+      "name": "Volume Discount",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "volume_discount_title",
+          "label": "Discount title" 
+        },
+        {
+          "type": "text",
+          "id": "volume_discount_sub_title",
+          "label": "Discount sub title" 
+        },
+        {
+          "type": "richtext",
+          "id": "volume_discount_content",
+          "label": "Discount content"
+        },
+        {
+          "type": "header",
+          "content": "t:sections.all.headers.header__22.content"
+        },
+        {
+          "type":"range",
+          "id":"spacing_top",
+          "min":0,
+          "max":300,
+          "step":20,
+          "unit":"px",
+          "label":"t:sections.all.layout.settings.spacing.label_top",
+          "default":0
+        },
+        {
+          "type":"range",
+          "id":"spacing_bottom",
+          "min":0,
+          "max":300,
+          "step":20,
+          "unit":"px",
+          "label":"t:sections.all.layout.settings.spacing.label_bottom",
+          "default":0
         }
       ]
     }

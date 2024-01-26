@@ -131,7 +131,10 @@
                 {%- when 'accordion' -%}
                   {% render 'product__accordion', 
                     blocksettings: block.settings %}
-  
+                    {% when 'volume_discount' %}
+                      <div class="px-4"  style="padding-top:{{ block.settings.spacing_top }}px; padding-bottom:{{ block.settings.spacing_bottom }}px;">
+                        {% render 'nf-volume-discount', blocksettings: block.settings %}
+                      </div>
                 {%- when 'popup' -%}
                   {% render 'product__popup', 
                     blocksettings: block.settings %}
@@ -533,6 +536,52 @@
     }
   ],
   "blocks":[
+    {
+      "type": "volume_discount",
+      "name": "Volume Discount",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "volume_discount_title",
+          "label": "Discount title" 
+        },
+        {
+          "type": "text",
+          "id": "volume_discount_sub_title",
+          "label": "Discount sub title" 
+        },
+        {
+          "type": "richtext",
+          "id": "volume_discount_content",
+          "label": "Discount content"
+        },
+        {
+          "type": "header",
+          "content": "t:sections.all.headers.header__22.content"
+        },
+        {
+          "type":"range",
+          "id":"spacing_top",
+          "min":0,
+          "max":300,
+          "step":20,
+          "unit":"px",
+          "label":"t:sections.all.layout.settings.spacing.label_top",
+          "default":0
+        },
+        {
+          "type":"range",
+          "id":"spacing_bottom",
+          "min":0,
+          "max":300,
+          "step":20,
+          "unit":"px",
+          "label":"t:sections.all.layout.settings.spacing.label_bottom",
+          "default":0
+        }
+      ]
+    },
     {
       "type":"title",
       "name":"t:sections.product_main.blocks.title.name",
