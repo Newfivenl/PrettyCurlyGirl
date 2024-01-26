@@ -543,6 +543,7 @@
         },
         "volume_discount_mhTT6N": {
           "type": "volume_discount",
+          "disabled": true,
           "settings": {
             "volume_discount_title": "",
             "volume_discount_sub_title": "",
