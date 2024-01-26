@@ -1241,12 +1241,6 @@ img:after {
 .top-auto {
   top: auto;
 }
-.bottom-3 {
-  bottom: 0.75rem;
-}
-.left-3 {
-  left: 0.75rem;
-}
 .\!z-10 {
   z-index: 10 !important;
 }
@@ -1522,6 +1516,9 @@ img:after {
 .mt-auto {
   margin-top: auto;
 }
+.mr-\[30px\] {
+  margin-right: 30px;
+}
 .block {
   display: block;
 }
@@ -1606,6 +1603,9 @@ img:after {
 .h-4 {
   height: 1rem;
 }
+.h-40 {
+  height: 10rem;
+}
 .h-5 {
   height: 1.25rem;
 }
@@ -1687,11 +1687,8 @@ img:after {
 .h-full {
   height: 100%;
 }
-.h-20 {
-  height: 5rem;
-}
-.h-40 {
-  height: 10rem;
+.h-\[730px\] {
+  height: 730px;
 }
 .max-h-\[100vh\] {
   max-height: 100vh;
@@ -2023,6 +2020,12 @@ img:after {
 .max-w-xs {
   max-width: 20rem;
 }
+.max-w-\[490px\] {
+  max-width: 490px;
+}
+.max-w-\[590px\] {
+  max-width: 590px;
+}
 .flex-1 {
   flex: 1 1 0%;
 }
@@ -2241,6 +2244,9 @@ img:after {
 .gap-4 {
   gap: 1rem;
 }
+.gap-\[20px\] {
+  gap: 20px;
+}
 .gap-x-1 {
   -moz-column-gap: 0.25rem;
        column-gap: 0.25rem;
@@ -2434,6 +2440,13 @@ img:after {
 }
 .bg-white\/30 {
   background-color: rgb(255 255 255 / 0.3);
+}
+.bg-\[\#\#FAFAFA\] {
+  background-color: ##FAFAFA;
+}
+.bg-\[\#FAFAFA\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 250 250 / var(--tw-bg-opacity));
 }
 .bg-opacity-25 {
   --tw-bg-opacity: 0.25;
@@ -2667,6 +2680,15 @@ img:after {
 .pt-\[89px\] {
   padding-top: 89px;
 }
+.pr-\[80px\] {
+  padding-right: 80px;
+}
+.pl-\[110px\] {
+  padding-left: 110px;
+}
+.pl-\[80px\] {
+  padding-left: 80px;
+}
 .text-left {
   text-align: left;
 }
@@ -2860,6 +2882,9 @@ img:after {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.text-\[\#\#514843\] {
+  color: ##514843;
 }
 .\!underline {
   text-decoration-line: underline !important;
@@ -4274,6 +4299,20 @@ html {
     --tw-ring-color: rgb(31 41 55 / 0.7);
   }
 }
+@media (max-width: 989px) {
+  .max-\[989px\]\:w-full {
+    width: 100%;
+  }
+  .max-\[989px\]\:flex-col {
+    flex-direction: column;
+  }
+  .max-\[989px\]\:gap-\[50px\] {
+    gap: 50px;
+  }
+  .max-\[989px\]\:pt-\[50px\] {
+    padding-top: 50px;
+  }
+}
 @media not all and (min-width: 768px) {
   .max-md\:bottom-\[-36px\] {
     bottom: -36px;
@@ -4309,6 +4348,32 @@ html {
   }
   .max-sm\:leading-\[1\.286\] {
     line-height: 1.286;
+  }
+}
+@media (max-width: 640px) {
+  .max-\[640px\]\:mb-\[20px\] {
+    margin-bottom: 20px;
+  }
+  .max-\[640px\]\:h-\[400px\] {
+    height: 400px;
+  }
+  .max-\[640px\]\:gap-\[10px\] {
+    gap: 10px;
+  }
+  .max-\[640px\]\:pb-\[20px\] {
+    padding-bottom: 20px;
+  }
+  .max-\[640px\]\:pl-\[30px\] {
+    padding-left: 30px;
+  }
+  .max-\[640px\]\:pl-\[0px\] {
+    padding-left: 0px;
+  }
+  .max-\[640px\]\:text-center {
+    text-align: center;
+  }
+  .max-\[640px\]\:leading-\[32px\] {
+    line-height: 32px;
   }
 }
 @media (min-width: 360px) {
@@ -4399,9 +4464,6 @@ html {
   }
   .sm\:max-w-\[70\%\] {
     max-width: 70%;
-  }
-  .sm\:flex-\[0_0_calc\(50\%-8px\)\] {
-    flex: 0 0 calc(50% - 8px);
   }
   .sm\:rotate-0 {
     --tw-rotate: 0deg;
@@ -4645,9 +4707,6 @@ html {
   .md\:h-\[82px\] {
     height: 82px;
   }
-  .md\:h-40 {
-    height: 10rem;
-  }
   .md\:max-h-\[400px\] {
     max-height: 400px;
   }
@@ -4797,9 +4856,6 @@ html {
   }
   .md\:max-w-md {
     max-width: 28rem;
-  }
-  .md\:flex-\[0_0_calc\(50\%-8px\)\] {
-    flex: 0 0 calc(50% - 8px);
   }
   .md\:flex-1 {
     flex: 1 1 0%;
@@ -5055,8 +5111,14 @@ html {
   .lg\:text-\[42px\] {
     font-size: 42px;
   }
+  .lg\:text-\[36px\] {
+    font-size: 36px;
+  }
   .lg\:leading-tight {
     line-height: 1.25;
+  }
+  .lg\:leading-normal {
+    line-height: 1.5;
   }
 }
 @media (min-width: 1280px) {
@@ -5100,9 +5162,37 @@ html {
     padding-left: 6rem;
   }
 }
+.\[\&\>\]\:leading-normal> {
+  line-height: 1.5;
+}
+.\[\&\>p\]\:mt-\[10px\]>p {
+  margin-top: 10px;
+}
+.\[\&\>p\]\:mt-\[5px\]>p {
+  margin-top: 5px;
+}
 .\[\&\>p\]\:text-\[16px\]>p {
   font-size: 16px;
 }
+.\[\&\>p\]\:text-\[40px\]>p {
+  font-size: 40px;
+}
+.\[\&\>p\]\:italic>p {
+  font-style: italic;
+}
 .\[\&\>p\]\:leading-normal>p {
   line-height: 1.5;
+}
+.\[\&\>p\]\:leading-none>p {
+  line-height: 1;
+}
+.\[\&\>p\]\:leading-\[20px\]>p {
+  line-height: 20px;
+}
+.\[\&\>p\]\:leading-\[50px\]>p {
+  line-height: 50px;
+}
+.\[\&\>p\]\:text-white>p {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }

@@ -1,0 +1,47 @@
+<section class="mx-auto flex h-full justify-center nf-founded  bg-[#AB8F80]">
+    <div class="flex flex-col w-10/12 max-[989px]:pt-[50px]">
+        <div class="flex max-[989px]:flex-col max-[989px]:gap-[50px] max-[640px]:gap-[10px]">
+            <div class="relative sm:h-full w-1/2 max-[989px]:w-full flex flex-col justify-center ">
+                <h5 class="text-white uppercase font-normal pl-[80px] max-[640px]:pl-[0px]">{{ section.settings.title }}</h5>
+                <div class="max-w-[590px] pl-[110px] max-[640px]:pl-[30px] [&>p]:text-[40px] [&>p]:leading-[50px] [&>p]:max[640px]:text-[30px] [&>p]:max[640px]:leading-[40px] [&>p]:text-white [&>p]:italic">{{ section.settings.content }}</div>
+                <span class=" max-w-[490px] text-right text-white">{{ section.settings.name }}</span>
+            </div>
+            <div class="flex flex-col sm:h-full w-1/2 max-[989px]:w-full">
+            <img src="{{ section.settings.banner_image | img_url: 'master' }}" alt="hero-img"
+                class="max-[640px]:h-[400px] w-full object-contain origin-top-right " /> 
+            </div>
+        </div>
+    </div>
+</section>
+{% schema %}
+{
+    "name": "NF - Founded",
+    "settings": [
+        {
+            "type": "image_picker",
+            "id": "banner_image",
+            "label": "Image"
+        },
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+        },
+        {
+            "type": "richtext",
+            "id": "content",
+            "label": "content"
+        },
+        {
+            "type": "text",
+            "id": "name",
+            "label": "Name"
+        }
+    ],
+    "presets": [
+        {
+            "name": "NF - Founded"
+        }
+    ]
+}
+{% endschema %}

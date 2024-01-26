@@ -1,0 +1,82 @@
+<section class="mx-auto flex h-full w-full justify-center banner-section-2 ">
+  <div class="flex w-full flex-col">
+    <!-- Banner Image and Text -->
+    <div class="flex flex-col sm:flex-row">
+      <!-- Image -->
+      <div class="relative sm:h-full sm:w-1/2">
+        <img src="{{ section.settings.banner_image | img_url: 'master' }}" alt="hero-img"
+          class="h-[730px] max-[640px]:h-[400px] w-full object-cover sm:object-[80%,70%] origin-top-right " /> 
+      </div>
+      <!-- Text -->
+      <div class="flex flex-col bg-clr-secondry bg-[#FAFAFA] sm:h-full sm:w-1/2 lg:items-center lg:justify-center ">
+        <div class="px-6 xl:w-[510px] text-clr-primary sm:h-full xl:h-fit sm:p-6 md:p-10 lg:p-16 xl:p-0 pt-3">
+          {% if section.settings.banner_heading != blank %}
+            <h2
+              class="leading-51 mt-2 mb-[50px] text-left font-oswald text-[1.68rem] text-[#514843] font-normal uppercase tracking-normal opacity-100 lg:text-[36px] leading-normal max-[640px]:leading-[32px] max-[640px]:text-center max-[640px]:mb-[20px]">
+              {{ section.settings.banner_heading }}
+            </h2>
+          {% endif %}
+          <!-- List Items -->
+          <ul class="flex flex-col space-y-4 p-0 max-[640px]:pb-[20px]">
+            {% for block in section.blocks %}
+              <li class="flex gap-[20px]">
+                <h3 class="font-oswald font-medium text-[30px] text-[#7E695D]">{{ forloop.index }}</h3>
+                <div class="[&>p]:text-[16px] [&>p]:leading-[20px] [&>p]:mt-[5px]">
+                    <h5 class="text-[#7E695D] uppercase m-0">{{ block.settings.item_text }}</h5>
+                    {{ block.settings.item_content }}
+                </div>
+              </li>
+            {% endfor %}
+          </ul>
+          <!-- ... rest of the markup remains the same -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+{% schema %}
+  {
+    "name": "NF - Banner section 2",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "banner_image",
+        "label": "Banner Image"
+      },
+      {
+        "type": "text",
+        "id": "banner_heading",
+        "label": "Heading",
+        "default": "5 REASONS WHY YOU’LL LOVE PRETTY CURLY GIRL PRODUCTS"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "list_item",
+        "name": "List Item",
+        "limit": 5,
+        "settings": [
+          {
+            "type": "text",
+            "id": "item_text",
+            "label": "Item title",
+            "default": "Lorem ipsum dolor sit amet"
+          },
+          {
+            "type": "richtext",
+            "id": "item_content",
+            "label": "Item content",
+            "default": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "NF - Banner section 2"
+      }
+    ]
+  }
+{% endschema %}
