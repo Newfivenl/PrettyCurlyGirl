@@ -1139,8 +1139,8 @@ img:after {
 .bottom-\[-5px\] {
   bottom: -5px;
 }
-.bottom-\[36px\] {
-  bottom: 36px;
+.bottom-\[20px\] {
+  bottom: 20px;
 }
 .bottom-\[50\%\] {
   bottom: 50%;
@@ -1160,6 +1160,9 @@ img:after {
 .left-\[-14\.63\%\] {
   left: -14.63%;
 }
+.left-\[-27px\] {
+  left: -27px;
+}
 .left-\[-47px\] {
   left: -47px;
 }
@@ -1171,9 +1174,6 @@ img:after {
 }
 .left-\[50\%\] {
   left: 50%;
-}
-.left-\[80px\] {
-  left: 80px;
 }
 .left-auto {
   left: auto;
@@ -1204,9 +1204,6 @@ img:after {
 }
 .right-\[33\.17px\] {
   right: 33.17px;
-}
-.right-\[380px\] {
-  right: 380px;
 }
 .right-\[50\%\] {
   right: 50%;
@@ -1252,33 +1249,6 @@ img:after {
 }
 .top-auto {
   top: auto;
-}
-.bottom-\[36px\] {
-  bottom: 36px;
-}
-.right-\[186px\] {
-  right: 186px;
-}
-.left-\[27\] {
-  left: 27;
-}
-.left-\[-27\] {
-  left: -27;
-}
-.left-\[27px\] {
-  left: 27px;
-}
-.left-\[-27px\] {
-  left: -27px;
-}
-.top-\[36px\] {
-  top: 36px;
-}
-.bottom-\[10px\] {
-  bottom: 10px;
-}
-.bottom-\[20px\] {
-  bottom: 20px;
 }
 .\!z-10 {
   z-index: 10 !important;
@@ -2401,14 +2371,14 @@ img:after {
 .rounded-2xl {
   border-radius: 1rem;
 }
+.rounded-\[5px\] {
+  border-radius: 5px;
+}
 .rounded-\[6px\] {
   border-radius: 6px;
 }
 .rounded-full {
   border-radius: 9999px;
-}
-.rounded-\[5px\] {
-  border-radius: 5px;
 }
 .\!border-0 {
   border-width: 0px !important;
@@ -2568,6 +2538,10 @@ img:after {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
+.px-\[0px\] {
+  padding-left: 0px;
+  padding-right: 0px;
+}
 .px-\[24px\] {
   padding-left: 24px;
   padding-right: 24px;
@@ -2616,6 +2590,10 @@ img:after {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
+.py-\[10px\] {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 .py-\[26px\] {
   padding-top: 26px;
   padding-bottom: 26px;
@@ -2623,14 +2601,6 @@ img:after {
 .py-\[30px\] {
   padding-top: 30px;
   padding-bottom: 30px;
-}
-.px-\[0px\] {
-  padding-left: 0px;
-  padding-right: 0px;
-}
-.py-\[10px\] {
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
 .\!pl-12 {
   padding-left: 3rem !important;
@@ -2903,6 +2873,10 @@ img:after {
   --tw-text-opacity: 1;
   color: rgb(28 28 28 / var(--tw-text-opacity));
 }
+.text-\[\#222222\] {
+  --tw-text-opacity: 1;
+  color: rgb(34 34 34 / var(--tw-text-opacity));
+}
 .text-\[\#514843\] {
   --tw-text-opacity: 1;
   color: rgb(81 72 67 / var(--tw-text-opacity));
@@ -2942,10 +2916,6 @@ img:after {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-.text-\[\#222222\] {
-  --tw-text-opacity: 1;
-  color: rgb(34 34 34 / var(--tw-text-opacity));
 }
 .\!underline {
   text-decoration-line: underline !important;
@@ -5225,8 +5195,17 @@ html {
     padding-left: 6rem;
   }
 }
+.\[\&\>div\]\:text-\[14px\]>div {
+  font-size: 14px;
+}
+.\[\&\>div\]\:font-semibold>div {
+  font-weight: 600;
+}
 .\[\&\>p\]\:mt-\[5px\]>p {
   margin-top: 5px;
+}
+.\[\&\>p\]\:text-\[12px\]>p {
+  font-size: 12px;
 }
 .\[\&\>p\]\:text-\[16px\]>p {
   font-size: 16px;
@@ -5237,6 +5216,9 @@ html {
 .\[\&\>p\]\:italic>p {
   font-style: italic;
 }
+.\[\&\>p\]\:leading-\[19px\]>p {
+  line-height: 19px;
+}
 .\[\&\>p\]\:leading-\[20px\]>p {
   line-height: 20px;
 }
@@ -5245,6 +5227,10 @@ html {
 }
 .\[\&\>p\]\:leading-normal>p {
   line-height: 1.5;
+}
+.\[\&\>p\]\:text-\[\#222222\]>p {
+  --tw-text-opacity: 1;
+  color: rgb(34 34 34 / var(--tw-text-opacity));
 }
 .\[\&\>p\]\:text-white>p {
   --tw-text-opacity: 1;
