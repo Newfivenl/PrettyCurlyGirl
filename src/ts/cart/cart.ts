@@ -75,22 +75,23 @@ export const cart = {
           if(isProductPage) {
             if(this.cart.items.length > 0){
               this.cart.items.forEach((item: any) => {
-                if(item.properties._add_to_cart_max_two_product == 'true'){
+
+                // if(item.properties._add_to_cart_max_two_product == 'true'){
     
-                  const decreaseBtn = document.querySelector('#pdp-btn-decrease') as HTMLElement;
-                  const increaseBtn = document.querySelector('#pdp-btn-increase') as HTMLElement;
-                  const addtToCartBtn =  document.querySelector('#add-to-cart-button') as HTMLElement;
-                  const cartQuantityContainer  = document.querySelector('#cart-quantity-container') as HTMLInputElement;
-                  const quantityMaxOnload = document.querySelector('#quantity-max-onload') as HTMLInputElement;
+                //   const decreaseBtn = document.querySelector('#pdp-btn-decrease') as HTMLElement;
+                //   const increaseBtn = document.querySelector('#pdp-btn-increase') as HTMLElement;
+                //   const addtToCartBtn =  document.querySelector('#add-to-cart-button') as HTMLElement;
+                //   const cartQuantityContainer  = document.querySelector('#cart-quantity-container') as HTMLInputElement;
+                //   const quantityMaxOnload = document.querySelector('#quantity-max-onload') as HTMLInputElement;
                   
-                  cartQuantityContainer.value = item.quantity;
-                  quantityMaxOnload.value = item.quantity;
+                //   cartQuantityContainer.value = item.quantity;
+                //   quantityMaxOnload.value = item.quantity;
                  
-                  addtToCartBtn.removeAttribute('disabled');
-                  //decreaseBtn.removeAttribute('disabled');
-                  //increaseBtn.removeAttribute('disabled');
+                //   addtToCartBtn.removeAttribute('disabled');
+                //   //decreaseBtn.removeAttribute('disabled');
+                //   //increaseBtn.removeAttribute('disabled');
                   
-                }
+                // }
   
               })
             }
@@ -245,17 +246,17 @@ export const cart = {
           if(this.cart.items.length > 0){
             this.cart.items.forEach((item: any) => {
   
-              if(item.properties._add_to_cart_max_two_product == 'true'){
-                const addtToCartBtn =  document.querySelector('#add-to-cart-button') as HTMLElement;
-                const decreaseBtn = document.querySelector('#pdp-btn-decrease') as HTMLElement;
-                const increaseBtn = document.querySelector('#pdp-btn-increase') as HTMLElement;
-                const cartQuantityContainer  = document.querySelector('#cart-quantity-container') as HTMLInputElement;
-                addtToCartBtn.removeAttribute('disabled');
-                //decreaseBtn.removeAttribute('disabled');
-                //increaseBtn.removeAttribute('disabled');
-                //quantityMax.value = '2';
-                //cartQuantityContainer.value = '';
-              }
+              // if(item.properties._add_to_cart_max_two_product == 'true'){
+              //   const addtToCartBtn =  document.querySelector('#add-to-cart-button') as HTMLElement;
+              //   const decreaseBtn = document.querySelector('#pdp-btn-decrease') as HTMLElement;
+              //   const increaseBtn = document.querySelector('#pdp-btn-increase') as HTMLElement;
+              //   const cartQuantityContainer  = document.querySelector('#cart-quantity-container') as HTMLInputElement;
+              //   addtToCartBtn.removeAttribute('disabled');
+              //   //decreaseBtn.removeAttribute('disabled');
+              //   //increaseBtn.removeAttribute('disabled');
+              //   //quantityMax.value = '2';
+              //   //cartQuantityContainer.value = '';
+              // }
   
             })
           }
@@ -285,14 +286,14 @@ export const cart = {
 
     
     var isProductPage = /\/products\/.+/i.test(window.location.pathname);
-    console.log(isProductPage)
+    //console.log(isProductPage)
     
     if(isProductPage){
 
       const productFormContainer = document.querySelector('#product-form-container') as HTMLElement;
       const addToCartMaxtwoProduct = productFormContainer.getAttribute('add-to-cart-max-two-product');
       const cartQuantityContainer  = document.querySelector('#cart-quantity-container') as HTMLInputElement;
-      const  addToCartMaxTwoProductContainer = document.querySelector('#add-to-cart-max-two-product') as HTMLInputElement;
+      // const  addToCartMaxTwoProductContainer = document.querySelector('#add-to-cart-max-two-product') as HTMLInputElement;
 
       if(this.enable_audio) {
         this.playSound(this.click_audio);
@@ -373,8 +374,8 @@ export const cart = {
               selling_plan: sellingPlanId,
               properties: {
                 ...propertiesObj,
-                ...recipientObj,
-                '_add_to_cart_max_two_product': addToCartMaxtwoProduct
+                ...recipientObj
+                //'_add_to_cart_max_two_product': addToCartMaxtwoProduct
               },
             },
           ]}
@@ -397,12 +398,12 @@ export const cart = {
             }
           this.updateCart(true);
             
-            data.items.forEach((item: any) => {
-              if(item.properties._add_to_cart_max_two_product == 'true' && item.quantity >= 2){
-                cartQuantityContainer.value = item.quantity;
-                addToCartMaxTwoProductContainer.value = item.properties._add_to_cart_max_two_product;
-              }
-            });
+            // data.items.forEach((item: any) => {
+            //   if(item.properties._add_to_cart_max_two_product == 'true' && item.quantity >= 2){
+            //     cartQuantityContainer.value = item.quantity;
+            //     addToCartMaxTwoProductContainer.value = item.properties._add_to_cart_max_two_product;
+            //   }
+            // });
   
         }
   

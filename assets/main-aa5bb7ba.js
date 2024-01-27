@@ -252,16 +252,6 @@ const cart = {
       if (isProductPage) {
         if (this.cart.items.length > 0) {
           this.cart.items.forEach((item) => {
-            if (item.properties._add_to_cart_max_two_product == "true") {
-              document.querySelector("#pdp-btn-decrease");
-              document.querySelector("#pdp-btn-increase");
-              const addtToCartBtn = document.querySelector("#add-to-cart-button");
-              const cartQuantityContainer = document.querySelector("#cart-quantity-container");
-              const quantityMaxOnload = document.querySelector("#quantity-max-onload");
-              cartQuantityContainer.value = item.quantity;
-              quantityMaxOnload.value = item.quantity;
-              addtToCartBtn.removeAttribute("disabled");
-            }
           });
         }
       }
@@ -369,13 +359,6 @@ const cart = {
       if (isProductPage) {
         if (this.cart.items.length > 0) {
           this.cart.items.forEach((item) => {
-            if (item.properties._add_to_cart_max_two_product == "true") {
-              const addtToCartBtn = document.querySelector("#add-to-cart-button");
-              document.querySelector("#pdp-btn-decrease");
-              document.querySelector("#pdp-btn-increase");
-              document.querySelector("#cart-quantity-container");
-              addtToCartBtn.removeAttribute("disabled");
-            }
           });
         }
       }
@@ -396,12 +379,10 @@ const cart = {
   },
   addCartItem(form, bundle = false) {
     var isProductPage = /\/products\/.+/i.test(window.location.pathname);
-    console.log(isProductPage);
     if (isProductPage) {
       const productFormContainer = document.querySelector("#product-form-container");
-      const addToCartMaxtwoProduct = productFormContainer.getAttribute("add-to-cart-max-two-product");
-      const cartQuantityContainer = document.querySelector("#cart-quantity-container");
-      const addToCartMaxTwoProductContainer = document.querySelector("#add-to-cart-max-two-product");
+      productFormContainer.getAttribute("add-to-cart-max-two-product");
+      document.querySelector("#cart-quantity-container");
       if (this.enable_audio) {
         this.playSound(this.click_audio);
       }
@@ -470,8 +451,8 @@ const cart = {
             selling_plan: sellingPlanId,
             properties: {
               ...propertiesObj,
-              ...recipientObj,
-              "_add_to_cart_max_two_product": addToCartMaxtwoProduct
+              ...recipientObj
+              //'_add_to_cart_max_two_product': addToCartMaxtwoProduct
             }
           }
         ] };
@@ -489,12 +470,6 @@ const cart = {
             this.playSound(this.success_audio);
           }
           this.updateCart(true);
-          data2.items.forEach((item) => {
-            if (item.properties._add_to_cart_max_two_product == "true" && item.quantity >= 2) {
-              cartQuantityContainer.value = item.quantity;
-              addToCartMaxTwoProductContainer.value = item.properties._add_to_cart_max_two_product;
-            }
-          });
         } else {
           this.error_title = data2.message, this.error_message = data2.description, this.show_alert = true;
           this.cart_loading = false;

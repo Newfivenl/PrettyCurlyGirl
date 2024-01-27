@@ -41,19 +41,19 @@ Possible enhancements:
       <label
         class="type--smaller flex mb-1 opacity-75"
         for="{{ product.id }}-quantity">
-        {{ 'products.general.quantity' | t }}   {% if product.metafields.custom.add_to_cart_max_two_product %} - max 2 products only. {% endif %}
+    {{ 'products.general.quantity' | t }} {% comment %}  {% if product.metafields.custom.add_to_cart_max_two_product %} - max 2 products only. {% endif %} {% endcomment %}
       </label>
       
-      {% if product.metafields.custom.add_to_cart_max_two_product %}
+      {% comment %} {% if product.metafields.custom.add_to_cart_max_two_product %}
         {% assign quantity_increase = 'quantity < max && quantity++;' %}
         {% assign quantity_decrease = 'quantity > min && quantity--;' %}
-      {% else %}
-        {% assign quantity_increase = 'quantity++;' %}
-        {% assign quantity_decrease = 'quantity--;' %}
-      {% endif %}
+      {% else %}{% endif %} {% endcomment %}
+      {% assign quantity_increase = 'quantity++;' %}
+      {% assign quantity_decrease = 'quantity--;' %}
+      
 
       <input type="hidden" id="cart-quantity-container" x-ref="cart_quantity_container" value="">
-      <input type="hidden" id="add-to-cart-max-two-product" x-ref="add_to_cart_max_two_product" value="{% if product.metafields.custom.add_to_cart_max_two_product %}{{ product.metafields.custom.add_to_cart_max_two_product }}{% else %}false{% endif %}">
+      {% comment %} <input type="hidden" id="add-to-cart-max-two-product" x-ref="add_to_cart_max_two_product" value="{% if product.metafields.custom.add_to_cart_max_two_product %}{{ product.metafields.custom.add_to_cart_max_two_product }}{% else %}false{% endif %}"> {% endcomment %}
       
       <div x-data="fetchCartItems()">
         {% comment %} <p x-text="cartQuantity"></p>
@@ -61,7 +61,7 @@ Possible enhancements:
         <p>{{ product.id }}</p>
         <p x-text="productId"></p> {% endcomment %}
         <input type="hidden" value="" x-model="cartQuantity">
-        <input type="hidden"  value="" x-model="maxTwoProducts"> 
+        {% comment %} <input type="hidden"  value="" x-model="maxTwoProducts">  {% endcomment %}
         <input type="hidden" id="quantity-max-onload" value="" x-model="max">
       </div>
       
@@ -81,12 +81,7 @@ Possible enhancements:
           id="pdp-btn-decrease"
           class="btn btn--smaller btn--plain shrink-0 !rounded-none"
           title="{{ 'cart.general.decrease' | t }}"
-          {% if product.metafields.custom.add_to_cart_max_two_product %}
-          x-data="fetchCartItems()"
-          :disabled="disabled || button_loading || cartQuantity >= 2 && maxTwoProducts == 'true' && productId == {{ product.id }} "
-          {% else %}
           :disabled="button_loading"
-          {% endif %}
           @click="
                                     {{ quantity_decrease }}
                                     handleForm(); 
@@ -94,6 +89,13 @@ Possible enhancements:
                                     setTimeout(function(){ button_loading = false}, 500);">
           {% render 'component__icon', icon: 'minus', size: '14', class: '' %}
         </button>
+        {% comment %} {% if product.metafields.custom.add_to_cart_max_two_product %}
+        x-data="fetchCartItems()"
+        :disabled="disabled || button_loading"
+        {% else %}
+        :disabled="button_loading"
+        {% endif %} {% endcomment %}
+        {% comment %} :disabled="disabled || button_loading || cartQuantity >= 2 && maxTwoProducts == 'true' && productId == {{ product.id }} " {% endcomment %}
         <input
           id="{{ product.id }}-quantity"
           class="quantity-{{product.id}} form-input !border-0 text-center !rounded-none"
@@ -118,12 +120,7 @@ Possible enhancements:
           id="pdp-btn-increase"
           class="btn btn--smaller btn--plain shrink-0 !rounded-none"
           title="{{ 'cart.general.increase' | t }}"
-          {% if product.metafields.custom.add_to_cart_max_two_product %}
-          x-data="fetchCartItems()"
-          :disabled="disabled || button_loading || cartQuantity >= 2 && maxTwoProducts == 'true' && productId == {{ product.id }}"
-          {% else %}
           :disabled="button_loading"
-          {% endif %}
           @click="
                                     {{ quantity_increase }}
                                     handleForm();
@@ -131,6 +128,13 @@ Possible enhancements:
                                     setTimeout(function(){ button_loading = false}, 500);">
           {% render 'component__icon', icon: 'plus', size: '14', class: '' %}
         </button>
+        {% comment %} {% if product.metafields.custom.add_to_cart_max_two_product %}
+        x-data="fetchCartItems()"
+        :disabled="disabled || button_loading"
+        {% else %}
+        :disabled="button_loading"
+        {% endif %} {% endcomment %}
+        {% comment %} :disabled="disabled || button_loading || cartQuantity >= 2 && maxTwoProducts == 'true' && productId == {{ product.id }}" {% endcomment %}
       </div>
     </div>
   {% endif %}
@@ -213,7 +217,7 @@ Possible enhancements:
       :class="{ 'btn--loading' : cart_loading && button_loading }"
       {% if product.metafields.custom.add_to_cart_max_two_product %}
       x-data="fetchCartItems()"
-      :disabled="button_loading || incomplete_fields || cartQuantity >= 2 && maxTwoProducts == 'true' && productId == {{ product.id }} || $refs.cart_quantity_container.value >= '2' && $refs.add_to_cart_max_two_product.value == 'true' "
+      :disabled="button_loading || incomplete_fields"
       @click="setTimeout(() => { $dispatch('update-quantity-field', { newQuantity: 1 }) }, 700), $dispatch('disable-pdp-quantity-btn')"
       {% else %}
       :disabled="button_loading || incomplete_fields"
@@ -253,6 +257,7 @@ Possible enhancements:
         {% render 'component__icon', icon: 'spinner', size: '24', class: '' %}
       </div>
     </button>
+    {% comment %} :disabled="button_loading || incomplete_fields || cartQuantity >= 2 && maxTwoProducts == 'true' && productId == {{ product.id }} || $refs.cart_quantity_container.value >= '2' && $refs.add_to_cart_max_two_product.value == 'true' " {% endcomment %}
   </div>
 </div>
 
@@ -261,7 +266,7 @@ Possible enhancements:
   function fetchCartItems() {
     return {
       cartQuantity: '0',
-      maxTwoProducts: '{{ product.metafields.custom.add_to_cart_max_two_product }}',
+      //maxTwoProducts: '{{ product.metafields.custom.add_to_cart_max_two_product }}',
       productId: '',
       min: 1,
       max: 2,
@@ -279,19 +284,19 @@ Possible enhancements:
 
               //console.log(item.properties._add_to_cart_max_two_product)
               
-              if(item.properties._add_to_cart_max_two_product == 'true' && item.quantity >= 2 && item.product_id == {{ product.id }}){
-                this.maxTwoProducts = item.properties._add_to_cart_max_two_product;
-                this.productId = item.product_id;
-                this.cartQuantity = item.quantity;
-              }
+              // if(item.properties._add_to_cart_max_two_product == 'true' && item.quantity >= 2 && item.product_id == {{ product.id }}){
+              //   //this.maxTwoProducts = item.properties._add_to_cart_max_two_product;
+              //   this.productId = item.product_id;
+              //   this.cartQuantity = item.quantity;
+              // }
 
-              if(item.properties._add_to_cart_max_two_product == 'true' && item.product_id == {{ product.id }} ){
-                this.min = 1;
-                this.max = item.quantity;
-                this.maxTwoProducts = item.properties._add_to_cart_max_two_product;
-              }else {
-                this.maxTwoProducts = 'false'
-              }
+              // if(item.properties._add_to_cart_max_two_product == 'true' && item.product_id == {{ product.id }} ){
+              //   this.min = 1;
+              //   this.max = item.quantity;
+              //   //this.maxTwoProducts = item.properties._add_to_cart_max_two_product;
+              // }else {
+              //   //this.maxTwoProducts = 'false'
+              // }
 
             })
           

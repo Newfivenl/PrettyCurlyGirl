@@ -275,21 +275,21 @@
                         </button>
                         <label :for="'cart-' + item.key + '-quantity'" class="sr-only">{{ 'products.general.quantity' | t }}</label>
                         <input :id="'cart-' + item.key + '-quantity'" placeholder="1" type="text" 
-                          x-bind:readonly="item.properties?._add_to_cart_max_two_product == 'true'"
-                          @keydown="if (item.properties?._add_to_cart_max_two_product == 'true') { $event.preventDefault(); }"
                           class="form-input !border-0 text-center !rounded-none" 
                           @change.debounce="
                             changeCartItemQuantity(item.key, item.quantity, false);
                             button_loading = true; 
                             setTimeout(function(){ button_loading = false}, 500);" 
                           x-model='item.quantity'>
+                          {% comment %} @keydown="if (item.properties?._add_to_cart_max_two_product == 'true') { $event.preventDefault(); }" {% endcomment %}
+                          {% comment %} x-bind:readonly="item.properties?._add_to_cart_max_two_product == 'true'" {% endcomment %}
                         <div class="btn__spinner btn--smaller !w-auto"
                           :class="{ '!visible color__bg-overlay-1 z-10' : button_loading }">
                           {% render 'component__icon', icon: 'spinner', size: '16', class: '' %}
                         </div>
 
                         <button class="btn btn--smaller btn--plain shrink-0 !rounded-none"
-                          :disabled="button_loading || item.properties?._add_to_cart_max_two_product == 'true' "
+                          :disabled="button_loading"
                           title="{{ 'cart.general.increase' | t }}"
                           @click="
                             if(changeCartItemQuantity(item.key, item.quantity+1, false, false)) {
@@ -299,6 +299,7 @@
                             }">
                           {% render 'component__icon', icon: 'plus', size: '14', class: '' %}
                         </button>
+                        {% comment %} :disabled="button_loading || item.properties?._add_to_cart_max_two_product == 'true' " {% endcomment %}
                       </div>
                       
                       <div class="flex">
