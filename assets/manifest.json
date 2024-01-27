@@ -1,7 +1,7 @@
 {
-  "src/entrypoints/main.js": {
+  "src\/entrypoints\/main.js": {
     "file": "main-aa5bb7ba.js",
     "isEntry": true,
-    "src": "src/entrypoints/main.js"
+    "src": "src\/entrypoints\/main.js"
   }
 }
