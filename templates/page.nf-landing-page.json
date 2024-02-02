@@ -466,7 +466,7 @@
           "type": "rating",
           "settings": {
             "spacing_top": 5,
-            "spacing_bottom": 5,
+            "spacing_bottom": 0,
             "color_scheme": "color__bg-body color__text",
             "style_border": ""
           }
