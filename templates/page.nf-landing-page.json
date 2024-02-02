@@ -661,12 +661,15 @@
     },
     "product_featured_DyKyjf": {
       "type": "product-featured",
+      "custom_css": [
+        ".btn .btn--secondary {display: none;}"
+      ],
       "settings": {
         "collection": "lp-collectie",
         "products_count": 6,
         "heading": "Combine it with",
         "content": "<p>Many girly girls combine it with these favourites<\/p>",
-        "button_label": "Button",
+        "button_label": "",
         "button_url": "\/collections\/all",
         "spacing_top": 100,
         "spacing_bottom": 100,
