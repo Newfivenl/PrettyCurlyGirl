@@ -662,7 +662,7 @@
     "product_featured_DyKyjf": {
       "type": "product-featured",
       "custom_css": [
-        ".btn .btn--secondary {display: none;}"
+        ".btn--secondary {display: none!important;}"
       ],
       "settings": {
         "collection": "lp-collectie",
