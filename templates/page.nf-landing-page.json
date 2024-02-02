@@ -659,24 +659,25 @@
         "color_scheme": "color__bg-body color__text"
       }
     },
-    "collection_grid_MEFGTb": {
-      "type": "collection-grid",
+    "product_featured_DyKyjf": {
+      "type": "product-featured",
       "settings": {
+        "collection": "lp-collectie",
+        "products_count": 6,
         "heading": "Combine it with",
         "content": "<p>Many girly girls combine it with these favourites<\/p>",
-        "button_label": "",
+        "button_label": "Button",
         "button_url": "\/collections\/all",
-        "spacing_top": 40,
+        "spacing_top": 100,
         "spacing_bottom": 100,
         "color_scheme": "color__bg-body color__text",
         "color_border": "color__border-divider-1",
         "color_button": "btn btn--secondary",
         "style_border": "border--b-width",
-        "row_size_desktop": "md:grid-cols-4",
-        "row_size_mobile": "grid grid-cols-2",
+        "row_size_desktop": "md:grid-cols-3",
+        "row_size_mobile": "grid grid-cols-1",
         "layout_x_alignment": "justify-between",
-        "visibility": "",
-        "enable_collection_size_count": true
+        "visibility": ""
       }
     }
   },
@@ -696,6 +697,6 @@
     "170625585089e24c88",
     "8bc88d48-2771-404e-8b9a-10d364cfa2ba",
     "main",
-    "collection_grid_MEFGTb"
+    "product_featured_DyKyjf"
   ]
 }
