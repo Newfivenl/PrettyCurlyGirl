@@ -462,6 +462,15 @@
     "9c3da5e6-46ce-4594-91b5-bf698168311e": {
       "type": "featured-product",
       "blocks": {
+        "rating_ENXAH6": {
+          "type": "rating",
+          "settings": {
+            "spacing_top": 5,
+            "spacing_bottom": 5,
+            "color_scheme": "color__bg-body color__text",
+            "style_border": ""
+          }
+        },
         "template--19929447825738__9c3da5e6-46ce-4594-91b5-bf698168311e-title-1": {
           "type": "title",
           "settings": {
@@ -554,6 +563,7 @@
         }
       },
       "block_order": [
+        "rating_ENXAH6",
         "template--19929447825738__9c3da5e6-46ce-4594-91b5-bf698168311e-title-1",
         "template--19929447825738__9c3da5e6-46ce-4594-91b5-bf698168311e-price-1",
         "template--19929447825738__9c3da5e6-46ce-4594-91b5-bf698168311e-options-1",
