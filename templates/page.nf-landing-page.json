@@ -610,6 +610,7 @@
     },
     "product_featured_DyKyjf": {
       "type": "product-featured",
+      "disabled": true,
       "custom_css": [
         ".btn--secondary {display: none !important;}"
       ],
