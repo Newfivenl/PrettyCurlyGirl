@@ -154,12 +154,14 @@
       "blocks": {
         "template--18730720428336__f96b8e1b-0fd4-4c65-856c-cdd01fe228cc-1681420271694828b0-0": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "content": "Be Pretty, Be Curly, Be You"
           }
         },
         "template--18730720428336__f96b8e1b-0fd4-4c65-856c-cdd01fe228cc-1681420271694828b0-1": {
           "type": "content",
+          "disabled": true,
           "settings": {
             "content": "<p>Experience the difference with our high quality & curly girl approved ingredients.<\/p>"
           }
@@ -168,11 +170,11 @@
           "type": "buttons",
           "settings": {
             "button_color": "btn btn--secondary",
-            "button_label": "Shop Pretty Curly Girl",
+            "button_label": "SHOP WITH -14% OFF",
             "button_url": "shopify:\/\/collections\/all",
             "secondary_button_color": "btn btn--tertiary",
             "secondary_button_label": "SHOP KIDS Line",
-            "secondary_button_url": "shopify:\/\/collections\/curly-star"
+            "secondary_button_url": ""
           }
         }
       },
@@ -185,7 +187,7 @@
 
       ],
       "settings": {
-        "image_background_mobile": "shopify:\/\/shop_images\/IMG_5331_1.jpg",
+        "image_background_mobile": "shopify:\/\/shop_images\/valentine_sale_1.webp",
         "show_entire_image": false,
         "enable_lazy_loading": false,
         "show_video_background_mobile": false,
@@ -196,7 +198,7 @@
         "style_border": "border--b-width",
         "layout_y_spacing": "min-h-[650px] max-h-[85vh] md:min-h-[80vh]",
         "layout_y_alignment": "items-end",
-        "layout_x_alignment": "justify-start",
+        "layout_x_alignment": "justify-center text-center",
         "visibility": "md:hidden"
       }
     },
