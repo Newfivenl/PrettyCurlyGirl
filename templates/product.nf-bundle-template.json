@@ -130,12 +130,11 @@
         },
         "c59e1f5d-1156-4c73-a40c-5c5a6dbef28c": {
           "type": "countdown_timer",
-          "disabled": true,
           "settings": {
-            "timer_title": "CHRISTMAS SALE",
+            "timer_title": "VALENTINE SALE -14% EVERYTHING",
             "timer_link_title": "",
             "timer_link": "",
-            "timer_date": "Dec 22, 2023 23:59:59",
+            "timer_date": "Feb 16, 2024 23:59:59",
             "timer_title_after_time_expires": ""
           }
         },
