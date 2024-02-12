@@ -155,7 +155,7 @@
         "template--18730720428336__f96b8e1b-0fd4-4c65-856c-cdd01fe228cc-1681420271694828b0-0": {
           "type": "heading",
           "settings": {
-            "content": "VALENTINE SALE 14% OFF"
+            "content": "VALENTINE SALE -14%"
           }
         },
         "template--18730720428336__f96b8e1b-0fd4-4c65-856c-cdd01fe228cc-1681420271694828b0-1": {
@@ -193,7 +193,7 @@
         "color_scheme": "color__bg-overlay-1 color__text",
         "color_text": "color__light",
         "color_border": "color__border-divider-1",
-        "enable_gradient": false,
+        "enable_gradient": true,
         "style_border": "border--b-width",
         "layout_y_spacing": "min-h-[650px] max-h-[85vh] md:min-h-[80vh]",
         "layout_y_alignment": "items-end",
