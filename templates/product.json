@@ -130,7 +130,6 @@
         },
         "c59e1f5d-1156-4c73-a40c-5c5a6dbef28c": {
           "type": "countdown_timer",
-          "disabled": true,
           "settings": {
             "timer_title": "VALENTINE SALE -14% EVERYTHING",
             "timer_link_title": "",
