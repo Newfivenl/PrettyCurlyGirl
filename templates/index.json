@@ -102,13 +102,13 @@
         "template--19487943393610__fbb1d9cb-4bbf-4522-8356-5cfeb332bcce-heading-1": {
           "type": "heading",
           "settings": {
-            "content": "Be Pretty, Be Curly, Be You"
+            "content": "VALENTINE SALE"
           }
         },
         "template--19487943393610__fbb1d9cb-4bbf-4522-8356-5cfeb332bcce-content-1": {
           "type": "content",
           "settings": {
-            "content": "<p><br\/>Experience the difference with our high quality & curly girl approved ingredients.<br\/><br\/><\/p>",
+            "content": "<p>14% Discount on the entire collection. Shop your favorite items at a discount now. Valid this week only.<\/p><p><\/p>",
             "content_text": ""
           }
         },
@@ -135,7 +135,7 @@
         ".color__bg-primary {background: #e2c0a3;}"
       ],
       "settings": {
-        "image_background_desktop": "shopify:\/\/shop_images\/IMG_5331_1.jpg",
+        "image_background_desktop": "shopify:\/\/shop_images\/A6A324A7-96F9-43E9-8513-4FC8C866CA16.png",
         "enable_lazy_loading": false,
         "color_scheme": "color__bg-primary color__primary",
         "color_text": "color__dark",
