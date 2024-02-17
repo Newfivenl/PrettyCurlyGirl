@@ -169,7 +169,7 @@
           "type": "buttons",
           "settings": {
             "button_color": "btn btn--secondary",
-            "button_label": "SHOP WITH -14% OFF",
+            "button_label": "SHOP ALL",
             "button_url": "shopify:\/\/collections\/all",
             "secondary_button_color": "btn btn--tertiary",
             "secondary_button_label": "SHOP KIDS Line",
