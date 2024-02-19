@@ -7,47 +7,9 @@
         "spacing_bottom": 60,
         "color_scheme": "color__bg-body color__text"
       }
-    },
-    "169702038597d5372e": {
-      "type": "apps",
-      "blocks": {
-        "1c54f300-f273-4610-94c4-9f8dda0d238a": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/all_reviews_page\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "disabled": true,
-          "settings": {
-          }
-        },
-        "46e41359-349f-465f-a482-efa3a4969c7a": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/all_reviews_text\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "disabled": true,
-          "settings": {
-          }
-        },
-        "17e916e0-cc1b-4cb4-bb27-3f7bbc998c4d": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "disabled": true,
-          "settings": {
-            "maxwidth": 1080
-          }
-        }
-      },
-      "block_order": [
-        "1c54f300-f273-4610-94c4-9f8dda0d238a",
-        "46e41359-349f-465f-a482-efa3a4969c7a",
-        "17e916e0-cc1b-4cb4-bb27-3f7bbc998c4d"
-      ],
-      "settings": {
-        "spacing_top": 100,
-        "spacing_bottom": 100,
-        "color_scheme": "color__bg-body color__text",
-        "color_border": "color__border-divider-1",
-        "style_border": "border--b-width",
-        "layout_padding": true
-      }
     }
   },
   "order": [
-    "main",
-    "169702038597d5372e"
+    "main"
   ]
 }
