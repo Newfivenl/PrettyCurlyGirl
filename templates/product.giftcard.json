@@ -145,13 +145,14 @@
             "spacing_top": 0,
             "spacing_bottom": 0,
             "color_scheme": "color__bg-body color__text",
-            "style_border": "border--b-width",
+            "style_border": "",
             "position": "left",
-            "enable_open": false
+            "enable_open": true
           }
         },
         "fd18c62c-f5e0-4e28-855f-29aa1676eea3": {
           "type": "accordion",
+          "disabled": true,
           "settings": {
             "title": "How to use",
             "content": "{{ product.metafields.custom.how_to_use | metafield_tag }}",
@@ -164,6 +165,7 @@
         },
         "e330660c-f160-4592-b934-2da2024f8ef8": {
           "type": "accordion",
+          "disabled": true,
           "settings": {
             "title": "Ingredients",
             "content": "{{ product.metafields.custom.ingredients_text | metafield_tag }}",
@@ -230,6 +232,7 @@
         },
         "volume_discount_PaFwij": {
           "type": "volume_discount",
+          "disabled": true,
           "settings": {
             "volume_discount_title": "BUY MORE SAVE MORE",
             "volume_discount_sub_title": "Automatically applied in checkout",
