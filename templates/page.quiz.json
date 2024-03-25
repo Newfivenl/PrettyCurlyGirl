@@ -51,8 +51,8 @@
       "type": "liquid",
       "settings": {
         "liquid": "<div class=\"octane-ai-quiz \" data-quiz-id=\"vubbS2d9RbsBnL2d\" data-embed-type=\"fullpage\" data-mobile-height=\"match_browser\" data-desktop-height=\"match_browser\"><\/div><script src=\"https:\/\/app.octaneai.com\/y0ng51r1pevvob9p\/quiz.js\" async defer><\/script>",
-        "spacing_top": 100,
-        "spacing_bottom": 100,
+        "spacing_top": 0,
+        "spacing_bottom": 0,
         "color_scheme": "color__bg-body color__text",
         "color_border": "color__border-divider-1",
         "style_border": "border--b-width",
