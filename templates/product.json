@@ -128,19 +128,6 @@
             "enable_gift_card_recipient": false
           }
         },
-        "popup_TxdyAX": {
-          "type": "popup",
-          "settings": {
-            "option": "",
-            "title": "Need help with the right products?",
-            "page": "hairquiz",
-            "spacing_top": 10,
-            "spacing_bottom": 10,
-            "color_scheme": "color__bg-body color__text",
-            "style_border": "",
-            "position": "left"
-          }
-        },
         "c59e1f5d-1156-4c73-a40c-5c5a6dbef28c": {
           "type": "countdown_timer",
           "disabled": true,
@@ -186,6 +173,19 @@
             "style_border": "border--b-width",
             "position": "left",
             "enable_open": false
+          }
+        },
+        "popup_TxdyAX": {
+          "type": "popup",
+          "settings": {
+            "option": "",
+            "title": "Need help with the right products?",
+            "page": "hairquiz",
+            "spacing_top": 10,
+            "spacing_bottom": 10,
+            "color_scheme": "color__bg-body color__text",
+            "style_border": "",
+            "position": "left"
           }
         },
         "c18a6be5-7074-4b70-a8e1-d4f845a9e665": {
@@ -274,11 +274,11 @@
         "b78b560b-e1c2-428d-ad73-fb5f8aac6d58",
         "9f1692ea-ccb9-4e4c-9c83-7a6ae53392aa",
         "b78b560b-e1c2-428d-ad73-fb5f8aac6d53",
-        "popup_TxdyAX",
         "c59e1f5d-1156-4c73-a40c-5c5a6dbef28c",
         "123fd04c-91f3-4248-a65a-614e2f64fdeb",
         "fd18c62c-f5e0-4e28-855f-29aa1676eea3",
         "e330660c-f160-4592-b934-2da2024f8ef8",
+        "popup_TxdyAX",
         "c18a6be5-7074-4b70-a8e1-d4f845a9e665",
         "76f2c051-662d-4c42-b036-d6658cf9616f",
         "848f5aea-f7ad-4974-a5fb-020776e3e523",
