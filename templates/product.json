@@ -128,8 +128,22 @@
             "enable_gift_card_recipient": false
           }
         },
+        "popup_TxdyAX": {
+          "type": "popup",
+          "settings": {
+            "option": "",
+            "title": "Need help with the right products?",
+            "page": "hairquiz",
+            "spacing_top": 10,
+            "spacing_bottom": 10,
+            "color_scheme": "color__bg-body color__text",
+            "style_border": "",
+            "position": "right"
+          }
+        },
         "c59e1f5d-1156-4c73-a40c-5c5a6dbef28c": {
           "type": "countdown_timer",
+          "disabled": true,
           "settings": {
             "timer_title": "VALENTINE SALE -14% EVERYTHING",
             "timer_link_title": "",
@@ -248,19 +262,6 @@
             "style_border": "",
             "position": "right"
           }
-        },
-        "popup_TxdyAX": {
-          "type": "popup",
-          "settings": {
-            "option": "",
-            "title": "Need help with the right products?",
-            "page": "hairquiz",
-            "spacing_top": 10,
-            "spacing_bottom": 10,
-            "color_scheme": "color__bg-body color__text",
-            "style_border": "",
-            "position": "right"
-          }
         }
       },
       "block_order": [
@@ -273,6 +274,7 @@
         "b78b560b-e1c2-428d-ad73-fb5f8aac6d58",
         "9f1692ea-ccb9-4e4c-9c83-7a6ae53392aa",
         "b78b560b-e1c2-428d-ad73-fb5f8aac6d53",
+        "popup_TxdyAX",
         "c59e1f5d-1156-4c73-a40c-5c5a6dbef28c",
         "123fd04c-91f3-4248-a65a-614e2f64fdeb",
         "fd18c62c-f5e0-4e28-855f-29aa1676eea3",
@@ -282,8 +284,7 @@
         "848f5aea-f7ad-4974-a5fb-020776e3e523",
         "3db25bb5-c745-4ead-a0a8-35abd3655cda",
         "volume_discount_PaFwij",
-        "3ba7f3c7-8c36-4bc9-9233-efb1153b1728",
-        "popup_TxdyAX"
+        "3ba7f3c7-8c36-4bc9-9233-efb1153b1728"
       ],
       "settings": {
         "enable_default_variant": true,
