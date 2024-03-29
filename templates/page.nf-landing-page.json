@@ -620,13 +620,12 @@
     },
     "product_featured_DyKyjf": {
       "type": "product-featured",
-      "disabled": true,
       "custom_css": [
         ".btn--secondary {display: none !important;}"
       ],
       "settings": {
-        "collection": "lp-collectie",
-        "products_count": 6,
+        "collection": "lp-magical",
+        "products_count": 1,
         "heading": "Combine it with",
         "content": "<p>Many girly girls combine it with these favourites<\/p>",
         "button_label": "",
