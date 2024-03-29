@@ -551,8 +551,8 @@
         "877ba202-2962-4ba6-a390-660532e64aa3"
       ],
       "settings": {
-        "product": "magical-flaxseed-gel-250ml-3-goes-to-the-pretty-foundation",
-        "enable_default_variant": false,
+        "product": "magical-flaxseed-gel-250ml-tube",
+        "enable_default_variant": true,
         "media_gallery_style": "slider",
         "enable_zoom": true,
         "enable_alt": false,
