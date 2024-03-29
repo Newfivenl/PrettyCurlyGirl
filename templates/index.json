@@ -108,7 +108,7 @@
         "template--19487943393610__fbb1d9cb-4bbf-4522-8356-5cfeb332bcce-content-1": {
           "type": "content",
           "settings": {
-            "content": "<p><br\/>We've redefined curly beauty by embracing the 'less is more'<br\/>philosophy and by crafting formulas keeping it very pure and simple.<\/p><p><\/p><p><\/p>",
+            "content": "<p><br\/>We've redefined curly beauty by embracing the 'less is more'<br\/>philosophy and by crafting formulas keeping it very pure and simple.<br\/><\/p><p><\/p><p><\/p>",
             "content_text": ""
           }
         },
@@ -135,7 +135,7 @@
         ".color__bg-primary {background: #e2c0a3;}"
       ],
       "settings": {
-        "image_background_desktop": "shopify:\/\/shop_images\/budleset4products.jpg",
+        "image_background_desktop": "shopify:\/\/shop_images\/image0_40.png",
         "enable_lazy_loading": false,
         "color_scheme": "color__bg-primary color__primary",
         "color_text": "color__dark",
