@@ -2,6 +2,88 @@
   "type": "footer",
   "name": "Footer group",
   "sections": {
+    "featured_product_XYbrEy": {
+      "type": "featured-product",
+      "blocks": {
+        "title_HRkcfG": {
+          "type": "title",
+          "settings": {
+            "spacing_top": 20,
+            "spacing_bottom": 10,
+            "color_scheme": "color__bg-body color__text",
+            "style_border": "",
+            "enable_thumbnails_product_type": false,
+            "enable_thumbnails_vendor": false,
+            "content": ""
+          }
+        },
+        "price_HmVyyb": {
+          "type": "price",
+          "settings": {
+            "spacing_top": 0,
+            "spacing_bottom": 20,
+            "color_scheme": "color__bg-body color__text",
+            "style_border": "border--b-width"
+          }
+        },
+        "options_DEPqmU": {
+          "type": "options",
+          "settings": {
+            "spacing_top": 10,
+            "spacing_bottom": 10,
+            "color_scheme": "color__bg-body color__text",
+            "style_border": ""
+          }
+        },
+        "add_KB9DaY": {
+          "type": "add",
+          "settings": {
+            "spacing_top": 20,
+            "spacing_bottom": 20,
+            "color_scheme": "color__bg-body color__text",
+            "style_border": "border--b-width",
+            "enable_quantity": false,
+            "enable_dynamic_checkout": false,
+            "content": "<p>Remind customers of offers like free shipping and lifetime warranty<\/p>"
+          }
+        },
+        "description_h6m8rM": {
+          "type": "description",
+          "settings": {
+            "color_scheme": "color__bg-body color__text",
+            "style_border": "border--b-width",
+            "enable_open": false
+          }
+        }
+      },
+      "block_order": [
+        "title_HRkcfG",
+        "price_HmVyyb",
+        "options_DEPqmU",
+        "add_KB9DaY",
+        "description_h6m8rM"
+      ],
+      "settings": {
+        "product": "magical-flaxseed-gel-250ml-tube",
+        "enable_default_variant": true,
+        "media_gallery_style": "grid",
+        "enable_zoom": true,
+        "enable_alt": false,
+        "enable_variant_images": false,
+        "media_color_scheme": "color__bg-overlay-1 color__text",
+        "media_ratio": "aspect-[2\/3] aspect-w-2 aspect-h-3",
+        "media_object-sizing": "cover",
+        "enable_ratio": true,
+        "show_product_badges": true,
+        "spacing_top": 0,
+        "spacing_bottom": 0,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "style_border": "",
+        "layout_gallery_size": "w-full md:w-1\/2",
+        "visibility": ""
+      }
+    },
     "theme_footer": {
       "type": "theme__footer",
       "blocks": {
@@ -56,6 +138,7 @@
     }
   },
   "order": [
+    "featured_product_XYbrEy",
     "theme_footer"
   ]
 }
