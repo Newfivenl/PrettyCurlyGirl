@@ -506,8 +506,21 @@
             "position": "right"
           }
         },
+        "liquid_E8JtTL": {
+          "type": "liquid",
+          "settings": {
+            "custom_liquid": "<a href=\"\/cart\/add?id=42357025276145&quantity=1\" class=\"btn\">Add to Cart<\/a>",
+            "spacing_top": 10,
+            "spacing_bottom": 10,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "color__border-divider-1",
+            "style_border": "",
+            "position": "right"
+          }
+        },
         "template--19929447825738__9c3da5e6-46ce-4594-91b5-bf698168311e-add-1": {
           "type": "add",
+          "disabled": true,
           "settings": {
             "content": "<p><strong>Free shipping<\/strong> on orders over <strong>€50,-<\/strong> in NL<\/p>",
             "spacing_top": 20,
@@ -565,6 +578,7 @@
         "template--19929447825738__9c3da5e6-46ce-4594-91b5-bf698168311e-title-1",
         "template--19929447825738__9c3da5e6-46ce-4594-91b5-bf698168311e-price-1",
         "1c5a8216-6e55-49b2-8890-79fed4268d44",
+        "liquid_E8JtTL",
         "template--19929447825738__9c3da5e6-46ce-4594-91b5-bf698168311e-add-1",
         "template--19929447825738__9c3da5e6-46ce-4594-91b5-bf698168311e-description-1",
         "c2c7da28-9f8c-4aee-bdac-d3be22d134e2",
@@ -620,6 +634,7 @@
     },
     "product_featured_DyKyjf": {
       "type": "product-featured",
+      "disabled": true,
       "custom_css": [
         ".btn--secondary {display: none !important;}"
       ],
