@@ -7,13 +7,13 @@
       "blocks": {
         "b8a10923-6977-408e-b82a-5cafe92c5f2b": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "content": ""
           }
         },
         "f2232503-8685-46db-aaf1-b796c5ea14f9": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "content": "<p>FREE SHIPPING FOR ORDER ABOVE 50,- IN NL & BE<\/p>"
           }
