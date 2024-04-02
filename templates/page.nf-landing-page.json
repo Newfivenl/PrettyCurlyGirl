@@ -520,7 +520,6 @@
         },
         "template--19929447825738__9c3da5e6-46ce-4594-91b5-bf698168311e-add-1": {
           "type": "add",
-          "disabled": true,
           "settings": {
             "content": "<p><strong>Free shipping<\/strong> on orders over <strong>€50,-<\/strong> in NL<\/p>",
             "spacing_top": 20,
