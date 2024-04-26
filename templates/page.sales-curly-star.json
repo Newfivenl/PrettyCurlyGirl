@@ -99,7 +99,7 @@
           "settings": {
             "image_item": "shopify:\/\/shop_images\/ABB9D02E-FED7-4538-B44A-65252E2DBFB9.png",
             "image_title": "Step 1",
-            "image_sub_title": "Apply the gel with your fingers to wet hair. The gel will create a cast (a hard gel layer)."
+            "image_sub_title": "Gently cleanse the hair with this moisturizing shampoo"
           }
         },
         "a9dd35e0-a785-4852-be35-8a102787bb45": {
@@ -112,7 +112,6 @@
         },
         "dce525c2-a851-4c01-ac27-a3937df5347c": {
           "type": "image_item",
-          "disabled": true,
           "settings": {
             "image_item": "shopify:\/\/shop_images\/D8173579-81C2-4BD9-B085-E15AA2D5B142.png",
             "image_title": "step 3",
