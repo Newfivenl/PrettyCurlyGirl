@@ -6,7 +6,7 @@
         "496e2385-4ce1-4748-89e8-f22c7940e6c1": {
           "type": "list_item",
           "settings": {
-            "item_text": "Extreme high concentration of flaxseed extract"
+            "item_text": "Extreme high concentration of the best ingredients"
           }
         },
         "2dc7e959-1267-4568-aa95-ce02f1b3d281": {
@@ -28,14 +28,14 @@
         "c9e7b764-d964-4273-ab8d-568d1eddc9d0"
       ],
       "settings": {
-        "banner_image": "shopify:\/\/shop_images\/NEW_style_Copy.webp",
-        "banner_heading": "creates a magical CURL DEFINITION",
-        "banner_text": "Our Magical Flaxseed Gel is the answer to create gorgeous defined, bouncy, shiny and healthy curls. It works on all hair types. Are you ready to create the best curls you can have.",
+        "banner_image": "shopify:\/\/shop_images\/31533F9A-392B-4D20-B9DA-727168197034.png",
+        "banner_heading": "Curly kids LIne",
+        "banner_text": "Makes having curls fun",
         "enable_review_stars": true,
         "review_count": "154",
         "button_text": "SHOP NOW",
         "button_link": "\/pages\/magical-flaxseed-gel#featured",
-        "free_delivery_text": "Free delivery on all orders over €50,-",
+        "free_delivery_text": "Free delivery on orders in NL & BE over €50,-",
         "free_delivery_icon": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" class=\"mr-1\" width=\"16\" height=\"16\" viewbox=\"0 0 24 24\">\n                <path fill=\"white\" d=\"M11 19.425v-6.85L5 9.1v6.85l6 3.475Zm2 0l6-3.475V9.1l-6 3.475v6.85Zm-2 2.3L4 17.7q-.475-.275-.738-.725t-.262-1v-7.95q0-.55.263-1T4 6.3l7-4.025Q11.475 2 12 2t1 .275L20 6.3q.475.275.738.725t.262 1v7.95q0 .55-.263 1T20 17.7l-7 4.025Q12.525 22 12 22t-1-.275Zm5-13.2l1.925-1.1L12 4l-1.95 1.125l5.95 3.4Zm-4 2.325l1.95-1.125L8.025 6.3l-1.95 1.125L12 10.85Z\"><\/path>\n              <\/svg>"
       }
     },
@@ -125,8 +125,8 @@
         "dce525c2-a851-4c01-ac27-a3937df5347c"
       ],
       "settings": {
-        "section_heading": "WORLD WIDE THE MOST FAVORITE GEL",
-        "section_sub_heading": "Our Magical Flaxseed Gel will control your frizz and will give your curls an incredible curl definition with a magical shine."
+        "section_heading": "MAKE MEMORABLE CURLY FUN",
+        "section_sub_heading": "With curly star you will not only give curly kids the best products but you will also have your kids grow up loving their curls."
       }
     },
     "nf_founded_dCt4x3": {
@@ -476,6 +476,8 @@
             "spacing_bottom": 10,
             "color_scheme": "color__bg-body color__text",
             "style_border": "",
+            "enable_thumbnails_product_type": false,
+            "enable_thumbnails_vendor": false,
             "content": "<p>Curly girl Approved<\/p>"
           }
         },
@@ -566,8 +568,10 @@
         "media_gallery_style": "thumbnail-slider",
         "enable_zoom": true,
         "enable_alt": false,
+        "enable_variant_images": false,
         "media_color_scheme": "color__bg-overlay-1 color__text",
         "media_ratio": "aspect-[1\/1] aspect-w-1 aspect-h-1",
+        "media_object-sizing": "cover",
         "enable_ratio": true,
         "show_product_badges": true,
         "spacing_top": 60,
