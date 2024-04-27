@@ -132,10 +132,10 @@
           "type": "countdown_timer",
           "disabled": true,
           "settings": {
-            "timer_title": "VALENTINE SALE -14% EVERYTHING",
+            "timer_title": "KINGSDAY SALE -15% OFF EVERYTHING",
             "timer_link_title": "",
             "timer_link": "",
-            "timer_date": "Feb 16, 2024 23:59:59",
+            "timer_date": "Apr 28, 2024 23:59:59",
             "timer_title_after_time_expires": ""
           }
         },
@@ -244,6 +244,7 @@
         },
         "volume_discount_PaFwij": {
           "type": "volume_discount",
+          "disabled": true,
           "settings": {
             "volume_discount_title": "BUY MORE SAVE MORE",
             "volume_discount_sub_title": "Automatically applied in checkout",
