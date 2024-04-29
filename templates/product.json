@@ -252,6 +252,7 @@
         },
         "volume_discount_PaFwij": {
           "type": "volume_discount",
+          "disabled": true,
           "settings": {
             "volume_discount_title": "BUY MORE SAVE MORE",
             "volume_discount_sub_title": "Automatically applied in checkout",
