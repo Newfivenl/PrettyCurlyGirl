@@ -84,6 +84,7 @@
         },
         "62c29cd6-a0b5-4f8b-86c0-a48660869d22": {
           "type": "price",
+          "disabled": true,
           "settings": {
             "spacing_top": 0,
             "spacing_bottom": 20,
@@ -92,8 +93,15 @@
             "position": "right"
           }
         },
+        "kaching_bundle_quantity_breaks_app_block_gF7FgV": {
+          "type": "shopify:\/\/apps\/kaching-bundle-quantity-breaks\/blocks\/app-block\/6c637362-a106-4a32-94ac-94dcfd68cdb8",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
         "b78b560b-e1c2-428d-ad73-fb5f8aac6d58": {
           "type": "options",
+          "disabled": true,
           "settings": {
             "spacing_top": 20,
             "spacing_bottom": 0,
@@ -122,7 +130,7 @@
             "color_scheme": "color__bg-body color__text",
             "style_border": "",
             "position": "right",
-            "enable_quantity": true,
+            "enable_quantity": false,
             "enable_dynamic_checkout": false,
             "enable_notify_me": true,
             "enable_gift_card_recipient": false
@@ -258,6 +266,7 @@
         "bef9bd40-2a8e-45c2-ae54-59c9ef6f0e26",
         "853ae7f0-85c9-45dc-8326-6e4044bcf5e5",
         "62c29cd6-a0b5-4f8b-86c0-a48660869d22",
+        "kaching_bundle_quantity_breaks_app_block_gF7FgV",
         "b78b560b-e1c2-428d-ad73-fb5f8aac6d58",
         "9f1692ea-ccb9-4e4c-9c83-7a6ae53392aa",
         "b78b560b-e1c2-428d-ad73-fb5f8aac6d53",
