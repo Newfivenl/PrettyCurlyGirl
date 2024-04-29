@@ -176,6 +176,7 @@
         "blocks": {
           "dc415ec9-53ea-4c8e-aa82-79bb3e7f0b16": {
             "type": "Content",
+            "disabled": true,
             "settings": {
               "heading": "15% OFF EVERYTHING",
               "content": "<p>Kingsday Sale - Get 15% off everything. Only this weekend<\/p>"
