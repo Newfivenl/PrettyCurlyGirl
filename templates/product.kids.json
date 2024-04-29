@@ -130,6 +130,7 @@
         },
         "c59e1f5d-1156-4c73-a40c-5c5a6dbef28c": {
           "type": "countdown_timer",
+          "disabled": true,
           "settings": {
             "timer_title": "KINGSDAY SALE - 15% OFF EVERYTHING",
             "timer_link_title": "",
@@ -230,7 +231,6 @@
         },
         "volume_discount_PaFwij": {
           "type": "volume_discount",
-          "disabled": true,
           "settings": {
             "volume_discount_title": "BUY MORE SAVE MORE",
             "volume_discount_sub_title": "Automatically applied in checkout",
