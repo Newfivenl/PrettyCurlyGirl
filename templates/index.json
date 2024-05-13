@@ -102,7 +102,7 @@
         "template--19487943393610__fbb1d9cb-4bbf-4522-8356-5cfeb332bcce-heading-1": {
           "type": "heading",
           "settings": {
-            "content": "Mother's day SALE"
+            "content": "Be Pretty, Be Curly, Be You"
           }
         },
         "template--19487943393610__fbb1d9cb-4bbf-4522-8356-5cfeb332bcce-content-1": {
@@ -135,7 +135,7 @@
         ".color__bg-primary {background: #e2c0a3;}"
       ],
       "settings": {
-        "image_background_desktop": "shopify:\/\/shop_images\/1.png",
+        "image_background_desktop": "shopify:\/\/shop_images\/AF4A6054_1.jpg",
         "enable_lazy_loading": false,
         "color_scheme": "color__bg-primary color__primary",
         "color_text": "color__dark",
@@ -185,7 +185,7 @@
 
       ],
       "settings": {
-        "image_background_mobile": "shopify:\/\/shop_images\/1.png",
+        "image_background_mobile": "shopify:\/\/shop_images\/AF4A6054_1.jpg",
         "show_entire_image": false,
         "enable_lazy_loading": false,
         "show_video_background_mobile": false,
