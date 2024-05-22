@@ -658,153 +658,17 @@
         "visibility": ""
       }
     },
-    "6b718ebe-70f3-4372-a0c7-9df8d9a273c1": {
-      "type": "icon-grid",
-      "blocks": {
-        "7945b8fe-51b6-40fc-9c6f-7c5434b4d704": {
-          "type": "icon",
-          "settings": {
-            "icon": "shopify:\/\/shop_images\/icon-heart.svg",
-            "icon_height": "h-8",
-            "heading": "WOMAN OWNED COMPANY",
-            "content": "<p>Owner & Founder is a curly woman.<\/p>",
-            "enable_padding": true,
-            "color_scheme": "color__bg-body color__text",
-            "color_border": "!color__border-transparent",
-            "layout_alignment": "flex-col",
-            "layout_x_alignment": "text-center justify-center",
-            "layout_row_span": "row-span-1",
-            "layout_col_span": "col-span-1 md:col-span-1"
-          }
-        },
-        "96751afd-3dc5-40aa-b050-114d6ffe0042": {
-          "type": "icon",
-          "settings": {
-            "icon": "shopify:\/\/shop_images\/truck.svg",
-            "icon_height": "h-8",
-            "heading": "FAST DELIVERY",
-            "content": "<p>cutt off time = 20:00<\/p>",
-            "enable_padding": true,
-            "color_scheme": "color__bg-body color__text",
-            "color_border": "!color__border-transparent",
-            "layout_alignment": "flex-col",
-            "layout_x_alignment": "text-center justify-center",
-            "layout_row_span": "row-span-1",
-            "layout_col_span": "col-span-1 md:col-span-1"
-          }
-        },
-        "1154ab3b-5404-42cd-9712-398521536d14": {
-          "type": "icon",
-          "settings": {
-            "icon": "shopify:\/\/shop_images\/icon-approve.svg",
-            "icon_height": "h-8",
-            "heading": "CURLY GIRL APPROVED",
-            "content": "<p>Experience the difference with our high quality & curly girl approved ingredients.<\/p>",
-            "enable_padding": true,
-            "color_scheme": "color__bg-body color__text",
-            "color_border": "!color__border-transparent",
-            "layout_alignment": "flex-col",
-            "layout_x_alignment": "text-center justify-center",
-            "layout_row_span": "row-span-1",
-            "layout_col_span": "col-span-1 md:col-span-1"
-          }
-        }
-      },
-      "block_order": [
-        "7945b8fe-51b6-40fc-9c6f-7c5434b4d704",
-        "96751afd-3dc5-40aa-b050-114d6ffe0042",
-        "1154ab3b-5404-42cd-9712-398521536d14"
-      ],
+    "nf_banner_section_AzAXK6": {
+      "type": "nf-banner-section",
       "settings": {
-        "heading": "",
-        "content": "",
-        "button_label": "",
-        "button_url": "",
-        "spacing_top": 40,
-        "spacing_bottom": 40,
-        "color_scheme": "color__bg-tertiary color__tertiary",
-        "color_border": "color__border-divider-1",
-        "color_button": "btn btn--secondary",
-        "style_border": "border--b-width",
-        "row_size_desktop": "md:grid-cols-3",
-        "row_size_mobile": "grid-cols-1",
-        "layout_x_alignment": "text-center justify-center flex-col items-center",
-        "visibility": ""
-      }
-    },
-    "92000899-ed1c-4fa2-9aa5-bf0a79e6952e": {
-      "type": "icon-grid",
-      "blocks": {
-        "template--19487943393610__92000899-ed1c-4fa2-9aa5-bf0a79e6952e-icon-1": {
-          "type": "icon",
-          "settings": {
-            "icon": "shopify:\/\/shop_images\/icon-heart.svg",
-            "icon_height": "h-8",
-            "heading": "Woman Owned Company",
-            "content": "<p>Owner & Founder is a curly woman. <\/p>",
-            "enable_padding": true,
-            "color_scheme": "color__bg-secondary color__secondary",
-            "color_border": "!color__border-transparent",
-            "layout_alignment": "flex-row",
-            "layout_x_alignment": "text-left",
-            "layout_row_span": "row-span-1",
-            "layout_col_span": "col-span-1 md:col-span-1"
-          }
-        },
-        "template--19487943393610__92000899-ed1c-4fa2-9aa5-bf0a79e6952e-icon-2": {
-          "type": "icon",
-          "settings": {
-            "icon": "shopify:\/\/shop_images\/returns.svg",
-            "icon_height": "h-8",
-            "heading": "Fast Delivery",
-            "content": "<p>Cut off time 20:00<\/p>",
-            "enable_padding": true,
-            "color_scheme": "color__bg-secondary color__secondary",
-            "color_border": "!color__border-transparent",
-            "layout_alignment": "flex-row",
-            "layout_x_alignment": "text-left",
-            "layout_row_span": "row-span-1",
-            "layout_col_span": "col-span-1 md:col-span-1"
-          }
-        },
-        "template--19487943393610__92000899-ed1c-4fa2-9aa5-bf0a79e6952e-icon-3": {
-          "type": "icon",
-          "settings": {
-            "icon": "shopify:\/\/shop_images\/discounts.svg",
-            "icon_height": "h-8",
-            "heading": "Discounts",
-            "content": "<p>Are you a pretty fan? We love you too. Buy two or more of the same items and get a 10% discount.<\/p>",
-            "enable_padding": true,
-            "color_scheme": "color__bg-secondary color__secondary",
-            "color_border": "!color__border-transparent",
-            "layout_alignment": "flex-row",
-            "layout_x_alignment": "text-left",
-            "layout_row_span": "row-span-1",
-            "layout_col_span": "col-span-1 md:col-span-1"
-          }
-        }
-      },
-      "block_order": [
-        "template--19487943393610__92000899-ed1c-4fa2-9aa5-bf0a79e6952e-icon-1",
-        "template--19487943393610__92000899-ed1c-4fa2-9aa5-bf0a79e6952e-icon-2",
-        "template--19487943393610__92000899-ed1c-4fa2-9aa5-bf0a79e6952e-icon-3"
-      ],
-      "disabled": true,
-      "settings": {
-        "heading": "",
-        "content": "",
-        "button_label": "",
-        "button_url": "",
-        "spacing_top": 40,
-        "spacing_bottom": 40,
-        "color_scheme": "color__bg-secondary color__secondary",
-        "color_border": "color__border-divider-1",
-        "color_button": "btn btn--secondary",
-        "style_border": "border--b-width",
-        "row_size_desktop": "md:grid-cols-3",
-        "row_size_mobile": "grid-cols-1",
-        "layout_x_alignment": "text-center justify-center flex-col items-center",
-        "visibility": ""
+        "banner_heading": "PRETTY PROFESSIONAL",
+        "banner_text": "TO ALL SALONS>> we understand that your skills, combined with our products, enhance the beauty of the world around us. TOGETHER WE MAKE THE CURLY WORLD PRETTIER!!\n<br>\n<br>\nIn recognition of your talents, we are delighted to introduce a professional curly haircare line, available exclusively to salons.\n<br>\n<br>\nIn the coming weeks, we will provide detailed insights into each product within the line. YOU ARE GOING TO LOVE IT❤️❤️❤️❤️\n<br>\n<br>\nAn Affordable Professional Curly Haircare Line, featuring the PRETTYBOND Repair Treatment.\n<br>\n<br>\nDo you want to become a b2b partner send an e-mail to b2b@prettycurlygirl.com",
+        "enable_review_stars": false,
+        "review_count": "1,000",
+        "button_text": "SHOP NOW",
+        "button_link": "",
+        "free_delivery_text": "",
+        "free_delivery_icon": ""
       }
     },
     "f3fd7d15-8af4-4a33-810d-e1dbd27ed532": {
@@ -1012,6 +876,81 @@
         "visibility": ""
       }
     },
+    "92000899-ed1c-4fa2-9aa5-bf0a79e6952e": {
+      "type": "icon-grid",
+      "blocks": {
+        "template--19487943393610__92000899-ed1c-4fa2-9aa5-bf0a79e6952e-icon-1": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/icon-heart.svg",
+            "icon_height": "h-8",
+            "heading": "Woman Owned Company",
+            "content": "<p>Owner & Founder is a curly woman. <\/p>",
+            "enable_padding": true,
+            "color_scheme": "color__bg-secondary color__secondary",
+            "color_border": "!color__border-transparent",
+            "layout_alignment": "flex-row",
+            "layout_x_alignment": "text-left",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md:col-span-1"
+          }
+        },
+        "template--19487943393610__92000899-ed1c-4fa2-9aa5-bf0a79e6952e-icon-2": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/returns.svg",
+            "icon_height": "h-8",
+            "heading": "Fast Delivery",
+            "content": "<p>Cut off time 20:00<\/p>",
+            "enable_padding": true,
+            "color_scheme": "color__bg-secondary color__secondary",
+            "color_border": "!color__border-transparent",
+            "layout_alignment": "flex-row",
+            "layout_x_alignment": "text-left",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md:col-span-1"
+          }
+        },
+        "template--19487943393610__92000899-ed1c-4fa2-9aa5-bf0a79e6952e-icon-3": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/discounts.svg",
+            "icon_height": "h-8",
+            "heading": "Discounts",
+            "content": "<p>Are you a pretty fan? We love you too. Buy two or more of the same items and get a 10% discount.<\/p>",
+            "enable_padding": true,
+            "color_scheme": "color__bg-secondary color__secondary",
+            "color_border": "!color__border-transparent",
+            "layout_alignment": "flex-row",
+            "layout_x_alignment": "text-left",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md:col-span-1"
+          }
+        }
+      },
+      "block_order": [
+        "template--19487943393610__92000899-ed1c-4fa2-9aa5-bf0a79e6952e-icon-1",
+        "template--19487943393610__92000899-ed1c-4fa2-9aa5-bf0a79e6952e-icon-2",
+        "template--19487943393610__92000899-ed1c-4fa2-9aa5-bf0a79e6952e-icon-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "content": "",
+        "button_label": "",
+        "button_url": "",
+        "spacing_top": 40,
+        "spacing_bottom": 40,
+        "color_scheme": "color__bg-secondary color__secondary",
+        "color_border": "color__border-divider-1",
+        "color_button": "btn btn--secondary",
+        "style_border": "border--b-width",
+        "row_size_desktop": "md:grid-cols-3",
+        "row_size_mobile": "grid-cols-1",
+        "layout_x_alignment": "text-center justify-center flex-col items-center",
+        "visibility": ""
+      }
+    },
     "f2025db8-9888-4968-a264-b30575d1ee48": {
       "type": "article-grid",
       "settings": {
@@ -1137,6 +1076,80 @@
         "visibility": ""
       }
     },
+    "6b718ebe-70f3-4372-a0c7-9df8d9a273c1": {
+      "type": "icon-grid",
+      "blocks": {
+        "7945b8fe-51b6-40fc-9c6f-7c5434b4d704": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/icon-heart.svg",
+            "icon_height": "h-8",
+            "heading": "WOMAN OWNED COMPANY",
+            "content": "<p>Owner & Founder is a curly woman.<\/p>",
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "!color__border-transparent",
+            "layout_alignment": "flex-col",
+            "layout_x_alignment": "text-center justify-center",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md:col-span-1"
+          }
+        },
+        "96751afd-3dc5-40aa-b050-114d6ffe0042": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/truck.svg",
+            "icon_height": "h-8",
+            "heading": "FAST DELIVERY",
+            "content": "<p>cutt off time = 20:00<\/p>",
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "!color__border-transparent",
+            "layout_alignment": "flex-col",
+            "layout_x_alignment": "text-center justify-center",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md:col-span-1"
+          }
+        },
+        "1154ab3b-5404-42cd-9712-398521536d14": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/icon-approve.svg",
+            "icon_height": "h-8",
+            "heading": "CURLY GIRL APPROVED",
+            "content": "<p>Experience the difference with our high quality & curly girl approved ingredients.<\/p>",
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "!color__border-transparent",
+            "layout_alignment": "flex-col",
+            "layout_x_alignment": "text-center justify-center",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md:col-span-1"
+          }
+        }
+      },
+      "block_order": [
+        "7945b8fe-51b6-40fc-9c6f-7c5434b4d704",
+        "96751afd-3dc5-40aa-b050-114d6ffe0042",
+        "1154ab3b-5404-42cd-9712-398521536d14"
+      ],
+      "settings": {
+        "heading": "",
+        "content": "",
+        "button_label": "",
+        "button_url": "",
+        "spacing_top": 40,
+        "spacing_bottom": 40,
+        "color_scheme": "color__bg-tertiary color__tertiary",
+        "color_border": "color__border-divider-1",
+        "color_button": "btn btn--secondary",
+        "style_border": "border--b-width",
+        "row_size_desktop": "md:grid-cols-3",
+        "row_size_mobile": "grid-cols-1",
+        "layout_x_alignment": "text-center justify-center flex-col items-center",
+        "visibility": ""
+      }
+    },
     "cf475604-fd24-4d65-8a42-9ed8e5ab6541": {
       "type": "newsletter",
       "blocks": {
@@ -1200,11 +1213,12 @@
     "fa45b532-e64f-489b-9403-7046250c0e16",
     "ca2883b6-efd0-48c1-8f9e-520a6b9a64bc",
     "81ade9ad-d8df-41e4-8a5d-bda5d0e43d9a",
-    "6b718ebe-70f3-4372-a0c7-9df8d9a273c1",
-    "92000899-ed1c-4fa2-9aa5-bf0a79e6952e",
+    "nf_banner_section_AzAXK6",
     "f3fd7d15-8af4-4a33-810d-e1dbd27ed532",
+    "92000899-ed1c-4fa2-9aa5-bf0a79e6952e",
     "f2025db8-9888-4968-a264-b30575d1ee48",
     "d7a4adc5-757d-44b6-9dd3-e5cce4fb9ce2",
+    "6b718ebe-70f3-4372-a0c7-9df8d9a273c1",
     "cf475604-fd24-4d65-8a42-9ed8e5ab6541",
     "1700059578830b1268"
   ]
