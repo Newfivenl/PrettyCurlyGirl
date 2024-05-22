@@ -311,8 +311,8 @@
   "shopify": {
     "checkout": {
       "contact": {
-        "address2_label": "HOUSE NUMBER, Apartment, suite, etc",
-        "optional_address2_label": "HOUSE NUMBER, Apartment, suite, etc",
+        "address2_label": "House number + additional info",
+        "optional_address2_label": "House number + additional info",
         "address1_label": "Street name"
       },
       "shipping": {
@@ -325,7 +325,7 @@
       "wallets": {
         "errors": {
           "missing": {
-            "address2": "HOUSE NUMBER, Apartment, suite, etc",
+            "address2": "House number + additional info",
             "address1": "Street name"
           }
         }
