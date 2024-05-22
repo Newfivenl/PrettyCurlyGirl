@@ -324,6 +324,13 @@
       "alternative_payment_method_banner": {
         "express_checkout": "Versneld afrekenen",
         "or": "Of ga verder betaal met iDeal, creditcard of Afterpay"
+      },
+      "wallets": {
+        "errors": {
+          "missing": {
+            "address1": "Voer je straatnaam in"
+          }
+        }
       }
     }
   },
