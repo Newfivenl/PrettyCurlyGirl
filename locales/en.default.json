@@ -313,18 +313,20 @@
       "contact": {
         "address2_label": "HOUSE NUMBER, Apartment, suite, etc",
         "optional_address2_label": "HOUSE NUMBER, Apartment, suite, etc",
-        "address1_label": "Address"
+        "address1_label": "Street name"
       },
       "shipping": {
         "address2_add_label": "HOUSE NUMBER, Apartment, suite, etc"
       },
       "field_errors": {
-        "address_address2_blank": "Enter a house number"
+        "address_address2_blank": "Enter a house number",
+        "address_address1_blank": "Enter a street name"
       },
       "wallets": {
         "errors": {
           "missing": {
-            "address2": "HOUSE NUMBER, Apartment, suite, etc"
+            "address2": "HOUSE NUMBER, Apartment, suite, etc",
+            "address1": "Street name"
           }
         }
       }
