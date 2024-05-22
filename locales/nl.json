@@ -311,7 +311,7 @@
         "accept_marketing_checkbox_label": "Aanmelden nieuwsbrief voor inspiratie en de beste aanbiedingen."
       },
       "contact": {
-        "address1_label": "Straat ",
+        "address1_label": "Straatnaam ",
         "address2_label": "Huisnummer + toevoeging *Verplicht",
         "optional_address2_label": "Huisnummer + toevoeging *Verplicht"
       },
