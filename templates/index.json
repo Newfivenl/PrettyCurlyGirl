@@ -137,13 +137,13 @@
       "settings": {
         "image_background_desktop": "shopify:\/\/shop_images\/2Tekengebied_1.jpg",
         "enable_lazy_loading": false,
-        "color_scheme": "color__bg-primary color__primary",
+        "color_scheme": "color__bg-tertiary color__tertiary",
         "color_text": "color__dark",
         "color_border": "color__border-divider-1",
         "style_border": "border--b-width",
         "content_width": 50,
-        "image_position": "right",
-        "layout_y_spacing": "min-h-[650px] max-h-[85vh] md:min-h-[80vh]",
+        "image_position": "left",
+        "layout_y_spacing": "min-h-[650px] max-h-[75vh] md:min-h-[70vh]",
         "layout_y_alignment": "items-center",
         "layout_x_alignment": "justify-start",
         "visibility": "hidden md:block"
@@ -276,7 +276,7 @@
       ],
       "custom_css": [
         "p {font-size: 16px; color: #7e695d;}",
-        "section {background: #f0edeb;}",
+        "section {background: #ffffff;}",
         ".grid div {background: none !important;}"
       ],
       "settings": {
