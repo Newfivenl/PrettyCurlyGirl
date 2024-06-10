@@ -1,7 +1,27 @@
 {
   "sections": {
+    "banner_jh4kj3": {
+      "type": "banner",
+      "settings": {
+        "image_background_desktop": "shopify:\/\/shop_images\/15_korting_2Banner_desktop.jpg",
+        "image_background_mobile": "shopify:\/\/shop_images\/15_korting_kleinBanner_desktop.jpg",
+        "show_entire_image": false,
+        "enable_lazy_loading": false,
+        "show_video_background_mobile": false,
+        "color_scheme": "color__bg-overlay-1 color__text",
+        "color_text": "",
+        "color_border": "color__border-divider-1",
+        "enable_gradient": false,
+        "style_border": "border--b-width",
+        "layout_y_spacing": "min-h-[450px] md:min-h-[550px]",
+        "layout_y_alignment": "items-end",
+        "layout_x_alignment": "justify-start",
+        "visibility": ""
+      }
+    },
     "banner": {
       "type": "collection__banner",
+      "disabled": true,
       "settings": {
         "color_scheme": "color__bg-overlay-1 color__text",
         "color_text": "color__text",
@@ -105,6 +125,7 @@
     }
   },
   "order": [
+    "banner_jh4kj3",
     "banner",
     "c5147f2a-a62e-4101-8df0-b02b79af010a",
     "grid",
