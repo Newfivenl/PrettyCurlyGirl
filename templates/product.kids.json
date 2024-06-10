@@ -84,7 +84,6 @@
         },
         "62c29cd6-a0b5-4f8b-86c0-a48660869d22": {
           "type": "price",
-          "disabled": true,
           "settings": {
             "spacing_top": 0,
             "spacing_bottom": 20,
@@ -94,7 +93,7 @@
           }
         },
         "kaching_bundle_quantity_breaks_app_block_gF7FgV": {
-          "type": "shopify:\/\/apps\/kaching-bundle-quantity-breaks\/blocks\/app-block\/6c637362-a106-4a32-94ac-94dcfd68cdb8",
+          "type": "shopify:\/\/apps\/kaching-bundles\/blocks\/app-block\/6c637362-a106-4a32-94ac-94dcfd68cdb8",
           "settings": {
             "product": "{{product}}"
           }
@@ -138,12 +137,11 @@
         },
         "c59e1f5d-1156-4c73-a40c-5c5a6dbef28c": {
           "type": "countdown_timer",
-          "disabled": true,
           "settings": {
-            "timer_title": "KINGSDAY SALE - 15% OFF EVERYTHING",
+            "timer_title": "SALE - 15% OFF EVERYTHING",
             "timer_link_title": "",
             "timer_link": "",
-            "timer_date": "Apr 28, 2024 23:59:59",
+            "timer_date": "june 16, 2024 23:59:59",
             "timer_title_after_time_expires": ""
           }
         },
