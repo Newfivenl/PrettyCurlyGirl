@@ -4,7 +4,7 @@
       "type": "banner",
       "settings": {
         "image_background_desktop": "shopify:\/\/shop_images\/15_korting_2Banner_desktop.jpg",
-        "image_background_mobile": "shopify:\/\/shop_images\/15_korting_kleinBanner_desktop.jpg",
+        "image_background_mobile": "shopify:\/\/shop_images\/15_korting_123Banner_desktop.jpg",
         "show_entire_image": false,
         "enable_lazy_loading": false,
         "show_video_background_mobile": false,
