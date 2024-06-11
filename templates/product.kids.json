@@ -100,7 +100,6 @@
         },
         "b78b560b-e1c2-428d-ad73-fb5f8aac6d58": {
           "type": "options",
-          "disabled": true,
           "settings": {
             "spacing_top": 20,
             "spacing_bottom": 0,
