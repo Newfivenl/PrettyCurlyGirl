@@ -3,8 +3,8 @@
     "banner_jh4kj3": {
       "type": "banner",
       "settings": {
-        "image_background_desktop": "shopify:\/\/shop_images\/15_korting_2Banner_desktop.jpg",
-        "image_background_mobile": "shopify:\/\/shop_images\/15_korting_123Banner_desktop.jpg",
+        "image_background_desktop": "shopify:\/\/shop_images\/Banner_opmaak_123Desktop_B2B.jpg",
+        "image_background_mobile": "shopify:\/\/shop_images\/2Tekengebied_1.jpg",
         "show_entire_image": false,
         "enable_lazy_loading": false,
         "show_video_background_mobile": false,
