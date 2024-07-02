@@ -13,9 +13,24 @@
       "type": "instant-MNjItNc4MsTj7Puo",
       "settings": {
       }
+    },
+    "instant_z_nk6k_d2_wrcf_lk_o_yb_VkXmwc": {
+      "type": "instant-zNk6kD2WrcfLkOYb",
+      "settings": {
+        "product_QC2kTLw5OxpWD70L": "100ml-intense-moisture-dc",
+        "image_jCHRj2qfE6dGHCXI": "shopify:\/\/shop_images\/15_korting_2Banner_desktop.jpg",
+        "text_XPt93Uv2S7RXFMSr": "<p>— Pretty curly girl products<\/p>",
+        "text_XOvb9mzSEsGDvMio": "<h3>WE Care about skin<\/h3>",
+        "text_BdOxTcnRScQ0MXqH": "<p>Our style and functionality makes us one of the most unique brands.<\/p>",
+        "url_8CaHyvtCqQihJY7t": "",
+        "text_ovaV8xDM6lMrceiK": "<p>REQUEST WHOLESALE ACCOUNT<\/p>",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
-    "instant-MNjItNc4MsTj7Puo"
+    "instant-MNjItNc4MsTj7Puo",
+    "instant_z_nk6k_d2_wrcf_lk_o_yb_VkXmwc"
   ]
 }
