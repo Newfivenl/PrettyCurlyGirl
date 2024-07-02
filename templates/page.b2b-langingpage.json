@@ -9,14 +9,6 @@
 */
 {
   "sections": {
-    "main": {
-      "type": "page__main",
-      "settings": {
-        "spacing_top": 60,
-        "spacing_bottom": 60,
-        "color_scheme": "color__bg-body color__text"
-      }
-    },
     "169702038597d5372e": {
       "type": "apps",
       "blocks": {
@@ -45,6 +37,7 @@
         "46e41359-349f-465f-a482-efa3a4969c7a",
         "17e916e0-cc1b-4cb4-bb27-3f7bbc998c4d"
       ],
+      "disabled": true,
       "settings": {
         "spacing_top": 100,
         "spacing_bottom": 100,
@@ -53,10 +46,17 @@
         "style_border": "border--b-width",
         "layout_padding": true
       }
+    },
+    "nf_banner_section_2_YHEFLn": {
+      "type": "nf-banner-section-2",
+      "settings": {
+        "banner_image": "shopify:\/\/shop_images\/Scherm_afbeelding_2024-05-22_om_09.36.14.png",
+        "banner_heading": "5 REASONS WHY YOU’LL LOVE PRETTY CURLY GIRL PRODUCTS"
+      }
     }
   },
   "order": [
-    "main",
-    "169702038597d5372e"
+    "169702038597d5372e",
+    "nf_banner_section_2_YHEFLn"
   ]
 }
