@@ -419,8 +419,34 @@
             "layout_row_span": "row-span-1",
             "layout_col_span": "col-span-1 md: md:col-span-1"
           }
-        },
-        "b3051f08-8924-4f1c-b229-704a8d9449af": {
+        }
+      },
+      "block_order": [
+        "template--18730720428336__ca2883b6-efd0-48c1-8f9e-520a6b9a64bc-1681420297b465165a-1",
+        "e33e90ee-bfe8-46fe-ba76-e0d96da28d4b",
+        "89cfba7f-845a-4500-a933-99ff0a15076f"
+      ],
+      "settings": {
+        "heading": "Shop by Category",
+        "content": "",
+        "button_label": "Button label",
+        "button_url": "",
+        "spacing_top": 40,
+        "spacing_bottom": 0,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "color_button": "btn btn--secondary",
+        "style_border": "border--b-width",
+        "row_size_desktop": "md:grid-cols-3",
+        "row_size_mobile": "grid-cols-1",
+        "layout_x_alignment": "text-center justify-center flex-col items-center",
+        "visibility": ""
+      }
+    },
+    "content_grid_Li9gxK": {
+      "type": "content-grid",
+      "blocks": {
+        "content_bwKxe4": {
           "type": "content",
           "settings": {
             "heading": "Healthy Curls",
@@ -428,7 +454,7 @@
             "button_label": "shop healthy",
             "button_url": "shopify:\/\/collections\/healthy-curls",
             "full_block_link": true,
-            "image_featured": "shopify:\/\/shop_images\/AF4A6058.jpg",
+            "image_featured": "shopify:\/\/shop_images\/640x640Tekengebied_2.jpg",
             "enable_autoplay": true,
             "enable_mute_toggle": true,
             "enable_loop": true,
@@ -438,7 +464,7 @@
             "color_scheme": "color__bg-tertiary color__tertiary",
             "color_border": "color__border-divider-1",
             "color_text": "color__text",
-            "color_button": "btn btn--white",
+            "color_button": "btn btn--secondary",
             "enable_gradient": false,
             "layout_y_alignment": "items-end",
             "layout_x_alignment": "",
@@ -446,41 +472,15 @@
             "layout_col_span": "col-span-1 md: md:col-span-1"
           }
         },
-        "e4ad9d06-cbc8-467d-9f4f-d98f838264eb": {
+        "content_zWazA6": {
           "type": "content",
           "settings": {
             "heading": "Kids line",
-            "content": "<p>Shop our bundle sets in 1 click<\/p>",
+            "content": "<p>Shop our bundle sets<br\/>in 1 click.<\/p>",
             "button_label": "shop Kids line",
             "button_url": "shopify:\/\/collections\/curly-star",
             "full_block_link": true,
-            "image_background": "shopify:\/\/shop_images\/AF4A6062.jpg",
-            "enable_autoplay": false,
-            "enable_mute_toggle": false,
-            "enable_loop": false,
-            "spacing_top": 0,
-            "spacing_bottom": 0,
-            "enable_padding": true,
-            "color_scheme": "color__bg-overlay-1 color__text",
-            "color_border": "color__border-divider-1",
-            "color_text": "color__light",
-            "color_button": "btn btn--tertiary",
-            "enable_gradient": true,
-            "layout_y_alignment": "items-end",
-            "layout_x_alignment": "",
-            "layout_row_span": "row-span-1",
-            "layout_col_span": "col-span-1 md: md:col-span-1"
-          }
-        },
-        "ec996a86-3f30-4e3f-b9f0-819ef2f4e794": {
-          "type": "content",
-          "settings": {
-            "heading": "Save money Sets",
-            "content": "<p>Buy our bundles in 1 click and save money.<\/p>",
-            "button_label": "Shop Bundle Set",
-            "button_url": "shopify:\/\/collections\/bundle-sets",
-            "full_block_link": false,
-            "image_featured": "shopify:\/\/shop_images\/AF4A6048.jpg",
+            "image_featured": "shopify:\/\/shop_images\/AF4A2021.webp",
             "enable_autoplay": true,
             "enable_mute_toggle": true,
             "enable_loop": true,
@@ -490,22 +490,48 @@
             "color_scheme": "color__bg-tertiary color__tertiary",
             "color_border": "color__border-divider-1",
             "color_text": "color__text",
-            "color_button": "btn btn--white",
+            "color_button": "btn btn--secondary",
             "enable_gradient": false,
-            "layout_y_alignment": "items-end content-end",
+            "layout_y_alignment": "items-start content-start",
             "layout_x_alignment": "",
             "layout_row_span": "row-span-1",
             "layout_col_span": "col-span-1 md: md:col-span-1"
           }
         },
-        "1a34bfab-a3a9-4886-81fb-fc43fc99fe79": {
+        "content_CKfLHK": {
+          "type": "content",
+          "settings": {
+            "heading": "Save money Sets",
+            "content": "<p>Buy our bundles in 1 click<br\/>and save money.<\/p>",
+            "button_label": "Shop Bundle Set",
+            "button_url": "shopify:\/\/collections\/bundle-sets",
+            "full_block_link": true,
+            "image_featured": "shopify:\/\/shop_images\/640x640Tekengebied_15.jpg",
+            "enable_autoplay": true,
+            "enable_mute_toggle": true,
+            "enable_loop": true,
+            "spacing_top": 0,
+            "spacing_bottom": 20,
+            "enable_padding": true,
+            "color_scheme": "color__bg-tertiary color__tertiary",
+            "color_border": "color__border-divider-1",
+            "color_text": "color__text",
+            "color_button": "btn btn--secondary",
+            "enable_gradient": false,
+            "layout_y_alignment": "items-start content-start",
+            "layout_x_alignment": "",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md: md:col-span-1"
+          }
+        },
+        "content_CTLLbM": {
           "type": "content",
           "settings": {
             "heading": "Travel Sizes",
             "content": "<p>Try me \/ Travel with me \/  give me as a present \/ 100ml sizes<\/p>",
             "button_label": "Shop 100ml Sizes",
             "button_url": "shopify:\/\/collections\/new-products",
-            "full_block_link": false,
+            "full_block_link": true,
             "image_featured": "shopify:\/\/shop_images\/AF4A6054.jpg",
             "enable_autoplay": true,
             "enable_mute_toggle": true,
@@ -516,7 +542,7 @@
             "color_scheme": "color__bg-tertiary color__tertiary",
             "color_border": "color__border-divider-1",
             "color_text": "color__text",
-            "color_button": "btn btn--white",
+            "color_button": "btn btn--secondary",
             "enable_gradient": false,
             "layout_y_alignment": "items-end content-end",
             "layout_x_alignment": "",
@@ -524,33 +550,33 @@
             "layout_col_span": "col-span-1 md: md:col-span-1"
           }
         },
-        "b9475fa8-659b-4236-97b0-721c3357fdfb": {
+        "content_Bw7pE4": {
           "type": "content",
           "settings": {
             "heading": "Shop all",
-            "content": "<p>Can't make a choice? <\/p>",
+            "content": "<p>Can't make a choice?<\/p><p>Let's have a look at all our products.<\/p>",
             "button_label": "View all products",
             "button_url": "shopify:\/\/collections\/all",
             "full_block_link": true,
-            "image_background": "shopify:\/\/shop_images\/shutterstock_1969761964.jpg",
+            "image_featured": "shopify:\/\/shop_images\/640x640Tekengebied_16.jpg",
             "enable_autoplay": true,
             "enable_mute_toggle": true,
             "enable_loop": true,
-            "spacing_top": 80,
-            "spacing_bottom": 0,
+            "spacing_top": 0,
+            "spacing_bottom": 20,
             "enable_padding": true,
-            "color_scheme": "color__bg-body color__text",
-            "color_border": "!color__border-transparent",
-            "color_text": "color__light",
-            "color_button": "btn btn--white",
-            "enable_gradient": true,
-            "layout_y_alignment": "items-end content-end",
+            "color_scheme": "color__bg-tertiary color__tertiary",
+            "color_border": "color__border-divider-1",
+            "color_text": "color__text",
+            "color_button": "btn btn--secondary",
+            "enable_gradient": false,
+            "layout_y_alignment": "items-start content-start",
             "layout_x_alignment": "",
             "layout_row_span": "row-span-1",
-            "layout_col_span": "col-span-1 md: md:col-span-2"
+            "layout_col_span": "col-span-1 md: md:col-span-1"
           }
         },
-        "108a3766-9a6c-4037-8c9a-aad78fd92fb5": {
+        "content_rDEpkF": {
           "type": "content",
           "disabled": true,
           "settings": {
@@ -577,14 +603,14 @@
             "layout_col_span": "col-span-1 md: md:col-span-1"
           }
         },
-        "content_F3YK4R": {
+        "content_jURaAV": {
           "type": "content",
           "settings": {
             "heading": "Pretty Foundation",
             "content": "<p>Same product different packaging and 2,- will go into the pretty foundation. <\/p>",
             "button_label": "Pretty will donate 2,-",
             "button_url": "shopify:\/\/collections\/pretty-foundation",
-            "full_block_link": false,
+            "full_block_link": true,
             "image_featured": "shopify:\/\/shop_images\/image0_34.png",
             "enable_autoplay": true,
             "enable_mute_toggle": true,
@@ -592,7 +618,7 @@
             "spacing_top": 0,
             "spacing_bottom": 20,
             "enable_padding": true,
-            "color_scheme": "color__bg-body color__text",
+            "color_scheme": "color__bg-tertiary color__tertiary",
             "color_border": "color__border-divider-1",
             "color_text": "color__text",
             "color_button": "btn btn--secondary",
@@ -605,16 +631,13 @@
         }
       },
       "block_order": [
-        "template--18730720428336__ca2883b6-efd0-48c1-8f9e-520a6b9a64bc-1681420297b465165a-1",
-        "e33e90ee-bfe8-46fe-ba76-e0d96da28d4b",
-        "89cfba7f-845a-4500-a933-99ff0a15076f",
-        "b3051f08-8924-4f1c-b229-704a8d9449af",
-        "e4ad9d06-cbc8-467d-9f4f-d98f838264eb",
-        "ec996a86-3f30-4e3f-b9f0-819ef2f4e794",
-        "1a34bfab-a3a9-4886-81fb-fc43fc99fe79",
-        "b9475fa8-659b-4236-97b0-721c3357fdfb",
-        "108a3766-9a6c-4037-8c9a-aad78fd92fb5",
-        "content_F3YK4R"
+        "content_bwKxe4",
+        "content_zWazA6",
+        "content_CKfLHK",
+        "content_CTLLbM",
+        "content_Bw7pE4",
+        "content_rDEpkF",
+        "content_jURaAV"
       ],
       "settings": {
         "heading": "Shop by Category",
@@ -661,16 +684,16 @@
         "spacing_bottom": 40,
         "color_scheme": "color__bg-body color__text",
         "color_border": "color__border-divider-1",
-        "color_button": "btn btn--alternate",
+        "color_button": "btn btn--secondary",
         "style_border": "",
-        "layout_x_alignment": "justify-between",
+        "layout_x_alignment": "text-center justify-center flex-col items-center",
         "visibility": ""
       }
     },
     "nf_banner_section_AzAXK6": {
       "type": "nf-banner-section",
       "settings": {
-        "banner_image": "shopify:\/\/shop_images\/Scherm_afbeelding_2024-05-22_om_09.36.14.png",
+        "banner_image": "shopify:\/\/shop_images\/IMG_2628.jpg",
         "banner_heading": "PRETTY PROFESSIONAL",
         "banner_text": "TO ALL SALONS>> we understand that your skills, combined with our products, enhance the beauty of the world around us. TOGETHER WE MAKE THE CURLY WORLD PRETTIER!!\n<br>\n<br>\nIn recognition of your talents, we are delighted to introduce a professional curly haircare line, available exclusively to salons.\n<br>\n<br>\nIn the coming weeks, we will provide detailed insights into each product within the line. YOU ARE GOING TO LOVE IT❤️❤️❤️❤️\n<br>\n<br>\nAn Affordable Professional Curly Haircare Line, featuring the PRETTYBOND Repair Treatment.\n<br>\n<br>\nDo you want to become a b2b partner send an e-mail to b2b@prettycurlygirl.com",
         "enable_review_stars": false,
@@ -974,7 +997,7 @@
         "enable_summary": false,
         "enable_date": false,
         "enable_tags": false,
-        "spacing_top": 140,
+        "spacing_top": 40,
         "spacing_bottom": 100,
         "color_scheme": "color__bg-body color__text",
         "color_border": "color__border-divider-1",
@@ -982,7 +1005,7 @@
         "style_border": "border--b-width",
         "row_size_desktop": "md:grid-cols-3",
         "row_size_mobile": "grid grid-cols-2",
-        "layout_x_alignment": "justify-between",
+        "layout_x_alignment": "text-center justify-center flex-col items-center",
         "visibility": ""
       }
     },
@@ -1222,6 +1245,7 @@
     "b1e83feb-711b-4266-b0bc-088a4d48a207",
     "fa45b532-e64f-489b-9403-7046250c0e16",
     "ca2883b6-efd0-48c1-8f9e-520a6b9a64bc",
+    "content_grid_Li9gxK",
     "81ade9ad-d8df-41e4-8a5d-bda5d0e43d9a",
     "nf_banner_section_AzAXK6",
     "f3fd7d15-8af4-4a33-810d-e1dbd27ed532",
