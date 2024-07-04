@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "7c450e25-a49b-4dbd-aa01-9b08189f1f76": {
@@ -6,7 +15,7 @@
         "0ce04e77-6e38-4cb0-97f9-c8dea0a71a06": {
           "type": "slide",
           "settings": {
-            "image_featured": "shopify:\/\/shop_images\/damage_repair_before_and_after.png",
+            "image_featured": "shopify:\/\/shop_images\/640x640Tekengebied_2.jpg",
             "heading": "NEW",
             "url": "shopify:\/\/products\/damage-repair-spray"
           }
@@ -14,7 +23,7 @@
         "template--19487943393610__7c450e25-a49b-4dbd-aa01-9b08189f1f76-slide-1": {
           "type": "slide",
           "settings": {
-            "image_featured": "shopify:\/\/shop_images\/AF4A6026.jpg",
+            "image_featured": "shopify:\/\/shop_images\/Pretty_Curly_Girl_-_Blauwe_flesje.webp",
             "heading": "Step 1",
             "url": "shopify:\/\/collections\/step-1-cleanse"
           }
@@ -22,7 +31,7 @@
         "template--19487943393610__7c450e25-a49b-4dbd-aa01-9b08189f1f76-slide-2": {
           "type": "slide",
           "settings": {
-            "image_featured": "shopify:\/\/shop_images\/AF4A6056.jpg",
+            "image_featured": "shopify:\/\/shop_images\/Pretty_Curly_Girl_-_Oranje_flesje.webp",
             "heading": "Step 2",
             "url": "shopify:\/\/collections\/step-2-condition"
           }
@@ -30,7 +39,7 @@
         "template--19487943393610__7c450e25-a49b-4dbd-aa01-9b08189f1f76-slide-3": {
           "type": "slide",
           "settings": {
-            "image_featured": "shopify:\/\/shop_images\/AF4A6044.jpg",
+            "image_featured": "shopify:\/\/shop_images\/Pretty_Curly_Girl_-_Roze_flesje.webp",
             "heading": "Step 3",
             "url": "shopify:\/\/collections\/step-3-style"
           }
@@ -54,7 +63,7 @@
         "e9433735-3896-4cbb-a4d1-19ad3f337d2c": {
           "type": "slide",
           "settings": {
-            "image_featured": "shopify:\/\/shop_images\/AF4A6062.jpg",
+            "image_featured": "shopify:\/\/shop_images\/AF4A2021.webp",
             "heading": "Kids line",
             "url": "shopify:\/\/collections\/curly-star"
           }
@@ -62,7 +71,7 @@
         "d78ab6ae-ba92-4e8f-9fcf-e69760d1754c": {
           "type": "slide",
           "settings": {
-            "image_featured": "shopify:\/\/shop_images\/AF4A6066.jpg",
+            "image_featured": "shopify:\/\/shop_images\/640x640Tekengebied_16.jpg",
             "heading": "All Products",
             "url": "shopify:\/\/collections\/all"
           }
