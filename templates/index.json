@@ -476,7 +476,7 @@
           "type": "content",
           "settings": {
             "heading": "Kids line",
-            "content": "<p>Shop our bundle sets<br\/>in 1 click.<\/p>",
+            "content": "<p>Specially design for our Curly Kids<\/p>",
             "button_label": "shop Kids line",
             "button_url": "shopify:\/\/collections\/curly-star",
             "full_block_link": true,
