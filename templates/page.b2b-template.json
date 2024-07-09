@@ -21,6 +21,77 @@
         "padding_bottom": 0
       }
     },
+    "logo_list_grzDJU": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_fz4Up4": {
+          "type": "logo",
+          "settings": {
+            "logo_height": "max-h-[128px]",
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "color__border-divider-1",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md:col-span-1"
+          }
+        },
+        "logo_iVBhim": {
+          "type": "logo",
+          "settings": {
+            "logo_height": "max-h-[128px]",
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "color__border-divider-1",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md:col-span-1"
+          }
+        },
+        "logo_NqGprY": {
+          "type": "logo",
+          "settings": {
+            "logo_height": "max-h-[128px]",
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "color__border-divider-1",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md:col-span-1"
+          }
+        },
+        "logo_kYCLJz": {
+          "type": "logo",
+          "settings": {
+            "logo_height": "max-h-[128px]",
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "color__border-divider-1",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md:col-span-1"
+          }
+        }
+      },
+      "block_order": [
+        "logo_fz4Up4",
+        "logo_iVBhim",
+        "logo_NqGprY",
+        "logo_kYCLJz"
+      ],
+      "settings": {
+        "heading": "Logo list",
+        "content": "<p>Talk about press mentions, notable awards, or other brand partnerships.<\/p>",
+        "button_label": "Button",
+        "button_url": "\/",
+        "spacing_top": 100,
+        "spacing_bottom": 100,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "color_button": "btn btn--secondary",
+        "style_border": "border--b-width",
+        "row_size_desktop": "md:grid-cols-4",
+        "row_size_mobile": "grid-cols-2",
+        "layout_x_alignment": "justify-between",
+        "visibility": ""
+      }
+    },
     "instant_qa_gs_aa_r_zm_ed_zh_pwh_X47rxk": {
       "type": "instant-qaGsAaRZmEdZhPwh",
       "settings": {
@@ -61,6 +132,7 @@
   },
   "order": [
     "instant_w_yj0_hw_ag0_o_dvt6_a6_Lzq3BL",
+    "logo_list_grzDJU",
     "instant_qa_gs_aa_r_zm_ed_zh_pwh_X47rxk",
     "instant_6_rrp_whf808me_d9_zu_Y6HtMe",
     "instant-MNjItNc4MsTj7Puo"
