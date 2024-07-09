@@ -9,11 +9,6 @@
 */
 {
   "sections": {
-    "instant-MNjItNc4MsTj7Puo": {
-      "type": "instant-MNjItNc4MsTj7Puo",
-      "settings": {
-      }
-    },
     "instant_w_yj0_hw_ag0_o_dvt6_a6_Lzq3BL": {
       "type": "instant-wYj0HWAg0ODvt6A6",
       "settings": {
@@ -25,10 +20,49 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "instant_qa_gs_aa_r_zm_ed_zh_pwh_X47rxk": {
+      "type": "instant-qaGsAaRZmEdZhPwh",
+      "settings": {
+        "text_2q8mo7q4EKFRseIi": "<h3>Meet the owner<\/h3>",
+        "text_VVtdDoEHRnsfm8zp": "<p>My name is Hanan el Fizazi and I am the person behind the company. I am not just the founder and owner, I am the user of this curly hairline.<\/p><p><strong>\"If I do not like it I will not launch it\"<\/strong><\/p>",
+        "text_b8vcD13EKNOVuStZ": "<p>Good for the Planet<\/p>",
+        "text_YNme4I9POOqivylJ": "<p>Good for the Planet<\/p>",
+        "text_SloAp65tMIsagagx": "<p>Good for the Planet<\/p>",
+        "url_l2xlwlfVmeJ54Nnt": "",
+        "text_JT9tfgpvtimyrxQ6": "<p>Request b2b access<\/p>",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "instant_6_rrp_whf808me_d9_zu_Y6HtMe": {
+      "type": "instant-6RRPWhf808meD9ZU",
+      "settings": {
+        "text_ULesPJ5Yso2Yrp6g": "<h3>Affordable Professional Curly Haircare Lin<\/h3>",
+        "text_CV7vqDQePojs8qVS": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porta nibh tristique, tempor risus vel, sodales tortor.<\/p>",
+        "text_EsBaMoTQUdzUMVtF": "<p>Learn more<\/p>",
+        "text_1ph5djyNccJEGIjn": "<h3>PRETTYBOND Repair Treatment<\/h3>",
+        "text_K44K4sa4wXmfonIr": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porta nibh tristique, tempor risus vel, sodales tortor.<\/p>",
+        "url_6YvnIY9lzFaSLXWn": "",
+        "text_i68kveb8sReHuriC": "<p>Learn more<\/p>",
+        "text_4x87aEn4JypvUhrY": "<h3>Exclusive for salon<\/h3>",
+        "text_um6RVVtiAaOcxs9F": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porta nibh tristique, tempor risus vel, sodales tortor.<\/p>",
+        "url_3snOczhlzWmNEZMi": "",
+        "text_mmJDriVK6Y6ZQdqZ": "<p>Learn more<\/p>",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "instant-MNjItNc4MsTj7Puo": {
+      "type": "instant-MNjItNc4MsTj7Puo",
+      "settings": {
+      }
     }
   },
   "order": [
-    "instant-MNjItNc4MsTj7Puo",
-    "instant_w_yj0_hw_ag0_o_dvt6_a6_Lzq3BL"
+    "instant_w_yj0_hw_ag0_o_dvt6_a6_Lzq3BL",
+    "instant_qa_gs_aa_r_zm_ed_zh_pwh_X47rxk",
+    "instant_6_rrp_whf808me_d9_zu_Y6HtMe",
+    "instant-MNjItNc4MsTj7Puo"
   ]
 }
