@@ -76,10 +76,10 @@
         "logo_kYCLJz"
       ],
       "settings": {
-        "heading": "Logo list",
-        "content": "<p>Talk about press mentions, notable awards, or other brand partnerships.<\/p>",
-        "button_label": "Button",
-        "button_url": "\/",
+        "heading": "",
+        "content": "",
+        "button_label": "",
+        "button_url": "",
         "spacing_top": 100,
         "spacing_bottom": 100,
         "color_scheme": "color__bg-body color__text",
