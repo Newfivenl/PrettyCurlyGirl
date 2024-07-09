@@ -1,0 +1,34 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "instant-MNjItNc4MsTj7Puo": {
+      "type": "instant-MNjItNc4MsTj7Puo",
+      "settings": {
+      }
+    },
+    "instant_w_yj0_hw_ag0_o_dvt6_a6_Lzq3BL": {
+      "type": "instant-wYj0HWAg0ODvt6A6",
+      "settings": {
+        "text_iXRQiMUEoeHGRJfO": "<p>— Pretty curly girl products introduces the PCG-5 line<\/p>",
+        "text_ONyuxdkFt3ZL9nMa": "<h1>a PRETTY PROFESSIONAL LINE<\/h1>",
+        "text_IT9r7zPg6Poq9UES": "<p>In recognition of your talents, we are delighted to introduce a professional curly haircare line, available exclusively to salons. <\/p>",
+        "url_mqTvjPdRlcPVVhPs": "",
+        "text_wibKEiUkxweVfO7e": "<p>Request b2b access<\/p>",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "instant-MNjItNc4MsTj7Puo",
+    "instant_w_yj0_hw_ag0_o_dvt6_a6_Lzq3BL"
+  ]
+}
