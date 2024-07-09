@@ -128,6 +128,79 @@
       "type": "instant-MNjItNc4MsTj7Puo",
       "settings": {
       }
+    },
+    "content_slider_RG76mF": {
+      "type": "content-slider",
+      "blocks": {
+        "content_PbXHq9": {
+          "type": "content",
+          "settings": {
+            "heading": "",
+            "content": "",
+            "video_background": "shopify:\/\/files\/videos\/Snapinsta.app_video_An9zSGFlWJURV8eD4_z0KTfk6eOlaPm4oovKoWWLX7STEKRVW_S1aKSK0s2Rfg5jDe4ucF6bfUZTtudML0Cw6HJF.mp4",
+            "enable_autoplay": true,
+            "enable_mute_toggle": true,
+            "enable_loop": true,
+            "button_label": "",
+            "button_url": "",
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "enable_padding": false,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "color__border-divider-1",
+            "color_text": "color__text",
+            "color_button": "btn",
+            "enable_gradient": false,
+            "layout_y_alignment": "items-end content-end",
+            "layout_x_alignment": "",
+            "layout_desktop_width": 5,
+            "layout_mobile_width": 8
+          }
+        },
+        "content_8WJk6f": {
+          "type": "content",
+          "settings": {
+            "heading": "",
+            "content": "",
+            "video_background": "shopify:\/\/files\/videos\/Snapinsta.app_video_An_rJPF8-GEGs4TV9WzHRA48HOl8WPFDDC2l1qrHgJh0tFt4Wjyyonxgq72WpAYJyqULcxGkw5NzvBQgu1E9yJ4L.mp4",
+            "enable_autoplay": true,
+            "enable_mute_toggle": true,
+            "enable_loop": true,
+            "button_label": "",
+            "button_url": "",
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "enable_padding": false,
+            "color_scheme": "color__bg-overlay-1 color__text",
+            "color_border": "color__border-divider-1",
+            "color_text": "color__text",
+            "color_button": "btn btn--neutral",
+            "enable_gradient": false,
+            "layout_y_alignment": "items-end content-end",
+            "layout_x_alignment": "",
+            "layout_desktop_width": 6,
+            "layout_mobile_width": 6
+          }
+        }
+      },
+      "block_order": [
+        "content_PbXHq9",
+        "content_8WJk6f"
+      ],
+      "settings": {
+        "heading": "",
+        "content": "",
+        "button_label": "",
+        "button_url": "",
+        "spacing_top": 100,
+        "spacing_bottom": 100,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "color_button": "btn btn--secondary",
+        "style_border": "border--b-width",
+        "layout_x_alignment": "justify-between",
+        "visibility": ""
+      }
     }
   },
   "order": [
@@ -135,6 +208,7 @@
     "logo_list_grzDJU",
     "instant_qa_gs_aa_r_zm_ed_zh_pwh_X47rxk",
     "instant_6_rrp_whf808me_d9_zu_Y6HtMe",
-    "instant-MNjItNc4MsTj7Puo"
+    "instant-MNjItNc4MsTj7Puo",
+    "content_slider_RG76mF"
   ]
 }
