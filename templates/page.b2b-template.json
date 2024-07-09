@@ -14,7 +14,7 @@
       "settings": {
         "text_iXRQiMUEoeHGRJfO": "<p>— Pretty curly girl products introduces the PCG-5 line<\/p>",
         "text_ONyuxdkFt3ZL9nMa": "<h1>a PRETTY PROFESSIONAL LINE<\/h1>",
-        "text_IT9r7zPg6Poq9UES": "<p>In recognition of your talents, we are delighted to introduce a professional curly haircare line, available exclusively to salons. <\/p>",
+        "text_IT9r7zPg6Poq9UES": "<p>Pretty Curly Girl has established itself as a pioneer in the care of curly hair. With a strong focus on natural<br\/>ingredients, high-quality products and affordability, the brand has built a loyal customer base. The launch of the<br\/>PCG-5 line confirms Hanan el Fizazi's commitment to providing curl lovers worldwide with the best hair care products. <\/p>",
         "url_mqTvjPdRlcPVVhPs": "",
         "text_wibKEiUkxweVfO7e": "<p>Request b2b access<\/p>",
         "padding_top": 0,
@@ -124,11 +124,6 @@
         "padding_bottom": 0
       }
     },
-    "instant-MNjItNc4MsTj7Puo": {
-      "type": "instant-MNjItNc4MsTj7Puo",
-      "settings": {
-      }
-    },
     "content_slider_RG76mF": {
       "type": "content-slider",
       "blocks": {
@@ -201,6 +196,11 @@
         "layout_x_alignment": "justify-between",
         "visibility": ""
       }
+    },
+    "instant-MNjItNc4MsTj7Puo": {
+      "type": "instant-MNjItNc4MsTj7Puo",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -208,7 +208,7 @@
     "logo_list_grzDJU",
     "instant_qa_gs_aa_r_zm_ed_zh_pwh_X47rxk",
     "instant_6_rrp_whf808me_d9_zu_Y6HtMe",
-    "instant-MNjItNc4MsTj7Puo",
-    "content_slider_RG76mF"
+    "content_slider_RG76mF",
+    "instant-MNjItNc4MsTj7Puo"
   ]
 }
