@@ -128,6 +128,54 @@
         "padding_bottom": 0
       }
     },
+    "accordions_yqd3Cx": {
+      "type": "accordions",
+      "blocks": {
+        "content_6KNkWt": {
+          "type": "content",
+          "settings": {
+            "title": "A question your customers are asking",
+            "content": "<p>Answer to help your customers feel more comfortable completing their purchase.<\/p>",
+            "icon": ""
+          }
+        },
+        "content_Qngqwp": {
+          "type": "content",
+          "settings": {
+            "title": "A question your customers are asking",
+            "content": "<p>Answer to help your customers feel more comfortable completing their purchase.<\/p>",
+            "icon": ""
+          }
+        },
+        "content_EUihgF": {
+          "type": "content",
+          "settings": {
+            "title": "A question your customers are asking",
+            "content": "<p>Answer to help your customers feel more comfortable completing their purchase.<\/p>",
+            "icon": ""
+          }
+        }
+      },
+      "block_order": [
+        "content_6KNkWt",
+        "content_Qngqwp",
+        "content_EUihgF"
+      ],
+      "settings": {
+        "heading": "FAQ",
+        "content": "",
+        "button_label": "",
+        "button_url": "",
+        "spacing_top": 100,
+        "spacing_bottom": 100,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "color_button": "btn btn--secondary",
+        "style_border": "border--b-width",
+        "layout_x_alignment": "justify-between",
+        "visibility": ""
+      }
+    },
     "content_slider_RG76mF": {
       "type": "content-slider",
       "blocks": {
@@ -201,54 +249,6 @@
         "visibility": ""
       }
     },
-    "accordions_yqd3Cx": {
-      "type": "accordions",
-      "blocks": {
-        "content_6KNkWt": {
-          "type": "content",
-          "settings": {
-            "title": "A question your customers are asking",
-            "content": "<p>Answer to help your customers feel more comfortable completing their purchase.<\/p>",
-            "icon": ""
-          }
-        },
-        "content_Qngqwp": {
-          "type": "content",
-          "settings": {
-            "title": "A question your customers are asking",
-            "content": "<p>Answer to help your customers feel more comfortable completing their purchase.<\/p>",
-            "icon": ""
-          }
-        },
-        "content_EUihgF": {
-          "type": "content",
-          "settings": {
-            "title": "A question your customers are asking",
-            "content": "<p>Answer to help your customers feel more comfortable completing their purchase.<\/p>",
-            "icon": ""
-          }
-        }
-      },
-      "block_order": [
-        "content_6KNkWt",
-        "content_Qngqwp",
-        "content_EUihgF"
-      ],
-      "settings": {
-        "heading": "FAQ",
-        "content": "",
-        "button_label": "",
-        "button_url": "",
-        "spacing_top": 100,
-        "spacing_bottom": 100,
-        "color_scheme": "color__bg-body color__text",
-        "color_border": "color__border-divider-1",
-        "color_button": "btn btn--secondary",
-        "style_border": "border--b-width",
-        "layout_x_alignment": "justify-between",
-        "visibility": ""
-      }
-    },
     "instant-MNjItNc4MsTj7Puo": {
       "type": "instant-MNjItNc4MsTj7Puo",
       "settings": {
@@ -260,8 +260,8 @@
     "logo_list_grzDJU",
     "instant_qa_gs_aa_r_zm_ed_zh_pwh_X47rxk",
     "instant_6_rrp_whf808me_d9_zu_Y6HtMe",
-    "content_slider_RG76mF",
     "accordions_yqd3Cx",
+    "content_slider_RG76mF",
     "instant-MNjItNc4MsTj7Puo"
   ]
 }
