@@ -13,8 +13,8 @@
       "type": "instant-wYj0HWAg0ODvt6A6",
       "settings": {
         "text_iXRQiMUEoeHGRJfO": "<p>— Pretty curly girl products introduces the PCG-5 line<\/p>",
-        "text_ONyuxdkFt3ZL9nMa": "<h1>a PRETTY PROFESSIONAL LINE<\/h1>",
-        "text_IT9r7zPg6Poq9UES": "<p>Pretty Curly Girl has established itself as a pioneer in the care of curly hair. With a strong focus on natural ingredients, high-quality products and affordability, the brand has built a loyal customer base. The launch of the<br\/>PCG-5 line confirms Hanan el Fizazi's commitment to providing curl lovers worldwide with the best hair care products. <\/p>",
+        "text_ONyuxdkFt3ZL9nMa": "<h1>a PRETTY PROFESSIONAL Salon LINE<\/h1>",
+        "text_IT9r7zPg6Poq9UES": "<p>Pretty Curly Girl has established itself as a pioneer in the care of curly hair. With a strong focus on natural ingredients, high-quality products and affordability, the brand has built a loyal customer base. The launch of the PCG-5 line confirms the owner's,  Hanan el Fizazi, commitment to providing curl lovers worldwide with the best hair care products and to make the curly world prettier. <\/p>",
         "url_mqTvjPdRlcPVVhPs": "",
         "text_wibKEiUkxweVfO7e": "<p>Request b2b access<\/p>",
         "padding_top": 0,
@@ -96,7 +96,7 @@
       "type": "instant-qaGsAaRZmEdZhPwh",
       "settings": {
         "text_2q8mo7q4EKFRseIi": "<h3>Meet the owner<\/h3>",
-        "text_VVtdDoEHRnsfm8zp": "<p>My name is Hanan el Fizazi and I am the person behind the company. I am not just the founder and owner, I am the user of this curly hairline.<\/p><p><strong>\"If I do not like it I will not launch it\"<\/strong><\/p>",
+        "text_VVtdDoEHRnsfm8zp": "<p><strong>\"If I do not like it I will not launch it\"<\/strong><\/p><p>As someone with curly hair, I understand the unique challenges that comes with having curly hair. I want to change the narrative to <strong>Curly Hair = Professional <\/strong><\/p>",
         "text_b8vcD13EKNOVuStZ": "<p>VEGAN<\/p>",
         "text_YNme4I9POOqivylJ": "<p>BOND REPAIR TREATMENT <\/p>",
         "text_SloAp65tMIsagagx": "<p>CURLY GIRL APPROVED <\/p>",
@@ -110,12 +110,12 @@
     "instant_6_rrp_whf808me_d9_zu_Y6HtMe": {
       "type": "instant-6RRPWhf808meD9ZU",
       "settings": {
-        "text_ULesPJ5Yso2Yrp6g": "<h3>Affordable and easy to follow Professional Curly Haircare Line<\/h3>",
-        "text_CV7vqDQePojs8qVS": "<p>Our Philosophy is to make a curly routine easy and affordable for customers.<\/p>",
+        "text_ULesPJ5Yso2Yrp6g": "<h3>Affordable Curly Haircare Line<\/h3>",
+        "text_CV7vqDQePojs8qVS": "<p>We’ve made sure our exclusive products are friendly priced without compromising on quality.<\/p>",
         "text_EsBaMoTQUdzUMVtF": "<p>Learn more<\/p>",
         "image_MYYnpZ2FUC7CNuHS": "shopify:\/\/shop_images\/IMG_3811_jpg.webp",
         "text_1ph5djyNccJEGIjn": "<h3>PRETTYBOND Repair Treatment<\/h3>",
-        "text_K44K4sa4wXmfonIr": "<p>Enriched with our bond repair system and rosemary oil to <\/p>",
+        "text_K44K4sa4wXmfonIr": "<p>This line is formulated with amino acids and peptides that work together to rebuild and strengthen the bonds in your hair. Think of it as a superfood smoothie for your curls – it repairs from the inside out, leaving curls healthier, stronger, and more resilient.<\/p>",
         "url_6YvnIY9lzFaSLXWn": "",
         "text_i68kveb8sReHuriC": "<p>Learn more<\/p>",
         "image_bclpu0HQRnfBxMLA": "shopify:\/\/shop_images\/IMG_3812_jpg.webp",
@@ -126,54 +126,6 @@
         "image_e1AiKT5tBQp3YdCn": "shopify:\/\/shop_images\/22BBE85E-99A2-48F7-9877-1E6FB04C7569_jpg.webp",
         "padding_top": 0,
         "padding_bottom": 0
-      }
-    },
-    "accordions_yqd3Cx": {
-      "type": "accordions",
-      "blocks": {
-        "content_6KNkWt": {
-          "type": "content",
-          "settings": {
-            "title": "A question your customers are asking",
-            "content": "<p>Answer to help your customers feel more comfortable completing their purchase.<\/p>",
-            "icon": ""
-          }
-        },
-        "content_Qngqwp": {
-          "type": "content",
-          "settings": {
-            "title": "A question your customers are asking",
-            "content": "<p>Answer to help your customers feel more comfortable completing their purchase.<\/p>",
-            "icon": ""
-          }
-        },
-        "content_EUihgF": {
-          "type": "content",
-          "settings": {
-            "title": "A question your customers are asking",
-            "content": "<p>Answer to help your customers feel more comfortable completing their purchase.<\/p>",
-            "icon": ""
-          }
-        }
-      },
-      "block_order": [
-        "content_6KNkWt",
-        "content_Qngqwp",
-        "content_EUihgF"
-      ],
-      "settings": {
-        "heading": "FAQ",
-        "content": "",
-        "button_label": "",
-        "button_url": "",
-        "spacing_top": 100,
-        "spacing_bottom": 100,
-        "color_scheme": "color__bg-body color__text",
-        "color_border": "color__border-divider-1",
-        "color_button": "btn btn--secondary",
-        "style_border": "border--b-width",
-        "layout_x_alignment": "justify-between",
-        "visibility": ""
       }
     },
     "content_slider_RG76mF": {
@@ -249,6 +201,54 @@
         "visibility": ""
       }
     },
+    "accordions_yqd3Cx": {
+      "type": "accordions",
+      "blocks": {
+        "content_6KNkWt": {
+          "type": "content",
+          "settings": {
+            "title": "A question your customers are asking",
+            "content": "<p>Answer to help your customers feel more comfortable completing their purchase.<\/p>",
+            "icon": ""
+          }
+        },
+        "content_Qngqwp": {
+          "type": "content",
+          "settings": {
+            "title": "A question your customers are asking",
+            "content": "<p>Answer to help your customers feel more comfortable completing their purchase.<\/p>",
+            "icon": ""
+          }
+        },
+        "content_EUihgF": {
+          "type": "content",
+          "settings": {
+            "title": "A question your customers are asking",
+            "content": "<p>Answer to help your customers feel more comfortable completing their purchase.<\/p>",
+            "icon": ""
+          }
+        }
+      },
+      "block_order": [
+        "content_6KNkWt",
+        "content_Qngqwp",
+        "content_EUihgF"
+      ],
+      "settings": {
+        "heading": "FAQ",
+        "content": "",
+        "button_label": "",
+        "button_url": "",
+        "spacing_top": 100,
+        "spacing_bottom": 100,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "color_button": "btn btn--secondary",
+        "style_border": "border--b-width",
+        "layout_x_alignment": "justify-between",
+        "visibility": ""
+      }
+    },
     "instant-MNjItNc4MsTj7Puo": {
       "type": "instant-MNjItNc4MsTj7Puo",
       "settings": {
@@ -260,8 +260,8 @@
     "logo_list_grzDJU",
     "instant_qa_gs_aa_r_zm_ed_zh_pwh_X47rxk",
     "instant_6_rrp_whf808me_d9_zu_Y6HtMe",
-    "accordions_yqd3Cx",
     "content_slider_RG76mF",
+    "accordions_yqd3Cx",
     "instant-MNjItNc4MsTj7Puo"
   ]
 }
