@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -190,6 +199,42 @@
         "visibility": ""
       }
     },
+    "banner_alternative_khRmEf": {
+      "type": "banner-alternative",
+      "blocks": {
+        "heading_FTAK4Q": {
+          "type": "heading",
+          "settings": {
+            "content": "4 Product lines"
+          }
+        },
+        "content_yLNQNR": {
+          "type": "content",
+          "settings": {
+            "content": "<p>We want to give you the best of the best. With these 4 product lines you will get the best, <\/p>",
+            "content_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_FTAK4Q",
+        "content_yLNQNR"
+      ],
+      "settings": {
+        "image_background_desktop": "shopify:\/\/shop_images\/SORRY_413ee656-ba44-4d66-accd-0ea29a6d1a5b.jpg",
+        "enable_lazy_loading": false,
+        "color_scheme": "color__bg-overlay-1 color__text",
+        "color_text": "",
+        "color_border": "color__border-divider-1",
+        "style_border": "border--b-width",
+        "content_width": 40,
+        "image_position": "left",
+        "layout_y_spacing": "min-h-[450px] md:min-h-[550px]",
+        "layout_y_alignment": "items-end",
+        "layout_x_alignment": "justify-start",
+        "visibility": ""
+      }
+    },
     "357dcbf9-b9d4-410a-ad14-3f7bffb0d3dc": {
       "type": "text",
       "settings": {
@@ -215,6 +260,7 @@
     "27f95a90-6348-40fd-9e48-faf58cd400ea",
     "5829fd90-182e-49c3-b917-d074ac2d0ecc",
     "80852430-9e0d-4d82-8146-6ad71d5a35a3",
+    "banner_alternative_khRmEf",
     "357dcbf9-b9d4-410a-ad14-3f7bffb0d3dc"
   ]
 }
