@@ -155,7 +155,7 @@
         "layout_y_spacing": "min-h-[650px] max-h-[75vh] md:min-h-[70vh]",
         "layout_y_alignment": "items-center",
         "layout_x_alignment": "justify-start",
-        "visibility": "hidden md:block"
+        "visibility": ""
       }
     },
     "f96b8e1b-0fd4-4c65-856c-cdd01fe228cc": {
