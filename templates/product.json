@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "2e17b9be-af79-4d92-a3f0-f68c8823ca08": {
@@ -104,6 +113,7 @@
         },
         "kaching_bundle_quantity_breaks_app_block_JUtJk8": {
           "type": "shopify:\/\/apps\/kaching-bundles\/blocks\/app-block\/6c637362-a106-4a32-94ac-94dcfd68cdb8",
+          "disabled": true,
           "settings": {
             "product": "{{product}}"
           }
