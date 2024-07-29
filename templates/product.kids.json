@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "2e17b9be-af79-4d92-a3f0-f68c8823ca08": {
@@ -140,7 +149,7 @@
             "timer_title": "SALE - 15% OFF EVERYTHING",
             "timer_link_title": "",
             "timer_link": "",
-            "timer_date": "june 16, 2024 23:59:59",
+            "timer_date": "July 31, 2024 23:59:59",
             "timer_title_after_time_expires": ""
           }
         },
