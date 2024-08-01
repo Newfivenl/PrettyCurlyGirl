@@ -113,7 +113,6 @@
         },
         "kaching_bundle_quantity_breaks_app_block_JUtJk8": {
           "type": "shopify:\/\/apps\/kaching-bundles\/blocks\/app-block\/6c637362-a106-4a32-94ac-94dcfd68cdb8",
-          "disabled": true,
           "settings": {
             "product": "{{product}}"
           }
