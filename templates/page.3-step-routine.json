@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -84,6 +93,9 @@
         "template--19754442293578__2bce6a2c-2327-43be-94f4-afaf9044d517-icon-1",
         "template--19754442293578__2bce6a2c-2327-43be-94f4-afaf9044d517-icon-2",
         "template--19754442293578__2bce6a2c-2327-43be-94f4-afaf9044d517-icon-3"
+      ],
+      "custom_css": [
+
       ],
       "settings": {
         "heading": "3-STEP CURLY HAIR ROUTINE",
