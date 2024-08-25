@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "current": {
     "background_body_light": "#ffffff",
@@ -399,6 +408,12 @@
           "style_colors_cta_text": "#ffffff",
           "style_colors_cta_button": "#a69082",
           "style_colors_text": "#000000"
+        }
+      },
+      "1656560654682496077": {
+        "type": "shopify:\/\/apps\/instant\/blocks\/instant_core\/927e19d9-4e68-41db-99c7-d8debdc1f80d",
+        "disabled": false,
+        "settings": {
         }
       }
     }
