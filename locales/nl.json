@@ -325,10 +325,10 @@
         "optional_address2_label": "Toevoeging "
       },
       "shipping": {
-        "address2_add_label": "Straat + HUISNUMMER (*VERPLICHT)"
+        "address2_add_label": "Toevoeging "
       },
       "field_errors": {
-        "address_address2_blank": "Voer een Huisnummer in"
+        "address_address2_blank": "Toevoeging "
       },
       "alternative_payment_method_banner": {
         "express_checkout": "Versneld afrekenen",
