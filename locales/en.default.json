@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin language editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "general": {
     "accessibility": {
@@ -311,12 +320,7 @@
   "shopify": {
     "checkout": {
       "contact": {
-        "address2_label": "House number + additional info",
-        "optional_address2_label": "House number + additional info",
         "address1_label": "Street name"
-      },
-      "shipping": {
-        "address2_add_label": "HOUSE NUMBER, Apartment, suite, etc"
       },
       "field_errors": {
         "address_address2_blank": "Enter a house number",
@@ -325,7 +329,6 @@
       "wallets": {
         "errors": {
           "missing": {
-            "address2": "House number + additional info",
             "address1": "Street name"
           }
         }
