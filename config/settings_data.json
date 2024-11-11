@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "background_body_light": "#ffffff",
@@ -41,10 +41,10 @@
     "layout_gap_size": 10,
     "enable_audio": true,
     "enable_animations": true,
-    "favicon": "shopify:\/\/shop_images\/icon.png",
+    "favicon": "shopify://shop_images/icon.png",
     "thumbmails_color_scheme": "color__bg-overlay-1 after:color__bg-overlay-1 color__text after:color__text",
     "thumbnails_color_border": "border--width color__border-divider-1",
-    "thumbnails_ratio": "aspect-[1\/1] aspect-w-1 aspect-h-1",
+    "thumbnails_ratio": "aspect-[1/1] aspect-w-1 aspect-h-1",
     "thumbnails_object-sizing": "cover",
     "thumbnails_border_style": "image",
     "thumbnail_alignment": "",
@@ -77,10 +77,10 @@
     "enable_region": true,
     "enable_language": true,
     "enable_local_business": true,
-    "social_tiktok_link": "https:\/\/www.tiktok.com\/@prettycurlygirlproducts",
-    "social_instagram_link": "https:\/\/www.instagram.com\/prettycurlygirl_products\/",
+    "social_tiktok_link": "https://www.tiktok.com/@prettycurlygirlproducts",
+    "social_instagram_link": "https://www.instagram.com/prettycurlygirl_products/",
     "social_twitter_link": "",
-    "social_facebook_link": "https:\/\/www.facebook.com\/www.prettyskin.nl\/",
+    "social_facebook_link": "https://www.facebook.com/www.prettyskin.nl/",
     "social_pinterest_link": "",
     "social_snapchat_link": "",
     "social_tumblr_link": "",
@@ -89,7 +89,7 @@
     "social_twitch_link": "",
     "social_youtube_link": "",
     "social_vimeo_link": "",
-    "checkout_logo_image": "shopify:\/\/shop_images\/text-logo-website.svg",
+    "checkout_logo_image": "shopify://shop_images/text-logo-website.svg",
     "checkout_logo_position": "center",
     "checkout_accent_color": "#ab8f80",
     "checkout_button_color": "#504844",
@@ -100,7 +100,7 @@
     "background_secondary_dark": "#fdfdfd",
     "foreground_secondary_dark": "#333333",
     "mobile_bar_dark": "#267683",
-    "logo": "shopify:\/\/shop_images\/COKx4K7qlPQCEAE.png",
+    "logo": "shopify://shop_images/COKx4K7qlPQCEAE.png",
     "sections": {
       "theme__announcement": {
         "type": "theme__announcement",
@@ -108,13 +108,13 @@
           "f2232503-8685-46db-aaf1-b796c5ea14f9": {
             "type": "text",
             "settings": {
-              "content": "<p>Make announcements or share a promotion.<\/p>"
+              "content": "<p>Make announcements or share a promotion.</p>"
             }
           },
           "493bfb93-68fd-473f-bc87-57abeae993ce": {
             "type": "text",
             "settings": {
-              "content": "<p>Make announcements or share a promotion.<\/p>"
+              "content": "<p>Make announcements or share a promotion.</p>"
             }
           }
         },
@@ -137,7 +137,7 @@
               "menu": "shop",
               "url": "",
               "heading": "Block heading",
-              "content": "<p>Describe a product, make announcements, or welcome customers to your store.&lt;<\/p>"
+              "content": "<p>Describe a product, make announcements, or welcome customers to your store.&lt;</p>"
             }
           }
         },
@@ -188,7 +188,7 @@
             "disabled": true,
             "settings": {
               "heading": "15% OFF EVERYTHING",
-              "content": "<p>Mother's day sale - Get 15% off everything.<\/p>"
+              "content": "<p>Mother's day sale - Get 15% off everything.</p>"
             }
           },
           "62364748-86ba-4235-b149-37c37c3a382f": {
@@ -196,7 +196,7 @@
             "disabled": true,
             "settings": {
               "heading": "CHRISTMAS SALE -15%",
-              "content": "<p>Your discount is automatically applied!<\/p>"
+              "content": "<p>Your discount is automatically applied!</p>"
             }
           }
         },
@@ -227,9 +227,9 @@
           "progress_bar_enable": true,
           "main_cart_upgrade_product": "",
           "main_cart_upgrade_text": "",
-          "cart_upsell_products": "new-products",
+          "cart_upsell_products": "100ml-travelsizes",
           "empty_button_label": "Shop all",
-          "empty_button_url": "shopify:\/\/collections\/all"
+          "empty_button_url": "shopify://collections/all"
         }
       },
       "theme__footer": {
@@ -239,10 +239,10 @@
             "type": "newsletter",
             "settings": {
               "heading": "Newsletter",
-              "content": "<p>Tell customers why they should subscribe to your newsletter.<\/p>",
+              "content": "<p>Tell customers why they should subscribe to your newsletter.</p>",
               "button": "Subscribe",
-              "disclaimer": "<p>Include an additonal disclaimer to clarify how you will use a subscribers email.<\/p>",
-              "success": "<p>Success! You’ve been subscribed.<\/p>"
+              "disclaimer": "<p>Include an additonal disclaimer to clarify how you will use a subscribers email.</p>",
+              "success": "<p>Success! You’ve been subscribed.</p>"
             }
           },
           "5dc22179-9717-40d2-9d83-4532c904e6d1": {
@@ -296,33 +296,28 @@
           "age_verification_style": "full_date",
           "age_limit": 18,
           "heading": "Verify your age",
-          "content": "<p>Please confirm that you are over the age of 18 to proceed.<\/p>"
+          "content": "<p>Please confirm that you are over the age of 18 to proceed.</p>"
         }
       },
       "nf-landing": {
         "type": "nf-landing",
-        "settings": {
-        }
+        "settings": {}
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "15351435345818755577": {
-        "type": "shopify:\/\/apps\/pandectes-gdpr-compliance\/blocks\/banner\/58c0baa2-6cc1-480c-9ea6-38d6d559556a",
+        "type": "shopify://apps/pandectes-gdpr-compliance/blocks/banner/58c0baa2-6cc1-480c-9ea6-38d6d559556a",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "855628211100114053": {
-        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "5858961087409699889": {
-        "type": "shopify:\/\/apps\/geolocation-orbe\/blocks\/app-embed-footer-selector\/7cb09287-cd2b-4646-837c-f1f9b6ea703e",
+        "type": "shopify://apps/geolocation-orbe/blocks/app-embed-footer-selector/7cb09287-cd2b-4646-837c-f1f9b6ea703e",
         "disabled": true,
         "settings": {
           "footer_ui_type": "popup",
@@ -340,19 +335,17 @@
         }
       },
       "14060646107696862457": {
-        "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "15685250022964305326": {
-        "type": "shopify:\/\/apps\/elevar-conversion-tracking\/blocks\/dataLayerEmbed\/bc30ab68-b15c-4311-811f-8ef485877ad6",
+        "type": "shopify://apps/elevar-conversion-tracking/blocks/dataLayerEmbed/bc30ab68-b15c-4311-811f-8ef485877ad6",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "15683396631634586217": {
-        "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": true,
         "settings": {
           "button_color": "#202a36",
@@ -364,25 +357,22 @@
         }
       },
       "7990132695519299173": {
-        "type": "shopify:\/\/apps\/simple-affiliate\/blocks\/sa-tracker\/da6b7ee2-2e27-43e4-9184-0df8dc5be07a",
+        "type": "shopify://apps/simple-affiliate/blocks/sa-tracker/da6b7ee2-2e27-43e4-9184-0df8dc5be07a",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "5366966397018820931": {
-        "type": "shopify:\/\/apps\/instant-a-b-testing\/blocks\/tracking\/63aa07b1-7397-484f-b6dd-f47e11b50223",
+        "type": "shopify://apps/instant-a-b-testing/blocks/tracking/63aa07b1-7397-484f-b6dd-f47e11b50223",
         "disabled": true,
-        "settings": {
-        }
+        "settings": {}
       },
       "15557474716127144420": {
-        "type": "shopify:\/\/apps\/kaching-bundle-quantity-breaks\/blocks\/app-embed-block\/6c637362-a106-4a32-94ac-94dcfd68cdb8",
+        "type": "shopify://apps/kaching-bundle-quantity-breaks/blocks/app-embed-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "15912215999290715800": {
-        "type": "shopify:\/\/apps\/geolocation-orbe\/blocks\/app-embed-modal\/7cb09287-cd2b-4646-837c-f1f9b6ea703e",
+        "type": "shopify://apps/geolocation-orbe/blocks/app-embed-modal/7cb09287-cd2b-4646-837c-f1f9b6ea703e",
         "disabled": false,
         "settings": {
           "test_mode": false,
@@ -393,7 +383,7 @@
           "option_search_country": true,
           "title": "Are you in the right place?",
           "text": "Please select your shipping country.",
-          "helper_text": "<p>Buy from the country of your choice. Remember that we can only ship your order to addresses located in the chosen country.<\/p>",
+          "helper_text": "<p>Buy from the country of your choice. Remember that we can only ship your order to addresses located in the chosen country.</p>",
           "cta_text": "SHOP NOW",
           "fallback_text": "We don’t ship to {country}",
           "alignment_image": "right",
@@ -411,10 +401,9 @@
         }
       },
       "1656560654682496077": {
-        "type": "shopify:\/\/apps\/instant\/blocks\/instant_core\/927e19d9-4e68-41db-99c7-d8debdc1f80d",
+        "type": "shopify://apps/instant/blocks/instant_core/927e19d9-4e68-41db-99c7-d8debdc1f80d",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       }
     }
   },
@@ -453,7 +442,7 @@
       "enable_animations": true,
       "thumbmails_color_scheme": "color__bg-overlay-1 after:color__bg-overlay-1 color__text after:color__text",
       "thumbnails_color_border": "border--width color__border-divider-1",
-      "thumbnails_ratio": "aspect-[2\/3] aspect-w-2 aspect-h-3",
+      "thumbnails_ratio": "aspect-[2/3] aspect-w-2 aspect-h-3",
       "thumbnails_object-sizing": "cover",
       "thumbnails_border_style": "image",
       "stock_threshold": 1000,
@@ -492,7 +481,7 @@
       "background_secondary_dark": "#fdfdfd",
       "foreground_secondary_dark": "#333333",
       "mobile_bar_dark": "#267683",
-      "logo": "shopify:\/\/shop_images\/COKx4K7qlPQCEAE.png",
+      "logo": "shopify://shop_images/COKx4K7qlPQCEAE.png",
       "sections": {
         "theme__announcement": {
           "type": "theme__announcement",
@@ -500,13 +489,13 @@
             "f2232503-8685-46db-aaf1-b796c5ea14f9": {
               "type": "text",
               "settings": {
-                "content": "<p>Make announcements or share a promotion.<\/p>"
+                "content": "<p>Make announcements or share a promotion.</p>"
               }
             },
             "493bfb93-68fd-473f-bc87-57abeae993ce": {
               "type": "text",
               "settings": {
-                "content": "<p>Make announcements or share a promotion.<\/p>"
+                "content": "<p>Make announcements or share a promotion.</p>"
               }
             }
           },
@@ -529,7 +518,7 @@
                 "menu": "shop",
                 "url": "",
                 "heading": "Block heading",
-                "content": "<p>Describe a product, make announcements, or welcome customers to your store.&lt;<\/p>"
+                "content": "<p>Describe a product, make announcements, or welcome customers to your store.&lt;</p>"
               }
             }
           },
@@ -578,17 +567,17 @@
             "dc415ec9-53ea-4c8e-aa82-79bb3e7f0b16": {
               "type": "Content",
               "settings": {
-                "image_featured": "shopify:\/\/shop_images\/badge-dollar-solid.png",
+                "image_featured": "shopify://shop_images/badge-dollar-solid.png",
                 "heading": "Buy 2 Get 10% Off",
-                "content": "<p>Buy any two items and recieve 10% off your order until 10\/10<\/p>"
+                "content": "<p>Buy any two items and recieve 10% off your order until 10/10</p>"
               }
             },
             "62364748-86ba-4235-b149-37c37c3a382f": {
               "type": "Content",
               "settings": {
-                "image_featured": "shopify:\/\/shop_images\/box-heart-solid.png",
+                "image_featured": "shopify://shop_images/box-heart-solid.png",
                 "heading": "Free shipping",
-                "content": "<p>Spend over $35 and recieve free shipping<\/p>"
+                "content": "<p>Spend over $35 and recieve free shipping</p>"
               }
             }
           },
@@ -618,7 +607,7 @@
             "sidebar_color_scheme": "color__bg-body color__text",
             "sidebar_color_border": "color__border-divider-1",
             "empty_button_label": "Shop all",
-            "empty_button_url": "shopify:\/\/collections\/all"
+            "empty_button_url": "shopify://collections/all"
           }
         },
         "theme__footer": {
@@ -628,10 +617,10 @@
               "type": "newsletter",
               "settings": {
                 "heading": "Newsletter",
-                "content": "<p>Tell customers why they should subscribe to your newsletter.<\/p>",
+                "content": "<p>Tell customers why they should subscribe to your newsletter.</p>",
                 "button": "Subscribe",
-                "disclaimer": "<p>Include an additonal disclaimer to clarify how you will use a subscribers email.<\/p>",
-                "success": "<p>Success! You’ve been subscribed.<\/p>"
+                "disclaimer": "<p>Include an additonal disclaimer to clarify how you will use a subscribers email.</p>",
+                "success": "<p>Success! You’ve been subscribed.</p>"
               }
             },
             "5dc22179-9717-40d2-9d83-4532c904e6d1": {
@@ -685,13 +674,11 @@
             "age_verification_style": "full_date",
             "age_limit": 18,
             "heading": "Verify your age",
-            "content": "<p>Please confirm that you are over the age of 18 to proceed.<\/p>"
+            "content": "<p>Please confirm that you are over the age of 18 to proceed.</p>"
           }
         }
       },
-      "content_for_index": [
-
-      ]
+      "content_for_index": []
     },
     "Parts": {
       "background_body_light": "#fdfdfd",
@@ -726,7 +713,7 @@
       "enable_animations": true,
       "thumbmails_color_scheme": "color__bg-overlay-1 after:color__bg-overlay-1 color__text after:color__text",
       "thumbnails_color_border": "border--width color__border-divider-1",
-      "thumbnails_ratio": "aspect-[2\/3] aspect-w-2 aspect-h-3",
+      "thumbnails_ratio": "aspect-[2/3] aspect-w-2 aspect-h-3",
       "thumbnails_object-sizing": "cover",
       "thumbnails_border_style": "image",
       "stock_threshold": 1000,
@@ -766,7 +753,7 @@
       "background_secondary_dark": "#fdfdfd",
       "foreground_secondary_dark": "#333333",
       "mobile_bar_dark": "#267683",
-      "logo": "shopify:\/\/shop_images\/COKx4K7qlPQCEAE.png",
+      "logo": "shopify://shop_images/COKx4K7qlPQCEAE.png",
       "sections": {
         "theme__announcement": {
           "type": "theme__announcement",
@@ -774,13 +761,13 @@
             "f2232503-8685-46db-aaf1-b796c5ea14f9": {
               "type": "text",
               "settings": {
-                "content": "<p>Make announcements or share a promotion.<\/p>"
+                "content": "<p>Make announcements or share a promotion.</p>"
               }
             },
             "493bfb93-68fd-473f-bc87-57abeae993ce": {
               "type": "text",
               "settings": {
-                "content": "<p>Make announcements or share a promotion.<\/p>"
+                "content": "<p>Make announcements or share a promotion.</p>"
               }
             }
           },
@@ -803,7 +790,7 @@
                 "menu": "shop",
                 "url": "",
                 "heading": "Block heading",
-                "content": "<p>Describe a product, make announcements, or welcome customers to your store.&lt;<\/p>"
+                "content": "<p>Describe a product, make announcements, or welcome customers to your store.&lt;</p>"
               }
             }
           },
@@ -853,7 +840,7 @@
               "type": "Content",
               "settings": {
                 "heading": "✓ Free shipping",
-                "content": "<p>Spend $150 and ship it for free.<\/p>"
+                "content": "<p>Spend $150 and ship it for free.</p>"
               }
             }
           },
@@ -882,7 +869,7 @@
             "sidebar_color_scheme": "color__bg-body color__text",
             "sidebar_color_border": "color__border-divider-1",
             "empty_button_label": "Shop all",
-            "empty_button_url": "shopify:\/\/collections\/all"
+            "empty_button_url": "shopify://collections/all"
           }
         },
         "theme__footer": {
@@ -892,10 +879,10 @@
               "type": "newsletter",
               "settings": {
                 "heading": "Newsletter",
-                "content": "<p>Tell customers why they should subscribe to your newsletter.<\/p>",
+                "content": "<p>Tell customers why they should subscribe to your newsletter.</p>",
                 "button": "Subscribe",
-                "disclaimer": "<p>Include an additonal disclaimer to clarify how you will use a subscribers email.<\/p>",
-                "success": "<p>Success! You’ve been subscribed.<\/p>"
+                "disclaimer": "<p>Include an additonal disclaimer to clarify how you will use a subscribers email.</p>",
+                "success": "<p>Success! You’ve been subscribed.</p>"
               }
             },
             "5dc22179-9717-40d2-9d83-4532c904e6d1": {
@@ -949,13 +936,11 @@
             "age_verification_style": "full_date",
             "age_limit": 18,
             "heading": "Verify your age",
-            "content": "<p>Please confirm that you are over the age of 18 to proceed.<\/p>"
+            "content": "<p>Please confirm that you are over the age of 18 to proceed.</p>"
           }
         }
       },
-      "content_for_index": [
-
-      ]
+      "content_for_index": []
     },
     "Play": {
       "background_body_light": "#fffbf7",
@@ -990,7 +975,7 @@
       "enable_animations": true,
       "thumbmails_color_scheme": "color__bg-overlay-1 after:color__bg-overlay-1 color__text after:color__text",
       "thumbnails_color_border": "border--width color__border-divider-1",
-      "thumbnails_ratio": "aspect-[1\/1] aspect-w-1 aspect-h-1",
+      "thumbnails_ratio": "aspect-[1/1] aspect-w-1 aspect-h-1",
       "thumbnails_object-sizing": "cover",
       "thumbnails_border_style": "image",
       "stock_threshold": 1000,
@@ -1029,7 +1014,7 @@
       "background_secondary_dark": "#fdfdfd",
       "foreground_secondary_dark": "#333333",
       "mobile_bar_dark": "#267683",
-      "logo": "shopify:\/\/shop_images\/COKx4K7qlPQCEAE.png",
+      "logo": "shopify://shop_images/COKx4K7qlPQCEAE.png",
       "sections": {
         "theme__announcement": {
           "type": "theme__announcement",
@@ -1037,13 +1022,13 @@
             "f2232503-8685-46db-aaf1-b796c5ea14f9": {
               "type": "text",
               "settings": {
-                "content": "<p>Make announcements or share a promotion.<\/p>"
+                "content": "<p>Make announcements or share a promotion.</p>"
               }
             },
             "493bfb93-68fd-473f-bc87-57abeae993ce": {
               "type": "text",
               "settings": {
-                "content": "<p>Make announcements or share a promotion.<\/p>"
+                "content": "<p>Make announcements or share a promotion.</p>"
               }
             }
           },
@@ -1066,7 +1051,7 @@
                 "menu": "shop",
                 "url": "",
                 "heading": "Block heading",
-                "content": "<p>Describe a product, make announcements, or welcome customers to your store.&lt;<\/p>"
+                "content": "<p>Describe a product, make announcements, or welcome customers to your store.&lt;</p>"
               }
             }
           },
@@ -1133,7 +1118,7 @@
             "sidebar_color_scheme": "color__bg-body color__text",
             "sidebar_color_border": "color__border-divider-1",
             "empty_button_label": "Shop all",
-            "empty_button_url": "shopify:\/\/collections\/all"
+            "empty_button_url": "shopify://collections/all"
           }
         },
         "theme__footer": {
@@ -1143,10 +1128,10 @@
               "type": "newsletter",
               "settings": {
                 "heading": "Newsletter",
-                "content": "<p>Tell customers why they should subscribe to your newsletter.<\/p>",
+                "content": "<p>Tell customers why they should subscribe to your newsletter.</p>",
                 "button": "Subscribe",
-                "disclaimer": "<p>Include an additonal disclaimer to clarify how you will use a subscribers email.<\/p>",
-                "success": "<p>Success! You’ve been subscribed.<\/p>"
+                "disclaimer": "<p>Include an additonal disclaimer to clarify how you will use a subscribers email.</p>",
+                "success": "<p>Success! You’ve been subscribed.</p>"
               }
             },
             "5dc22179-9717-40d2-9d83-4532c904e6d1": {
@@ -1200,13 +1185,11 @@
             "age_verification_style": "full_date",
             "age_limit": 18,
             "heading": "Verify your age",
-            "content": "<p>Please confirm that you are over the age of 18 to proceed.<\/p>"
+            "content": "<p>Please confirm that you are over the age of 18 to proceed.</p>"
           }
         }
       },
-      "content_for_index": [
-
-      ]
+      "content_for_index": []
     },
     "Pastel": {
       "background_body_light": "#fafafa",
@@ -1239,7 +1222,7 @@
       "enable_animations": true,
       "thumbmails_color_scheme": "color__bg-overlay-1 after:color__bg-overlay-1 color__text after:color__text",
       "thumbnails_color_border": "border--width color__border-divider-1",
-      "thumbnails_ratio": "aspect-[2\/3] aspect-w-2 aspect-h-3",
+      "thumbnails_ratio": "aspect-[2/3] aspect-w-2 aspect-h-3",
       "thumbnails_object-sizing": "cover",
       "thumbnails_border_style": "image",
       "stock_threshold": 1000,
@@ -1278,7 +1261,7 @@
       "background_secondary_dark": "#fdfdfd",
       "foreground_secondary_dark": "#333333",
       "mobile_bar_dark": "#267683",
-      "logo": "shopify:\/\/shop_images\/COKx4K7qlPQCEAE.png",
+      "logo": "shopify://shop_images/COKx4K7qlPQCEAE.png",
       "sections": {
         "theme__announcement": {
           "type": "theme__announcement",
@@ -1286,13 +1269,13 @@
             "f2232503-8685-46db-aaf1-b796c5ea14f9": {
               "type": "text",
               "settings": {
-                "content": "<p>Make announcements or share a promotion.<\/p>"
+                "content": "<p>Make announcements or share a promotion.</p>"
               }
             },
             "493bfb93-68fd-473f-bc87-57abeae993ce": {
               "type": "text",
               "settings": {
-                "content": "<p>Make announcements or share a promotion.<\/p>"
+                "content": "<p>Make announcements or share a promotion.</p>"
               }
             }
           },
@@ -1315,7 +1298,7 @@
                 "menu": "shop",
                 "url": "",
                 "heading": "Block heading",
-                "content": "<p>Describe a product, make announcements, or welcome customers to your store.&lt;<\/p>"
+                "content": "<p>Describe a product, make announcements, or welcome customers to your store.&lt;</p>"
               }
             }
           },
@@ -1364,25 +1347,25 @@
             "dc415ec9-53ea-4c8e-aa82-79bb3e7f0b16": {
               "type": "Content",
               "settings": {
-                "image_featured": "shopify:\/\/shop_images\/box.png",
+                "image_featured": "shopify://shop_images/box.png",
                 "heading": "Free shipping",
-                "content": "<p>On all orders over $50 this week only!<\/p>"
+                "content": "<p>On all orders over $50 this week only!</p>"
               }
             },
             "c5e80fa1-06fc-479f-b386-fb8960656ae9": {
               "type": "Content",
               "settings": {
-                "image_featured": "shopify:\/\/shop_images\/leaf.png",
+                "image_featured": "shopify://shop_images/leaf.png",
                 "heading": "Paying it forward",
-                "content": "<p>For every purchase made, we donate $1 to a charity of your choice.<\/p>"
+                "content": "<p>For every purchase made, we donate $1 to a charity of your choice.</p>"
               }
             },
             "8bbaa693-a7e3-4e0e-a556-4bb2c1574826": {
               "type": "Content",
               "settings": {
-                "image_featured": "shopify:\/\/shop_images\/badge.png",
+                "image_featured": "shopify://shop_images/badge.png",
                 "heading": "Buy 2 Save 20%",
-                "content": "<p>Buy any two pieces of art and save 20% off your order<\/p>"
+                "content": "<p>Buy any two pieces of art and save 20% off your order</p>"
               }
             }
           },
@@ -1413,7 +1396,7 @@
             "sidebar_color_scheme": "color__bg-body color__text",
             "sidebar_color_border": "color__border-divider-1",
             "empty_button_label": "Shop all",
-            "empty_button_url": "shopify:\/\/collections\/all"
+            "empty_button_url": "shopify://collections/all"
           }
         },
         "theme__footer": {
@@ -1423,10 +1406,10 @@
               "type": "newsletter",
               "settings": {
                 "heading": "Newsletter",
-                "content": "<p>Tell customers why they should subscribe to your newsletter.<\/p>",
+                "content": "<p>Tell customers why they should subscribe to your newsletter.</p>",
                 "button": "Subscribe",
-                "disclaimer": "<p>Include an additonal disclaimer to clarify how you will use a subscribers email.<\/p>",
-                "success": "<p>Success! You’ve been subscribed.<\/p>"
+                "disclaimer": "<p>Include an additonal disclaimer to clarify how you will use a subscribers email.</p>",
+                "success": "<p>Success! You’ve been subscribed.</p>"
               }
             },
             "5dc22179-9717-40d2-9d83-4532c904e6d1": {
@@ -1480,13 +1463,11 @@
             "age_verification_style": "full_date",
             "age_limit": 18,
             "heading": "Verify your age",
-            "content": "<p>Please confirm that you are over the age of 18 to proceed.<\/p>"
+            "content": "<p>Please confirm that you are over the age of 18 to proceed.</p>"
           }
         }
       },
-      "content_for_index": [
-
-      ]
+      "content_for_index": []
     },
     "Pull": {
       "background_body_light": "#f7f8fa",
@@ -1521,7 +1502,7 @@
       "enable_animations": true,
       "thumbmails_color_scheme": "color__bg-overlay-1 after:color__bg-overlay-1 color__text after:color__text",
       "thumbnails_color_border": "border--width color__border-divider-1",
-      "thumbnails_ratio": "aspect-[2\/3] aspect-w-2 aspect-h-3",
+      "thumbnails_ratio": "aspect-[2/3] aspect-w-2 aspect-h-3",
       "thumbnails_object-sizing": "cover",
       "thumbnails_border_style": "image",
       "stock_threshold": 1000,
@@ -1541,8 +1522,8 @@
       "enable_region": false,
       "enable_language": false,
       "enable_local_business": true,
-      "social_tiktok_link": "https:\/\/tiktok.com\/@shopify",
-      "social_instagram_link": "http:\/\/instagram.com\/shopify",
+      "social_tiktok_link": "https://tiktok.com/@shopify",
+      "social_instagram_link": "http://instagram.com/shopify",
       "social_twitter_link": "",
       "social_facebook_link": "",
       "social_pinterest_link": "",
@@ -1560,7 +1541,7 @@
       "background_secondary_dark": "#fdfdfd",
       "foreground_secondary_dark": "#333333",
       "mobile_bar_dark": "#267683",
-      "logo": "shopify:\/\/shop_images\/COKx4K7qlPQCEAE.png",
+      "logo": "shopify://shop_images/COKx4K7qlPQCEAE.png",
       "sections": {
         "theme__announcement": {
           "type": "theme__announcement",
@@ -1568,13 +1549,13 @@
             "f2232503-8685-46db-aaf1-b796c5ea14f9": {
               "type": "text",
               "settings": {
-                "content": "<p>Make announcements or share a promotion.<\/p>"
+                "content": "<p>Make announcements or share a promotion.</p>"
               }
             },
             "493bfb93-68fd-473f-bc87-57abeae993ce": {
               "type": "text",
               "settings": {
-                "content": "<p>Make announcements or share a promotion.<\/p>"
+                "content": "<p>Make announcements or share a promotion.</p>"
               }
             }
           },
@@ -1597,7 +1578,7 @@
                 "menu": "shop",
                 "url": "",
                 "heading": "Block heading",
-                "content": "<p>Describe a product, make announcements, or welcome customers to your store.&lt;<\/p>"
+                "content": "<p>Describe a product, make announcements, or welcome customers to your store.&lt;</p>"
               }
             }
           },
@@ -1646,9 +1627,9 @@
             "dc415ec9-53ea-4c8e-aa82-79bb3e7f0b16": {
               "type": "Content",
               "settings": {
-                "image_featured": "shopify:\/\/shop_images\/Vector.png",
+                "image_featured": "shopify://shop_images/Vector.png",
                 "heading": "Free shipping",
-                "content": "<p>Spend $40 to get free shipping<\/p>"
+                "content": "<p>Spend $40 to get free shipping</p>"
               }
             }
           },
@@ -1677,7 +1658,7 @@
             "sidebar_color_scheme": "color__bg-body color__text",
             "sidebar_color_border": "color__border-divider-1",
             "empty_button_label": "Shop all",
-            "empty_button_url": "shopify:\/\/collections\/all"
+            "empty_button_url": "shopify://collections/all"
           }
         },
         "theme__footer": {
@@ -1687,10 +1668,10 @@
               "type": "newsletter",
               "settings": {
                 "heading": "Newsletter",
-                "content": "<p>Tell customers why they should subscribe to your newsletter.<\/p>",
+                "content": "<p>Tell customers why they should subscribe to your newsletter.</p>",
                 "button": "Subscribe",
-                "disclaimer": "<p>Include an additonal disclaimer to clarify how you will use a subscribers email.<\/p>",
-                "success": "<p>Success! You’ve been subscribed.<\/p>"
+                "disclaimer": "<p>Include an additonal disclaimer to clarify how you will use a subscribers email.</p>",
+                "success": "<p>Success! You’ve been subscribed.</p>"
               }
             },
             "5dc22179-9717-40d2-9d83-4532c904e6d1": {
@@ -1744,22 +1725,19 @@
             "age_verification_style": "full_date",
             "age_limit": 18,
             "heading": "Verify your age",
-            "content": "<p>Please confirm that you are over the age of 18 to proceed.<\/p>"
+            "content": "<p>Please confirm that you are over the age of 18 to proceed.</p>"
           }
         }
       },
-      "content_for_index": [
-
-      ],
+      "content_for_index": [],
       "blocks": {
         "10436698916776057164": {
-          "type": "shopify:\/\/apps\/appstle-subscriptions\/blocks\/appstle-subscription-helper\/fe257d39-6f88-4f35-ab08-bd437e3aa94e",
+          "type": "shopify://apps/appstle-subscriptions/blocks/appstle-subscription-helper/fe257d39-6f88-4f35-ab08-bd437e3aa94e",
           "disabled": false,
-          "settings": {
-          }
+          "settings": {}
         },
         "18363274320096901237": {
-          "type": "shopify:\/\/apps\/super-simple-subscriptions\/blocks\/app-embed\/cad569ae-4964-473f-a22b-e6b9b6c50d6a",
+          "type": "shopify://apps/super-simple-subscriptions/blocks/app-embed/cad569ae-4964-473f-a22b-e6b9b6c50d6a",
           "disabled": false,
           "settings": {
             "widget_label_text": "Purchase options",
