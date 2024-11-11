@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "7c450e25-a49b-4dbd-aa01-9b08189f1f76": {
@@ -6,81 +15,81 @@
         "b5f44dff-54f7-40c3-8c2c-107701aca42e": {
           "type": "slide",
           "settings": {
-            "image_featured": "shopify:\/\/shop_images\/BUY-2-GET-1FREE.webp",
+            "image_featured": "shopify://shop_images/BUY-2-GET-1FREE.webp",
             "heading": "BUY 2 GET 1 FREE",
-            "url": "shopify:\/\/collections\/buy-2-get-1-free"
+            "url": "shopify://collections/buy-2-get-1-free"
           }
         },
         "template--19487943393610__7c450e25-a49b-4dbd-aa01-9b08189f1f76-slide-1": {
           "type": "slide",
           "settings": {
-            "image_featured": "shopify:\/\/shop_images\/AF4A6026.jpg",
+            "image_featured": "shopify://shop_images/AF4A6026.jpg",
             "heading": "Step 1",
-            "url": "shopify:\/\/collections\/step-1-cleanse"
+            "url": "shopify://collections/step-1-cleanse"
           }
         },
         "template--19487943393610__7c450e25-a49b-4dbd-aa01-9b08189f1f76-slide-2": {
           "type": "slide",
           "settings": {
-            "image_featured": "shopify:\/\/shop_images\/AF4A6056.jpg",
+            "image_featured": "shopify://shop_images/AF4A6056.jpg",
             "heading": "Step 2",
-            "url": "shopify:\/\/collections\/step-2-condition"
+            "url": "shopify://collections/step-2-condition"
           }
         },
         "template--19487943393610__7c450e25-a49b-4dbd-aa01-9b08189f1f76-slide-3": {
           "type": "slide",
           "settings": {
-            "image_featured": "shopify:\/\/shop_images\/AF4A6044.jpg",
+            "image_featured": "shopify://shop_images/AF4A6044.jpg",
             "heading": "Step 3",
-            "url": "shopify:\/\/collections\/step-3-style"
+            "url": "shopify://collections/step-3-style"
           }
         },
         "template--19487943393610__7c450e25-a49b-4dbd-aa01-9b08189f1f76-slide-4": {
           "type": "slide",
           "settings": {
-            "image_featured": "shopify:\/\/shop_images\/AF4A6058.jpg",
+            "image_featured": "shopify://shop_images/AF4A6058.jpg",
             "heading": "Healthy Curls",
-            "url": "shopify:\/\/collections\/healthy-curls"
+            "url": "shopify://collections/healthy-curls"
           }
         },
         "template--19487943393610__7c450e25-a49b-4dbd-aa01-9b08189f1f76-slide-5": {
           "type": "slide",
           "settings": {
-            "image_featured": "shopify:\/\/shop_images\/AF4A6054.jpg",
+            "image_featured": "shopify://shop_images/AF4A6054.jpg",
             "heading": "Travel Sizes",
-            "url": "shopify:\/\/collections\/new-products"
+            "url": "shopify://collections/100ml-travelsizes"
           }
         },
         "e9433735-3896-4cbb-a4d1-19ad3f337d2c": {
           "type": "slide",
           "settings": {
-            "image_featured": "shopify:\/\/shop_images\/AF4A6062.jpg",
+            "image_featured": "shopify://shop_images/AF4A6062.jpg",
             "heading": "Kids line",
-            "url": "shopify:\/\/collections\/curly-star"
+            "url": "shopify://collections/curly-star"
           }
         },
         "d78ab6ae-ba92-4e8f-9fcf-e69760d1754c": {
           "type": "slide",
           "settings": {
-            "image_featured": "shopify:\/\/shop_images\/AF4A6066.jpg",
+            "image_featured": "shopify://shop_images/AF4A6066.jpg",
             "heading": "All Products",
-            "url": "shopify:\/\/collections\/all"
+            "url": "shopify://collections/all"
           }
         },
         "7e21a01b-d242-4f4e-a818-342043746b09": {
           "type": "slide",
           "settings": {
-            "image_featured": "shopify:\/\/shop_images\/diffusercapopen.jpg",
+            "image_featured": "shopify://shop_images/diffusercapopen.jpg",
             "heading": "Accesoires",
-            "url": "shopify:\/\/collections\/accessories"
+            "url": "shopify://collections/accessories"
           }
         },
         "0ce04e77-6e38-4cb0-97f9-c8dea0a71a06": {
           "type": "slide",
           "settings": {
-            "image_featured": "shopify:\/\/shop_images\/47DABC65-3006-480C-B2A9-1559E556FCE7.jpg",
+            "image_featured": "shopify://shop_images/47DABC65-3006-480C-B2A9-1559E556FCE7.jpg",
             "heading": "NEW FOAM",
-            "url": "shopify:\/\/products\/flaxseed-styling-foam-150ml"
+            "url": "shopify://products/flaxseed-styling-foam-150ml"
           }
         }
       },
@@ -117,13 +126,13 @@
         "4a92a534-d1a3-4004-bba0-15424e872c3d": {
           "type": "content",
           "settings": {
-            "content": "<p>Keep an eye on our socials for all the promotions<\/p>"
+            "content": "<p>Keep an eye on our socials for all the promotions</p>"
           }
         },
         "template--18730720428336__f96b8e1b-0fd4-4c65-856c-cdd01fe228cc-1681420271694828b0-1": {
           "type": "content",
           "settings": {
-            "content": "<p>Create stunning, amazing, healthy and bouncy curls with our products. <\/p>"
+            "content": "<p>Create stunning, amazing, healthy and bouncy curls with our products. </p>"
           }
         },
         "template--18730720428336__f96b8e1b-0fd4-4c65-856c-cdd01fe228cc-1681420271694828b0-2": {
@@ -131,10 +140,10 @@
           "settings": {
             "button_color": "btn btn--secondary",
             "button_label": "Shop Pretty Curly Girl",
-            "button_url": "shopify:\/\/collections\/all",
+            "button_url": "shopify://collections/all",
             "secondary_button_color": "btn btn--tertiary",
             "secondary_button_label": "SHOP KIDS Line",
-            "secondary_button_url": "shopify:\/\/collections\/curly-star"
+            "secondary_button_url": "shopify://collections/curly-star"
           }
         }
       },
@@ -144,12 +153,10 @@
         "template--18730720428336__f96b8e1b-0fd4-4c65-856c-cdd01fe228cc-1681420271694828b0-1",
         "template--18730720428336__f96b8e1b-0fd4-4c65-856c-cdd01fe228cc-1681420271694828b0-2"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
-        "image_background_desktop": "shopify:\/\/shop_images\/happy_bday_fcbe58f8-1baa-48a2-b625-5e200a7aa5bc.webp",
-        "image_background_mobile": "shopify:\/\/shop_images\/happy_bday.webp",
+        "image_background_desktop": "shopify://shop_images/happy_bday_fcbe58f8-1baa-48a2-b625-5e200a7aa5bc.webp",
+        "image_background_mobile": "shopify://shop_images/happy_bday.webp",
         "show_entire_image": false,
         "enable_lazy_loading": false,
         "show_video_background_mobile": true,
@@ -170,10 +177,10 @@
         "f663c17a-43cd-4902-bb6a-a9b9713d0453": {
           "type": "icon",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/icon-package.svg",
+            "icon": "shopify://shop_images/icon-package.svg",
             "icon_height": "h-8",
             "heading": "",
-            "content": "<p>Sustainable Packaging<\/p>",
+            "content": "<p>Sustainable Packaging</p>",
             "enable_padding": true,
             "color_scheme": "color__bg-body color__text",
             "color_border": "!color__border-transparent",
@@ -186,10 +193,10 @@
         "87a95d7f-ea9c-4699-87f7-66625a8df5d8": {
           "type": "icon",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/icon-feather.svg",
+            "icon": "shopify://shop_images/icon-feather.svg",
             "icon_height": "h-8",
             "heading": "",
-            "content": "<p>98% natural ingredients<\/p>",
+            "content": "<p>98% natural ingredients</p>",
             "enable_padding": true,
             "color_scheme": "color__bg-body color__text",
             "color_border": "!color__border-transparent",
@@ -202,10 +209,10 @@
         "8ad68ee0-12ec-439b-b740-1ba2c0d72098": {
           "type": "icon",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/icon-approve.svg",
+            "icon": "shopify://shop_images/icon-approve.svg",
             "icon_height": "h-8",
             "heading": "",
-            "content": "<p>Curly Girl approved ingredients<\/p>",
+            "content": "<p>Curly Girl approved ingredients</p>",
             "enable_padding": true,
             "color_scheme": "color__bg-body color__text",
             "color_border": "!color__border-transparent",
@@ -218,10 +225,10 @@
         "6727b25f-f1e3-4532-99a4-d636bb9ebf6a": {
           "type": "icon",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/icon-heart.svg",
+            "icon": "shopify://shop_images/icon-heart.svg",
             "icon_height": "h-8",
             "heading": "",
-            "content": "<p>Made with love<\/p>",
+            "content": "<p>Made with love</p>",
             "enable_padding": true,
             "color_scheme": "color__bg-body color__text",
             "color_border": "!color__border-transparent",
@@ -268,9 +275,9 @@
           "disabled": true,
           "settings": {
             "heading": "Block heading",
-            "content": "<p>Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "content": "<p>Describe a product, make announcements, or welcome customers to your store.</p>",
             "button_label": "Button",
-            "button_url": "\/"
+            "button_url": "/"
           }
         }
       },
@@ -283,7 +290,7 @@
         "heading": "Bestsellers",
         "content": "",
         "button_label": "View all",
-        "button_url": "shopify:\/\/collections\/all",
+        "button_url": "shopify://collections/all",
         "spacing_top": 40,
         "spacing_bottom": 0,
         "color_scheme": "color__bg-body color__text",
@@ -301,11 +308,11 @@
           "type": "content",
           "settings": {
             "heading": "Step 1: Cleanse",
-            "content": "<p>Choose the right cleanse product your curls always need.<\/p>",
+            "content": "<p>Choose the right cleanse product your curls always need.</p>",
             "button_label": "Shop Step 1",
-            "button_url": "shopify:\/\/collections\/step-1-cleanse",
+            "button_url": "shopify://collections/step-1-cleanse",
             "full_block_link": true,
-            "image_featured": "shopify:\/\/shop_images\/AF4A6026.jpg",
+            "image_featured": "shopify://shop_images/AF4A6026.jpg",
             "enable_autoplay": false,
             "enable_mute_toggle": false,
             "enable_loop": false,
@@ -327,11 +334,11 @@
           "type": "content",
           "settings": {
             "heading": "Step 2: Condition",
-            "content": "<p>To detangle, to nourish, to moisturize and\/or ad protein. <\/p>",
+            "content": "<p>To detangle, to nourish, to moisturize and/or ad protein. </p>",
             "button_label": "shop step 2",
-            "button_url": "shopify:\/\/collections\/step-2-condition",
+            "button_url": "shopify://collections/step-2-condition",
             "full_block_link": true,
-            "image_featured": "shopify:\/\/shop_images\/AF4A6056.jpg",
+            "image_featured": "shopify://shop_images/AF4A6056.jpg",
             "enable_autoplay": true,
             "enable_mute_toggle": true,
             "enable_loop": true,
@@ -353,11 +360,11 @@
           "type": "content",
           "settings": {
             "heading": "Step 3: Style",
-            "content": "<p>To create amazing, shiny and bouncy  curls that last for days.<\/p>",
+            "content": "<p>To create amazing, shiny and bouncy  curls that last for days.</p>",
             "button_label": "shop step 3",
-            "button_url": "\/",
+            "button_url": "/",
             "full_block_link": true,
-            "image_featured": "shopify:\/\/shop_images\/AF4A6044.jpg",
+            "image_featured": "shopify://shop_images/AF4A6044.jpg",
             "enable_autoplay": true,
             "enable_mute_toggle": true,
             "enable_loop": true,
@@ -379,11 +386,11 @@
           "type": "content",
           "settings": {
             "heading": "Healthy Curls",
-            "content": "<p>Healthy scalp and curls. Helps with hair growth <\/p>",
+            "content": "<p>Healthy scalp and curls. Helps with hair growth </p>",
             "button_label": "shop healthy",
-            "button_url": "shopify:\/\/collections\/healthy-curls",
+            "button_url": "shopify://collections/healthy-curls",
             "full_block_link": true,
-            "image_featured": "shopify:\/\/shop_images\/AF4A6058.jpg",
+            "image_featured": "shopify://shop_images/AF4A6058.jpg",
             "enable_autoplay": true,
             "enable_mute_toggle": true,
             "enable_loop": true,
@@ -405,11 +412,11 @@
           "type": "content",
           "settings": {
             "heading": "Kids line",
-            "content": "<p>Shop our bundle sets in 1 click<\/p>",
+            "content": "<p>Shop our bundle sets in 1 click</p>",
             "button_label": "shop Kids line",
-            "button_url": "shopify:\/\/collections\/curly-star",
+            "button_url": "shopify://collections/curly-star",
             "full_block_link": true,
-            "image_background": "shopify:\/\/shop_images\/AF4A6062.jpg",
+            "image_background": "shopify://shop_images/AF4A6062.jpg",
             "enable_autoplay": false,
             "enable_mute_toggle": false,
             "enable_loop": false,
@@ -431,11 +438,11 @@
           "type": "content",
           "settings": {
             "heading": "Save money Sets",
-            "content": "<p>Buy our bundles in 1 click and save money.<\/p>",
+            "content": "<p>Buy our bundles in 1 click and save money.</p>",
             "button_label": "Shop Bundle Set",
-            "button_url": "shopify:\/\/collections\/bundle-sets",
+            "button_url": "shopify://collections/bundle-sets",
             "full_block_link": false,
-            "image_featured": "shopify:\/\/shop_images\/AF4A6048.jpg",
+            "image_featured": "shopify://shop_images/AF4A6048.jpg",
             "enable_autoplay": true,
             "enable_mute_toggle": true,
             "enable_loop": true,
@@ -457,11 +464,11 @@
           "type": "content",
           "settings": {
             "heading": "Travel Sizes",
-            "content": "<p>Try me \/ Travel with me \/  give me as a present \/ 100ml sizes<\/p>",
+            "content": "<p>Try me / Travel with me /  give me as a present / 100ml sizes</p>",
             "button_label": "Shop 100ml Sizes",
-            "button_url": "shopify:\/\/collections\/new-products",
+            "button_url": "shopify://collections/100ml-travelsizes",
             "full_block_link": false,
-            "image_featured": "shopify:\/\/shop_images\/AF4A6054.jpg",
+            "image_featured": "shopify://shop_images/AF4A6054.jpg",
             "enable_autoplay": true,
             "enable_mute_toggle": true,
             "enable_loop": true,
@@ -483,11 +490,11 @@
           "type": "content",
           "settings": {
             "heading": "Shop all",
-            "content": "<p>Can't make a choice? <\/p>",
+            "content": "<p>Can't make a choice? </p>",
             "button_label": "View all products",
-            "button_url": "shopify:\/\/collections\/all",
+            "button_url": "shopify://collections/all",
             "full_block_link": true,
-            "image_background": "shopify:\/\/shop_images\/shutterstock_1969761964.jpg",
+            "image_background": "shopify://shop_images/shutterstock_1969761964.jpg",
             "enable_autoplay": true,
             "enable_mute_toggle": true,
             "enable_loop": true,
@@ -543,7 +550,7 @@
             "heading": "",
             "content": "",
             "button_label": "Button",
-            "button_url": "\/"
+            "button_url": "/"
           }
         }
       },
@@ -551,12 +558,12 @@
         "500f39ed-e0e7-4898-acc0-1f9107b0bf0f"
       ],
       "settings": {
-        "collection": "new-products",
+        "collection": "100ml-travelsizes",
         "products_count": 7,
         "heading": "TRY ME SIZES",
         "content": "",
         "button_label": "VIEW ALL",
-        "button_url": "shopify:\/\/collections\/new-products",
+        "button_url": "shopify://collections/100ml-travelsizes",
         "spacing_top": 40,
         "spacing_bottom": 40,
         "color_scheme": "color__bg-body color__text",
@@ -573,10 +580,10 @@
         "7945b8fe-51b6-40fc-9c6f-7c5434b4d704": {
           "type": "icon",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/icon-heart.svg",
+            "icon": "shopify://shop_images/icon-heart.svg",
             "icon_height": "h-8",
             "heading": "WOMAN OWNED COMPANY",
-            "content": "<p>Owner & Founder is a curly woman.<\/p>",
+            "content": "<p>Owner & Founder is a curly woman.</p>",
             "enable_padding": true,
             "color_scheme": "color__bg-body color__text",
             "color_border": "!color__border-transparent",
@@ -589,10 +596,10 @@
         "96751afd-3dc5-40aa-b050-114d6ffe0042": {
           "type": "icon",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/truck.svg",
+            "icon": "shopify://shop_images/truck.svg",
             "icon_height": "h-8",
             "heading": "FAST DELIVERY",
-            "content": "<p>cutt off time = 20:00<\/p>",
+            "content": "<p>cutt off time = 20:00</p>",
             "enable_padding": true,
             "color_scheme": "color__bg-body color__text",
             "color_border": "!color__border-transparent",
@@ -605,10 +612,10 @@
         "1154ab3b-5404-42cd-9712-398521536d14": {
           "type": "icon",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/icon-approve.svg",
+            "icon": "shopify://shop_images/icon-approve.svg",
             "icon_height": "h-8",
             "heading": "CURLY GIRL APPROVED",
-            "content": "<p>Experience the difference with our high quality & curly girl approved ingredients.<\/p>",
+            "content": "<p>Experience the difference with our high quality & curly girl approved ingredients.</p>",
             "enable_padding": true,
             "color_scheme": "color__bg-body color__text",
             "color_border": "!color__border-transparent",
@@ -647,10 +654,10 @@
         "template--19487943393610__92000899-ed1c-4fa2-9aa5-bf0a79e6952e-icon-1": {
           "type": "icon",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/icon-heart.svg",
+            "icon": "shopify://shop_images/icon-heart.svg",
             "icon_height": "h-8",
             "heading": "Woman Owned Company",
-            "content": "<p>Owner & Founder is a curly woman. <\/p>",
+            "content": "<p>Owner & Founder is a curly woman. </p>",
             "enable_padding": true,
             "color_scheme": "color__bg-secondary color__secondary",
             "color_border": "!color__border-transparent",
@@ -663,10 +670,10 @@
         "template--19487943393610__92000899-ed1c-4fa2-9aa5-bf0a79e6952e-icon-2": {
           "type": "icon",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/returns.svg",
+            "icon": "shopify://shop_images/returns.svg",
             "icon_height": "h-8",
             "heading": "Fast Delivery",
-            "content": "<p>Cut off time 20:00<\/p>",
+            "content": "<p>Cut off time 20:00</p>",
             "enable_padding": true,
             "color_scheme": "color__bg-secondary color__secondary",
             "color_border": "!color__border-transparent",
@@ -679,10 +686,10 @@
         "template--19487943393610__92000899-ed1c-4fa2-9aa5-bf0a79e6952e-icon-3": {
           "type": "icon",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/discounts.svg",
+            "icon": "shopify://shop_images/discounts.svg",
             "icon_height": "h-8",
             "heading": "Discounts",
-            "content": "<p>Are you a pretty fan? We love you too. Buy two or more of the same items and get a 10% discount.<\/p>",
+            "content": "<p>Are you a pretty fan? We love you too. Buy two or more of the same items and get a 10% discount.</p>",
             "enable_padding": true,
             "color_scheme": "color__bg-secondary color__secondary",
             "color_border": "!color__border-transparent",
@@ -724,7 +731,7 @@
           "settings": {
             "heading": "",
             "content": "",
-            "video_background": "shopify:\/\/files\/videos\/Snapinsta.app_video_10000000_278155371316473_7421143614027377512_n.mp4",
+            "video_background": "shopify://files/videos/Snapinsta.app_video_10000000_278155371316473_7421143614027377512_n.mp4",
             "enable_autoplay": true,
             "enable_mute_toggle": true,
             "enable_loop": true,
@@ -749,7 +756,7 @@
           "settings": {
             "heading": "",
             "content": "",
-            "video_background": "shopify:\/\/files\/videos\/Snapinsta.mp4",
+            "video_background": "shopify://files/videos/Snapinsta.mp4",
             "enable_autoplay": true,
             "enable_mute_toggle": true,
             "enable_loop": true,
@@ -774,7 +781,7 @@
           "settings": {
             "heading": "",
             "content": "",
-            "video_background": "shopify:\/\/files\/videos\/Project zonder titel.mp4",
+            "video_background": "shopify://files/videos/Project zonder titel.mp4",
             "enable_autoplay": true,
             "enable_mute_toggle": true,
             "enable_loop": true,
@@ -799,7 +806,7 @@
           "settings": {
             "heading": "",
             "content": "",
-            "video_background": "shopify:\/\/files\/videos\/Project zonder titel (1).mp4",
+            "video_background": "shopify://files/videos/Project zonder titel (1).mp4",
             "enable_autoplay": true,
             "enable_mute_toggle": true,
             "enable_loop": true,
@@ -824,7 +831,7 @@
           "disabled": true,
           "settings": {
             "heading": "",
-            "content": "<p>100k on TikTok!!! And THANK YOUUUUU for including us to celebrate this together<\/p>",
+            "content": "<p>100k on TikTok!!! And THANK YOUUUUU for including us to celebrate this together</p>",
             "enable_autoplay": true,
             "enable_mute_toggle": true,
             "enable_loop": true,
@@ -849,8 +856,8 @@
           "disabled": true,
           "settings": {
             "heading": "",
-            "content": "<p>100k on TikTok!!! And THANK YOUUUUU for including us to celebrate this together<\/p>",
-            "image_featured": "shopify:\/\/shop_images\/Screenshot_2023-08-15_at_9.16.10_PM.webp",
+            "content": "<p>100k on TikTok!!! And THANK YOUUUUU for including us to celebrate this together</p>",
+            "image_featured": "shopify://shop_images/Screenshot_2023-08-15_at_9.16.10_PM.webp",
             "enable_autoplay": true,
             "enable_mute_toggle": true,
             "enable_loop": true,
@@ -875,8 +882,8 @@
           "disabled": true,
           "settings": {
             "heading": "",
-            "content": "<p>100k on TikTok!!! And THANK YOUUUUU for including us to celebrate this together<\/p>",
-            "image_featured": "shopify:\/\/shop_images\/Screenshot_2023-08-15_at_9.16.10_PM.webp",
+            "content": "<p>100k on TikTok!!! And THANK YOUUUUU for including us to celebrate this together</p>",
+            "image_featured": "shopify://shop_images/Screenshot_2023-08-15_at_9.16.10_PM.webp",
             "enable_autoplay": true,
             "enable_mute_toggle": true,
             "enable_loop": true,
@@ -929,7 +936,7 @@
         "heading": "Pretty NEWS",
         "content": "",
         "button_label": "Read more",
-        "button_url": "shopify:\/\/blogs\/cg-aprroved-curly-girl-method",
+        "button_url": "shopify://blogs/cg-aprroved-curly-girl-method",
         "enable_author": false,
         "enable_summary": false,
         "enable_date": false,
@@ -952,9 +959,9 @@
         "template--19487943393610__d7a4adc5-757d-44b6-9dd3-e5cce4fb9ce2-content-1": {
           "type": "content",
           "settings": {
-            "heading": "Granding opening brand store 10\/22",
+            "heading": "Granding opening brand store 10/22",
             "content": "",
-            "image_featured": "shopify:\/\/shop_images\/blog-1.png",
+            "image_featured": "shopify://shop_images/blog-1.png",
             "enable_autoplay": true,
             "enable_mute_toggle": true,
             "enable_loop": true,
@@ -979,7 +986,7 @@
           "settings": {
             "heading": "From wet to gelcast TO BOUNCY CURLS",
             "content": "",
-            "image_featured": "shopify:\/\/shop_images\/blog-2.png",
+            "image_featured": "shopify://shop_images/blog-2.png",
             "enable_autoplay": true,
             "enable_mute_toggle": true,
             "enable_loop": true,
@@ -1004,7 +1011,7 @@
           "settings": {
             "heading": "Sustainable p",
             "content": "",
-            "image_featured": "shopify:\/\/shop_images\/blog-3.png",
+            "image_featured": "shopify://shop_images/blog-3.png",
             "enable_autoplay": true,
             "enable_mute_toggle": true,
             "enable_loop": true,
@@ -1053,10 +1060,10 @@
           "type": "newsletter",
           "settings": {
             "heading": "BE PART OF THE CURLY GIRL COMMUNITY",
-            "content": "<p>Sign up and discover exclusive discounts and early access to the latest Curly Girl tips!<br\/><\/p>",
+            "content": "<p>Sign up and discover exclusive discounts and early access to the latest Curly Girl tips!<br/></p>",
             "button_label": "Join now",
             "disclaimer": "",
-            "success": "<p>Success! You’ve been subscribed.<\/p>",
+            "success": "<p>Success! You’ve been subscribed.</p>",
             "layout_desktop_width": 5,
             "layout_mobile_width": 12,
             "layout_x_alignment": "text-center justify-center flex-col items-center"
